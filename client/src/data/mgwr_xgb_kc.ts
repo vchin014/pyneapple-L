@@ -1,0 +1,5269 @@
+import { Dataset } from "data/data";const DATASET:Dataset = {name:"mgwr_xgb_kc",center:[47.61729305740989, -122.30174365821095],zoom:14,bandwidths:[
+  {
+    "label": "intercept",
+    "value": 747.0
+  },
+  {
+    "label": "bedrooms",
+    "value": 747.0
+  },
+  {
+    "label": "bathrooms",
+    "value": 747.0
+  },
+  {
+    "label": "sqft_living",
+    "value": 747.0
+  },
+  {
+    "label": "sqft_lot",
+    "value": 747.0
+  },
+  {
+    "label": "floors",
+    "value": 747.0
+  }
+],coefficientMins:[248.1283757392348, -52.74737533703423, -158.95353605704102, 0.2047796746054392, -0.052015223836114274, -5.502315906912485],coefficientMeds:[255.6140788184931, -52.47865866791746, -156.827366635787, 0.2112700568717337, -0.0477989223134604, 1.5463604158671516],coefficientMaxes:[260.2860602081978, -49.412803580396876, -154.4453825409963, 0.21614324045127303, -0.04485818449038557, 6.105388901506181],data: [{latitude:47.6221, longitude:-122.314,actual:667000.0,predicted:668642,coefficients:{
+    "intercept": 250.53526616611833,
+    "bedrooms": -50.03506892100021,
+    "bathrooms": -158.5623858257735,
+    "sqft_living": 0.2086599009564928,
+    "sqft_lot": -0.050766275415547985,
+    "floors": -4.449530362147359
+}},{latitude:47.6113, longitude:-122.297,actual:425000.0,predicted:440521,coefficients:{
+    "intercept": 257.37347380186094,
+    "bedrooms": -52.74326083400063,
+    "bathrooms": -155.92184508079504,
+    "sqft_living": 0.21283044754789437,
+    "sqft_lot": -0.0466794324047381,
+    "floors": 3.6350617840239297
+}},{latitude:47.6415, longitude:-122.315,actual:850830.0,predicted:854278,coefficients:{
+    "intercept": 248.1783784745523,
+    "bedrooms": -49.60584498326162,
+    "bathrooms": -158.94605826257862,
+    "sqft_living": 0.20776421825329625,
+    "sqft_lot": -0.051465724323044255,
+    "floors": -5.267286928034152
+}},{latitude:47.6106, longitude:-122.31,actual:425000.0,predicted:432562,coefficients:{
+    "intercept": 253.09355192546445,
+    "bedrooms": -51.19608944113226,
+    "bathrooms": -157.94122238632426,
+    "sqft_living": 0.20971839348625892,
+    "sqft_lot": -0.04949768518098475,
+    "floors": -2.416172159439696
+}},{latitude:47.6101, longitude:-122.307,actual:385000.0,predicted:405249,coefficients:{
+    "intercept": 253.75824984789563,
+    "bedrooms": -51.95473824477141,
+    "bathrooms": -157.83548184092814,
+    "sqft_living": 0.2093257178298685,
+    "sqft_lot": -0.04927076000511523,
+    "floors": -1.4031122563575822
+}},{latitude:47.6136, longitude:-122.303,actual:410000.0,predicted:408629,coefficients:{
+    "intercept": 254.7341828517477,
+    "bedrooms": -52.50488754565957,
+    "bathrooms": -157.25675142363144,
+    "sqft_living": 0.20991720684051293,
+    "sqft_lot": -0.048523415086951856,
+    "floors": 0.6767043808705454
+}},{latitude:47.6362, longitude:-122.302,actual:780000.0,predicted:742293,coefficients:{
+    "intercept": 249.64133787500518,
+    "bedrooms": -51.449810218587025,
+    "bathrooms": -158.00337264691836,
+    "sqft_living": 0.2056282065781422,
+    "sqft_lot": -0.05112638184886734,
+    "floors": -1.4169042491415864
+}},{latitude:47.5964, longitude:-122.299,actual:425000.0,predicted:420331,coefficients:{
+    "intercept": 258.6087247346046,
+    "bedrooms": -52.67965364910072,
+    "bathrooms": -155.79087088722417,
+    "sqft_living": 0.21410754738627602,
+    "sqft_lot": -0.04594309273288271,
+    "floors": 3.5680640468841087
+}},{latitude:47.6166, longitude:-122.287,actual:2050000.0,predicted:2051109,coefficients:{
+    "intercept": 258.6782278748845,
+    "bedrooms": -52.59248445342054,
+    "bathrooms": -154.8055373272016,
+    "sqft_living": 0.21473476705446506,
+    "sqft_lot": -0.0457166198563923,
+    "floors": 5.583063193958156
+}},{latitude:47.6239, longitude:-122.298,actual:725000.0,predicted:715353,coefficients:{
+    "intercept": 254.91043947289072,
+    "bedrooms": -52.554304179938704,
+    "bathrooms": -156.5160454316361,
+    "sqft_living": 0.21055132433405077,
+    "sqft_lot": -0.04806718719748752,
+    "floors": 2.4071234556715373
+}},{latitude:47.601, longitude:-122.294,actual:834000.0,predicted:829700,coefficients:{
+    "intercept": 259.1142522951889,
+    "bedrooms": -52.69034899950052,
+    "bathrooms": -155.26416171769696,
+    "sqft_living": 0.21468898240855333,
+    "sqft_lot": -0.04560685797865036,
+    "floors": 4.763257195078107
+}},{latitude:47.644, longitude:-122.319,actual:740000.0,predicted:775981,coefficients:{
+    "intercept": 248.35709714219078,
+    "bedrooms": -49.51309615617919,
+    "bathrooms": -158.91810056228206,
+    "sqft_living": 0.20851814453441658,
+    "sqft_lot": -0.0512126028265285,
+    "floors": -5.390899067961922
+}},{latitude:47.592, longitude:-122.307,actual:435000.0,predicted:437045,coefficients:{
+    "intercept": 256.9510597488599,
+    "bedrooms": -52.340237873675356,
+    "bathrooms": -156.83355225631192,
+    "sqft_living": 0.21282813851511012,
+    "sqft_lot": -0.04697786554876263,
+    "floors": 0.6033140152977454
+}},{latitude:47.6055, longitude:-122.305,actual:557000.0,predicted:555415,coefficients:{
+    "intercept": 255.4768103712067,
+    "bedrooms": -52.49465765863607,
+    "bathrooms": -157.26690046578912,
+    "sqft_living": 0.21079940854271112,
+    "sqft_lot": -0.0480835912650952,
+    "floors": 0.29200371791441543
+}},{latitude:47.6073, longitude:-122.308,actual:375000.0,predicted:373085,coefficients:{
+    "intercept": 254.12136080070894,
+    "bedrooms": -51.80439410851755,
+    "bathrooms": -157.70907482622667,
+    "sqft_living": 0.21007254714917395,
+    "sqft_lot": -0.0489410712346191,
+    "floors": -1.415117466397969
+}},{latitude:47.6192, longitude:-122.301,actual:490000.0,predicted:476743,coefficients:{
+    "intercept": 254.49721518597187,
+    "bedrooms": -52.5111981952065,
+    "bathrooms": -157.03436749188265,
+    "sqft_living": 0.20980102183160185,
+    "sqft_lot": -0.048532573911884334,
+    "floors": 1.3070690838721222
+}},{latitude:47.6415, longitude:-122.285,actual:2250000.0,predicted:2249721,coefficients:{
+    "intercept": 256.2380792187395,
+    "bedrooms": -52.33531146751278,
+    "bathrooms": -155.02185089562442,
+    "sqft_living": 0.21334585171876624,
+    "sqft_lot": -0.04674348781432138,
+    "floors": 4.675421719954545
+}},{latitude:47.6136, longitude:-122.299,actual:650000.0,predicted:645743,coefficients:{
+    "intercept": 256.3982050606272,
+    "bedrooms": -52.70778426629786,
+    "bathrooms": -156.36367704021276,
+    "sqft_living": 0.21176935236108121,
+    "sqft_lot": -0.04731401043339325,
+    "floors": 2.7496128716170003
+}},{latitude:47.6045, longitude:-122.307,actual:640000.0,predicted:645282,coefficients:{
+    "intercept": 254.9098830996916,
+    "bedrooms": -52.17589684449218,
+    "bathrooms": -157.51965130661668,
+    "sqft_living": 0.21054389459550685,
+    "sqft_lot": -0.048454997737262175,
+    "floors": -0.7147915314993192
+}},{latitude:47.6462, longitude:-122.318,actual:865000.0,predicted:858370,coefficients:{
+    "intercept": 248.20260554464633,
+    "bedrooms": -49.56144317592251,
+    "bathrooms": -158.90759853388857,
+    "sqft_living": 0.20837363976301204,
+    "sqft_lot": -0.051242830104613474,
+    "floors": -5.304920690770437
+}},{latitude:47.6101, longitude:-122.295,actual:493000.0,predicted:495064,coefficients:{
+    "intercept": 258.0224820627822,
+    "bedrooms": -52.736278380178106,
+    "bathrooms": -155.5807630235917,
+    "sqft_living": 0.21356821300551904,
+    "sqft_lot": -0.04625656786090069,
+    "floors": 4.284930806964429
+}},{latitude:47.6196, longitude:-122.286,actual:2250000.0,predicted:2245571,coefficients:{
+    "intercept": 258.5148392912342,
+    "bedrooms": -52.56221927732922,
+    "bathrooms": -154.7634294291275,
+    "sqft_living": 0.21469392958120945,
+    "sqft_lot": -0.04577312585477546,
+    "floors": 5.611319373902921
+}},{latitude:47.6124, longitude:-122.309,actual:419000.0,predicted:437171,coefficients:{
+    "intercept": 252.8899290554125,
+    "bedrooms": -51.31213660923255,
+    "bathrooms": -158.0105752148967,
+    "sqft_living": 0.20920434796598522,
+    "sqft_lot": -0.04970502938651991,
+    "floors": -2.3648358734186528
+}},{latitude:47.5951, longitude:-122.307,actual:910000.0,predicted:879341,coefficients:{
+    "intercept": 256.5131743256485,
+    "bedrooms": -52.345777368351804,
+    "bathrooms": -157.00525397901703,
+    "sqft_living": 0.2123073594061042,
+    "sqft_lot": -0.047298993655193446,
+    "floors": 0.297324803775662
+}},{latitude:47.5962, longitude:-122.288,actual:642450.0,predicted:642765,coefficients:{
+    "intercept": 260.05584850187375,
+    "bedrooms": -52.55624575370169,
+    "bathrooms": -154.67694294229057,
+    "sqft_living": 0.21586651606601526,
+    "sqft_lot": -0.04500094703476961,
+    "floors": 5.730411022075999
+}},{latitude:47.6362, longitude:-122.322,actual:1095000.0,predicted:1094030,coefficients:{
+    "intercept": 249.03531385505283,
+    "bedrooms": -49.430916181583086,
+    "bathrooms": -158.86444972993866,
+    "sqft_living": 0.20911756265928783,
+    "sqft_lot": -0.05099179220441607,
+    "floors": -5.478671877866158
+}},{latitude:47.6094, longitude:-122.291,actual:700000.0,predicted:721563,coefficients:{
+    "intercept": 258.8213504229154,
+    "bedrooms": -52.676969142513904,
+    "bathrooms": -155.07789132090977,
+    "sqft_living": 0.2145555832837616,
+    "sqft_lot": -0.045728695462648725,
+    "floors": 5.177549955901253
+}},{latitude:47.6476, longitude:-122.318,actual:1010000.0,predicted:1006206,coefficients:{
+    "intercept": 248.18673906543532,
+    "bedrooms": -49.586449411901654,
+    "bathrooms": -158.88392543262938,
+    "sqft_living": 0.20841563208637012,
+    "sqft_lot": -0.05120740435877403,
+    "floors": -5.242317123764773
+}},{latitude:47.6364, longitude:-122.3,actual:915000.0,predicted:914993,coefficients:{
+    "intercept": 251.0230694399072,
+    "bedrooms": -51.86292330821314,
+    "bathrooms": -157.43508248162297,
+    "sqft_living": 0.20721514196205554,
+    "sqft_lot": -0.05012884667789848,
+    "floors": -0.007621350298861138
+}},{latitude:47.6233, longitude:-122.319,actual:425000.0,predicted:428895,coefficients:{
+    "intercept": 250.35894866621143,
+    "bedrooms": -49.716210156125115,
+    "bathrooms": -158.59167686500442,
+    "sqft_living": 0.20948951290318343,
+    "sqft_lot": -0.050583500997051445,
+    "floors": -4.861306656822457
+}},{latitude:47.6078, longitude:-122.291,actual:429000.0,predicted:432871,coefficients:{
+    "intercept": 258.9674679478696,
+    "bedrooms": -52.67386411767298,
+    "bathrooms": -155.05357452902066,
+    "sqft_living": 0.2146860118687731,
+    "sqft_lot": -0.045649344482106856,
+    "floors": 5.212411854222182
+}},{latitude:47.6231, longitude:-122.293,actual:515000.0,predicted:511616,coefficients:{
+    "intercept": 256.7775115787895,
+    "bedrooms": -52.639318280088226,
+    "bathrooms": -155.5885986054739,
+    "sqft_living": 0.21270976556330742,
+    "sqft_lot": -0.04683542682769396,
+    "floors": 4.2066982363665755
+}},{latitude:47.6163, longitude:-122.292,actual:490000.0,predicted:529611,coefficients:{
+    "intercept": 257.91495367281914,
+    "bedrooms": -52.684517429265156,
+    "bathrooms": -155.31138086314925,
+    "sqft_living": 0.213709381957378,
+    "sqft_lot": -0.04623010431649262,
+    "floors": 4.77080179786389
+}},{latitude:47.6051, longitude:-122.319,actual:631000.0,predicted:623085,coefficients:{
+    "intercept": 252.94483514745207,
+    "bedrooms": -50.35049287299212,
+    "bathrooms": -157.86044350323291,
+    "sqft_living": 0.21138940597327086,
+    "sqft_lot": -0.04913593134543397,
+    "floors": -3.2374325430253448
+}},{latitude:47.6261, longitude:-122.296,actual:505000.0,predicted:497673,coefficients:{
+    "intercept": 255.31380833366813,
+    "bedrooms": -52.566415751359166,
+    "bathrooms": -156.1725736122677,
+    "sqft_living": 0.21118115766350326,
+    "sqft_lot": -0.047716054128150234,
+    "floors": 3.0548528395193264
+}},{latitude:47.5965, longitude:-122.311,actual:380000.0,predicted:381602,coefficients:{
+    "intercept": 255.2816957630583,
+    "bedrooms": -51.522117768388135,
+    "bathrooms": -157.27013299594432,
+    "sqft_living": 0.21207827971263274,
+    "sqft_lot": -0.04795196985408536,
+    "floors": -1.0894200750174543
+}},{latitude:47.617, longitude:-122.282,actual:1875000.0,predicted:1878604,coefficients:{
+    "intercept": 259.1250757059435,
+    "bedrooms": -52.48708660730743,
+    "bathrooms": -154.4758799689594,
+    "sqft_living": 0.21541642124525778,
+    "sqft_lot": -0.0454063928580512,
+    "floors": 6.035082273508263
+}},{latitude:47.6189, longitude:-122.288,actual:1225000.0,predicted:1222853,coefficients:{
+    "intercept": 258.3151825549892,
+    "bedrooms": -52.60438963985535,
+    "bathrooms": -154.9237990768096,
+    "sqft_living": 0.214380348015731,
+    "sqft_lot": -0.04591741140201555,
+    "floors": 5.379029862600045
+}},{latitude:47.5926, longitude:-122.295,actual:363000.0,predicted:359671,coefficients:{
+    "intercept": 259.5713691134764,
+    "bedrooms": -52.623179586482074,
+    "bathrooms": -155.2266743903483,
+    "sqft_living": 0.2151884238027135,
+    "sqft_lot": -0.045325941906738915,
+    "floors": 4.658563343025845
+}},{latitude:47.6196, longitude:-122.292,actual:831000.0,predicted:831419,coefficients:{
+    "intercept": 257.5044553983336,
+    "bedrooms": -52.664946873665706,
+    "bathrooms": -155.37599993926025,
+    "sqft_living": 0.2133814075516927,
+    "sqft_lot": -0.04643750764367207,
+    "floors": 4.630073314109603
+}},{latitude:47.6498, longitude:-122.321,actual:600000.0,predicted:609363,coefficients:{
+    "intercept": 248.33571735710427,
+    "bedrooms": -49.544540725148345,
+    "bathrooms": -158.85272788406206,
+    "sqft_living": 0.20885778363483193,
+    "sqft_lot": -0.05104975195217359,
+    "floors": -5.2787256871810015
+}},{latitude:47.607, longitude:-122.305,actual:625000.0,predicted:619475,coefficients:{
+    "intercept": 255.1791206207623,
+    "bedrooms": -52.46931963488821,
+    "bathrooms": -157.35723397933273,
+    "sqft_living": 0.21046030155104775,
+    "sqft_lot": -0.04829495340250101,
+    "floors": 0.12391049716781316
+}},{latitude:47.6227, longitude:-122.31,actual:1200000.0,predicted:1168735,coefficients:{
+    "intercept": 250.53926634884306,
+    "bedrooms": -50.462217357316426,
+    "bathrooms": -158.55310058039996,
+    "sqft_living": 0.20749134159429602,
+    "sqft_lot": -0.051063226008106415,
+    "floors": -3.9076663333593533
+}},{latitude:47.5959, longitude:-122.293,actual:535000.0,predicted:535908,coefficients:{
+    "intercept": 259.6165960031188,
+    "bedrooms": -52.63466157107099,
+    "bathrooms": -155.07882447564566,
+    "sqft_living": 0.21525328827216927,
+    "sqft_lot": -0.045295109133301405,
+    "floors": 5.0192005575916046
+}},{latitude:47.596, longitude:-122.298,actual:499950.0,predicted:501978,coefficients:{
+    "intercept": 258.84537982430396,
+    "bedrooms": -52.676784416719805,
+    "bathrooms": -155.6449243780192,
+    "sqft_living": 0.2143624315860385,
+    "sqft_lot": -0.045790821106691894,
+    "floors": 3.875829479369763
+}},{latitude:47.6209, longitude:-122.317,actual:550000.0,predicted:578215,coefficients:{
+    "intercept": 250.71185897598326,
+    "bedrooms": -49.88868626961528,
+    "bathrooms": -158.50895649895796,
+    "sqft_living": 0.20940746954621378,
+    "sqft_lot": -0.05049921709346476,
+    "floors": -4.569091626448052
+}},{latitude:47.5947, longitude:-122.288,actual:1050000.0,predicted:1054185,coefficients:{
+    "intercept": 260.12824000633333,
+    "bedrooms": -52.545008377532945,
+    "bathrooms": -154.66629048539016,
+    "sqft_living": 0.21594214853820143,
+    "sqft_lot": -0.044958315198736436,
+    "floors": 5.7287104941182045
+}},{latitude:47.6393, longitude:-122.311,actual:895000.0,predicted:892560,coefficients:{
+    "intercept": 248.21402628444105,
+    "bedrooms": -49.856387876015944,
+    "bathrooms": -158.85799229485607,
+    "sqft_living": 0.20694251058884458,
+    "sqft_lot": -0.051629522534493336,
+    "floors": -4.776214033930757
+}},{latitude:47.6099, longitude:-122.297,actual:349500.0,predicted:361132,coefficients:{
+    "intercept": 257.5629759509107,
+    "bedrooms": -52.74665410646568,
+    "bathrooms": -155.88092350767465,
+    "sqft_living": 0.2130132465416666,
+    "sqft_lot": -0.04656982858553266,
+    "floors": 3.701036070579982
+}},{latitude:47.6248, longitude:-122.301,actual:169317.0,predicted:190222,coefficients:{
+    "intercept": 253.22595176854907,
+    "bedrooms": -52.30514111408666,
+    "bathrooms": -157.27447241074944,
+    "sqft_living": 0.20865451197696172,
+    "sqft_lot": -0.04923757936237114,
+    "floors": 0.7225504068739363
+}},{latitude:47.6258, longitude:-122.302,actual:1198000.0,predicted:1197148,coefficients:{
+    "intercept": 252.3875577231501,
+    "bedrooms": -52.12105175296698,
+    "bathrooms": -157.5897597067025,
+    "sqft_living": 0.20775202070419102,
+    "sqft_lot": -0.04981744664034728,
+    "floors": -0.05368031363381854
+}},{latitude:47.6325, longitude:-122.303,actual:880000.0,predicted:874597,coefficients:{
+    "intercept": 249.9135360989725,
+    "bedrooms": -51.445603547858674,
+    "bathrooms": -158.15726354123478,
+    "sqft_living": 0.20550603935305845,
+    "sqft_lot": -0.05124615092758144,
+    "floors": -1.702160903781431
+}},{latitude:47.5943, longitude:-122.296,actual:342000.0,predicted:342916,coefficients:{
+    "intercept": 259.3188071516831,
+    "bedrooms": -52.65007674249656,
+    "bathrooms": -155.36421197866449,
+    "sqft_living": 0.21489382695316042,
+    "sqft_lot": -0.04548748107400363,
+    "floors": 4.420989543454849
+}},{latitude:47.6086, longitude:-122.303,actual:490000.0,predicted:490934,coefficients:{
+    "intercept": 255.73876645792834,
+    "bedrooms": -52.602571003807824,
+    "bathrooms": -156.99422379312978,
+    "sqft_living": 0.21099177493352028,
+    "sqft_lot": -0.047864957383951905,
+    "floors": 1.1682335073038046
+}},{latitude:47.619, longitude:-122.311,actual:600000.0,predicted:580375,coefficients:{
+    "intercept": 251.2753676683838,
+    "bedrooms": -50.54559345721962,
+    "bathrooms": -158.38667926034202,
+    "sqft_living": 0.2084235465762066,
+    "sqft_lot": -0.05056185569106557,
+    "floors": -3.6626728949122533
+}},{latitude:47.6272, longitude:-122.316,actual:1265000.0,predicted:1263475,coefficients:{
+    "intercept": 249.65322546186553,
+    "bedrooms": -49.68539143849797,
+    "bathrooms": -158.77838352263444,
+    "sqft_living": 0.2084796300261198,
+    "sqft_lot": -0.05108926399509955,
+    "floors": -5.09177477976245
+}},{latitude:47.612, longitude:-122.292,actual:800000.0,predicted:760054,coefficients:{
+    "intercept": 258.40126757652087,
+    "bedrooms": -52.69552255816889,
+    "bathrooms": -155.2315581411321,
+    "sqft_living": 0.21411835997714196,
+    "sqft_lot": -0.045975735052825636,
+    "floors": 4.920518622868657
+}},{latitude:47.609, longitude:-122.307,actual:469000.0,predicted:463677,coefficients:{
+    "intercept": 253.99534083874488,
+    "bedrooms": -52.00642685862147,
+    "bathrooms": -157.7737950229726,
+    "sqft_living": 0.20957284081593738,
+    "sqft_lot": -0.049104614879207364,
+    "floors": -1.263766087566512
+}},{latitude:47.6255, longitude:-122.314,actual:1315000.0,predicted:1316804,coefficients:{
+    "intercept": 249.90321826934016,
+    "bedrooms": -49.86970116513004,
+    "bathrooms": -158.71551536195773,
+    "sqft_living": 0.20820223404949664,
+    "sqft_lot": -0.051093680353947055,
+    "floors": -4.797510971463345
+}},{latitude:47.6059, longitude:-122.307,actual:618000.0,predicted:623439,coefficients:{
+    "intercept": 254.6351780805399,
+    "bedrooms": -52.130163672526834,
+    "bathrooms": -157.59877516178415,
+    "sqft_living": 0.21024939505647983,
+    "sqft_lot": -0.04865134122933754,
+    "floors": -0.8816641302103586
+}},{latitude:47.5998, longitude:-122.306,actual:345000.0,predicted:342696,coefficients:{
+    "intercept": 256.1153386142418,
+    "bedrooms": -52.44492739846918,
+    "bathrooms": -157.11854112388193,
+    "sqft_living": 0.21166965251708372,
+    "sqft_lot": -0.047615631747667655,
+    "floors": 0.32707193434622
+}},{latitude:47.6053, longitude:-122.291,actual:599000.0,predicted:611555,coefficients:{
+    "intercept": 259.18099270785046,
+    "bedrooms": -52.665700355153035,
+    "bathrooms": -155.0172702849569,
+    "sqft_living": 0.21488219597557484,
+    "sqft_lot": -0.04553137239691909,
+    "floors": 5.258164964195806
+}},{latitude:47.6315, longitude:-122.29,actual:1715000.0,predicted:1720990,coefficients:{
+    "intercept": 256.3623002077293,
+    "bedrooms": -52.51018503627102,
+    "bathrooms": -155.35672394237602,
+    "sqft_living": 0.2128090146421874,
+    "sqft_lot": -0.04688741037092131,
+    "floors": 4.412458064585352
+}},{latitude:47.6338, longitude:-122.319,actual:2400000.0,predicted:2402958,coefficients:{
+    "intercept": 248.99545891420365,
+    "bedrooms": -49.46938025164416,
+    "bathrooms": -158.90126672268062,
+    "sqft_living": 0.20866161746739229,
+    "sqft_lot": -0.051165784266229024,
+    "floors": -5.470724201387292
+}},{latitude:47.6298, longitude:-122.29,actual:1600000.0,predicted:1582853,coefficients:{
+    "intercept": 256.59998627049373,
+    "bedrooms": -52.53491173787422,
+    "bathrooms": -155.32326720181462,
+    "sqft_living": 0.2129649940271948,
+    "sqft_lot": -0.046782270016972716,
+    "floors": 4.517754653679569
+}},{latitude:47.6296, longitude:-122.308,actual:625000.0,predicted:650049,coefficients:{
+    "intercept": 249.07302659109166,
+    "bedrooms": -50.32138760055911,
+    "bathrooms": -158.78836799920126,
+    "sqft_living": 0.2056709231227401,
+    "sqft_lot": -0.05194671032854432,
+    "floors": -4.177470305323369
+}},{latitude:47.6367, longitude:-122.318,actual:1015000.0,predicted:1038590,coefficients:{
+    "intercept": 248.66895516075127,
+    "bedrooms": -49.47818568923827,
+    "bathrooms": -158.94574429740115,
+    "sqft_living": 0.20836719606364867,
+    "sqft_lot": -0.051294645212685355,
+    "floors": -5.486337144870569
+}},{latitude:47.6357, longitude:-122.324,actual:580000.0,predicted:578648,coefficients:{
+    "intercept": 249.22549942112246,
+    "bedrooms": -49.42209044636274,
+    "bathrooms": -158.81574777804406,
+    "sqft_living": 0.2094389079466087,
+    "sqft_lot": -0.05085002047082704,
+    "floors": -5.441097639972405
+}},{latitude:47.632, longitude:-122.289,actual:1568000.0,predicted:1552926,coefficients:{
+    "intercept": 256.54300731901066,
+    "bedrooms": -52.497496633074626,
+    "bathrooms": -155.2470613996057,
+    "sqft_living": 0.21305474168758956,
+    "sqft_lot": -0.04676483194884902,
+    "floors": 4.5863778055508355
+}},{latitude:47.6265, longitude:-122.312,actual:875000.0,predicted:911131,coefficients:{
+    "intercept": 249.68467219655074,
+    "bedrooms": -49.97950758726711,
+    "bathrooms": -158.75596514527032,
+    "sqft_living": 0.20750105094190352,
+    "sqft_lot": -0.051348652437264934,
+    "floors": -4.685641814074147
+}},{latitude:47.6256, longitude:-122.284,actual:1250000.0,predicted:1235495,coefficients:{
+    "intercept": 258.17472580911823,
+    "bedrooms": -52.49178059240099,
+    "bathrooms": -154.6929394591319,
+    "sqft_living": 0.21462285908733697,
+    "sqft_lot": -0.04588508258138244,
+    "floors": 5.613565280736897
+}},{latitude:47.6039, longitude:-122.298,actual:491000.0,predicted:487144,coefficients:{
+    "intercept": 258.05495831139194,
+    "bedrooms": -52.73775516151381,
+    "bathrooms": -155.86356882156898,
+    "sqft_living": 0.21348084189943128,
+    "sqft_lot": -0.046293012330509406,
+    "floors": 3.627017173665144
+}},{latitude:47.6288, longitude:-122.321,actual:852000.0,predicted:878428,coefficients:{
+    "intercept": 249.66745076184193,
+    "bedrooms": -49.50972850331501,
+    "bathrooms": -158.759332304422,
+    "sqft_living": 0.20931744651011402,
+    "sqft_lot": -0.050826013360011794,
+    "floors": -5.29158816671248
+}},{latitude:47.6169, longitude:-122.309,actual:570000.0,predicted:562937,coefficients:{
+    "intercept": 251.91923868925576,
+    "bedrooms": -51.03926863620198,
+    "bathrooms": -158.24490334884348,
+    "sqft_living": 0.2083057432476076,
+    "sqft_lot": -0.05033073498903198,
+    "floors": -2.9359910152988054
+}},{latitude:47.6052, longitude:-122.3,actual:638000.0,predicted:609932,coefficients:{
+    "intercept": 257.35252571945375,
+    "bedrooms": -52.7264563747219,
+    "bathrooms": -156.24062977399436,
+    "sqft_living": 0.2127126157564516,
+    "sqft_lot": -0.04675900434034432,
+    "floors": 2.8439923188812775
+}},{latitude:47.6108, longitude:-122.308,actual:660000.0,predicted:650907,coefficients:{
+    "intercept": 253.4031392446135,
+    "bedrooms": -51.64083256536572,
+    "bathrooms": -157.89999998193252,
+    "sqft_living": 0.2093479157226597,
+    "sqft_lot": -0.04943716058361974,
+    "floors": -1.8506271386771216
+}},{latitude:47.6272, longitude:-122.29,actual:569000.0,predicted:583342,coefficients:{
+    "intercept": 256.95413711232044,
+    "bedrooms": -52.5685472524824,
+    "bathrooms": -155.27329416274586,
+    "sqft_living": 0.21320408452783265,
+    "sqft_lot": -0.04662246719473456,
+    "floors": 4.6683292580949525
+}},{latitude:47.6388, longitude:-122.3,actual:585000.0,predicted:606902,coefficients:{
+    "intercept": 250.4414170542979,
+    "bedrooms": -51.733550965184065,
+    "bathrooms": -157.51362560999672,
+    "sqft_living": 0.20684390973147596,
+    "sqft_lot": -0.05036374032597041,
+    "floors": -0.3056564298135588
+}},{latitude:47.6406, longitude:-122.304,actual:1185000.0,predicted:1184907,coefficients:{
+    "intercept": 248.77810706126232,
+    "bedrooms": -50.817758438746154,
+    "bathrooms": -158.25154279653168,
+    "sqft_living": 0.20607596239463094,
+    "sqft_lot": -0.05130300824700933,
+    "floors": -2.6130503909416443
+}},{latitude:47.6394, longitude:-122.29,actual:1810000.0,predicted:1812337,coefficients:{
+    "intercept": 255.2141876669077,
+    "bedrooms": -52.37004163904645,
+    "bathrooms": -155.51932148041348,
+    "sqft_living": 0.21210291733309866,
+    "sqft_lot": -0.04737298779448549,
+    "floors": 3.859578912549098
+}},{latitude:47.6154, longitude:-122.283,actual:1600000.0,predicted:1595424,coefficients:{
+    "intercept": 259.1735315550175,
+    "bedrooms": -52.51068059304362,
+    "bathrooms": -154.5164890406965,
+    "sqft_living": 0.2153872008760063,
+    "sqft_lot": -0.04539947599579073,
+    "floors": 5.999222168477439
+}},{latitude:47.6118, longitude:-122.306,actual:415000.0,predicted:475215,coefficients:{
+    "intercept": 253.6292867834363,
+    "bedrooms": -52.169291902537545,
+    "bathrooms": -157.88248984141893,
+    "sqft_living": 0.2088130198853342,
+    "sqft_lot": -0.04942694152485826,
+    "floors": -1.1771733070451513
+}},{latitude:47.6158, longitude:-122.293,actual:890000.0,predicted:883110,coefficients:{
+    "intercept": 257.76699415173124,
+    "bedrooms": -52.700090723723115,
+    "bathrooms": -155.43044491946011,
+    "sqft_living": 0.2134965615374408,
+    "sqft_lot": -0.04633798026085663,
+    "floors": 4.566408283254127
+}},{latitude:47.6381, longitude:-122.304,actual:1600000.0,predicted:1590196,coefficients:{
+    "intercept": 248.89731159576252,
+    "bedrooms": -50.88448150323571,
+    "bathrooms": -158.29877280740536,
+    "sqft_living": 0.20572568088643747,
+    "sqft_lot": -0.05143074330089613,
+    "floors": -2.5875328608800854
+}},{latitude:47.6037, longitude:-122.311,actual:499000.0,predicted:521768,coefficients:{
+    "intercept": 254.1682527618183,
+    "bedrooms": -51.30642517081893,
+    "bathrooms": -157.6189780301877,
+    "sqft_living": 0.21100483141756865,
+    "sqft_lot": -0.04871476575575712,
+    "floors": -1.8606729526696326
+}},{latitude:47.5934, longitude:-122.308,actual:450000.0,predicted:441747,coefficients:{
+    "intercept": 256.46414550389335,
+    "bedrooms": -52.138106073694665,
+    "bathrooms": -156.97485175717162,
+    "sqft_living": 0.21255073469470928,
+    "sqft_lot": -0.047276745718131244,
+    "floors": 0.10305035480488581
+}},{latitude:47.6035, longitude:-122.285,actual:1165000.0,predicted:1171655,coefficients:{
+    "intercept": 259.84934085898095,
+    "bedrooms": -52.53824528478824,
+    "bathrooms": -154.5383510586783,
+    "sqft_living": 0.2158052951808124,
+    "sqft_lot": -0.04508632986133441,
+    "floors": 5.999597923564785
+}},{latitude:47.6305, longitude:-122.3,actual:820000.0,predicted:804823,coefficients:{
+    "intercept": 252.44814707287426,
+    "bedrooms": -52.162880159084516,
+    "bathrooms": -157.23041520891476,
+    "sqft_living": 0.2082268033075482,
+    "sqft_lot": -0.04949563217352736,
+    "floors": 0.6954758033301777
+}},{latitude:47.6048, longitude:-122.312,actual:412000.0,predicted:405400,coefficients:{
+    "intercept": 253.81130799814954,
+    "bedrooms": -51.09955557970871,
+    "bathrooms": -157.7039310930407,
+    "sqft_living": 0.21091262711274114,
+    "sqft_lot": -0.04889806603567185,
+    "floors": -2.212160528798782
+}},{latitude:47.6233, longitude:-122.3,actual:780000.0,predicted:787846,coefficients:{
+    "intercept": 254.10071348207356,
+    "bedrooms": -52.4566427450213,
+    "bathrooms": -156.95838486720044,
+    "sqft_living": 0.20956838294219854,
+    "sqft_lot": -0.048664233673335805,
+    "floors": 1.4647137488042399
+}},{latitude:47.6012, longitude:-122.291,actual:545000.0,predicted:567620,coefficients:{
+    "intercept": 259.49297696171766,
+    "bedrooms": -52.6444652246958,
+    "bathrooms": -154.96231881061132,
+    "sqft_living": 0.21518292757391896,
+    "sqft_lot": -0.04535420290195219,
+    "floors": 5.311834992141053
+}},{latitude:47.5926, longitude:-122.296,actual:450000.0,predicted:452846,coefficients:{
+    "intercept": 259.4332334392,
+    "bedrooms": -52.630825070872895,
+    "bathrooms": -155.33193091023156,
+    "sqft_living": 0.21503095647223713,
+    "sqft_lot": -0.045413165095254796,
+    "floors": 4.4428894441251074
+}},{latitude:47.6168, longitude:-122.301,actual:425000.0,predicted:444030,coefficients:{
+    "intercept": 255.00143815052203,
+    "bedrooms": -52.57563259906023,
+    "bathrooms": -156.92861254986147,
+    "sqft_living": 0.21028183177060794,
+    "sqft_lot": -0.048238200062800725,
+    "floors": 1.5337438785811137
+}},{latitude:47.6056, longitude:-122.305,actual:534000.0,predicted:541741,coefficients:{
+    "intercept": 255.45739618119083,
+    "bedrooms": -52.493172929770644,
+    "bathrooms": -157.27288404416979,
+    "sqft_living": 0.21077721780987377,
+    "sqft_lot": -0.04809739486712461,
+    "floors": 0.28100370095134736
+}},{latitude:47.623, longitude:-122.304,actual:856000.0,predicted:826290,coefficients:{
+    "intercept": 251.85264382955123,
+    "bedrooms": -51.913383802515106,
+    "bathrooms": -158.02467323719057,
+    "sqft_living": 0.20694790250496753,
+    "sqft_lot": -0.05042156416296991,
+    "floors": -1.1946254171782182
+}},{latitude:47.6182, longitude:-122.302,actual:582000.0,predicted:571083,coefficients:{
+    "intercept": 254.2186558341529,
+    "bedrooms": -52.45808598067074,
+    "bathrooms": -157.23858866715608,
+    "sqft_living": 0.2094443063824256,
+    "sqft_lot": -0.0487763022869582,
+    "floors": 0.815286694345247
+}},{latitude:47.5925, longitude:-122.287,actual:3600000.0,predicted:3599456,coefficients:{
+    "intercept": 260.28203272446257,
+    "bedrooms": -52.510737748699,
+    "bathrooms": -154.5903942679002,
+    "sqft_living": 0.21613885213839604,
+    "sqft_lot": -0.04486060128070974,
+    "floors": 5.822736476869621
+}},{latitude:47.6249, longitude:-122.311,actual:1125000.0,predicted:1098962,coefficients:{
+    "intercept": 250.02459917986906,
+    "bedrooms": -50.1808509219539,
+    "bathrooms": -158.67254308006434,
+    "sqft_living": 0.20743482297975968,
+    "sqft_lot": -0.051256024297950536,
+    "floors": -4.358239615305847
+}},{latitude:47.5924, longitude:-122.302,actual:700000.0,predicted:702064,coefficients:{
+    "intercept": 258.30759528493667,
+    "bedrooms": -52.59728101765967,
+    "bathrooms": -156.09122641831564,
+    "sqft_living": 0.2139019671913023,
+    "sqft_lot": -0.046119139567256384,
+    "floors": 2.701726671627313
+}},{latitude:47.5961, longitude:-122.305,actual:313000.0,predicted:330125,coefficients:{
+    "intercept": 257.0350618863884,
+    "bedrooms": -52.52743637370347,
+    "bathrooms": -156.7378412219677,
+    "sqft_living": 0.21262497857346596,
+    "sqft_lot": -0.04696902964005515,
+    "floors": 1.197427937237806
+}},{latitude:47.6049, longitude:-122.288,actual:464000.0,predicted:468047,coefficients:{
+    "intercept": 259.5363247508381,
+    "bedrooms": -52.60529180823856,
+    "bathrooms": -154.75234046628384,
+    "sqft_living": 0.21537003779297786,
+    "sqft_lot": -0.0452929880061857,
+    "floors": 5.6874463741795935
+}},{latitude:47.6033, longitude:-122.287,actual:765000.0,predicted:767642,coefficients:{
+    "intercept": 259.72604798573127,
+    "bedrooms": -52.57840007378235,
+    "bathrooms": -154.6646946375564,
+    "sqft_living": 0.21559336937876777,
+    "sqft_lot": -0.045176920950434574,
+    "floors": 5.813658901935486
+}},{latitude:47.6196, longitude:-122.298,actual:570000.0,predicted:570476,coefficients:{
+    "intercept": 255.72182927753974,
+    "bedrooms": -52.647126322254486,
+    "bathrooms": -156.3718274027226,
+    "sqft_living": 0.2112374178621839,
+    "sqft_lot": -0.04764214183787297,
+    "floors": 2.7500719955000967
+}},{latitude:47.6033, longitude:-122.295,actual:441000.0,predicted:439325,coefficients:{
+    "intercept": 258.7462033860522,
+    "bedrooms": -52.717249330319184,
+    "bathrooms": -155.4281820406055,
+    "sqft_living": 0.2142770043583638,
+    "sqft_lot": -0.04583728124482724,
+    "floors": 4.489983926000198
+}},{latitude:47.633, longitude:-122.282,actual:524000.0,predicted:522154,coefficients:{
+    "intercept": 257.6913175405793,
+    "bedrooms": -52.40093558609004,
+    "bathrooms": -154.66167946200068,
+    "sqft_living": 0.21447938222659077,
+    "sqft_lot": -0.04605315894238406,
+    "floors": 5.491628147095897
+}},{latitude:47.6331, longitude:-122.31,actual:1325000.0,predicted:1313429,coefficients:{
+    "intercept": 248.62593499668986,
+    "bedrooms": -49.94956635750931,
+    "bathrooms": -158.87500589894051,
+    "sqft_living": 0.2064083458449219,
+    "sqft_lot": -0.05182335217844759,
+    "floors": -4.711987179087654
+}},{latitude:47.5959, longitude:-122.291,actual:950000.0,predicted:947365,coefficients:{
+    "intercept": 259.82935471672295,
+    "bedrooms": -52.60500637666657,
+    "bathrooms": -154.89990321987176,
+    "sqft_living": 0.21553175766862487,
+    "sqft_lot": -0.04515549008552823,
+    "floors": 5.346483744970575
+}},{latitude:47.6205, longitude:-122.291,actual:728000.0,predicted:701295,coefficients:{
+    "intercept": 257.60482927624554,
+    "bedrooms": -52.645493769604776,
+    "bathrooms": -155.2679410537406,
+    "sqft_living": 0.21356214600642318,
+    "sqft_lot": -0.04635269741123576,
+    "floors": 4.8025741531241115
+}},{latitude:47.6467, longitude:-122.304,actual:975000.0,predicted:978871,coefficients:{
+    "intercept": 248.60875754294827,
+    "bedrooms": -50.72054179525546,
+    "bathrooms": -158.13933583841228,
+    "sqft_living": 0.206844820154222,
+    "sqft_lot": -0.051016689666413165,
+    "floors": -2.626409359435877
+}},{latitude:47.6231, longitude:-122.292,actual:350000.0,predicted:376206,coefficients:{
+    "intercept": 257.03586972033776,
+    "bedrooms": -52.63309021862922,
+    "bathrooms": -155.44730782622148,
+    "sqft_living": 0.21302392467491718,
+    "sqft_lot": -0.0466667152382819,
+    "floors": 4.455529044191934
+}},{latitude:47.6362, longitude:-122.282,actual:1265000.0,predicted:1268231,coefficients:{
+    "intercept": 257.36525699652117,
+    "bedrooms": -52.3707133289549,
+    "bathrooms": -154.70843709137125,
+    "sqft_living": 0.21428379442489942,
+    "sqft_lot": -0.046192368337946016,
+    "floors": 5.339206777403261
+}},{latitude:47.6032, longitude:-122.285,actual:759000.0,predicted:757748,coefficients:{
+    "intercept": 259.86681807201785,
+    "bedrooms": -52.53709382637138,
+    "bathrooms": -154.5363114825013,
+    "sqft_living": 0.2158205658680467,
+    "sqft_lot": -0.04507698534995402,
+    "floors": 6.001293922202971
+}},{latitude:47.6135, longitude:-122.307,actual:402500.0,predicted:434758,coefficients:{
+    "intercept": 252.9944256150396,
+    "bedrooms": -51.76838557867334,
+    "bathrooms": -158.0232379269322,
+    "sqft_living": 0.20854429633867408,
+    "sqft_lot": -0.04979725080672292,
+    "floors": -1.8442116933119153
+}},{latitude:47.6283, longitude:-122.312,actual:1506000.0,predicted:1506258,coefficients:{
+    "intercept": 249.40282383035662,
+    "bedrooms": -49.914451030604056,
+    "bathrooms": -158.801584464191,
+    "sqft_living": 0.2073589603470575,
+    "sqft_lot": -0.05144838447499394,
+    "floors": -4.784097392508466
+}},{latitude:47.6332, longitude:-122.29,actual:1400000.0,predicted:1409909,coefficients:{
+    "intercept": 256.12047688445716,
+    "bedrooms": -52.48339470440331,
+    "bathrooms": -155.39076277064112,
+    "sqft_living": 0.21265387727452295,
+    "sqft_lot": -0.046992701168533164,
+    "floors": 4.301984909961705
+}},{latitude:47.5916, longitude:-122.293,actual:375000.0,predicted:387278,coefficients:{
+    "intercept": 259.86296385822914,
+    "bedrooms": -52.59133480884521,
+    "bathrooms": -155.02211510680652,
+    "sqft_living": 0.21553827476797888,
+    "sqft_lot": -0.045140188437365926,
+    "floors": 5.039374654849112
+}},{latitude:47.6405, longitude:-122.301,actual:710000.0,predicted:709198,coefficients:{
+    "intercept": 249.38951785345773,
+    "bedrooms": -51.42773441430998,
+    "bathrooms": -157.8297078694072,
+    "sqft_living": 0.20594363231654358,
+    "sqft_lot": -0.05094912320530274,
+    "floors": -1.190239556359452
+}},{latitude:47.6028, longitude:-122.298,actual:464000.0,predicted:468392,coefficients:{
+    "intercept": 258.17964253684113,
+    "bedrooms": -52.73236178438202,
+    "bathrooms": -155.8311453482631,
+    "sqft_living": 0.2136145210443073,
+    "sqft_lot": -0.04621545822239385,
+    "floors": 3.668376368093408
+}},{latitude:47.6178, longitude:-122.299,actual:439000.0,predicted:438654,coefficients:{
+    "intercept": 255.65980335531603,
+    "bedrooms": -52.64927714487467,
+    "bathrooms": -156.5181704772274,
+    "sqft_living": 0.21107573866435497,
+    "sqft_lot": -0.04773611999900855,
+    "floors": 2.4481032859420675
+}},{latitude:47.6387, longitude:-122.284,actual:1900000.0,predicted:1903445,coefficients:{
+    "intercept": 256.76529581629757,
+    "bedrooms": -52.36573607292499,
+    "bathrooms": -154.89016436934025,
+    "sqft_living": 0.21375129946771815,
+    "sqft_lot": -0.04649565574956718,
+    "floors": 4.982324286075445
+}},{latitude:47.6308, longitude:-122.312,actual:885000.0,predicted:890020,coefficients:{
+    "intercept": 248.914197657284,
+    "bedrooms": -49.79294921077022,
+    "bathrooms": -158.90465773184104,
+    "sqft_living": 0.20704067899731798,
+    "sqft_lot": -0.0516662716662148,
+    "floors": -5.022811253142782
+}},{latitude:47.6044, longitude:-122.284,actual:921000.0,predicted:908378,coefficients:{
+    "intercept": 259.85386949547666,
+    "bedrooms": -52.52079834557214,
+    "bathrooms": -154.48744733177594,
+    "sqft_living": 0.21586061847182902,
+    "sqft_lot": -0.045072023728194174,
+    "floors": 6.0727031961944204
+}},{latitude:47.6192, longitude:-122.299,actual:487028.0,predicted:496618,coefficients:{
+    "intercept": 255.39699037759237,
+    "bedrooms": -52.622457083803816,
+    "bathrooms": -156.56978593673603,
+    "sqft_living": 0.210837725940067,
+    "sqft_lot": -0.04788198224417055,
+    "floors": 2.337832499554193
+}},{latitude:47.6458, longitude:-122.32,actual:1675000.0,predicted:1677375,coefficients:{
+    "intercept": 248.37046495339064,
+    "bedrooms": -49.51404472695005,
+    "bathrooms": -158.89614969777116,
+    "sqft_living": 0.20868535140163355,
+    "sqft_lot": -0.0511416348451708,
+    "floors": -5.367985258758409
+}},{latitude:47.596, longitude:-122.311,actual:247300.0,predicted:255766,coefficients:{
+    "intercept": 255.35245104585962,
+    "bedrooms": -51.5338226086215,
+    "bathrooms": -157.2467319282731,
+    "sqft_living": 0.2121476927675937,
+    "sqft_lot": -0.04790307074898139,
+    "floors": -1.03878880700914
+}},{latitude:47.6306, longitude:-122.288,actual:2544750.0,predicted:2547521,coefficients:{
+    "intercept": 256.95214988819026,
+    "bedrooms": -52.50728503849526,
+    "bathrooms": -155.1122997648844,
+    "sqft_living": 0.21343750917278298,
+    "sqft_lot": -0.04654655415999411,
+    "floors": 4.850890045783619
+}},{latitude:47.6254, longitude:-122.292,actual:553650.0,predicted:554045,coefficients:{
+    "intercept": 256.7108593129976,
+    "bedrooms": -52.60585221487919,
+    "bathrooms": -155.49552850661846,
+    "sqft_living": 0.2127856378132227,
+    "sqft_lot": -0.046821235136089275,
+    "floors": 4.326597169140695
+}},{latitude:47.633, longitude:-122.283,actual:1570000.0,predicted:1557116,coefficients:{
+    "intercept": 257.55332153516844,
+    "bedrooms": -52.41594831724344,
+    "bathrooms": -154.72685866541156,
+    "sqft_living": 0.2143123709360855,
+    "sqft_lot": -0.046135709058373116,
+    "floors": 5.395542008438267
+}},{latitude:47.6357, longitude:-122.322,actual:390000.0,predicted:402185,coefficients:{
+    "intercept": 249.07340465204894,
+    "bedrooms": -49.43191961155756,
+    "bathrooms": -158.8595984816707,
+    "sqft_living": 0.20913438757116892,
+    "sqft_lot": -0.05098231291186355,
+    "floors": -5.473900103616842
+}},{latitude:47.6182, longitude:-122.312,actual:1234570.0,predicted:1232793,coefficients:{
+    "intercept": 251.365953118454,
+    "bedrooms": -50.45222382712285,
+    "bathrooms": -158.36167971977207,
+    "sqft_living": 0.20879068586970595,
+    "sqft_lot": -0.05043594298807475,
+    "floors": -3.7499827058726054
+}},{latitude:47.6317, longitude:-122.301,actual:640000.0,predicted:628884,coefficients:{
+    "intercept": 251.52217763483367,
+    "bedrooms": -51.95443785023833,
+    "bathrooms": -157.54863589831666,
+    "sqft_living": 0.2072737321177055,
+    "sqft_lot": -0.05008978936364394,
+    "floors": -0.09373890765371097
+}},{latitude:47.6059, longitude:-122.3,actual:548500.0,predicted:552570,coefficients:{
+    "intercept": 257.25516598308604,
+    "bedrooms": -52.726882588374856,
+    "bathrooms": -156.26695462910476,
+    "sqft_living": 0.21260793675945155,
+    "sqft_lot": -0.04682073532619817,
+    "floors": 2.8052854672354823
+}},{latitude:47.6221, longitude:-122.325,actual:933000.0,predicted:939945,coefficients:{
+    "intercept": 250.67955810345128,
+    "bedrooms": -49.63406166950417,
+    "bathrooms": -158.46193324911565,
+    "sqft_living": 0.21041560365707998,
+    "sqft_lot": -0.05019050590998959,
+    "floors": -4.790913883854601
+}},{latitude:47.6112, longitude:-122.303,actual:430000.0,predicted:432034,coefficients:{
+    "intercept": 255.23381120715985,
+    "bedrooms": -52.560355859279646,
+    "bathrooms": -157.13016734315522,
+    "sqft_living": 0.2104459865342152,
+    "sqft_lot": -0.0481985800577062,
+    "floors": 0.9208792701913052
+}},{latitude:47.6197, longitude:-122.3,actual:579000.0,predicted:585466,coefficients:{
+    "intercept": 254.86344903429745,
+    "bedrooms": -52.5634743957696,
+    "bathrooms": -156.8153301463291,
+    "sqft_living": 0.21024531404463717,
+    "sqft_lot": -0.04824773863336545,
+    "floors": 1.8039159268496232
+}},{latitude:47.6319, longitude:-122.288,actual:2453500.0,predicted:2451198,coefficients:{
+    "intercept": 256.7857695316971,
+    "bedrooms": -52.490932048078186,
+    "bathrooms": -155.13553230149645,
+    "sqft_living": 0.2133309440952632,
+    "sqft_lot": -0.04661945087321908,
+    "floors": 4.776951545315635
+}},{latitude:47.6205, longitude:-122.294,actual:549000.0,predicted:547172,coefficients:{
+    "intercept": 256.8849852970724,
+    "bedrooms": -52.6726945005932,
+    "bathrooms": -155.6794830365562,
+    "sqft_living": 0.21267436981195073,
+    "sqft_lot": -0.04682773037620856,
+    "floors": 4.081544786289731
+}},{latitude:47.6374, longitude:-122.288,actual:2890000.0,predicted:2888806,coefficients:{
+    "intercept": 256.060154654713,
+    "bedrooms": -52.410692133748846,
+    "bathrooms": -155.2383128705666,
+    "sqft_living": 0.2128849585538977,
+    "sqft_lot": -0.0469286375647451,
+    "floors": 4.433907924759891
+}},{latitude:47.6097, longitude:-122.287,actual:1075000.0,predicted:1061401,coefficients:{
+    "intercept": 259.2737750327308,
+    "bedrooms": -52.59663576107101,
+    "bathrooms": -154.7254954680539,
+    "sqft_living": 0.2152039743886204,
+    "sqft_lot": -0.04541685034903639,
+    "floors": 5.73747460999826
+}},{latitude:47.634, longitude:-122.288,actual:2200000.0,predicted:2200165,coefficients:{
+    "intercept": 256.5123938402897,
+    "bedrooms": -52.462335995769095,
+    "bathrooms": -155.17394248435178,
+    "sqft_living": 0.21315940743943898,
+    "sqft_lot": -0.04673756869127329,
+    "floors": 4.651553886238821
+}},{latitude:47.5924, longitude:-122.294,actual:450000.0,predicted:464328,coefficients:{
+    "intercept": 259.70810309722305,
+    "bedrooms": -52.61125202700529,
+    "bathrooms": -155.12475656191373,
+    "sqft_living": 0.21535002037504042,
+    "sqft_lot": -0.04523907371013459,
+    "floors": 4.8571710348826755
+}},{latitude:47.6282, longitude:-122.293,actual:965000.0,predicted:985660,coefficients:{
+    "intercept": 256.00102611795467,
+    "bedrooms": -52.5644214395362,
+    "bathrooms": -155.70461238315892,
+    "sqft_living": 0.21214365398654703,
+    "sqft_lot": -0.047201919428587334,
+    "floors": 3.8862934191468477
+}},{latitude:47.6157, longitude:-122.287,actual:1495000.0,predicted:1485266,coefficients:{
+    "intercept": 258.7622088705514,
+    "bedrooms": -52.59456937888057,
+    "bathrooms": -154.79424482327525,
+    "sqft_living": 0.21479853871339885,
+    "sqft_lot": -0.04567529958355179,
+    "floors": 5.607780248214447
+}},{latitude:47.6344, longitude:-122.305,actual:880000.0,predicted:898110,coefficients:{
+    "intercept": 248.95519679459272,
+    "bedrooms": -50.79037045857459,
+    "bathrooms": -158.48903301488272,
+    "sqft_living": 0.20532480559524283,
+    "sqft_lot": -0.05171720128857243,
+    "floors": -3.0116385394061185
+}},{latitude:47.6163, longitude:-122.293,actual:665000.0,predicted:671805,coefficients:{
+    "intercept": 257.70434563431763,
+    "bedrooms": -52.69764085798932,
+    "bathrooms": -155.44090007919368,
+    "sqft_living": 0.2134443124972169,
+    "sqft_lot": -0.04637055781009318,
+    "floors": 4.545466131292719
+}},{latitude:47.6082, longitude:-122.299,actual:202000.0,predicted:202892,coefficients:{
+    "intercept": 257.23211814940555,
+    "bedrooms": -52.73894152120559,
+    "bathrooms": -156.16987874917476,
+    "sqft_living": 0.21259986627055535,
+    "sqft_lot": -0.04681584884738511,
+    "floors": 3.0746352928490124
+}},{latitude:47.6235, longitude:-122.306,actual:761000.0,predicted:769465,coefficients:{
+    "intercept": 250.604652398822,
+    "bedrooms": -51.290496209399805,
+    "bathrooms": -158.50909530357913,
+    "sqft_living": 0.20577096504109252,
+    "sqft_lot": -0.05141943058534549,
+    "floors": -2.8223873891932962
+}},{latitude:47.6248, longitude:-122.319,actual:625000.0,predicted:630694,coefficients:{
+    "intercept": 250.13700644948912,
+    "bedrooms": -49.66610134457984,
+    "bathrooms": -158.64942022460346,
+    "sqft_living": 0.2093391045721341,
+    "sqft_lot": -0.05069407366521848,
+    "floors": -4.98415219595589
+}},{latitude:47.6, longitude:-122.298,actual:399950.0,predicted:416270,coefficients:{
+    "intercept": 258.4751790580715,
+    "bedrooms": -52.71371048437748,
+    "bathrooms": -155.75139579464454,
+    "sqft_living": 0.21393886639784115,
+    "sqft_lot": -0.04602922033506687,
+    "floors": 3.763465210568267
+}},{latitude:47.6053, longitude:-122.306,actual:545000.0,predicted:538323,coefficients:{
+    "intercept": 255.07484541536522,
+    "bedrooms": -52.39457671622961,
+    "bathrooms": -157.47445553203568,
+    "sqft_living": 0.2104338850451021,
+    "sqft_lot": -0.04838278696529194,
+    "floors": -0.3265831084632156
+}},{latitude:47.6101, longitude:-122.286,actual:1210000.0,predicted:1207976,coefficients:{
+    "intercept": 259.33453385896996,
+    "bedrooms": -52.575796777730474,
+    "bathrooms": -154.65698060932652,
+    "sqft_living": 0.21531720255279013,
+    "sqft_lot": -0.0453690955355707,
+    "floors": 5.837099661366468
+}},{latitude:47.6423, longitude:-122.329,actual:755000.0,predicted:750281,coefficients:{
+    "intercept": 249.2737178399953,
+    "bedrooms": -49.44818892491976,
+    "bathrooms": -158.71763292636913,
+    "sqft_living": 0.20992909645141392,
+    "sqft_lot": -0.050615739457073254,
+    "floors": -5.273898332363183
+}},{latitude:47.6374, longitude:-122.324,actual:700000.0,predicted:703998,coefficients:{
+    "intercept": 249.11896112032,
+    "bedrooms": -49.42473219211488,
+    "bathrooms": -158.82551070822228,
+    "sqft_living": 0.20939426405148198,
+    "sqft_lot": -0.05087220841875363,
+    "floors": -5.441792985889912
+}},{latitude:47.604, longitude:-122.288,actual:865000.0,predicted:865044,coefficients:{
+    "intercept": 259.5983073963344,
+    "bedrooms": -52.601688352465544,
+    "bathrooms": -154.74344102986433,
+    "sqft_living": 0.21542593474934915,
+    "sqft_lot": -0.04525921112227276,
+    "floors": 5.69652060114564
+}},{latitude:47.6429, longitude:-122.327,actual:796000.0,predicted:794424,coefficients:{
+    "intercept": 249.06380369643463,
+    "bedrooms": -49.439676719028846,
+    "bathrooms": -158.77656958401843,
+    "sqft_living": 0.20966961975605092,
+    "sqft_lot": -0.05074587030918365,
+    "floors": -5.354357026694173
+}},{latitude:47.6188, longitude:-122.285,actual:825000.0,predicted:831259,coefficients:{
+    "intercept": 258.7053982675299,
+    "bedrooms": -52.54485044319156,
+    "bathrooms": -154.67927892600753,
+    "sqft_living": 0.21490898880291812,
+    "sqft_lot": -0.04566071518215328,
+    "floors": 5.7423789032074755
+}},{latitude:47.6198, longitude:-122.299,actual:500000.0,predicted:508083,coefficients:{
+    "intercept": 255.28192015473525,
+    "bedrooms": -52.60980843821076,
+    "bathrooms": -156.59187174936272,
+    "sqft_living": 0.21073494270393225,
+    "sqft_lot": -0.0479451141443342,
+    "floors": 2.289071211434215
+}},{latitude:47.6245, longitude:-122.327,actual:840000.0,predicted:840303,coefficients:{
+    "intercept": 250.49133496549382,
+    "bedrooms": -49.57058368505585,
+    "bathrooms": -158.4954662780319,
+    "sqft_living": 0.21046475224282157,
+    "sqft_lot": -0.05022079115380245,
+    "floors": -4.8978721710919855
+}},{latitude:47.6029, longitude:-122.302,actual:520000.0,predicted:494966,coefficients:{
+    "intercept": 257.0521970209828,
+    "bedrooms": -52.67763818797791,
+    "bathrooms": -156.51450151923146,
+    "sqft_living": 0.2124175811657195,
+    "sqft_lot": -0.04697442697427631,
+    "floors": 2.125304334862862
+}},{latitude:47.6063, longitude:-122.292,actual:785200.0,predicted:756158,coefficients:{
+    "intercept": 258.9587975324291,
+    "bedrooms": -52.68737192029668,
+    "bathrooms": -155.13446078836546,
+    "sqft_living": 0.21462026561318187,
+    "sqft_lot": -0.04567114503431057,
+    "floors": 5.064299387033775
+}},{latitude:47.6225, longitude:-122.318,actual:1200000.0,predicted:1167354,coefficients:{
+    "intercept": 250.4631458605026,
+    "bedrooms": -49.780707443746564,
+    "bathrooms": -158.5693555257431,
+    "sqft_living": 0.2094031011693466,
+    "sqft_lot": -0.05057846926955009,
+    "floors": -4.761460132387565
+}},{latitude:47.6345, longitude:-122.302,actual:1206500.0,predicted:1220106,coefficients:{
+    "intercept": 250.08002118421552,
+    "bedrooms": -51.56811984731523,
+    "bathrooms": -157.9461014500714,
+    "sqft_living": 0.2059120824770434,
+    "sqft_lot": -0.05094665073093851,
+    "floors": -1.192363043531028
+}},{latitude:47.6028, longitude:-122.312,actual:302000.0,predicted:340101,coefficients:{
+    "intercept": 254.13505864024307,
+    "bedrooms": -51.1733595061868,
+    "bathrooms": -157.6072149540904,
+    "sqft_living": 0.21121037035989124,
+    "sqft_lot": -0.048682047481219314,
+    "floors": -1.9920868827561695
+}},{latitude:47.6113, longitude:-122.292,actual:670000.0,predicted:669056,coefficients:{
+    "intercept": 258.47510037315936,
+    "bedrooms": -52.695850288618,
+    "bathrooms": -155.21907593150158,
+    "sqft_living": 0.21418262566648585,
+    "sqft_lot": -0.04593623586304565,
+    "floors": 4.941424083580112
+}},{latitude:47.6117, longitude:-122.297,actual:650000.0,predicted:631169,coefficients:{
+    "intercept": 257.3178746707011,
+    "bedrooms": -52.741837966780786,
+    "bathrooms": -155.93364216469155,
+    "sqft_living": 0.21277742694890034,
+    "sqft_lot": -0.04671133723807148,
+    "floors": 3.6154138524955517
+}},{latitude:47.6408, longitude:-122.3,actual:690000.0,predicted:688021,coefficients:{
+    "intercept": 249.9632541015587,
+    "bedrooms": -51.625255395481545,
+    "bathrooms": -157.57665350629603,
+    "sqft_living": 0.20656012043238237,
+    "sqft_lot": -0.05054562523139341,
+    "floors": -0.5559918973982848
+}},{latitude:47.6089, longitude:-122.303,actual:558000.0,predicted:542822,coefficients:{
+    "intercept": 255.6824431168961,
+    "bedrooms": -52.598583880897124,
+    "bathrooms": -157.00980339206373,
+    "sqft_living": 0.21093032544743967,
+    "sqft_lot": -0.04790241667867433,
+    "floors": 1.1406047704329878
+}},{latitude:47.6136, longitude:-122.297,actual:670000.0,predicted:646011,coefficients:{
+    "intercept": 257.04497100642527,
+    "bedrooms": -52.73220709008737,
+    "bathrooms": -155.99024346781832,
+    "sqft_living": 0.2125210392461591,
+    "sqft_lot": -0.04686629923713144,
+    "floors": 3.517136225050114
+}},{latitude:47.6381, longitude:-122.314,actual:1125000.0,predicted:1125604,coefficients:{
+    "intercept": 248.32477791821168,
+    "bedrooms": -49.62928898145041,
+    "bathrooms": -158.95243078324793,
+    "sqft_living": 0.20751842110613522,
+    "sqft_lot": -0.05155320256539129,
+    "floors": -5.241886790262696
+}},{latitude:47.6454, longitude:-122.316,actual:750000.0,predicted:746156,coefficients:{
+    "intercept": 248.1283757392348,
+    "bedrooms": -49.62437949826025,
+    "bathrooms": -158.89971920371687,
+    "sqft_living": 0.20806264949007397,
+    "sqft_lot": -0.051327173498872565,
+    "floors": -5.19373252378875
+}},{latitude:47.617, longitude:-122.291,actual:800000.0,predicted:831081,coefficients:{
+    "intercept": 258.0259389369673,
+    "bedrooms": -52.66614038248482,
+    "bathrooms": -155.20424335068134,
+    "sqft_living": 0.2138897507777955,
+    "sqft_lot": -0.04614348698039563,
+    "floors": 4.947159664848624
+}},{latitude:47.597, longitude:-122.292,actual:934550.0,predicted:929686,coefficients:{
+    "intercept": 259.6614573246497,
+    "bedrooms": -52.62998537052025,
+    "bathrooms": -155.00010749019242,
+    "sqft_living": 0.21532401795825168,
+    "sqft_lot": -0.04526278123717686,
+    "floors": 5.1844471243775905
+}},{latitude:47.6285, longitude:-122.322,actual:2479000.0,predicted:2476750,coefficients:{
+    "intercept": 249.76716036313874,
+    "bedrooms": -49.50742841667801,
+    "bathrooms": -158.7276832466705,
+    "sqft_living": 0.20950787298135873,
+    "sqft_lot": -0.05073747992634673,
+    "floors": -5.258340843806391
+}},{latitude:47.6115, longitude:-122.292,actual:650500.0,predicted:658244,coefficients:{
+    "intercept": 258.45415875800626,
+    "bedrooms": -52.695796743808444,
+    "bathrooms": -155.22262697354375,
+    "sqft_living": 0.21416433495796156,
+    "sqft_lot": -0.04594746389960467,
+    "floors": 4.9355473907476695
+}},{latitude:47.6434, longitude:-122.3,actual:950000.0,predicted:961428,coefficients:{
+    "intercept": 249.482236689574,
+    "bedrooms": -51.4874236158377,
+    "bathrooms": -157.62628164359683,
+    "sqft_living": 0.2064185789738606,
+    "sqft_lot": -0.050679389755574046,
+    "floors": -0.836124858677514
+}},{latitude:47.6359, longitude:-122.3,actual:840000.0,predicted:850242,coefficients:{
+    "intercept": 251.1445580422331,
+    "bedrooms": -51.889579256823794,
+    "bathrooms": -157.41838931217842,
+    "sqft_living": 0.20729582830703439,
+    "sqft_lot": -0.050078030778829864,
+    "floors": 0.05380771692053473
+}},{latitude:47.6321, longitude:-122.304,actual:2048000.0,predicted:2048712,coefficients:{
+    "intercept": 249.3099327262936,
+    "bedrooms": -51.15916667429231,
+    "bathrooms": -158.42633185141565,
+    "sqft_living": 0.204784963941059,
+    "sqft_lot": -0.05176860032068875,
+    "floors": -2.480674606625621
+}},{latitude:47.6427, longitude:-122.304,actual:1151250.0,predicted:1141215,coefficients:{
+    "intercept": 248.70131629416616,
+    "bedrooms": -50.77565171089173,
+    "bathrooms": -158.21271341684852,
+    "sqft_living": 0.20635367184155667,
+    "sqft_lot": -0.05120064312844727,
+    "floors": -2.625209483625001
+}},{latitude:47.5996, longitude:-122.288,actual:1400000.0,predicted:1386577,coefficients:{
+    "intercept": 259.8735663988088,
+    "bedrooms": -52.578950274893444,
+    "bathrooms": -154.70360923107998,
+    "sqft_living": 0.21568421562047055,
+    "sqft_lot": -0.045105928443243966,
+    "floors": 5.72495834450037
+}},{latitude:47.6147, longitude:-122.302,actual:278000.0,predicted:288146,coefficients:{
+    "intercept": 254.97464789880215,
+    "bedrooms": -52.558165524725084,
+    "bathrooms": -157.06972945250172,
+    "sqft_living": 0.21019588322255997,
+    "sqft_lot": -0.048315449776807184,
+    "floors": 1.1677040192279218
+}},{latitude:47.6453, longitude:-122.327,actual:600000.0,predicted:599542,coefficients:{
+    "intercept": 248.97698516322632,
+    "bedrooms": -49.458176184851474,
+    "bathrooms": -158.7710615057273,
+    "sqft_living": 0.20964467309989396,
+    "sqft_lot": -0.05074823403310919,
+    "floors": -5.317841614332885
+}},{latitude:47.6037, longitude:-122.307,actual:430000.0,predicted:418857,coefficients:{
+    "intercept": 255.0627602663951,
+    "bedrooms": -52.19934768347528,
+    "bathrooms": -157.4745425582757,
+    "sqft_living": 0.21070878185076503,
+    "sqft_lot": -0.048345382912230145,
+    "floors": -0.6211582734714279
+}},{latitude:47.6132, longitude:-122.297,actual:420000.0,predicted:429322,coefficients:{
+    "intercept": 257.1036302487684,
+    "bedrooms": -52.73463712220426,
+    "bathrooms": -155.9782551192759,
+    "sqft_living": 0.21257561830901667,
+    "sqft_lot": -0.0468332195549001,
+    "floors": 3.5385128469614666
+}},{latitude:47.6275, longitude:-122.321,actual:525000.0,predicted:550222,coefficients:{
+    "intercept": 249.84156431985653,
+    "bedrooms": -49.544054350259714,
+    "bathrooms": -158.71493088089267,
+    "sqft_living": 0.209428970117128,
+    "sqft_lot": -0.050745279819915806,
+    "floors": -5.200967518609601
+}},{latitude:47.621, longitude:-122.302,actual:760000.0,predicted:762530,coefficients:{
+    "intercept": 253.5718057066508,
+    "bedrooms": -52.352951578773855,
+    "bathrooms": -157.3713139324238,
+    "sqft_living": 0.20882520783870337,
+    "sqft_lot": -0.04915699304421109,
+    "floors": 0.5111156527661078
+}},{latitude:47.6245, longitude:-122.316,actual:935000.0,predicted:950590,coefficients:{
+    "intercept": 250.11108702187923,
+    "bedrooms": -49.794475263592346,
+    "bathrooms": -158.66557178725867,
+    "sqft_living": 0.20879319224241788,
+    "sqft_lot": -0.050864338975202435,
+    "floors": -4.845819894909642
+}},{latitude:47.6024, longitude:-122.295,actual:823000.0,predicted:822204,coefficients:{
+    "intercept": 258.82983637901606,
+    "bedrooms": -52.71191929013225,
+    "bathrooms": -155.4093168509703,
+    "sqft_living": 0.2143634397461714,
+    "sqft_lot": -0.04578724387334489,
+    "floors": 4.510831599717611
+}},{latitude:47.5959, longitude:-122.3,actual:525000.0,predicted:527868,coefficients:{
+    "intercept": 258.4374561828114,
+    "bedrooms": -52.66846409378876,
+    "bathrooms": -155.9181949328619,
+    "sqft_living": 0.21393871418256055,
+    "sqft_lot": -0.04605214285363939,
+    "floors": 3.2623318699875603
+}},{latitude:47.6046, longitude:-122.3,actual:540000.0,predicted:546416,coefficients:{
+    "intercept": 257.43415651765287,
+    "bedrooms": -52.72556657542777,
+    "bathrooms": -156.21826350219177,
+    "sqft_living": 0.2128009816256119,
+    "sqft_lot": -0.046707033558359694,
+    "floors": 2.8763108774743897
+}},{latitude:47.6051, longitude:-122.311,actual:682000.0,predicted:680025,coefficients:{
+    "intercept": 253.9316395162943,
+    "bedrooms": -51.25362237275137,
+    "bathrooms": -157.6887577427927,
+    "sqft_living": 0.21078155485021083,
+    "sqft_lot": -0.04887454316967334,
+    "floors": -2.0186973931748873
+}},{latitude:47.6058, longitude:-122.313,actual:302282.0,predicted:306020,coefficients:{
+    "intercept": 253.4943840236989,
+    "bedrooms": -50.91364177037653,
+    "bathrooms": -157.7792385103628,
+    "sqft_living": 0.21085028304651732,
+    "sqft_lot": -0.04905254597616047,
+    "floors": -2.522681596255769
+}},{latitude:47.6313, longitude:-122.303,actual:1157400.0,predicted:1144951,coefficients:{
+    "intercept": 250.2184322866067,
+    "bedrooms": -51.539311262049644,
+    "bathrooms": -158.11910770433698,
+    "sqft_living": 0.20570592276205255,
+    "sqft_lot": -0.051115741758702274,
+    "floors": -1.548874379891136
+}},{latitude:47.639, longitude:-122.31,actual:770000.0,predicted:767937,coefficients:{
+    "intercept": 248.25176414363798,
+    "bedrooms": -49.95320590496148,
+    "bathrooms": -158.8125765867269,
+    "sqft_living": 0.2067370607316963,
+    "sqft_lot": -0.05164654085757363,
+    "floors": -4.576634939592719
+}},{latitude:47.6312, longitude:-122.291,actual:2466350.0,predicted:2460990,coefficients:{
+    "intercept": 256.13525133906796,
+    "bedrooms": -52.51731503217743,
+    "bathrooms": -155.48021556500763,
+    "sqft_living": 0.2125236954890216,
+    "sqft_lot": -0.04703507508005954,
+    "floors": 4.204957787716455
+}},{latitude:47.5949, longitude:-122.307,actual:404500.0,predicted:398580,coefficients:{
+    "intercept": 256.5426950312506,
+    "bedrooms": -52.347238745972874,
+    "bathrooms": -156.99486167252675,
+    "sqft_living": 0.21234055652985523,
+    "sqft_lot": -0.04727766367412079,
+    "floors": 0.31664942121215084
+}},{latitude:47.5942, longitude:-122.298,actual:387000.0,predicted:376725,coefficients:{
+    "intercept": 258.993145874118,
+    "bedrooms": -52.65699529826539,
+    "bathrooms": -155.60002725885406,
+    "sqft_living": 0.21453795796959244,
+    "sqft_lot": -0.045693921702742814,
+    "floors": 3.9181743564101126
+}},{latitude:47.6188, longitude:-122.308,actual:739375.0,predicted:748978,coefficients:{
+    "intercept": 251.60055668976526,
+    "bedrooms": -51.136109555281365,
+    "bathrooms": -158.32198964920397,
+    "sqft_living": 0.20762651004996763,
+    "sqft_lot": -0.05061667154683726,
+    "floors": -2.8903007661020266
+}},{latitude:47.604, longitude:-122.307,actual:435000.0,predicted:432250,coefficients:{
+    "intercept": 255.00578332328175,
+    "bedrooms": -52.19077700530095,
+    "bathrooms": -157.49144556277403,
+    "sqft_living": 0.21064724689465583,
+    "sqft_lot": -0.04838626215887717,
+    "floors": -0.6561202644087147
+}},{latitude:47.6055, longitude:-122.285,actual:1697000.0,predicted:1693200,coefficients:{
+    "intercept": 259.7280249101784,
+    "bedrooms": -52.54503699104673,
+    "bathrooms": -154.55263759658402,
+    "sqft_living": 0.21570105509860982,
+    "sqft_lot": -0.04515060397564207,
+    "floors": 5.985309986127863
+}},{latitude:47.607, longitude:-122.297,actual:295000.0,predicted:301647,coefficients:{
+    "intercept": 257.9303545295729,
+    "bedrooms": -52.746299184727945,
+    "bathrooms": -155.79822855540485,
+    "sqft_living": 0.21337736937346413,
+    "sqft_lot": -0.046353482556230174,
+    "floors": 3.8242998294554083
+}},{latitude:47.6149, longitude:-122.287,actual:1727000.0,predicted:1728916,coefficients:{
+    "intercept": 258.8352913448973,
+    "bedrooms": -52.596021356408215,
+    "bathrooms": -154.7844207991033,
+    "sqft_living": 0.21485462178286427,
+    "sqft_lot": -0.04563910192216659,
+    "floors": 5.628570748300581
+}},{latitude:47.6012, longitude:-122.296,actual:345000.0,predicted:346831,coefficients:{
+    "intercept": 258.76001392280523,
+    "bedrooms": -52.71355937302012,
+    "bathrooms": -155.50970406285145,
+    "sqft_living": 0.21426613222602175,
+    "sqft_lot": -0.04583894138771333,
+    "floors": 4.290775912576884
+}},{latitude:47.6212, longitude:-122.296,actual:399000.0,predicted:400722,coefficients:{
+    "intercept": 256.1651868733725,
+    "bedrooms": -52.65727320523533,
+    "bathrooms": -156.03360947358115,
+    "sqft_living": 0.21185332012379848,
+    "sqft_lot": -0.04729277631846808,
+    "floors": 3.4090933809360746
+}},{latitude:47.6031, longitude:-122.303,actual:449950.0,predicted:477179,coefficients:{
+    "intercept": 256.6821778334789,
+    "bedrooms": -52.640273964306935,
+    "bathrooms": -156.71651900562986,
+    "sqft_living": 0.21204334019233914,
+    "sqft_lot": -0.04722929429947722,
+    "floors": 1.6330779523714674
+}},{latitude:47.5982, longitude:-122.299,actual:230000.0,predicted:229644,coefficients:{
+    "intercept": 258.43594231243935,
+    "bedrooms": -52.69696546774816,
+    "bathrooms": -155.843561278885,
+    "sqft_living": 0.2139064026917671,
+    "sqft_lot": -0.04605628455688235,
+    "floors": 3.5097764439402113
+}},{latitude:47.5985, longitude:-122.298,actual:350000.0,predicted:354850,coefficients:{
+    "intercept": 258.62097776772123,
+    "bedrooms": -52.701136991541475,
+    "bathrooms": -155.71040839373185,
+    "sqft_living": 0.21410317117629946,
+    "sqft_lot": -0.045936038307708094,
+    "floors": 3.808695551236943
+}},{latitude:47.5958, longitude:-122.306,actual:677000.0,predicted:671512,coefficients:{
+    "intercept": 256.7475095301722,
+    "bedrooms": -52.43615906826559,
+    "bathrooms": -156.87989402795205,
+    "sqft_living": 0.21243588905675898,
+    "sqft_lot": -0.047151383275577476,
+    "floors": 0.7374717654468611
+}},{latitude:47.6436, longitude:-122.303,actual:724800.0,predicted:728921,coefficients:{
+    "intercept": 248.83907751305625,
+    "bedrooms": -50.92538227701421,
+    "bathrooms": -158.07020999928295,
+    "sqft_living": 0.20642524601343823,
+    "sqft_lot": -0.05106001271559669,
+    "floors": -2.228115025612502
+}},{latitude:47.6018, longitude:-122.291,actual:685000.0,predicted:678719,coefficients:{
+    "intercept": 259.45022220626765,
+    "bedrooms": -52.648129834371794,
+    "bathrooms": -154.9699993132981,
+    "sqft_living": 0.2151405855134289,
+    "sqft_lot": -0.04537885118563928,
+    "floors": 5.305541951308578
+}},{latitude:47.6329, longitude:-122.31,actual:1325000.0,predicted:1329338,coefficients:{
+    "intercept": 248.64729943487268,
+    "bedrooms": -49.95256383929939,
+    "bathrooms": -158.87447493264304,
+    "sqft_living": 0.2064062155739009,
+    "sqft_lot": -0.05182376980291429,
+    "floors": -4.71075998423121
+}},{latitude:47.6376, longitude:-122.307,actual:920000.0,predicted:911243,coefficients:{
+    "intercept": 248.51061952374542,
+    "bedrooms": -50.34555943855544,
+    "bathrooms": -158.6249765199712,
+    "sqft_living": 0.2060752466835245,
+    "sqft_lot": -0.05165551250712886,
+    "floors": -3.7763715860009683
+}},{latitude:47.6146, longitude:-122.299,actual:330000.0,predicted:334028,coefficients:{
+    "intercept": 256.2293885153557,
+    "bedrooms": -52.69675033475514,
+    "bathrooms": -156.4003068138479,
+    "sqft_living": 0.21160746222428461,
+    "sqft_lot": -0.0474120996898687,
+    "floors": 2.6817793445395064
+}},{latitude:47.595, longitude:-122.306,actual:495000.0,predicted:524904,coefficients:{
+    "intercept": 256.8619730987403,
+    "bedrooms": -52.43152783297745,
+    "bathrooms": -156.8348889652574,
+    "sqft_living": 0.21257573298206064,
+    "sqft_lot": -0.04706765407834669,
+    "floors": 0.8128257196365558
+}},{latitude:47.6078, longitude:-122.307,actual:345000.0,predicted:363124,coefficients:{
+    "intercept": 254.24807010923476,
+    "bedrooms": -52.0581064415699,
+    "bathrooms": -157.70617931508022,
+    "sqft_living": 0.20983844386521042,
+    "sqft_lot": -0.048926353120777796,
+    "floors": -1.113911933945258
+}},{latitude:47.6104, longitude:-122.303,actual:863500.0,predicted:854949,coefficients:{
+    "intercept": 255.39322769251473,
+    "bedrooms": -52.57523428263794,
+    "bathrooms": -157.08814474133106,
+    "sqft_living": 0.21061705379559237,
+    "sqft_lot": -0.0480938036889429,
+    "floors": 0.9988927728199067
+}},{latitude:47.6058, longitude:-122.3,actual:382000.0,predicted:438410,coefficients:{
+    "intercept": 257.2692151011515,
+    "bedrooms": -52.72686298795188,
+    "bathrooms": -156.263179126436,
+    "sqft_living": 0.212622994870325,
+    "sqft_lot": -0.046811844517771234,
+    "floors": 2.8108816128463423
+}},{latitude:47.6287, longitude:-122.287,actual:2400000.0,predicted:2412208,coefficients:{
+    "intercept": 257.38210421388874,
+    "bedrooms": -52.51601969930473,
+    "bathrooms": -154.98140743911634,
+    "sqft_living": 0.21382575495504125,
+    "sqft_lot": -0.046321947131016734,
+    "floors": 5.110483213381356
+}},{latitude:47.6051, longitude:-122.298,actual:421500.0,predicted:430628,coefficients:{
+    "intercept": 257.91328544479876,
+    "bedrooms": -52.742259028707295,
+    "bathrooms": -155.89959875425018,
+    "sqft_living": 0.2133310325522285,
+    "sqft_lot": -0.04638042388682849,
+    "floors": 3.579199783768222
+}},{latitude:47.622, longitude:-122.3,actual:650000.0,predicted:622523,coefficients:{
+    "intercept": 254.3819016090123,
+    "bedrooms": -52.49848946733361,
+    "bathrooms": -156.9071186064159,
+    "sqft_living": 0.2098137598443518,
+    "sqft_lot": -0.04851300191226383,
+    "floors": 1.5908969590112185
+}},{latitude:47.6224, longitude:-122.326,actual:635000.0,predicted:637653,coefficients:{
+    "intercept": 250.67870157957415,
+    "bedrooms": -49.61904581019505,
+    "bathrooms": -158.45330981842758,
+    "sqft_living": 0.21050333061945267,
+    "sqft_lot": -0.0501596146186691,
+    "floors": -4.793948983716827
+}},{latitude:47.6195, longitude:-122.313,actual:675000.0,predicted:689737,coefficients:{
+    "intercept": 251.05560471116326,
+    "bedrooms": -50.26265948080112,
+    "bathrooms": -158.43530757207643,
+    "sqft_living": 0.20880940197975725,
+    "sqft_lot": -0.05054586679246151,
+    "floors": -4.049791619172657
+}},{latitude:47.6265, longitude:-122.323,actual:670000.0,predicted:663253,coefficients:{
+    "intercept": 250.07368099899261,
+    "bedrooms": -49.54739880398342,
+    "bathrooms": -158.64112066730377,
+    "sqft_living": 0.20981990174806428,
+    "sqft_lot": -0.050554677442939885,
+    "floors": -5.110373110634832
+}},{latitude:47.6227, longitude:-122.323,actual:799200.0,predicted:804126,coefficients:{
+    "intercept": 250.54591304070846,
+    "bedrooms": -49.64342341590027,
+    "bathrooms": -158.515086177369,
+    "sqft_living": 0.21012843419474297,
+    "sqft_lot": -0.050325264184618725,
+    "floors": -4.850508003138705
+}},{latitude:47.6033, longitude:-122.303,actual:550000.0,predicted:544692,coefficients:{
+    "intercept": 256.65079839551737,
+    "bedrooms": -52.63995325707483,
+    "bathrooms": -156.72629360290125,
+    "sqft_living": 0.21200765445986774,
+    "sqft_lot": -0.04725066865048084,
+    "floors": 1.617539643843989
+}},{latitude:47.6238, longitude:-122.311,actual:751750.0,predicted:785120,coefficients:{
+    "intercept": 250.260909188151,
+    "bedrooms": -50.24928521631913,
+    "bathrooms": -158.62014641252784,
+    "sqft_living": 0.2076144250418196,
+    "sqft_lot": -0.05113109099160287,
+    "floors": -4.230526405453419
+}},{latitude:47.6122, longitude:-122.298,actual:580000.0,predicted:585897,coefficients:{
+    "intercept": 256.95091204996396,
+    "bedrooms": -52.73404098289309,
+    "bathrooms": -156.12456818174655,
+    "sqft_living": 0.21236429965449066,
+    "sqft_lot": -0.04695506402402818,
+    "floors": 3.234122252852619
+}},{latitude:47.6147, longitude:-122.3,actual:260000.0,predicted:268157,coefficients:{
+    "intercept": 255.83259625447826,
+    "bedrooms": -52.66515997533629,
+    "bathrooms": -156.61347096007395,
+    "sqft_living": 0.21115742860366796,
+    "sqft_lot": -0.047690783537031746,
+    "floors": 2.2210547152858306
+}},{latitude:47.6283, longitude:-122.301,actual:690500.0,predicted:690287,coefficients:{
+    "intercept": 252.37604067555108,
+    "bedrooms": -52.138825351574916,
+    "bathrooms": -157.4170129482133,
+    "sqft_living": 0.20794245189679875,
+    "sqft_lot": -0.04967672347485371,
+    "floors": 0.320372819988695
+}},{latitude:47.5936, longitude:-122.301,actual:595000.0,predicted:579152,coefficients:{
+    "intercept": 258.4268649204662,
+    "bedrooms": -52.62804499580359,
+    "bathrooms": -155.98725599567308,
+    "sqft_living": 0.2139819811596487,
+    "sqft_lot": -0.04604974478204646,
+    "floors": 3.0063743713335844
+}},{latitude:47.6289, longitude:-122.309,actual:950000.0,predicted:949280,coefficients:{
+    "intercept": 249.22060602963938,
+    "bedrooms": -50.21015458321685,
+    "bathrooms": -158.79175372203747,
+    "sqft_living": 0.2061799594566468,
+    "sqft_lot": -0.05179339856963742,
+    "floors": -4.354977895987381
+}},{latitude:47.6428, longitude:-122.302,actual:750000.0,predicted:748942,coefficients:{
+    "intercept": 249.05691698937528,
+    "bedrooms": -51.12592012084379,
+    "bathrooms": -157.9454776627776,
+    "sqft_living": 0.20629336517228902,
+    "sqft_lot": -0.05098189768861961,
+    "floors": -1.7753856467185911
+}},{latitude:47.6284, longitude:-122.312,actual:1335000.0,predicted:1344016,coefficients:{
+    "intercept": 249.3814845717514,
+    "bedrooms": -49.90877878556134,
+    "bathrooms": -158.80648108914428,
+    "sqft_living": 0.20734355516491376,
+    "sqft_lot": -0.051458977979068815,
+    "floors": -4.7956669988940686
+}},{latitude:47.6288, longitude:-122.284,actual:2250000.0,predicted:2244474,coefficients:{
+    "intercept": 257.85000184343187,
+    "bedrooms": -52.468486375510295,
+    "bathrooms": -154.73636679951883,
+    "sqft_living": 0.2144118151990765,
+    "sqft_lot": -0.046030429941846245,
+    "floors": 5.4830185126077104
+}},{latitude:47.6042, longitude:-122.303,actual:390000.0,predicted:409390,coefficients:{
+    "intercept": 256.5068945899588,
+    "bedrooms": -52.63762033333396,
+    "bathrooms": -156.7706220825622,
+    "sqft_living": 0.21184465639975844,
+    "sqft_lot": -0.047348498234937565,
+    "floors": 1.5463604158671516
+}},{latitude:47.6304, longitude:-122.301,actual:508000.0,predicted:522447,coefficients:{
+    "intercept": 251.85117858659677,
+    "bedrooms": -52.027216522887436,
+    "bathrooms": -157.4991317172031,
+    "sqft_living": 0.20752567919885456,
+    "sqft_lot": -0.04993407858482661,
+    "floors": 0.06706050706678805
+}},{latitude:47.6466, longitude:-122.304,actual:685000.0,predicted:691574,coefficients:{
+    "intercept": 248.61028243313135,
+    "bedrooms": -50.72160526125783,
+    "bathrooms": -158.141169868459,
+    "sqft_living": 0.2068331071008197,
+    "sqft_lot": -0.05102112533942001,
+    "floors": -2.6267053914451264
+}},{latitude:47.5949, longitude:-122.296,actual:425000.0,predicted:421100,coefficients:{
+    "intercept": 259.2763302673539,
+    "bedrooms": -52.656585633110915,
+    "bathrooms": -155.37594673648331,
+    "sqft_living": 0.2148438000209143,
+    "sqft_lot": -0.04551484164210347,
+    "floors": 4.412373359576331
+}},{latitude:47.6102, longitude:-122.309,actual:612000.0,predicted:607349,coefficients:{
+    "intercept": 253.34163956654496,
+    "bedrooms": -51.4283594199126,
+    "bathrooms": -157.8942390829999,
+    "sqft_living": 0.2096367860206068,
+    "sqft_lot": -0.04940350666181432,
+    "floors": -2.0904915281196503
+}},{latitude:47.6155, longitude:-122.3,actual:591000.0,predicted:577441,coefficients:{
+    "intercept": 255.68508872912273,
+    "bedrooms": -52.6524371089115,
+    "bathrooms": -156.6457981381727,
+    "sqft_living": 0.21101479820852662,
+    "sqft_lot": -0.047777486570888955,
+    "floors": 2.158554801343159
+}},{latitude:47.6032, longitude:-122.31,actual:447500.0,predicted:441581,coefficients:{
+    "intercept": 254.44826400865753,
+    "bedrooms": -51.509901738381224,
+    "bathrooms": -157.55968171511248,
+    "sqft_living": 0.21101481100261227,
+    "sqft_lot": -0.04858210363139289,
+    "floors": -1.5454433264235816
+}},{latitude:47.6102, longitude:-122.314,actual:690000.0,predicted:695401,coefficients:{
+    "intercept": 252.64506100461895,
+    "bedrooms": -50.60216448464664,
+    "bathrooms": -158.00847571165448,
+    "sqft_living": 0.21033039227518088,
+    "sqft_lot": -0.049540133576919776,
+    "floors": -3.1714384326846257
+}},{latitude:47.6156, longitude:-122.299,actual:631000.0,predicted:633345,coefficients:{
+    "intercept": 256.05615484706374,
+    "bedrooms": -52.68393750705086,
+    "bathrooms": -156.43706492493698,
+    "sqft_living": 0.21144340409788637,
+    "sqft_lot": -0.0475117826926379,
+    "floors": 2.6114873735512427
+}},{latitude:47.6264, longitude:-122.302,actual:560000.0,predicted:570438,coefficients:{
+    "intercept": 252.2338211812076,
+    "bedrooms": -52.08774239342113,
+    "bathrooms": -157.6160496217329,
+    "sqft_living": 0.20761871147103417,
+    "sqft_lot": -0.04989944022739632,
+    "floors": -0.1278663583509775
+}},{latitude:47.6399, longitude:-122.32,actual:482000.0,predicted:483281,coefficients:{
+    "intercept": 248.62724849593906,
+    "bedrooms": -49.45885723730349,
+    "bathrooms": -158.92084909154957,
+    "sqft_living": 0.20869659735486426,
+    "sqft_lot": -0.05116758892897389,
+    "floors": -5.483075913832736
+}},{latitude:47.6134, longitude:-122.308,actual:750000.0,predicted:754474,coefficients:{
+    "intercept": 252.8399974083543,
+    "bedrooms": -51.49604914805334,
+    "bathrooms": -158.04008257683356,
+    "sqft_living": 0.2087938234094416,
+    "sqft_lot": -0.049817296499155075,
+    "floors": -2.183395844337349
+}},{latitude:47.6121, longitude:-122.294,actual:605000.0,predicted:606724,coefficients:{
+    "intercept": 258.00220262958385,
+    "bedrooms": -52.72381264929146,
+    "bathrooms": -155.48671885108277,
+    "sqft_living": 0.2136179288386887,
+    "sqft_lot": -0.04624212439867803,
+    "floors": 4.469139657044625
+}},{latitude:47.6461, longitude:-122.317,actual:900000.0,predicted:898547,coefficients:{
+    "intercept": 248.1584155297022,
+    "bedrooms": -49.59558772035101,
+    "bathrooms": -158.9006080695895,
+    "sqft_living": 0.20823066169225998,
+    "sqft_lot": -0.05127808171526175,
+    "floors": -5.242407563446497
+}},{latitude:47.6005, longitude:-122.306,actual:304000.0,predicted:305336,coefficients:{
+    "intercept": 255.99394931161856,
+    "bedrooms": -52.443482134992806,
+    "bathrooms": -157.16256562779773,
+    "sqft_living": 0.2115234890992054,
+    "sqft_lot": -0.04770511280361559,
+    "floors": 0.24927043925995299
+}},{latitude:47.6076, longitude:-122.298,actual:375000.0,predicted:364516,coefficients:{
+    "intercept": 257.59884798245577,
+    "bedrooms": -52.746582229557866,
+    "bathrooms": -155.97670212157325,
+    "sqft_living": 0.21300587819829384,
+    "sqft_lot": -0.04657179971669381,
+    "floors": 3.470160433707071
+}},{latitude:47.6298, longitude:-122.323,actual:7700000.0,predicted:7697903,coefficients:{
+    "intercept": 249.66899645358006,
+    "bedrooms": -49.471318979024645,
+    "bathrooms": -158.745694603267,
+    "sqft_living": 0.20956319687310754,
+    "sqft_lot": -0.050741703486937566,
+    "floors": -5.321111042802269
+}},{latitude:47.6265, longitude:-122.3,actual:1045000.0,predicted:1038661,coefficients:{
+    "intercept": 253.38393086590145,
+    "bedrooms": -52.338391035802324,
+    "bathrooms": -157.08204986803312,
+    "sqft_living": 0.20896514984140807,
+    "sqft_lot": -0.04903713204182571,
+    "floors": 1.136950653149908
+}},{latitude:47.6178, longitude:-122.292,actual:440000.0,predicted:448246,coefficients:{
+    "intercept": 257.7322750862909,
+    "bedrooms": -52.67685931737391,
+    "bathrooms": -155.34041576839005,
+    "sqft_living": 0.21356161517352892,
+    "sqft_lot": -0.04632319334456081,
+    "floors": 4.709674847362624
+}},{latitude:47.6453, longitude:-122.303,actual:1160000.0,predicted:1149998,coefficients:{
+    "intercept": 248.79154264237943,
+    "bedrooms": -50.889814709246956,
+    "bathrooms": -158.04137099166655,
+    "sqft_living": 0.20664565181510655,
+    "sqft_lot": -0.05098373902809224,
+    "floors": -2.248546260830527
+}},{latitude:47.6147, longitude:-122.285,actual:1535000.0,predicted:1536757,coefficients:{
+    "intercept": 259.0604859311333,
+    "bedrooms": -52.55405404268457,
+    "bathrooms": -154.63426630554358,
+    "sqft_living": 0.215169886623458,
+    "sqft_lot": -0.04548908414274731,
+    "floors": 5.8465518496154845
+}},{latitude:47.6155, longitude:-122.306,actual:250000.0,predicted:248702,coefficients:{
+    "intercept": 252.70977301979752,
+    "bedrooms": -51.95696886664438,
+    "bathrooms": -158.10523870244407,
+    "sqft_living": 0.20782048502470796,
+    "sqft_lot": -0.050073322790840744,
+    "floors": -1.698228228575197
+}},{latitude:47.6259, longitude:-122.291,actual:1975000.0,predicted:1972881,coefficients:{
+    "intercept": 256.8937619254738,
+    "bedrooms": -52.59295751046646,
+    "bathrooms": -155.37208186641107,
+    "sqft_living": 0.21304092788389128,
+    "sqft_lot": -0.04669162369500361,
+    "floors": 4.529903587352986
+}},{latitude:47.5917, longitude:-122.29,actual:825000.0,predicted:819540,coefficients:{
+    "intercept": 260.12594128973075,
+    "bedrooms": -52.55172624115077,
+    "bathrooms": -154.7822894685393,
+    "sqft_living": 0.21588637236146038,
+    "sqft_lot": -0.04496942449358843,
+    "floors": 5.485270033358549
+}},{latitude:47.6315, longitude:-122.311,actual:1025000.0,predicted:1023624,coefficients:{
+    "intercept": 248.80670971872357,
+    "bedrooms": -49.868627714612515,
+    "bathrooms": -158.89621274365203,
+    "sqft_living": 0.20671223619632623,
+    "sqft_lot": -0.051756625769449116,
+    "floors": -4.887725383503841
+}},{latitude:47.5942, longitude:-122.296,actual:359000.0,predicted:345430,coefficients:{
+    "intercept": 259.32577918067693,
+    "bedrooms": -52.64897676257947,
+    "bathrooms": -155.36227347739037,
+    "sqft_living": 0.21490208172970982,
+    "sqft_lot": -0.04548297880244057,
+    "floors": 4.422379659144666
+}},{latitude:47.6066, longitude:-122.304,actual:450000.0,predicted:458267,coefficients:{
+    "intercept": 255.6945108365923,
+    "bedrooms": -52.56018164275136,
+    "bathrooms": -157.10864229514846,
+    "sqft_living": 0.21098035269736667,
+    "sqft_lot": -0.04791663972133812,
+    "floors": 0.7829336462400381
+}},{latitude:47.6133, longitude:-122.306,actual:935000.0,predicted:917888,coefficients:{
+    "intercept": 253.2737567678119,
+    "bedrooms": -52.086857242091654,
+    "bathrooms": -157.96775489475002,
+    "sqft_living": 0.2084370624587923,
+    "sqft_lot": -0.04967467890570246,
+    "floors": -1.3758199924744647
+}},{latitude:47.5972, longitude:-122.296,actual:410000.0,predicted:402095,coefficients:{
+    "intercept": 259.1030219417255,
+    "bedrooms": -52.6799671307348,
+    "bathrooms": -155.42256858074725,
+    "sqft_living": 0.21464404983809188,
+    "sqft_lot": -0.04562530216963301,
+    "floors": 4.374799906228086
+}},{latitude:47.6312, longitude:-122.307,actual:809000.0,predicted:813051,coefficients:{
+    "intercept": 248.95153073125456,
+    "bedrooms": -50.456569220506665,
+    "bathrooms": -158.72526324285124,
+    "sqft_living": 0.20540422337144068,
+    "sqft_lot": -0.05195321620523286,
+    "floors": -3.8582727544901383
+}},{latitude:47.6265, longitude:-122.295,actual:1050000.0,predicted:1046541,coefficients:{
+    "intercept": 255.6140788184931,
+    "bedrooms": -52.5771607743646,
+    "bathrooms": -155.99725889494275,
+    "sqft_living": 0.2115628467977955,
+    "sqft_lot": -0.04750399798787725,
+    "floors": 3.383868450360325
+}},{latitude:47.6296, longitude:-122.3,actual:575000.0,predicted:582842,coefficients:{
+    "intercept": 252.66179379248103,
+    "bedrooms": -52.204772611068044,
+    "bathrooms": -157.19769337932524,
+    "sqft_living": 0.20839036254441642,
+    "sqft_lot": -0.04939385578813129,
+    "floors": 0.7976495393869957
+}},{latitude:47.6145, longitude:-122.295,actual:387500.0,predicted:396779,coefficients:{
+    "intercept": 257.4656902675209,
+    "bedrooms": -52.724791151252795,
+    "bathrooms": -155.6875348014795,
+    "sqft_living": 0.21306200885240698,
+    "sqft_lot": -0.04656405039697465,
+    "floors": 4.102743937642931
+}},{latitude:47.5976, longitude:-122.295,actual:449000.0,predicted:463800,coefficients:{
+    "intercept": 259.2303936467691,
+    "bedrooms": -52.6746353999928,
+    "bathrooms": -155.31452158731102,
+    "sqft_living": 0.2147940805006429,
+    "sqft_lot": -0.045542356363846674,
+    "floors": 4.600144362180235
+}},{latitude:47.592, longitude:-122.295,actual:257000.0,predicted:270940,coefficients:{
+    "intercept": 259.6074379827951,
+    "bedrooms": -52.61634079549442,
+    "bathrooms": -155.21689555797897,
+    "sqft_living": 0.2152321003306405,
+    "sqft_lot": -0.045302533640661675,
+    "floors": 4.6634955558839835
+}},{latitude:47.6159, longitude:-122.306,actual:507200.0,predicted:522978,coefficients:{
+    "intercept": 252.60251766920982,
+    "bedrooms": -51.9313380440711,
+    "bathrooms": -158.1310451115271,
+    "sqft_living": 0.20770205354806767,
+    "sqft_lot": -0.0501493631897345,
+    "floors": -1.7598789194270357
+}},{latitude:47.6277, longitude:-122.286,actual:2538000.0,predicted:2528976,coefficients:{
+    "intercept": 257.66897225853626,
+    "bedrooms": -52.510418538659266,
+    "bathrooms": -154.87654990187053,
+    "sqft_living": 0.21411315774259806,
+    "sqft_lot": -0.046163691834177296,
+    "floors": 5.29725901733604
+}},{latitude:47.6402, longitude:-122.314,actual:960000.0,predicted:953823,coefficients:{
+    "intercept": 248.19371520656517,
+    "bedrooms": -49.641761091225135,
+    "bathrooms": -158.9444602867099,
+    "sqft_living": 0.20754202450235676,
+    "sqft_lot": -0.05153331684295619,
+    "floors": -5.207941835686039
+}},{latitude:47.6217, longitude:-122.309,actual:1112750.0,predicted:1107020,coefficients:{
+    "intercept": 250.82665196920945,
+    "bedrooms": -50.70636159742246,
+    "bathrooms": -158.48664976193825,
+    "sqft_living": 0.20735336857831507,
+    "sqft_lot": -0.050989000807366125,
+    "floors": -3.550071690709111
+}},{latitude:47.6013, longitude:-122.299,actual:345000.0,predicted:345246,coefficients:{
+    "intercept": 258.1081848337672,
+    "bedrooms": -52.72090744317193,
+    "bathrooms": -155.93895555859402,
+    "sqft_living": 0.21353558004747147,
+    "sqft_lot": -0.04626798667298198,
+    "floors": 3.395965265509467
+}},{latitude:47.6131, longitude:-122.297,actual:387000.0,predicted:393944,coefficients:{
+    "intercept": 257.11819483923006,
+    "bedrooms": -52.735210606182825,
+    "bathrooms": -155.97526372572935,
+    "sqft_living": 0.21258921417094334,
+    "sqft_lot": -0.04682498682935876,
+    "floors": 3.543799375856969
+}},{latitude:47.6285, longitude:-122.301,actual:713500.0,predicted:704572,coefficients:{
+    "intercept": 252.32646833765918,
+    "bedrooms": -52.12854629015559,
+    "bathrooms": -157.42494732228556,
+    "sqft_living": 0.20790232344233248,
+    "sqft_lot": -0.04970149210271585,
+    "floors": 0.29661351791832047
+}},{latitude:47.6223, longitude:-122.294,actual:332000.0,predicted:340510,coefficients:{
+    "intercept": 256.61646941726224,
+    "bedrooms": -52.65161641628684,
+    "bathrooms": -155.72258724593655,
+    "sqft_living": 0.21246283868954505,
+    "sqft_lot": -0.046961609606151075,
+    "floors": 3.977992889558712
+}},{latitude:47.6156, longitude:-122.297,actual:622000.0,predicted:618456,coefficients:{
+    "intercept": 256.74212003651115,
+    "bedrooms": -52.71671375803299,
+    "bathrooms": -156.05067400189697,
+    "sqft_living": 0.21224369650259814,
+    "sqft_lot": -0.0470351150468697,
+    "floors": 3.404657770778288
+}},{latitude:47.5986, longitude:-122.298,actual:390000.0,predicted:381729,coefficients:{
+    "intercept": 258.6115228074417,
+    "bedrooms": -52.70202592519332,
+    "bathrooms": -155.71310191059993,
+    "sqft_living": 0.21409242245763732,
+    "sqft_lot": -0.04594210827164627,
+    "floors": 3.80579891412525
+}},{latitude:47.6001, longitude:-122.298,actual:455000.0,predicted:427616,coefficients:{
+    "intercept": 258.4651534246406,
+    "bedrooms": -52.71448863331853,
+    "bathrooms": -155.75417235019015,
+    "sqft_living": 0.21392767826120052,
+    "sqft_lot": -0.046035595416801786,
+    "floors": 3.760312044378751
+}},{latitude:47.6452, longitude:-122.317,actual:1440000.0,predicted:1439940,coefficients:{
+    "intercept": 248.17147704509816,
+    "bedrooms": -49.57961756085137,
+    "bathrooms": -158.9156923556411,
+    "sqft_living": 0.20820146043267976,
+    "sqft_lot": -0.05130176555439769,
+    "floors": -5.28238141120293
+}},{latitude:47.617, longitude:-122.286,actual:850000.0,predicted:863658,coefficients:{
+    "intercept": 258.7587890366034,
+    "bedrooms": -52.570825242511205,
+    "bathrooms": -154.7314508389283,
+    "sqft_living": 0.21487212471981793,
+    "sqft_lot": -0.04565583861534951,
+    "floors": 5.688064502706353
+}},{latitude:47.6253, longitude:-122.284,actual:1475000.0,predicted:1480347,coefficients:{
+    "intercept": 258.2043552362327,
+    "bedrooms": -52.49370227186907,
+    "bathrooms": -154.6890330295505,
+    "sqft_living": 0.21464246322095282,
+    "sqft_lot": -0.04587166396927476,
+    "floors": 5.624970300331439
+}},{latitude:47.617, longitude:-122.309,actual:485500.0,predicted:494448,coefficients:{
+    "intercept": 251.89702300526946,
+    "bedrooms": -51.03271854230646,
+    "bathrooms": -158.25003561133363,
+    "sqft_living": 0.20828571688495692,
+    "sqft_lot": -0.05034464452004623,
+    "floors": -2.9487759577386985
+}},{latitude:47.5919, longitude:-122.297,actual:285000.0,predicted:288642,coefficients:{
+    "intercept": 259.3290070095394,
+    "bedrooms": -52.62748836865514,
+    "bathrooms": -155.4290746089263,
+    "sqft_living": 0.21492208447979733,
+    "sqft_lot": -0.04547722076254181,
+    "floors": 4.2183664105562
+}},{latitude:47.606, longitude:-122.307,actual:733500.0,predicted:679641,coefficients:{
+    "intercept": 254.6152108495635,
+    "bedrooms": -52.1266623152107,
+    "bathrooms": -157.6044311111668,
+    "sqft_living": 0.21022808030279239,
+    "sqft_lot": -0.04866557757062717,
+    "floors": -0.8937257624366428
+}},{latitude:47.6187, longitude:-122.284,actual:2193000.0,predicted:2178068,coefficients:{
+    "intercept": 258.81685854985113,
+    "bedrooms": -52.52453805043047,
+    "bathrooms": -154.61036032211058,
+    "sqft_living": 0.21506240738635737,
+    "sqft_lot": -0.04558782475412795,
+    "floors": 5.8392303633067995
+}},{latitude:47.6099, longitude:-122.293,actual:613000.0,predicted:593740,coefficients:{
+    "intercept": 258.4458800856547,
+    "bedrooms": -52.71141734486494,
+    "bathrooms": -155.3122567052181,
+    "sqft_living": 0.2140875148672057,
+    "sqft_lot": -0.04597467999066889,
+    "floors": 4.774443393827764
+}},{latitude:47.6261, longitude:-122.324,actual:350000.0,predicted:354448,coefficients:{
+    "intercept": 250.1717771986046,
+    "bedrooms": -49.54916194384771,
+    "bathrooms": -158.60744914615978,
+    "sqft_living": 0.20998908606956018,
+    "sqft_lot": -0.05047129856105066,
+    "floors": -5.066776657371369
+}},{latitude:47.5918, longitude:-122.295,actual:245000.0,predicted:242813,coefficients:{
+    "intercept": 259.6192408034596,
+    "bedrooms": -52.61403447876774,
+    "bathrooms": -155.2136723127267,
+    "sqft_living": 0.21524648899241516,
+    "sqft_lot": -0.04529484953925453,
+    "floors": 4.665048205649057
+}},{latitude:47.6172, longitude:-122.298,actual:650000.0,predicted:632123,coefficients:{
+    "intercept": 256.1448854731649,
+    "bedrooms": -52.68513697510603,
+    "bathrooms": -156.29103815534307,
+    "sqft_living": 0.21161294148360535,
+    "sqft_lot": -0.04741151221685952,
+    "floors": 2.92168105058907
+}},{latitude:47.637, longitude:-122.327,actual:525000.0,predicted:533995,coefficients:{
+    "intercept": 249.34900194723957,
+    "bedrooms": -49.41391550622338,
+    "bathrooms": -158.76319830894727,
+    "sqft_living": 0.20978457883595547,
+    "sqft_lot": -0.050699037855469295,
+    "floors": -5.390413841417208
+}},{latitude:47.5953, longitude:-122.294,actual:577500.0,predicted:579451,coefficients:{
+    "intercept": 259.5316388666933,
+    "bedrooms": -52.64156353639446,
+    "bathrooms": -155.1683165258512,
+    "sqft_living": 0.21514385635739117,
+    "sqft_lot": -0.04535108066661678,
+    "floors": 4.836219989535719
+}},{latitude:47.6476, longitude:-122.32,actual:875000.0,predicted:872460,coefficients:{
+    "intercept": 248.3114437226966,
+    "bedrooms": -49.534184811433676,
+    "bathrooms": -158.88307213225107,
+    "sqft_living": 0.2086949247875943,
+    "sqft_lot": -0.05112558077297245,
+    "floors": -5.324522608194596
+}},{latitude:47.6039, longitude:-122.307,actual:446000.0,predicted:441688,coefficients:{
+    "intercept": 255.02482267644078,
+    "bedrooms": -52.193663455241655,
+    "bathrooms": -157.4858093648661,
+    "sqft_living": 0.21066779856806853,
+    "sqft_lot": -0.04837260532267372,
+    "floors": -0.6444460554365723
+}},{latitude:47.6025, longitude:-122.286,actual:771000.0,predicted:769796,coefficients:{
+    "intercept": 259.84553368241086,
+    "bedrooms": -52.55458853975246,
+    "bathrooms": -154.59226722637462,
+    "sqft_living": 0.21575146059926878,
+    "sqft_lot": -0.0451000667702705,
+    "floors": 5.917344114924294
+}},{latitude:47.5923, longitude:-122.301,actual:450000.0,predicted:450301,coefficients:{
+    "intercept": 258.5460897683293,
+    "bedrooms": -52.612604110280756,
+    "bathrooms": -155.9447620959175,
+    "sqft_living": 0.21412877069846462,
+    "sqft_lot": -0.04596816872353929,
+    "floors": 3.055512804809909
+}},{latitude:47.6088, longitude:-122.293,actual:470000.0,predicted:487648,coefficients:{
+    "intercept": 258.5600083932978,
+    "bedrooms": -52.7101796858746,
+    "bathrooms": -155.2913845354809,
+    "sqft_living": 0.21419181971314172,
+    "sqft_lot": -0.04591164091391687,
+    "floors": 4.80560356859641
+}},{latitude:47.6405, longitude:-122.324,actual:440000.0,predicted:440155,coefficients:{
+    "intercept": 248.91990600133332,
+    "bedrooms": -49.42716594049771,
+    "bathrooms": -158.84676897287105,
+    "sqft_living": 0.2093086595393693,
+    "sqft_lot": -0.050916949902955776,
+    "floors": -5.454638343938337
+}},{latitude:47.625, longitude:-122.3,actual:958000.0,predicted:940477,coefficients:{
+    "intercept": 253.72401521100306,
+    "bedrooms": -52.39645898980128,
+    "bathrooms": -157.0245734811546,
+    "sqft_living": 0.20924734973979464,
+    "sqft_lot": -0.048862496126329855,
+    "floors": 1.2935646675501804
+}},{latitude:47.6191, longitude:-122.301,actual:460000.0,predicted:479660,coefficients:{
+    "intercept": 254.51874527735964,
+    "bedrooms": -52.5141684210242,
+    "bathrooms": -157.02998322529263,
+    "sqft_living": 0.2098212528164465,
+    "sqft_lot": -0.048520168243431375,
+    "floors": 1.31680513366827
+}},{latitude:47.6138, longitude:-122.299,actual:659000.0,predicted:659266,coefficients:{
+    "intercept": 256.36479750118644,
+    "bedrooms": -52.70571747098743,
+    "bathrooms": -156.37099065740938,
+    "sqft_living": 0.21173715577079455,
+    "sqft_lot": -0.047333495646386496,
+    "floors": 2.7362417554813736
+}},{latitude:47.6155, longitude:-122.29,actual:1000000.0,predicted:999166,coefficients:{
+    "intercept": 258.3649788062281,
+    "bedrooms": -52.65421436435536,
+    "bathrooms": -155.06903005386928,
+    "sqft_living": 0.21424750581770424,
+    "sqft_lot": -0.04594441576963189,
+    "floors": 5.180857838161065
+}},{latitude:47.6242, longitude:-122.306,actual:1005000.0,predicted:1002317,coefficients:{
+    "intercept": 250.41428292974666,
+    "bedrooms": -51.22279941533042,
+    "bathrooms": -158.54053713204348,
+    "sqft_living": 0.20560135721503256,
+    "sqft_lot": -0.05153006399746812,
+    "floors": -2.920924710410384
+}},{latitude:47.6342, longitude:-122.289,actual:1910000.0,predicted:1912768,coefficients:{
+    "intercept": 256.2425752008346,
+    "bedrooms": -52.46469988433825,
+    "bathrooms": -155.2893288801853,
+    "sqft_living": 0.2128653151259101,
+    "sqft_lot": -0.0468945908854541,
+    "floors": 4.447780756540274
+}},{latitude:47.5929, longitude:-122.306,actual:190500.0,predicted:213604,coefficients:{
+    "intercept": 257.14525735113585,
+    "bedrooms": -52.42740156486617,
+    "bathrooms": -156.72845677183582,
+    "sqft_living": 0.21290877451605228,
+    "sqft_lot": -0.046863814698451536,
+    "floors": 0.993658072591835
+}},{latitude:47.6184, longitude:-122.301,actual:482500.0,predicted:496125,coefficients:{
+    "intercept": 254.66820731192044,
+    "bedrooms": -52.53426124756756,
+    "bathrooms": -156.99923048215564,
+    "sqft_living": 0.209962433496269,
+    "sqft_lot": -0.04843364021184498,
+    "floors": 1.384250609808696
+}},{latitude:47.61, longitude:-122.293,actual:454000.0,predicted:502587,coefficients:{
+    "intercept": 258.435310525374,
+    "bedrooms": -52.71148077167357,
+    "bathrooms": -155.31417349907923,
+    "sqft_living": 0.21407793424092805,
+    "sqft_lot": -0.045980487944145526,
+    "floors": 4.771496420275898
+}},{latitude:47.6074, longitude:-122.294,actual:552500.0,predicted:559198,coefficients:{
+    "intercept": 258.52360135531285,
+    "bedrooms": -52.721668623731155,
+    "bathrooms": -155.38717972056975,
+    "sqft_living": 0.21409988242578193,
+    "sqft_lot": -0.04595158009001494,
+    "floors": 4.621250635240638
+}},{latitude:47.6394, longitude:-122.321,actual:1050000.0,predicted:1051678,coefficients:{
+    "intercept": 248.7307068839302,
+    "bedrooms": -49.44129640832318,
+    "bathrooms": -158.90634360650003,
+    "sqft_living": 0.20886636705557743,
+    "sqft_lot": -0.05110423209710252,
+    "floors": -5.4972818653080715
+}},{latitude:47.6393, longitude:-122.308,actual:680000.0,predicted:681819,coefficients:{
+    "intercept": 248.3497651341166,
+    "bedrooms": -50.194694421814575,
+    "bathrooms": -158.67578008904408,
+    "sqft_living": 0.20641464664802264,
+    "sqft_lot": -0.05160709580118843,
+    "floors": -4.051741361152066
+}},{latitude:47.635, longitude:-122.284,actual:985000.0,predicted:1000552,coefficients:{
+    "intercept": 257.18206077685625,
+    "bedrooms": -52.40926966608063,
+    "bathrooms": -154.8293906373182,
+    "sqft_living": 0.21399760499843132,
+    "sqft_lot": -0.046320330552787344,
+    "floors": 5.185551560002818
+}},{latitude:47.5937, longitude:-122.301,actual:431000.0,predicted:428985,coefficients:{
+    "intercept": 258.417418610245,
+    "bedrooms": -52.629192116906744,
+    "bathrooms": -155.99058056351848,
+    "sqft_living": 0.2139704339682758,
+    "sqft_lot": -0.04605619105361695,
+    "floors": 3.002473181699943
+}},{latitude:47.6157, longitude:-122.29,actual:770000.0,predicted:741412,coefficients:{
+    "intercept": 258.34375337007987,
+    "bedrooms": -52.65364451081492,
+    "bathrooms": -155.0722067815268,
+    "sqft_living": 0.21423055203885213,
+    "sqft_lot": -0.045955163394771126,
+    "floors": 5.1743698230627295
+}},{latitude:47.6215, longitude:-122.29,actual:883000.0,predicted:914124,coefficients:{
+    "intercept": 257.6826061462861,
+    "bedrooms": -52.62377698443714,
+    "bathrooms": -155.16928472436032,
+    "sqft_living": 0.21372307977440558,
+    "sqft_lot": -0.04628116008759575,
+    "floors": 4.952093470821399
+}},{latitude:47.641, longitude:-122.315,actual:660000.0,predicted:664053,coefficients:{
+    "intercept": 248.20386036510615,
+    "bedrooms": -49.60131542627723,
+    "bathrooms": -158.94912834787183,
+    "sqft_living": 0.20775739912107175,
+    "sqft_lot": -0.051471718335056794,
+    "floors": -5.277962719993717
+}},{latitude:47.6258, longitude:-122.305,actual:1234000.0,predicted:1213509,coefficients:{
+    "intercept": 250.3518271493115,
+    "bedrooms": -51.39759960104981,
+    "bathrooms": -158.458896951384,
+    "sqft_living": 0.20535802376248194,
+    "sqft_lot": -0.051503799535453074,
+    "floors": -2.4812440306990973
+}},{latitude:47.6145, longitude:-122.284,actual:1265000.0,predicted:1260629,coefficients:{
+    "intercept": 259.16413224877243,
+    "bedrooms": -52.532963802483835,
+    "bathrooms": -154.56757753773817,
+    "sqft_living": 0.21531499946241894,
+    "sqft_lot": -0.04542076361428076,
+    "floors": 5.939363301144274
+}},{latitude:47.6362, longitude:-122.324,actual:670000.0,predicted:670713,coefficients:{
+    "intercept": 249.20174887355347,
+    "bedrooms": -49.42574661380925,
+    "bathrooms": -158.81517687474027,
+    "sqft_living": 0.20943206940863274,
+    "sqft_lot": -0.050851255596777535,
+    "floors": -5.432718215477674
+}},{latitude:47.6236, longitude:-122.306,actual:490000.0,predicted:489280,coefficients:{
+    "intercept": 250.57750918298396,
+    "bedrooms": -51.280887911801706,
+    "bathrooms": -158.51361688905223,
+    "sqft_living": 0.20574661575448086,
+    "sqft_lot": -0.0514353286901501,
+    "floors": -2.83646053999788
+}},{latitude:47.6412, longitude:-122.302,actual:727000.0,predicted:728366,coefficients:{
+    "intercept": 249.12705211533196,
+    "bedrooms": -51.18406332362354,
+    "bathrooms": -157.97135995486357,
+    "sqft_living": 0.20606047630246535,
+    "sqft_lot": -0.05105435197931223,
+    "floors": -1.7243922103876963
+}},{latitude:47.6191, longitude:-122.296,actual:375000.0,predicted:413172,coefficients:{
+    "intercept": 256.5068927911153,
+    "bedrooms": -52.68605145453867,
+    "bathrooms": -155.97433539039847,
+    "sqft_living": 0.2121375476305691,
+    "sqft_lot": -0.04711578740358432,
+    "floors": 3.5435144367928006
+}},{latitude:47.605, longitude:-122.304,actual:500000.0,predicted:487229,coefficients:{
+    "intercept": 255.9874578141972,
+    "bedrooms": -52.57697975663359,
+    "bathrooms": -157.02029003581123,
+    "sqft_living": 0.21131109140333987,
+    "sqft_lot": -0.047714090254858864,
+    "floors": 0.9376641952261172
+}},{latitude:47.6144, longitude:-122.295,actual:615000.0,predicted:607158,coefficients:{
+    "intercept": 257.4791169161008,
+    "bedrooms": -52.72528792369754,
+    "bathrooms": -155.68505126642947,
+    "sqft_living": 0.2130738722560622,
+    "sqft_lot": -0.04655677928645831,
+    "floors": 4.107350197810402
+}},{latitude:47.5926, longitude:-122.293,actual:570000.0,predicted:575050,coefficients:{
+    "intercept": 259.80990869712474,
+    "bedrooms": -52.6019661588075,
+    "bathrooms": -155.03466091718334,
+    "sqft_living": 0.2154750275966315,
+    "sqft_lot": -0.04517404537545394,
+    "floors": 5.036524154899575
+}},{latitude:47.6287, longitude:-122.3,actual:785950.0,predicted:811728,coefficients:{
+    "intercept": 252.87380876227863,
+    "bedrooms": -52.245338361343144,
+    "bathrooms": -157.16458003407655,
+    "sqft_living": 0.2085556283388916,
+    "sqft_lot": -0.04929114349761988,
+    "floors": 0.8982289954625654
+}},{latitude:47.6157, longitude:-122.291,actual:563250.0,predicted:561865,coefficients:{
+    "intercept": 258.17375152934625,
+    "bedrooms": -52.67119693057649,
+    "bathrooms": -155.1814243387975,
+    "sqft_living": 0.21400849960695037,
+    "sqft_lot": -0.04606843427426478,
+    "floors": 4.994520613334497
+}},{latitude:47.6317, longitude:-122.312,actual:1755000.0,predicted:1717409,coefficients:{
+    "intercept": 248.8000288853604,
+    "bedrooms": -49.77494503299139,
+    "bathrooms": -158.91712648670244,
+    "sqft_living": 0.20700829043795937,
+    "sqft_lot": -0.05168851454166571,
+    "floors": -5.045315614450184
+}},{latitude:47.6183, longitude:-122.298,actual:358000.0,predicted:363975,coefficients:{
+    "intercept": 255.9537880687767,
+    "bedrooms": -52.66892867632207,
+    "bathrooms": -156.3280474394695,
+    "sqft_living": 0.21144176692355626,
+    "sqft_lot": -0.04751645175583861,
+    "floors": 2.8447909438800894
+}},{latitude:47.6317, longitude:-122.304,actual:1395710.0,predicted:1399882,coefficients:{
+    "intercept": 249.37609501218714,
+    "bedrooms": -51.189491550732036,
+    "bathrooms": -158.42572921895237,
+    "sqft_living": 0.2047796746054392,
+    "sqft_lot": -0.051761321513809556,
+    "floors": -2.451847257424879
+}},{latitude:47.6029, longitude:-122.309,actual:390000.0,predicted:391108,coefficients:{
+    "intercept": 254.71634001876907,
+    "bedrooms": -51.72778191827238,
+    "bathrooms": -157.50753430723532,
+    "sqft_living": 0.21099899802935249,
+    "sqft_lot": -0.04845752247470193,
+    "floors": -1.220263654799604
+}},{latitude:47.5978, longitude:-122.292,actual:1220000.0,predicted:1218074,coefficients:{
+    "intercept": 259.61055138425974,
+    "bedrooms": -52.63663000918316,
+    "bathrooms": -155.01043328901957,
+    "sqft_living": 0.21526936457583498,
+    "sqft_lot": -0.04529350165282683,
+    "floors": 5.178921788431842
+}},{latitude:47.6224, longitude:-122.304,actual:500000.0,predicted:500538,coefficients:{
+    "intercept": 252.01730828045254,
+    "bedrooms": -51.95479419113293,
+    "bathrooms": -157.993384671464,
+    "sqft_living": 0.20710773942057903,
+    "sqft_lot": -0.05032234890605289,
+    "floors": -1.1109091825414434
+}},{latitude:47.6332, longitude:-122.281,actual:1100000.0,predicted:1098602,coefficients:{
+    "intercept": 257.7981288510526,
+    "bedrooms": -52.38381248315475,
+    "bathrooms": -154.6048386198593,
+    "sqft_living": 0.2146219609702211,
+    "sqft_lot": -0.045985950931017344,
+    "floors": 5.568265982980573
+}},{latitude:47.6021, longitude:-122.295,actual:448175.0,predicted:458664,coefficients:{
+    "intercept": 258.8571013821923,
+    "bedrooms": -52.710015579653394,
+    "bathrooms": -155.40310288643906,
+    "sqft_living": 0.2143918549149089,
+    "sqft_lot": -0.04577085401332169,
+    "floors": 4.517478747019011
+}},{latitude:47.6448, longitude:-122.317,actual:1100000.0,predicted:1101760,coefficients:{
+    "intercept": 248.17802106178107,
+    "bedrooms": -49.572532965688076,
+    "bathrooms": -158.9222395325616,
+    "sqft_living": 0.20818882158136723,
+    "sqft_lot": -0.05131214524957566,
+    "floors": -5.300030647695886
+}},{latitude:47.638, longitude:-122.29,actual:1738000.0,predicted:1736120,coefficients:{
+    "intercept": 255.42112019257345,
+    "bedrooms": -52.39758463457561,
+    "bathrooms": -155.48973631507204,
+    "sqft_living": 0.2122245866491893,
+    "sqft_lot": -0.04728808377894415,
+    "floors": 3.9644215832881984
+}},{latitude:47.5969, longitude:-122.293,actual:735000.0,predicted:689612,coefficients:{
+    "intercept": 259.5522650888217,
+    "bedrooms": -52.64374399983171,
+    "bathrooms": -155.0930470082699,
+    "sqft_living": 0.21518209371515223,
+    "sqft_lot": -0.04533468513025346,
+    "floors": 5.011371807362545
+}},{latitude:47.6088, longitude:-122.307,actual:317500.0,predicted:330190,coefficients:{
+    "intercept": 254.03789584119,
+    "bedrooms": -52.01537884863413,
+    "bathrooms": -157.76254547637396,
+    "sqft_living": 0.20961740896751774,
+    "sqft_lot": -0.049074678396120335,
+    "floors": -1.2386293903384045
+}},{latitude:47.6098, longitude:-122.292,actual:535000.0,predicted:574768,coefficients:{
+    "intercept": 258.6282464766388,
+    "bedrooms": -52.69525171073041,
+    "bathrooms": -155.19284061493508,
+    "sqft_living": 0.2143179485230821,
+    "sqft_lot": -0.04585351880724387,
+    "floors": 4.9830797952574075
+}},{latitude:47.6339, longitude:-122.282,actual:650000.0,predicted:654622,coefficients:{
+    "intercept": 257.6005818658737,
+    "bedrooms": -52.392845356898945,
+    "bathrooms": -154.67452294197813,
+    "sqft_living": 0.21442440212814814,
+    "sqft_lot": -0.046092150499863094,
+    "floors": 5.450120855732445
+}},{latitude:47.6382, longitude:-122.307,actual:1050000.0,predicted:1030518,coefficients:{
+    "intercept": 248.48071409027781,
+    "bedrooms": -50.341039524836546,
+    "bathrooms": -158.61462281131435,
+    "sqft_living": 0.2061378748670298,
+    "sqft_lot": -0.05162744175249773,
+    "floors": -3.7665533170517933
+}},{latitude:47.6102, longitude:-122.299,actual:497000.0,predicted:493561,coefficients:{
+    "intercept": 256.93862779330715,
+    "bedrooms": -52.73269916052271,
+    "bathrooms": -156.2406669847311,
+    "sqft_living": 0.21230149692429753,
+    "sqft_lot": -0.046993750942252784,
+    "floors": 2.96221272566985
+}},{latitude:47.6388, longitude:-122.302,actual:632750.0,predicted:636534,coefficients:{
+    "intercept": 249.25571738345334,
+    "bedrooms": -51.291308207483155,
+    "bathrooms": -158.01317904315846,
+    "sqft_living": 0.20568793605932015,
+    "sqft_lot": -0.051168513215607926,
+    "floors": -1.6329873307016365
+}},{latitude:47.6419, longitude:-122.306,actual:808000.0,predicted:811231,coefficients:{
+    "intercept": 248.45276343410347,
+    "bedrooms": -50.47096859373738,
+    "bathrooms": -158.44926668049948,
+    "sqft_living": 0.20642119398330955,
+    "sqft_lot": -0.05139313873452634,
+    "floors": -3.3653247033527705
+}},{latitude:47.6415, longitude:-122.303,actual:620000.0,predicted:622992,coefficients:{
+    "intercept": 248.9157240485042,
+    "bedrooms": -50.97941088457325,
+    "bathrooms": -158.1065398346192,
+    "sqft_living": 0.20613836370156355,
+    "sqft_lot": -0.051158016890993155,
+    "floors": -2.1937266379672287
+}},{latitude:47.6348, longitude:-122.301,actual:1100000.0,predicted:1064677,coefficients:{
+    "intercept": 250.7299275094096,
+    "bedrooms": -51.772290929938045,
+    "bathrooms": -157.66263624251695,
+    "sqft_living": 0.20669768871418578,
+    "sqft_lot": -0.050446399750904425,
+    "floors": -0.48756001138999716
+}},{latitude:47.5917, longitude:-122.297,actual:305000.0,predicted:307139,coefficients:{
+    "intercept": 259.3423192335902,
+    "bedrooms": -52.625036899754555,
+    "bathrooms": -155.42498028566916,
+    "sqft_living": 0.21493855192710307,
+    "sqft_lot": -0.04546839221253497,
+    "floors": 4.221283319043569
+}},{latitude:47.5908, longitude:-122.292,actual:457500.0,predicted:460413,coefficients:{
+    "intercept": 260.0006323091789,
+    "bedrooms": -52.57053191371764,
+    "bathrooms": -154.92801123769922,
+    "sqft_living": 0.21571024104167183,
+    "sqft_lot": -0.04505199705481416,
+    "floors": 5.201954537318819
+}},{latitude:47.6122, longitude:-122.297,actual:625000.0,predicted:607166,coefficients:{
+    "intercept": 257.2474671244347,
+    "bedrooms": -52.73976816912294,
+    "bathrooms": -155.94844963025685,
+    "sqft_living": 0.21271067259308588,
+    "sqft_lot": -0.04675157664113269,
+    "floors": 3.5903481539352784
+}},{latitude:47.6103, longitude:-122.297,actual:601000.0,predicted:607227,coefficients:{
+    "intercept": 257.5096413872362,
+    "bedrooms": -52.74593212074778,
+    "bathrooms": -155.89255447040662,
+    "sqft_living": 0.21296146694937562,
+    "sqft_lot": -0.04660081135948644,
+    "floors": 3.682625799341094
+}},{latitude:47.621, longitude:-122.303,actual:462500.0,predicted:538167,coefficients:{
+    "intercept": 253.00244581746165,
+    "bedrooms": -52.21997770989456,
+    "bathrooms": -157.641059391411,
+    "sqft_living": 0.20817327902344568,
+    "sqft_lot": -0.049599999460454056,
+    "floors": -0.16920580730084253
+}},{latitude:47.6374, longitude:-122.299,actual:1197000.0,predicted:1196217,coefficients:{
+    "intercept": 251.44604221605042,
+    "bedrooms": -51.96213250642335,
+    "bathrooms": -157.19781094855512,
+    "sqft_living": 0.2078020171267401,
+    "sqft_lot": -0.0497803391740161,
+    "floors": 0.49780403369075166
+}},{latitude:47.6103, longitude:-122.296,actual:500000.0,predicted:506002,coefficients:{
+    "intercept": 257.7654988632928,
+    "bedrooms": -52.74337701259338,
+    "bathrooms": -155.73361172471212,
+    "sqft_living": 0.2132644841406817,
+    "sqft_lot": -0.046427308476447784,
+    "floors": 3.9950855560076772
+}},{latitude:47.5955, longitude:-122.306,actual:443000.0,predicted:425974,coefficients:{
+    "intercept": 256.7908825026703,
+    "bedrooms": -52.434518134828664,
+    "bathrooms": -156.8629090761056,
+    "sqft_living": 0.21248883260358664,
+    "sqft_lot": -0.04711964409112977,
+    "floors": 0.7659839095031629
+}},{latitude:47.6132, longitude:-122.292,actual:575000.0,predicted:612001,coefficients:{
+    "intercept": 258.27120314564525,
+    "bedrooms": -52.69403194556017,
+    "bathrooms": -155.25329990152716,
+    "sqft_living": 0.2140066099903742,
+    "sqft_lot": -0.046044736217610224,
+    "floors": 4.882461499157741
+}},{latitude:47.6025, longitude:-122.313,actual:630000.0,predicted:627866,coefficients:{
+    "intercept": 254.01510636147597,
+    "bedrooms": -51.03669538402942,
+    "bathrooms": -157.6236339517213,
+    "sqft_living": 0.21131525862838418,
+    "sqft_lot": -0.04871066994529525,
+    "floors": -2.1664330672657424
+}},{latitude:47.638, longitude:-122.288,actual:3400000.0,predicted:3397801,coefficients:{
+    "intercept": 255.97940726225957,
+    "bedrooms": -52.400940970715716,
+    "bathrooms": -155.24993684912474,
+    "sqft_living": 0.2128371403782306,
+    "sqft_lot": -0.046962205763557224,
+    "floors": 4.393754605778042
+}},{latitude:47.6394, longitude:-122.299,actual:1350000.0,predicted:1351289,coefficients:{
+    "intercept": 250.9871430692089,
+    "bedrooms": -51.86619028340842,
+    "bathrooms": -157.25956390647656,
+    "sqft_living": 0.20751811181208116,
+    "sqft_lot": -0.04996307218883922,
+    "floors": 0.26161652351064313
+}},{latitude:47.6343, longitude:-122.283,actual:850000.0,predicted:842574,coefficients:{
+    "intercept": 257.41646893858245,
+    "bedrooms": -52.403355206153385,
+    "bathrooms": -154.7462392774559,
+    "sqft_living": 0.21422927986120152,
+    "sqft_lot": -0.046194448241617926,
+    "floors": 5.3326113801961395
+}},{latitude:47.6059, longitude:-122.295,actual:510000.0,predicted:484241,coefficients:{
+    "intercept": 258.48885518915796,
+    "bedrooms": -52.729207535912536,
+    "bathrooms": -155.4845046698926,
+    "sqft_living": 0.21401740017688675,
+    "sqft_lot": -0.04598910188809415,
+    "floors": 4.4218196803251555
+}},{latitude:47.6249, longitude:-122.298,actual:480000.0,predicted:472142,coefficients:{
+    "intercept": 254.71284928522638,
+    "bedrooms": -52.528188663346754,
+    "bathrooms": -156.54927091177495,
+    "sqft_living": 0.2103908723884442,
+    "sqft_lot": -0.048167234194157735,
+    "floors": 2.320932910913123
+}},{latitude:47.6268, longitude:-122.297,actual:563225.0,predicted:594146,coefficients:{
+    "intercept": 254.77647312405364,
+    "bedrooms": -52.519338787633664,
+    "bathrooms": -156.39447213181293,
+    "sqft_living": 0.21060679448565783,
+    "sqft_lot": -0.04805240573662489,
+    "floors": 2.5974478022872565
+}},{latitude:47.638, longitude:-122.317,actual:995000.0,predicted:998720,coefficients:{
+    "intercept": 248.51750577734484,
+    "bedrooms": -49.51196412728149,
+    "bathrooms": -158.95353605704102,
+    "sqft_living": 0.2081603654020777,
+    "sqft_lot": -0.051361606911533214,
+    "floors": -5.434416626750063
+}},{latitude:47.621, longitude:-122.298,actual:489000.0,predicted:497204,coefficients:{
+    "intercept": 255.46486602989754,
+    "bedrooms": -52.62040213861653,
+    "bathrooms": -156.418942214472,
+    "sqft_living": 0.21101534954131804,
+    "sqft_lot": -0.04777921603558422,
+    "floors": 2.643397625215229
+}},{latitude:47.6408, longitude:-122.327,actual:615000.0,predicted:616235,coefficients:{
+    "intercept": 249.17436580052728,
+    "bedrooms": -49.4343386871833,
+    "bathrooms": -158.76707381278865,
+    "sqft_living": 0.20971766101487654,
+    "sqft_lot": -0.050722580914079315,
+    "floors": -5.354189945641748
+}},{latitude:47.6169, longitude:-122.294,actual:428000.0,predicted:433314,coefficients:{
+    "intercept": 257.3921356943757,
+    "bedrooms": -52.703900879797416,
+    "bathrooms": -155.59493873498258,
+    "sqft_living": 0.21308927558238883,
+    "sqft_lot": -0.046567783188383956,
+    "floors": 4.26668793216067
+}},{latitude:47.6033, longitude:-122.3,actual:520000.0,predicted:515831,coefficients:{
+    "intercept": 257.6053132175162,
+    "bedrooms": -52.72206154066797,
+    "bathrooms": -156.17046490044433,
+    "sqft_living": 0.21298809518876582,
+    "sqft_lot": -0.04659743484644842,
+    "floors": 2.9436641807255706
+}},{latitude:47.604, longitude:-122.311,actual:600000.0,predicted:590848,coefficients:{
+    "intercept": 254.11808637953544,
+    "bedrooms": -51.29541757495077,
+    "bathrooms": -157.63389247389387,
+    "sqft_living": 0.21095734261231097,
+    "sqft_lot": -0.04874872673658235,
+    "floors": -1.8943431503526615
+}},{latitude:47.6175, longitude:-122.298,actual:440000.0,predicted:440335,coefficients:{
+    "intercept": 256.09324621812374,
+    "bedrooms": -52.680918327805706,
+    "bathrooms": -156.30112540664183,
+    "sqft_living": 0.21156643154720348,
+    "sqft_lot": -0.04743999329262352,
+    "floors": 2.901006415195467
+}},{latitude:47.5979, longitude:-122.297,actual:360000.0,predicted:371246,coefficients:{
+    "intercept": 258.87035143094215,
+    "bedrooms": -52.69284916849709,
+    "bathrooms": -155.56194794889774,
+    "sqft_living": 0.21438031187344198,
+    "sqft_lot": -0.04577491705170772,
+    "floors": 4.1058102619734616
+}},{latitude:47.6226, longitude:-122.292,actual:463000.0,predicted:459624,coefficients:{
+    "intercept": 257.1047932238968,
+    "bedrooms": -52.638350186769635,
+    "bathrooms": -155.43696134078914,
+    "sqft_living": 0.21307544717134105,
+    "sqft_lot": -0.04663348580760539,
+    "floors": 4.482067589025344
+}},{latitude:47.6284, longitude:-122.291,actual:675000.0,predicted:674741,coefficients:{
+    "intercept": 256.54245865106867,
+    "bedrooms": -52.56015898247494,
+    "bathrooms": -155.42242456844832,
+    "sqft_living": 0.2127966903871145,
+    "sqft_lot": -0.046852909911192966,
+    "floors": 4.383487182818774
+}},{latitude:47.6163, longitude:-122.294,actual:360000.0,predicted:374608,coefficients:{
+    "intercept": 257.4726098997292,
+    "bedrooms": -52.70771175136882,
+    "bathrooms": -155.5811025208883,
+    "sqft_living": 0.2131570717065791,
+    "sqft_lot": -0.046525656515029434,
+    "floors": 4.294728422370651
+}},{latitude:47.6158, longitude:-122.291,actual:742500.0,predicted:757081,coefficients:{
+    "intercept": 258.16255061761166,
+    "bedrooms": -52.67085705681077,
+    "bathrooms": -155.18316281653335,
+    "sqft_living": 0.21399942838390956,
+    "sqft_lot": -0.046074152230444004,
+    "floors": 4.990997609326194
+}},{latitude:47.64, longitude:-122.285,actual:1565000.0,predicted:1563182,coefficients:{
+    "intercept": 256.41771876552104,
+    "bedrooms": -52.356783459006124,
+    "bathrooms": -154.99473474215662,
+    "sqft_living": 0.21344798432342257,
+    "sqft_lot": -0.04666990489216524,
+    "floors": 4.769042230981915
+}},{latitude:47.6133, longitude:-122.287,actual:1378600.0,predicted:1384672,coefficients:{
+    "intercept": 258.9769873370836,
+    "bedrooms": -52.59781313674429,
+    "bathrooms": -154.7653783490229,
+    "sqft_living": 0.21496500074689223,
+    "sqft_lot": -0.045568260436266224,
+    "floors": 5.666864607189255
+}},{latitude:47.6063, longitude:-122.305,actual:408000.0,predicted:424481,coefficients:{
+    "intercept": 255.31977105329932,
+    "bedrooms": -52.48197405326364,
+    "bathrooms": -157.31492952662074,
+    "sqft_living": 0.21062021310226905,
+    "sqft_lot": -0.04819517218155868,
+    "floors": 0.20317796999767618
+}},{latitude:47.6311, longitude:-122.312,actual:998500.0,predicted:1039735,coefficients:{
+    "intercept": 248.8736746440376,
+    "bedrooms": -49.785904989766955,
+    "bathrooms": -158.90975058606114,
+    "sqft_living": 0.20702675929256736,
+    "sqft_lot": -0.05167580820348679,
+    "floors": -5.032667977646003
+}},{latitude:47.6336, longitude:-122.29,actual:1225000.0,predicted:1227646,coefficients:{
+    "intercept": 256.0630454487804,
+    "bedrooms": -52.4768021273507,
+    "bathrooms": -155.39885310136444,
+    "sqft_living": 0.2126175492658433,
+    "sqft_lot": -0.04701746330115793,
+    "floors": 4.275264822033552
+}},{latitude:47.609, longitude:-122.314,actual:500000.0,predicted:495213,coefficients:{
+    "intercept": 252.84382781683004,
+    "bedrooms": -50.65382927284953,
+    "bathrooms": -157.9523393125982,
+    "sqft_living": 0.21049747500960617,
+    "sqft_lot": -0.04941598484177148,
+    "floors": -3.0416522493100753
+}},{latitude:47.6401, longitude:-122.32,actual:690000.0,predicted:688396,coefficients:{
+    "intercept": 248.61690819602853,
+    "bedrooms": -49.46039291663204,
+    "bathrooms": -158.92049898348415,
+    "sqft_living": 0.208695061946193,
+    "sqft_lot": -0.0511674540069332,
+    "floors": -5.479924415970415
+}},{latitude:47.6041, longitude:-122.31,actual:660000.0,predicted:661516,coefficients:{
+    "intercept": 254.29359105874667,
+    "bedrooms": -51.477993746331286,
+    "bathrooms": -157.60565812970086,
+    "sqft_living": 0.2108636553071691,
+    "sqft_lot": -0.04868845569284198,
+    "floors": -1.647835606650647
+}},{latitude:47.6085, longitude:-122.311,actual:640000.0,predicted:627468,coefficients:{
+    "intercept": 253.3311510358454,
+    "bedrooms": -51.1101777333181,
+    "bathrooms": -157.859653075286,
+    "sqft_living": 0.2102233742772773,
+    "sqft_lot": -0.04927480298130946,
+    "floors": -2.4109614697985977
+}},{latitude:47.6228, longitude:-122.319,actual:635000.0,predicted:635018,coefficients:{
+    "intercept": 250.43293250507833,
+    "bedrooms": -49.73318555143887,
+    "bathrooms": -158.57225722776508,
+    "sqft_living": 0.20954015580889288,
+    "sqft_lot": -0.05054608462447149,
+    "floors": -4.819763450015792
+}},{latitude:47.6025, longitude:-122.303,actual:549000.0,predicted:548688,coefficients:{
+    "intercept": 256.7750178415257,
+    "bedrooms": -52.64082130056747,
+    "bathrooms": -156.6873679841625,
+    "sqft_living": 0.21214922624446864,
+    "sqft_lot": -0.04716596973106559,
+    "floors": 1.679087679116643
+}},{latitude:47.6149, longitude:-122.293,actual:436000.0,predicted:437380,coefficients:{
+    "intercept": 257.8777734319023,
+    "bedrooms": -52.703890745382026,
+    "bathrooms": -155.41178640836898,
+    "sqft_living": 0.21358983688941252,
+    "sqft_lot": -0.046279996396321285,
+    "floors": 4.6027671825194725
+}},{latitude:47.6374, longitude:-122.307,actual:695000.0,predicted:703283,coefficients:{
+    "intercept": 248.52099521483765,
+    "bedrooms": -50.347232476194954,
+    "bathrooms": -158.62839473956956,
+    "sqft_living": 0.20605431286432732,
+    "sqft_lot": -0.05166488880352053,
+    "floors": -3.7795666763313776
+}},{latitude:47.6174, longitude:-122.308,actual:687500.0,predicted:649947,coefficients:{
+    "intercept": 251.93001419321382,
+    "bedrooms": -51.23644142265865,
+    "bathrooms": -158.25031606363132,
+    "sqft_living": 0.2079290471343357,
+    "sqft_lot": -0.05040997504491657,
+    "floors": -2.7057138727280625
+}},{latitude:47.615, longitude:-122.288,actual:920000.0,predicted:909821,coefficients:{
+    "intercept": 258.70373856041283,
+    "bedrooms": -52.61645336693963,
+    "bathrooms": -154.86986169476214,
+    "sqft_living": 0.2146764453426173,
+    "sqft_lot": -0.04572609762775252,
+    "floors": 5.498817149835571
+}},{latitude:47.5949, longitude:-122.308,actual:499000.0,predicted:492988,coefficients:{
+    "intercept": 256.25189133890206,
+    "bedrooms": -52.122113685725466,
+    "bathrooms": -157.04937773500973,
+    "sqft_living": 0.212319479874633,
+    "sqft_lot": -0.047428595453146136,
+    "floors": -0.041543304629682705
+}},{latitude:47.6392, longitude:-122.318,actual:615000.0,predicted:619973,coefficients:{
+    "intercept": 248.51532389387745,
+    "bedrooms": -49.49295131973779,
+    "bathrooms": -158.94494270048648,
+    "sqft_living": 0.20834653630695163,
+    "sqft_lot": -0.0512954885434504,
+    "floors": -5.453524774996908
+}},{latitude:47.6044, longitude:-122.299,actual:680000.0,predicted:675861,coefficients:{
+    "intercept": 257.7403285235311,
+    "bedrooms": -52.7358314533281,
+    "bathrooms": -156.03981150999954,
+    "sqft_living": 0.21313376114099003,
+    "sqft_lot": -0.04650114206997587,
+    "floors": 3.263826126623025
+}},{latitude:47.6263, longitude:-122.312,actual:1750000.0,predicted:1743987,coefficients:{
+    "intercept": 249.72581918747068,
+    "bedrooms": -49.990719053374015,
+    "bathrooms": -158.74674562454913,
+    "sqft_living": 0.207530601889421,
+    "sqft_lot": -0.05132810669494667,
+    "floors": -4.6638878315902765
+}},{latitude:47.632, longitude:-122.29,actual:1142000.0,predicted:1145593,coefficients:{
+    "intercept": 256.2915768892644,
+    "bedrooms": -52.50251541223724,
+    "bathrooms": -155.3666763360745,
+    "sqft_living": 0.21276327688995378,
+    "sqft_lot": -0.04691837669960018,
+    "floors": 4.380493047805114
+}},{latitude:47.5909, longitude:-122.297,actual:402000.0,predicted:400583,coefficients:{
+    "intercept": 259.39436749708824,
+    "bedrooms": -52.61509063310561,
+    "bathrooms": -155.4088202008013,
+    "sqft_living": 0.21500342429815886,
+    "sqft_lot": -0.04543375803390576,
+    "floors": 4.232458569633057
+}},{latitude:47.636, longitude:-122.302,actual:625000.0,predicted:649111,coefficients:{
+    "intercept": 249.69611222266803,
+    "bedrooms": -51.46376533258364,
+    "bathrooms": -157.9957353945622,
+    "sqft_living": 0.2056665150533032,
+    "sqft_lot": -0.051103104839791,
+    "floors": -1.3889479609693707
+}},{latitude:47.6024, longitude:-122.296,actual:625000.0,predicted:647603,coefficients:{
+    "intercept": 258.64630860876997,
+    "bedrooms": -52.721561216651125,
+    "bathrooms": -155.53728783919058,
+    "sqft_living": 0.2141451714168423,
+    "sqft_lot": -0.045908438961059235,
+    "floors": 4.260530223054106
+}},{latitude:47.6018, longitude:-122.299,actual:332888.0,predicted:333479,coefficients:{
+    "intercept": 258.05161871424104,
+    "bedrooms": -52.72397456187895,
+    "bathrooms": -155.9548684383222,
+    "sqft_living": 0.21347286213122388,
+    "sqft_lot": -0.046304139618022724,
+    "floors": 3.375932602702143
+}},{latitude:47.5933, longitude:-122.292,actual:1400000.0,predicted:1398209,coefficients:{
+    "intercept": 259.87528237949596,
+    "bedrooms": -52.59603036804979,
+    "bathrooms": -154.95540023363125,
+    "sqft_living": 0.21556238699431235,
+    "sqft_lot": -0.04513126719839434,
+    "floors": 5.199967621755841
+}},{latitude:47.6181, longitude:-122.302,actual:400000.0,predicted:410895,coefficients:{
+    "intercept": 254.24108890055652,
+    "bedrooms": -52.46142349944304,
+    "bathrooms": -157.23379822343068,
+    "sqft_living": 0.20946617777146986,
+    "sqft_lot": -0.04876286649304921,
+    "floors": 0.8257886730068239
+}},{latitude:47.6341, longitude:-122.304,actual:1850000.0,predicted:1837598,coefficients:{
+    "intercept": 249.1532111014711,
+    "bedrooms": -51.04457238959949,
+    "bathrooms": -158.3801551049977,
+    "sqft_living": 0.20511565869012596,
+    "sqft_lot": -0.051650454492042815,
+    "floors": -2.5224672214308934
+}},{latitude:47.6175, longitude:-122.301,actual:370000.0,predicted:365627,coefficients:{
+    "intercept": 254.857107786073,
+    "bedrooms": -52.5583073786087,
+    "bathrooms": -156.95955361036417,
+    "sqft_living": 0.21014270815392974,
+    "sqft_lot": -0.048323272602339686,
+    "floors": 1.4691418180135258
+}},{latitude:47.6324, longitude:-122.289,actual:1475000.0,predicted:1479210,coefficients:{
+    "intercept": 256.4888278277538,
+    "bedrooms": -52.491764448355724,
+    "bathrooms": -155.25466708783026,
+    "sqft_living": 0.21302018606313664,
+    "sqft_lot": -0.04678841748498963,
+    "floors": 4.561784390275096
+}},{latitude:47.6385, longitude:-122.281,actual:1620000.0,predicted:1623702,coefficients:{
+    "intercept": 257.2740717531911,
+    "bedrooms": -52.33443203263489,
+    "bathrooms": -154.68135451101958,
+    "sqft_living": 0.2143117775213798,
+    "sqft_lot": -0.04620831748920968,
+    "floors": 5.317941960345704
+}},{latitude:47.6412, longitude:-122.329,actual:402000.0,predicted:401845,coefficients:{
+    "intercept": 249.32856350504858,
+    "bedrooms": -49.44569260353644,
+    "bathrooms": -158.71260616328487,
+    "sqft_living": 0.20995431008768492,
+    "sqft_lot": -0.05060321007495701,
+    "floors": -5.273301280400985
+}},{latitude:47.6187, longitude:-122.295,actual:900000.0,predicted:900896,coefficients:{
+    "intercept": 256.8701638136811,
+    "bedrooms": -52.69330885406945,
+    "bathrooms": -155.7937449325712,
+    "sqft_living": 0.2125512773663271,
+    "sqft_lot": -0.04687973191040787,
+    "floors": 3.8889165416599707
+}},{latitude:47.6282, longitude:-122.322,actual:1443920.0,predicted:1450856,coefficients:{
+    "intercept": 249.80556298156858,
+    "bedrooms": -49.51478172887241,
+    "bathrooms": -158.7178390369866,
+    "sqft_living": 0.20953230033342388,
+    "sqft_lot": -0.050719759242954944,
+    "floors": -5.238412533747582
+}},{latitude:47.6389, longitude:-122.288,actual:3000000.0,predicted:2998857,coefficients:{
+    "intercept": 255.8578960533334,
+    "bedrooms": -52.385980140408414,
+    "bathrooms": -155.26751391962463,
+    "sqft_living": 0.21276584465561096,
+    "sqft_lot": -0.04701241663792723,
+    "floors": 4.332609541035341
+}},{latitude:47.6146, longitude:-122.306,actual:739000.0,predicted:741208,coefficients:{
+    "intercept": 252.94764111901253,
+    "bedrooms": -52.01155099383316,
+    "bathrooms": -158.04684025103163,
+    "sqft_living": 0.20808409985609053,
+    "sqft_lot": -0.049904057180198434,
+    "floors": -1.5610169431882437
+}},{latitude:47.6447, longitude:-122.327,actual:845000.0,predicted:847503,coefficients:{
+    "intercept": 248.99686128094854,
+    "bedrooms": -49.45308705875959,
+    "bathrooms": -158.77311963508606,
+    "sqft_living": 0.20964957045022448,
+    "sqft_lot": -0.05074865103099484,
+    "floors": -5.328335675077773
+}},{latitude:47.6437, longitude:-122.321,actual:1300000.0,predicted:1293232,coefficients:{
+    "intercept": 248.53267224499496,
+    "bedrooms": -49.47789076714721,
+    "bathrooms": -158.89437213892776,
+    "sqft_living": 0.2088390718140838,
+    "sqft_lot": -0.05109680369856002,
+    "floors": -5.422467385424974
+}},{latitude:47.5976, longitude:-122.298,actual:350000.0,predicted:348634,coefficients:{
+    "intercept": 258.70439609937296,
+    "bedrooms": -52.69282956428246,
+    "bathrooms": -155.68642123887312,
+    "sqft_living": 0.21419859611850817,
+    "sqft_lot": -0.045882317438759514,
+    "floors": 3.8340212370443636
+}},{latitude:47.6081, longitude:-122.289,actual:540000.0,predicted:535226,coefficients:{
+    "intercept": 259.19273643726075,
+    "bedrooms": -52.63547766077195,
+    "bathrooms": -154.86958971563516,
+    "sqft_living": 0.21500884029784456,
+    "sqft_lot": -0.045493101395736195,
+    "floors": 5.5148054878131925
+}},{latitude:47.6235, longitude:-122.309,actual:1260000.0,predicted:1228480,coefficients:{
+    "intercept": 250.4054116118331,
+    "bedrooms": -50.574446115549094,
+    "bathrooms": -158.57468151632264,
+    "sqft_living": 0.20700549292049636,
+    "sqft_lot": -0.051227228178907416,
+    "floors": -3.77901836703169
+}},{latitude:47.6105, longitude:-122.309,actual:700000.0,predicted:680771,coefficients:{
+    "intercept": 253.28099812669083,
+    "bedrooms": -51.413214356051064,
+    "bathrooms": -157.91014552120052,
+    "sqft_living": 0.2095782529514071,
+    "sqft_lot": -0.04944431138738153,
+    "floors": -2.1276452142415785
+}},{latitude:47.6074, longitude:-122.299,actual:575000.0,predicted:578480,coefficients:{
+    "intercept": 257.3444618623316,
+    "bedrooms": -52.73984163918834,
+    "bathrooms": -156.14197640877353,
+    "sqft_living": 0.21271593926116703,
+    "sqft_lot": -0.046747009118988464,
+    "floors": 3.1170734594968796
+}},{latitude:47.6134, longitude:-122.282,actual:1665000.0,predicted:1662252,coefficients:{
+    "intercept": 259.390177207587,
+    "bedrooms": -52.491300362887905,
+    "bathrooms": -154.4453825409963,
+    "sqft_living": 0.215607912055221,
+    "sqft_lot": -0.04527903330059609,
+    "floors": 6.105388901506181
+}},{latitude:47.5929, longitude:-122.29,actual:1462500.0,predicted:1459892,coefficients:{
+    "intercept": 260.07096156968436,
+    "bedrooms": -52.562818203657116,
+    "bathrooms": -154.7923053288056,
+    "sqft_living": 0.21582348357366624,
+    "sqft_lot": -0.045003456009964034,
+    "floors": 5.4877878573568895
+}},{latitude:47.5917, longitude:-122.296,actual:432500.0,predicted:424987,coefficients:{
+    "intercept": 259.4903591828072,
+    "bedrooms": -52.620191874481975,
+    "bathrooms": -155.31542095906022,
+    "sqft_living": 0.215100826110031,
+    "sqft_lot": -0.04537570924987665,
+    "floors": 4.4530413825533275
+}},{latitude:47.6124, longitude:-122.314,actual:518000.0,predicted:491784,coefficients:{
+    "intercept": 252.2728183292475,
+    "bedrooms": -50.50380882860071,
+    "bathrooms": -158.11160358649985,
+    "sqft_living": 0.21002154566553013,
+    "sqft_lot": -0.049769202671676144,
+    "floors": -3.4101044944945302
+}},{latitude:47.6109, longitude:-122.285,actual:1186040.0,predicted:1187289,coefficients:{
+    "intercept": 259.358117766248,
+    "bedrooms": -52.55504701614984,
+    "bathrooms": -154.59733148436845,
+    "sqft_living": 0.21539910165660311,
+    "sqft_lot": -0.04534101228951567,
+    "floors": 5.919156635915909
+}},{latitude:47.5928, longitude:-122.29,actual:1340000.0,predicted:1340254,coefficients:{
+    "intercept": 260.0756636029353,
+    "bedrooms": -52.56190914913593,
+    "bathrooms": -154.79145311471416,
+    "sqft_living": 0.21582880459542975,
+    "sqft_lot": -0.0450005607428408,
+    "floors": 5.4876322155729085
+}},{latitude:47.5924, longitude:-122.287,actual:1900000.0,predicted:1895274,coefficients:{
+    "intercept": 260.2860602081978,
+    "bedrooms": -52.50994497619848,
+    "bathrooms": -154.58986364233547,
+    "sqft_living": 0.21614324045127303,
+    "sqft_lot": -0.04485818449038557,
+    "floors": 5.8222425046635
+}},{latitude:47.6192, longitude:-122.316,actual:530000.0,predicted:530435,coefficients:{
+    "intercept": 251.00460885768737,
+    "bedrooms": -50.01933827767604,
+    "bathrooms": -158.43697406830393,
+    "sqft_living": 0.20943600507978277,
+    "sqft_lot": -0.05039427714354945,
+    "floors": -4.338150098242101
+}},{latitude:47.6316, longitude:-122.303,actual:940000.0,predicted:923949,coefficients:{
+    "intercept": 250.13331663692995,
+    "bedrooms": -51.51578233974367,
+    "bathrooms": -158.1317365166672,
+    "sqft_living": 0.2056381986538792,
+    "sqft_lot": -0.051156966559197624,
+    "floors": -1.5917718850337723
+}},{latitude:47.5927, longitude:-122.306,actual:375000.0,predicted:357810,coefficients:{
+    "intercept": 257.17109689746854,
+    "bedrooms": -52.42686475419203,
+    "bathrooms": -156.71866158297772,
+    "sqft_living": 0.21293911730878237,
+    "sqft_lot": -0.04684527193991303,
+    "floors": 1.0101781702025419
+}},{latitude:47.6117, longitude:-122.301,actual:458500.0,predicted:468852,coefficients:{
+    "intercept": 255.98146997605937,
+    "bedrooms": -52.6671188659732,
+    "bathrooms": -156.70307274739972,
+    "sqft_living": 0.21125844154955747,
+    "sqft_lot": -0.04764422357805642,
+    "floors": 1.966730562293119
+}},{latitude:47.6279, longitude:-122.315,actual:1272500.0,predicted:1230303,coefficients:{
+    "intercept": 249.49295208252636,
+    "bedrooms": -49.702910763905365,
+    "bathrooms": -158.8156324873251,
+    "sqft_living": 0.2081557474910881,
+    "sqft_lot": -0.051227768389951904,
+    "floors": -5.1024762971332125
+}},{latitude:47.643, longitude:-122.299,actual:1350000.0,predicted:1347133,coefficients:{
+    "intercept": 250.1740578741461,
+    "bedrooms": -51.692575301908384,
+    "bathrooms": -157.36695213401802,
+    "sqft_living": 0.20705450467958458,
+    "sqft_lot": -0.050266341015794226,
+    "floors": -0.1688986020136103
+}},{latitude:47.6207, longitude:-122.295,actual:747000.0,predicted:744031,coefficients:{
+    "intercept": 256.56562727816123,
+    "bedrooms": -52.67076928937731,
+    "bathrooms": -155.84537488955306,
+    "sqft_living": 0.21230108286614194,
+    "sqft_lot": -0.04703615118481383,
+    "floors": 3.7728472087864184
+}},{latitude:47.5958, longitude:-122.299,actual:450000.0,predicted:450076,coefficients:{
+    "intercept": 258.66356545438754,
+    "bedrooms": -52.67340274171687,
+    "bathrooms": -155.77376373069015,
+    "sqft_living": 0.2141723082707515,
+    "sqft_lot": -0.045906924324255985,
+    "floors": 3.5862895778790502
+}},{latitude:47.6168, longitude:-122.303,actual:510000.0,predicted:500350,coefficients:{
+    "intercept": 254.0193650346878,
+    "bedrooms": -52.40367873892819,
+    "bathrooms": -157.42511090180844,
+    "sqft_living": 0.209180256087448,
+    "sqft_lot": -0.04897783200704352,
+    "floors": 0.3277732684946715
+}},{latitude:47.6036, longitude:-122.305,actual:498000.0,predicted:489425,coefficients:{
+    "intercept": 255.8340263526923,
+    "bedrooms": -52.51771255917902,
+    "bathrooms": -157.15444336618287,
+    "sqft_living": 0.2112096352896523,
+    "sqft_lot": -0.04782919774096474,
+    "floors": 0.49539117651297543
+}},{latitude:47.591, longitude:-122.293,actual:536500.0,predicted:544083,coefficients:{
+    "intercept": 259.89361149608624,
+    "bedrooms": -52.58481447736248,
+    "bathrooms": -155.0147733116564,
+    "sqft_living": 0.21557535596566982,
+    "sqft_lot": -0.045120491475396686,
+    "floors": 5.040585536744163
+}},{latitude:47.5997, longitude:-122.312,actual:388500.0,predicted:395607,coefficients:{
+    "intercept": 254.61275441939796,
+    "bedrooms": -51.27496937114885,
+    "bathrooms": -157.4596441217271,
+    "sqft_living": 0.21165556071168276,
+    "sqft_lot": -0.04836004951654442,
+    "floors": -1.659925511516788
+}},{latitude:47.6349, longitude:-122.29,actual:2300000.0,predicted:2293657,coefficients:{
+    "intercept": 255.87516492300267,
+    "bedrooms": -52.45464509557689,
+    "bathrooms": -155.4253521281412,
+    "sqft_living": 0.21250006701783822,
+    "sqft_lot": -0.0470978280934002,
+    "floors": 4.186582234937364
+}},{latitude:47.6112, longitude:-122.293,actual:998500.0,predicted:917291,coefficients:{
+    "intercept": 258.30594743467975,
+    "bedrooms": -52.71158611659722,
+    "bathrooms": -155.337420125605,
+    "sqft_living": 0.21396172062512853,
+    "sqft_lot": -0.04605116759000979,
+    "floors": 4.734621251864891
+}},{latitude:47.6352, longitude:-122.29,actual:2250000.0,predicted:2248940,coefficients:{
+    "intercept": 255.8315635400579,
+    "bedrooms": -52.44937714789356,
+    "bathrooms": -155.43151084807533,
+    "sqft_living": 0.21247309825842914,
+    "sqft_lot": -0.04711633926087823,
+    "floors": 4.165726392088206
+}},{latitude:47.5972, longitude:-122.295,actual:386500.0,predicted:384233,coefficients:{
+    "intercept": 259.2604348706161,
+    "bedrooms": -52.670935591781785,
+    "bathrooms": -155.30707836076698,
+    "sqft_living": 0.21482765201031603,
+    "sqft_lot": -0.045523610576152146,
+    "floors": 4.606035417769538
+}},{latitude:47.5923, longitude:-122.298,actual:619000.0,predicted:626117,coefficients:{
+    "intercept": 259.137184416545,
+    "bedrooms": -52.634395887537856,
+    "bathrooms": -155.55471824515084,
+    "sqft_living": 0.21471332601561757,
+    "sqft_lot": -0.04559840221403432,
+    "floors": 3.957804839680307
+}},{latitude:47.6315, longitude:-122.282,actual:1250000.0,predicted:1253954,coefficients:{
+    "intercept": 257.8406600471773,
+    "bedrooms": -52.413685342667904,
+    "bathrooms": -154.64081935897357,
+    "sqft_living": 0.21457083875181063,
+    "sqft_lot": -0.04598854115922476,
+    "floors": 5.558359545968968
+}},{latitude:47.6212, longitude:-122.298,actual:600000.0,predicted:583728,coefficients:{
+    "intercept": 255.42756893929547,
+    "bedrooms": -52.6163083993463,
+    "bathrooms": -156.42566488444297,
+    "sqft_living": 0.2109834892802737,
+    "sqft_lot": -0.0477989223134604,
+    "floors": 2.6277637186279765
+}},{latitude:47.6208, longitude:-122.319,actual:525000.0,predicted:517874,coefficients:{
+    "intercept": 250.72849068534666,
+    "bedrooms": -49.802213195742276,
+    "bathrooms": -158.49382654126245,
+    "sqft_living": 0.209744910780338,
+    "sqft_lot": -0.050393918223400384,
+    "floors": -4.650868697700949
+}},{latitude:47.6029, longitude:-122.304,actual:455000.0,predicted:459019,coefficients:{
+    "intercept": 256.34931355969076,
+    "bedrooms": -52.5901388738383,
+    "bathrooms": -156.90683762771573,
+    "sqft_living": 0.21172425252863142,
+    "sqft_lot": -0.04746257091928288,
+    "floors": 1.1300681887440491
+}},{latitude:47.6232, longitude:-122.299,actual:1010000.0,predicted:1016521,coefficients:{
+    "intercept": 254.60383345993944,
+    "bedrooms": -52.52495739689328,
+    "bathrooms": -156.71613399488803,
+    "sqft_living": 0.2101466961350945,
+    "sqft_lot": -0.048307955170333226,
+    "floors": 1.9958432568858981
+}},{latitude:47.6103, longitude:-122.3,actual:602000.0,predicted:582885,coefficients:{
+    "intercept": 256.5900487907962,
+    "bedrooms": -52.71279910880741,
+    "bathrooms": -156.43732056254393,
+    "sqft_living": 0.21191219391762717,
+    "sqft_lot": -0.047235038342750946,
+    "floors": 2.536372570994677
+}},{latitude:47.6181, longitude:-122.284,actual:2546000.0,predicted:2543841,coefficients:{
+    "intercept": 258.8685767553154,
+    "bedrooms": -52.52626457049689,
+    "bathrooms": -154.60390179573724,
+    "sqft_living": 0.21509928422504704,
+    "sqft_lot": -0.04556325001964535,
+    "floors": 5.855238007234232
+}},{latitude:47.6265, longitude:-122.298,actual:1125000.0,predicted:1129729,coefficients:{
+    "intercept": 254.39053315902018,
+    "bedrooms": -52.48295738601971,
+    "bathrooms": -156.60205334624638,
+    "sqft_living": 0.21013463345228414,
+    "sqft_lot": -0.04832750648449897,
+    "floors": 2.1781264325052194
+}},{latitude:47.6414, longitude:-122.327,actual:800000.0,predicted:798319,coefficients:{
+    "intercept": 249.14190268438307,
+    "bedrooms": -49.43561002688013,
+    "bathrooms": -158.77010456448943,
+    "sqft_living": 0.2097032691561475,
+    "sqft_lot": -0.05072974785523318,
+    "floors": -5.354845624312506
+}},{latitude:47.6199, longitude:-122.3,actual:520000.0,predicted:519282,coefficients:{
+    "intercept": 254.82242264595462,
+    "bedrooms": -52.558284760519605,
+    "bathrooms": -156.82335628204186,
+    "sqft_living": 0.21020798973907306,
+    "sqft_lot": -0.04827064196758555,
+    "floors": 1.7859174228667487
+}},{latitude:47.6363, longitude:-122.32,actual:690000.0,predicted:685454,coefficients:{
+    "intercept": 248.8595159431426,
+    "bedrooms": -49.446105249617816,
+    "bathrooms": -158.90966569679864,
+    "sqft_living": 0.20876292005546476,
+    "sqft_lot": -0.051141315604016725,
+    "floors": -5.502315906912485
+}},{latitude:47.6378, longitude:-122.301,actual:785000.0,predicted:788317,coefficients:{
+    "intercept": 249.96096468370857,
+    "bedrooms": -51.58937737272134,
+    "bathrooms": -157.76785103097328,
+    "sqft_living": 0.2061821740985723,
+    "sqft_lot": -0.05076686280584705,
+    "floors": -0.8790435776828219
+}},{latitude:47.604, longitude:-122.306,actual:485000.0,predicted:473625,coefficients:{
+    "intercept": 255.33633001965117,
+    "bedrooms": -52.418286000871696,
+    "bathrooms": -157.3913713222842,
+    "sqft_living": 0.21073658119635513,
+    "sqft_lot": -0.04819128841822458,
+    "floors": -0.1669808233435138
+}},{latitude:47.5949, longitude:-122.291,actual:920000.0,predicted:926083,coefficients:{
+    "intercept": 259.88483180578464,
+    "bedrooms": -52.59630710291153,
+    "bathrooms": -154.88921913741044,
+    "sqft_living": 0.21559250249467388,
+    "sqft_lot": -0.045121783966584804,
+    "floors": 5.3491419659721196
+}},{latitude:47.6028, longitude:-122.309,actual:375000.0,predicted:376642,coefficients:{
+    "intercept": 254.7337589473355,
+    "bedrooms": -51.73098456260594,
+    "bathrooms": -157.50229217600756,
+    "sqft_living": 0.21101665526070923,
+    "sqft_lot": -0.04844533613254959,
+    "floors": -1.2088798919216017
+}},{latitude:47.6272, longitude:-122.312,actual:1328000.0,predicted:1323530,coefficients:{
+    "intercept": 249.54059788791426,
+    "bedrooms": -49.94050581380329,
+    "bathrooms": -158.78809606527744,
+    "sqft_living": 0.20739843876733507,
+    "sqft_lot": -0.05141982772748756,
+    "floors": -4.761363877442061
+}},{latitude:47.6054, longitude:-122.314,actual:505000.0,predicted:511969,coefficients:{
+    "intercept": 253.42054682696397,
+    "bedrooms": -50.79935188343048,
+    "bathrooms": -157.78498136995552,
+    "sqft_living": 0.21099023649741164,
+    "sqft_lot": -0.04904937520779762,
+    "floors": -2.655735727690917
+}},{latitude:47.6295, longitude:-122.32,actual:1475000.0,predicted:1453729,coefficients:{
+    "intercept": 249.50945048243037,
+    "bedrooms": -49.50356604294736,
+    "bathrooms": -158.80433088355517,
+    "sqft_living": 0.20907825872396194,
+    "sqft_lot": -0.05094378480450234,
+    "floors": -5.348208733267454
+}},{latitude:47.593, longitude:-122.289,actual:1000000.0,predicted:1006514,coefficients:{
+    "intercept": 260.13966838117386,
+    "bedrooms": -52.547873721065685,
+    "bathrooms": -154.72162964875767,
+    "sqft_living": 0.21592495188193236,
+    "sqft_lot": -0.04495706439839418,
+    "floors": 5.611903332441574
+}},{latitude:47.6142, longitude:-122.284,actual:925000.0,predicted:925889,coefficients:{
+    "intercept": 259.18760096625294,
+    "bedrooms": -52.53324428572917,
+    "bathrooms": -154.56473766657714,
+    "sqft_living": 0.2153325189568349,
+    "sqft_lot": -0.04540929171083821,
+    "floors": 5.945464356492948
+}},{latitude:47.5994, longitude:-122.287,actual:565000.0,predicted:570323,coefficients:{
+    "intercept": 259.9555897719435,
+    "bedrooms": -52.558568799869825,
+    "bathrooms": -154.63387521342395,
+    "sqft_living": 0.21580678363346667,
+    "sqft_lot": -0.045049864829891643,
+    "floors": 5.832444366650573
+}},{latitude:47.6259, longitude:-122.321,actual:825000.0,predicted:808179,coefficients:{
+    "intercept": 250.05710199369176,
+    "bedrooms": -49.58800557397702,
+    "bathrooms": -158.65921323625196,
+    "sqft_living": 0.20956901260160377,
+    "sqft_lot": -0.05064301445522907,
+    "floors": -5.086174410468697
+}},{latitude:47.5905, longitude:-122.292,actual:830000.0,predicted:831076,coefficients:{
+    "intercept": 260.0146895238637,
+    "bedrooms": -52.567354872718454,
+    "bathrooms": -154.92487549174632,
+    "sqft_living": 0.21572728173404712,
+    "sqft_lot": -0.04504298948792693,
+    "floors": 5.2017733789065215
+}},{latitude:47.6265, longitude:-122.296,actual:910000.0,predicted:869217,coefficients:{
+    "intercept": 255.24131762638996,
+    "bedrooms": -52.557557659012915,
+    "bathrooms": -156.183904932821,
+    "sqft_living": 0.211126214659568,
+    "sqft_lot": -0.04775094347858035,
+    "floors": 3.023473162270046
+}},{latitude:47.6003, longitude:-122.306,actual:400000.0,predicted:406865,coefficients:{
+    "intercept": 256.0289710117789,
+    "bedrooms": -52.44399974819502,
+    "bathrooms": -157.14992105898,
+    "sqft_living": 0.21156563110337528,
+    "sqft_lot": -0.04767928632787803,
+    "floors": 0.27168623203631
+}},{latitude:47.6399, longitude:-122.311,actual:690000.0,predicted:702160,coefficients:{
+    "intercept": 248.19042418361437,
+    "bedrooms": -49.862302729266894,
+    "bathrooms": -158.84887113332115,
+    "sqft_living": 0.2069782831601335,
+    "sqft_lot": -0.051608646116527455,
+    "floors": -4.755635125938719
+}},{latitude:47.5998, longitude:-122.3,actual:345000.0,predicted:348193,coefficients:{
+    "intercept": 258.02821424826345,
+    "bedrooms": -52.70305428950354,
+    "bathrooms": -156.04670659294234,
+    "sqft_living": 0.2134619722386839,
+    "sqft_lot": -0.04632294022886379,
+    "floors": 3.107562927548657
+}},{latitude:47.6143, longitude:-122.305,actual:750000.0,predicted:722490,coefficients:{
+    "intercept": 253.53333026525561,
+    "bedrooms": -52.23501601569741,
+    "bathrooms": -157.80522040909003,
+    "sqft_living": 0.2086300366480781,
+    "sqft_lot": -0.04944641533742871,
+    "floors": -0.7861028155211514
+}},{latitude:47.6272, longitude:-122.297,actual:834000.0,predicted:830077,coefficients:{
+    "intercept": 254.69903663334915,
+    "bedrooms": -52.50879122226888,
+    "bathrooms": -156.40663947935147,
+    "sqft_living": 0.21054771294966046,
+    "sqft_lot": -0.04808973552961821,
+    "floors": 2.5631173183881444
+}},{latitude:47.6439, longitude:-122.302,actual:1160000.0,predicted:1162399,coefficients:{
+    "intercept": 249.01570918175682,
+    "bedrooms": -51.09103673955284,
+    "bathrooms": -157.92829024277927,
+    "sqft_living": 0.20644691979900298,
+    "sqft_lot": -0.050933592563299705,
+    "floors": -1.8060374564440003
+}},{latitude:47.6048, longitude:-122.298,actual:518000.0,predicted:540919,coefficients:{
+    "intercept": 257.9492612549181,
+    "bedrooms": -52.74127332326824,
+    "bathrooms": -155.8905287307433,
+    "sqft_living": 0.21336887120195758,
+    "sqft_lot": -0.04635829767783735,
+    "floors": 3.591422738718625
+}},{latitude:47.6186, longitude:-122.288,actual:915000.0,predicted:947266,coefficients:{
+    "intercept": 258.3463520844046,
+    "bedrooms": -52.60567019329578,
+    "bathrooms": -154.91948519841893,
+    "sqft_living": 0.21440357868889318,
+    "sqft_lot": -0.04590228358959256,
+    "floors": 5.3892325072377805
+}},{latitude:47.6275, longitude:-122.308,actual:1400000.0,predicted:1394989,coefficients:{
+    "intercept": 249.58388284346682,
+    "bedrooms": -50.48130566436579,
+    "bathrooms": -158.69672764963255,
+    "sqft_living": 0.20603947516812623,
+    "sqft_lot": -0.051702292921335456,
+    "floors": -3.920505087815414
+}},{latitude:47.6295, longitude:-122.285,actual:2885000.0,predicted:2881874,coefficients:{
+    "intercept": 257.62839887256655,
+    "bedrooms": -52.47865866791746,
+    "bathrooms": -154.821827691055,
+    "sqft_living": 0.21418088420721992,
+    "sqft_lot": -0.046154094786893626,
+    "floors": 5.339136986336992
+}},{latitude:47.6404, longitude:-122.325,actual:920000.0,predicted:919081,coefficients:{
+    "intercept": 249.01741320551162,
+    "bedrooms": -49.427695903966956,
+    "bathrooms": -158.81973588729673,
+    "sqft_living": 0.209456831043255,
+    "sqft_lot": -0.05084807956586486,
+    "floors": -5.424251228497356
+}},{latitude:47.6195, longitude:-122.299,actual:640000.0,predicted:618691,coefficients:{
+    "intercept": 255.3396350211126,
+    "bedrooms": -52.61621974631784,
+    "bathrooms": -156.5808325382552,
+    "sqft_living": 0.21078638669522995,
+    "sqft_lot": -0.047913505562142716,
+    "floors": 2.313564459465608
+}},{latitude:47.627, longitude:-122.304,actual:1500000.0,predicted:1503769,coefficients:{
+    "intercept": 250.72049845049753,
+    "bedrooms": -51.60461746888114,
+    "bathrooms": -158.22453157133782,
+    "sqft_living": 0.20588818317837407,
+    "sqft_lot": -0.05107619970954596,
+    "floors": -1.7701580154251972
+}},{latitude:47.6235, longitude:-122.298,actual:750000.0,predicted:779415,coefficients:{
+    "intercept": 254.9885935567569,
+    "bedrooms": -52.56427763625827,
+    "bathrooms": -156.50271147300566,
+    "sqft_living": 0.21061549873133834,
+    "sqft_lot": -0.04802723962571334,
+    "floors": 2.4409289022415566
+}},{latitude:47.6417, longitude:-122.325,actual:675000.0,predicted:675007,coefficients:{
+    "intercept": 248.94431707605258,
+    "bedrooms": -49.43122527422903,
+    "bathrooms": -158.8256210662566,
+    "sqft_living": 0.20942706029498126,
+    "sqft_lot": -0.05086217197425874,
+    "floors": -5.423608084226732
+}},{latitude:47.6498, longitude:-122.32,actual:810000.0,predicted:806840,coefficients:{
+    "intercept": 248.27385300865657,
+    "bedrooms": -49.56687475874326,
+    "bathrooms": -158.8547545452187,
+    "sqft_living": 0.20873297128259363,
+    "sqft_lot": -0.05108759054662554,
+    "floors": -5.245967074303308
+}},{latitude:47.6147, longitude:-122.298,actual:427500.0,predicted:450134,coefficients:{
+    "intercept": 256.5609466604918,
+    "bedrooms": -52.71452928650421,
+    "bathrooms": -156.20730921517253,
+    "sqft_living": 0.21199470010955773,
+    "sqft_lot": -0.04717869309072251,
+    "floors": 3.0854160087978966
+}},{latitude:47.6379, longitude:-122.311,actual:2225000.0,predicted:2225419,coefficients:{
+    "intercept": 248.2753325541075,
+    "bedrooms": -49.84375445705861,
+    "bathrooms": -158.87813648673944,
+    "sqft_living": 0.20686089214237918,
+    "sqft_lot": -0.05167739538042804,
+    "floors": -4.8232017057392955
+}},{latitude:47.6167, longitude:-122.29,actual:689888.0,predicted:685816,coefficients:{
+    "intercept": 258.2360159277589,
+    "bedrooms": -52.65034540887013,
+    "bathrooms": -155.0882663019056,
+    "sqft_living": 0.21414517514451423,
+    "sqft_lot": -0.04600943438568327,
+    "floors": 5.140770557034371
+}},{latitude:47.5971, longitude:-122.295,actual:441000.0,predicted:443301,coefficients:{
+    "intercept": 259.26786761308546,
+    "bedrooms": -52.669998019840605,
+    "bathrooms": -155.3052287460343,
+    "sqft_living": 0.21483598938658768,
+    "sqft_lot": -0.045518963656542656,
+    "floors": 4.607473188600217
+}},{latitude:47.6352, longitude:-122.284,actual:1625000.0,predicted:1611574,coefficients:{
+    "intercept": 257.1598168415326,
+    "bedrooms": -52.407065268226454,
+    "bathrooms": -154.83257889133392,
+    "sqft_living": 0.21398423402345693,
+    "sqft_lot": -0.0463297908535445,
+    "floors": 5.1750309841817925
+}},{latitude:47.6124, longitude:-122.293,actual:655000.0,predicted:660133,coefficients:{
+    "intercept": 258.17191778075477,
+    "bedrooms": -52.71044808970068,
+    "bathrooms": -155.36110693278187,
+    "sqft_living": 0.21384327552397633,
+    "sqft_lot": -0.04612362446350487,
+    "floors": 4.694906984603147
+}},{latitude:47.6295, longitude:-122.306,actual:1225000.0,predicted:1224319,coefficients:{
+    "intercept": 249.22856463140445,
+    "bedrooms": -50.75941722917616,
+    "bathrooms": -158.67302301877334,
+    "sqft_living": 0.20492480579927927,
+    "sqft_lot": -0.052015223836114274,
+    "floors": -3.447588910712119
+}},{latitude:47.6343, longitude:-122.282,actual:960000.0,predicted:950008,coefficients:{
+    "intercept": 257.55999966474536,
+    "bedrooms": -52.3891454319033,
+    "bathrooms": -154.68030902461743,
+    "sqft_living": 0.21439995181624294,
+    "sqft_lot": -0.04610952571643455,
+    "floors": 5.431326262478761
+}},{latitude:47.603, longitude:-122.289,actual:783500.0,predicted:789778,coefficients:{
+    "intercept": 259.57493355354165,
+    "bedrooms": -52.61706302075414,
+    "bathrooms": -154.81142869458444,
+    "sqft_living": 0.21535337685529682,
+    "sqft_lot": -0.045284736392882476,
+    "floors": 5.58180967771531
+}},{latitude:47.5939, longitude:-122.299,actual:321500.0,predicted:320467,coefficients:{
+    "intercept": 258.8284409153099,
+    "bedrooms": -52.652207568626345,
+    "bathrooms": -155.7211234715803,
+    "sqft_living": 0.21436994483699354,
+    "sqft_lot": -0.045797449935818774,
+    "floors": 3.6402102524728677
+}},{latitude:47.6188, longitude:-122.306,actual:600000.0,predicted:594329,coefficients:{
+    "intercept": 251.85574934963208,
+    "bedrooms": -51.71123111424136,
+    "bathrooms": -158.284613251812,
+    "sqft_living": 0.20694819960423583,
+    "sqft_lot": -0.050646001390998785,
+    "floors": -2.164494001168347
+}},{latitude:47.6032, longitude:-122.311,actual:546000.0,predicted:530774,coefficients:{
+    "intercept": 254.25120727441876,
+    "bedrooms": -51.324400233622875,
+    "bathrooms": -157.5941718971657,
+    "sqft_living": 0.21108353226588703,
+    "sqft_lot": -0.04865851341088091,
+    "floors": -1.8047986892909613
+}},{latitude:47.6061, longitude:-122.286,actual:765000.0,predicted:779979,coefficients:{
+    "intercept": 259.61947127923474,
+    "bedrooms": -52.56779016514116,
+    "bathrooms": -154.62069316049607,
+    "sqft_living": 0.21555363082115728,
+    "sqft_lot": -0.04522107403030828,
+    "floors": 5.889489806436871
+}},{latitude:47.5933, longitude:-122.308,actual:450000.0,predicted:464028,coefficients:{
+    "intercept": 256.4779510143671,
+    "bedrooms": -52.13903740341909,
+    "bathrooms": -156.96994117155566,
+    "sqft_living": 0.2125658255717798,
+    "sqft_lot": -0.04726687090091528,
+    "floors": 0.11251214294165528
+}},{latitude:47.605, longitude:-122.3,actual:593000.0,predicted:592243,coefficients:{
+    "intercept": 257.3799221210689,
+    "bedrooms": -52.726212625113206,
+    "bathrooms": -156.23315364707773,
+    "sqft_living": 0.2127422109674984,
+    "sqft_lot": -0.046741583878236966,
+    "floors": 2.8548527055196433
+}},{latitude:47.6393, longitude:-122.317,actual:1045000.0,predicted:1030928,coefficients:{
+    "intercept": 248.43815623541775,
+    "bedrooms": -49.52010797253175,
+    "bathrooms": -158.95187718162956,
+    "sqft_living": 0.20815525956141903,
+    "sqft_lot": -0.05135896082101073,
+    "floors": -5.415979613473275
+}},{latitude:47.606, longitude:-122.299,actual:592500.0,predicted:600789,coefficients:{
+    "intercept": 257.5341657101303,
+    "bedrooms": -52.7393656883935,
+    "bathrooms": -156.09378878824828,
+    "sqft_living": 0.21291439987393432,
+    "sqft_lot": -0.046629830207316675,
+    "floors": 3.1879544728680957
+}},{latitude:47.6206, longitude:-122.297,actual:525000.0,predicted:561646,coefficients:{
+    "intercept": 255.91767548975818,
+    "bedrooms": -52.652267282404175,
+    "bathrooms": -156.20404618360863,
+    "sqft_living": 0.21152410436876112,
+    "sqft_lot": -0.047478200879355725,
+    "floors": 3.0816522827818456
+}},{latitude:47.6005, longitude:-122.296,actual:569500.0,predicted:558839,coefficients:{
+    "intercept": 258.82399546472544,
+    "bedrooms": -52.708417721890044,
+    "bathrooms": -155.4939145877229,
+    "sqft_living": 0.21433507870152388,
+    "sqft_lot": -0.04579955667312371,
+    "floors": 4.307306268360678
+}},{latitude:47.6192, longitude:-122.319,actual:729000.0,predicted:706480,coefficients:{
+    "intercept": 250.9640602680887,
+    "bedrooms": -49.85845299863637,
+    "bathrooms": -158.43033795300028,
+    "sqft_living": 0.20991081805413328,
+    "sqft_lot": -0.050269657051253185,
+    "floors": -4.512916415923986
+}},{latitude:47.6178, longitude:-122.284,actual:860000.0,predicted:855114,coefficients:{
+    "intercept": 258.89417614784367,
+    "bedrooms": -52.52706165577554,
+    "bathrooms": -154.60071594603102,
+    "sqft_living": 0.21511762854294145,
+    "sqft_lot": -0.045551048025270074,
+    "floors": 5.86302704875635
+}},{latitude:47.6367, longitude:-122.301,actual:721000.0,predicted:721922,coefficients:{
+    "intercept": 250.24252790700143,
+    "bedrooms": -51.65680303077124,
+    "bathrooms": -157.72982249105755,
+    "sqft_living": 0.2063657707313122,
+    "sqft_lot": -0.05065251899821431,
+    "floors": -0.7346215180333691
+}},{latitude:47.595, longitude:-122.308,actual:435000.0,predicted:441164,coefficients:{
+    "intercept": 256.2373946813366,
+    "bedrooms": -52.120908160317384,
+    "bathrooms": -157.054402312811,
+    "sqft_living": 0.21230373671924826,
+    "sqft_lot": -0.047438967642730964,
+    "floors": -0.051360025392549524
+}},{latitude:47.6038, longitude:-122.314,actual:560000.0,predicted:553591,coefficients:{
+    "intercept": 253.6668906304333,
+    "bedrooms": -50.859132655984,
+    "bathrooms": -157.71135043533815,
+    "sqft_living": 0.21120411686850427,
+    "sqft_lot": -0.048890216663741735,
+    "floors": -2.4866043371925595
+}},{latitude:47.6084, longitude:-122.304,actual:365000.0,predicted:357011,coefficients:{
+    "intercept": 255.34691607909718,
+    "bedrooms": -52.53342933192151,
+    "bathrooms": -157.20961278034824,
+    "sqft_living": 0.21059208961372053,
+    "sqft_lot": -0.048155558425418445,
+    "floors": 0.6004058553562694
+}},{latitude:47.6439, longitude:-122.319,actual:952000.0,predicted:952582,coefficients:{
+    "intercept": 248.36121777342333,
+    "bedrooms": -49.512083803391654,
+    "bathrooms": -158.91865198772774,
+    "sqft_living": 0.20851787602079483,
+    "sqft_lot": -0.05121330721593783,
+    "floors": -5.3930354802778036
+}},{latitude:47.6229, longitude:-122.298,actual:605000.0,predicted:601108,coefficients:{
+    "intercept": 255.1048456106641,
+    "bedrooms": -52.57872667129337,
+    "bathrooms": -156.48266916396238,
+    "sqft_living": 0.21071170363198913,
+    "sqft_lot": -0.047967425850321405,
+    "floors": 2.49091206806088
+}},{latitude:47.6187, longitude:-122.299,actual:638000.0,predicted:618423,coefficients:{
+    "intercept": 255.4917749931681,
+    "bedrooms": -52.63246708321308,
+    "bathrooms": -156.5513615481441,
+    "sqft_living": 0.21092304121427177,
+    "sqft_lot": -0.04782964401267543,
+    "floors": 2.377778450535868
+}},{latitude:47.6025, longitude:-122.294,actual:599000.0,predicted:603083,coefficients:{
+    "intercept": 258.98781739476794,
+    "bedrooms": -52.70022003555569,
+    "bathrooms": -155.291585398207,
+    "sqft_living": 0.2145582519215507,
+    "sqft_lot": -0.04568219835919222,
+    "floors": 4.736131373396852
+}},{latitude:47.6285, longitude:-122.309,actual:1425000.0,predicted:1423026,coefficients:{
+    "intercept": 249.3199971099908,
+    "bedrooms": -50.23992069221697,
+    "bathrooms": -158.77157879569322,
+    "sqft_living": 0.20625582920866897,
+    "sqft_lot": -0.05174313238776701,
+    "floors": -4.301970416636331
+}},{latitude:47.6031, longitude:-122.296,actual:432500.0,predicted:438397,coefficients:{
+    "intercept": 258.5776023579473,
+    "bedrooms": -52.72572960701551,
+    "bathrooms": -155.55367319720403,
+    "sqft_living": 0.21407300406792162,
+    "sqft_lot": -0.045950134044569844,
+    "floors": 4.241743146170358
+}},{latitude:47.6027, longitude:-122.295,actual:905000.0,predicted:852786,coefficients:{
+    "intercept": 258.8022659051355,
+    "bedrooms": -52.713760196078084,
+    "bathrooms": -155.415568198247,
+    "sqft_living": 0.21433482596151676,
+    "sqft_lot": -0.04580377844403448,
+    "floors": 4.504034362058463
+}},{latitude:47.6034, longitude:-122.289,actual:628000.0,predicted:639252,coefficients:{
+    "intercept": 259.54735638439575,
+    "bedrooms": -52.61898370568475,
+    "bathrooms": -154.8156860999431,
+    "sqft_living": 0.2153276209570981,
+    "sqft_lot": -0.045300075485001395,
+    "floors": 5.577955154609364
+}},{latitude:47.6348, longitude:-122.281,actual:690000.0,predicted:709817,coefficients:{
+    "intercept": 257.64239655408375,
+    "bedrooms": -52.369983495520984,
+    "bathrooms": -154.6270685105984,
+    "sqft_living": 0.21452836295839303,
+    "sqft_lot": -0.04605267952336221,
+    "floors": 5.496362482238703
+}},{latitude:47.6197, longitude:-122.287,actual:683000.0,predicted:681344,coefficients:{
+    "intercept": 258.37494989491495,
+    "bedrooms": -52.581562126179435,
+    "bathrooms": -154.84636931563895,
+    "sqft_living": 0.214510053864296,
+    "sqft_lot": -0.04586351050206593,
+    "floors": 5.48699450074573
+}},{latitude:47.6393, longitude:-122.301,actual:600000.0,predicted:599890,coefficients:{
+    "intercept": 249.58839267453104,
+    "bedrooms": -51.49756022466086,
+    "bathrooms": -157.81623068998533,
+    "sqft_living": 0.2059585824437551,
+    "sqft_lot": -0.05090941508595257,
+    "floors": -1.073310339416778
+}},{latitude:47.6264, longitude:-122.289,actual:2200000.0,predicted:2189336,coefficients:{
+    "intercept": 257.2757199189737,
+    "bedrooms": -52.566277615402306,
+    "bathrooms": -155.14453582119017,
+    "sqft_living": 0.21354002006126077,
+    "sqft_lot": -0.04643747381658628,
+    "floors": 4.900621966320563
+}},{latitude:47.5981, longitude:-122.288,actual:725000.0,predicted:729901,coefficients:{
+    "intercept": 259.95715893830675,
+    "bedrooms": -52.569435236621096,
+    "bathrooms": -154.6914089401936,
+    "sqft_living": 0.21576650538522388,
+    "sqft_lot": -0.045058174565682944,
+    "floors": 5.729022963570942
+}},{latitude:47.6109, longitude:-122.303,actual:480000.0,predicted:498739,coefficients:{
+    "intercept": 255.29401264507305,
+    "bedrooms": -52.56613906579642,
+    "bathrooms": -157.11439321674658,
+    "sqft_living": 0.21051045392951725,
+    "sqft_lot": -0.0481590743594034,
+    "floors": 0.9503327186652326
+}},{latitude:47.6355, longitude:-122.324,actual:550000.0,predicted:558269,coefficients:{
+    "intercept": 249.2328280067384,
+    "bedrooms": -49.4197805505629,
+    "bathrooms": -158.8169683903951,
+    "sqft_living": 0.20943982833029667,
+    "sqft_lot": -0.05085106596995582,
+    "floors": -5.446943347832709
+}},{latitude:47.6138, longitude:-122.298,actual:493000.0,predicted:498886,coefficients:{
+    "intercept": 256.70437697920926,
+    "bedrooms": -52.72265786057367,
+    "bathrooms": -156.1773795998737,
+    "sqft_living": 0.2121292772275024,
+    "sqft_lot": -0.047097051867222066,
+    "floors": 3.1406599809631772
+}},{latitude:47.6316, longitude:-122.282,actual:1046250.0,predicted:1048092,coefficients:{
+    "intercept": 257.83078077284375,
+    "bedrooms": -52.412864261477104,
+    "bathrooms": -154.64218861401847,
+    "sqft_living": 0.21456475091479474,
+    "sqft_lot": -0.045992833039247956,
+    "floors": 5.554007334324945
+}},{latitude:47.6117, longitude:-122.313,actual:546000.0,predicted:566571,coefficients:{
+    "intercept": 252.49322243064208,
+    "bedrooms": -50.65695713478563,
+    "bathrooms": -158.0618836565196,
+    "sqft_living": 0.20998264588768598,
+    "sqft_lot": -0.049690626509359286,
+    "floors": -3.1773144452452904
+}},{latitude:47.5925, longitude:-122.295,actual:365000.0,predicted:367056,coefficients:{
+    "intercept": 259.5774497952032,
+    "bedrooms": -52.6220483142107,
+    "bathrooms": -155.22503321605373,
+    "sqft_living": 0.21519575655379122,
+    "sqft_lot": -0.04532200331097912,
+    "floors": 4.659414224790893
+}},{latitude:47.5915, longitude:-122.295,actual:352900.0,predicted:352959,coefficients:{
+    "intercept": 259.63674059884227,
+    "bedrooms": -52.61055077690297,
+    "bathrooms": -155.2088715101736,
+    "sqft_living": 0.21526791315641503,
+    "sqft_lot": -0.04528343396046105,
+    "floors": 4.667292772560587
+}},{latitude:47.628, longitude:-122.299,actual:1047000.0,predicted:1061844,coefficients:{
+    "intercept": 253.58092327147574,
+    "bedrooms": -52.36809208030415,
+    "bathrooms": -156.88697481106212,
+    "sqft_living": 0.2093152601394706,
+    "sqft_lot": -0.04882489257405351,
+    "floors": 1.534564812820346
+}},{latitude:47.6325, longitude:-122.29,actual:1715000.0,predicted:1718374,coefficients:{
+    "intercept": 256.2205115528437,
+    "bedrooms": -52.49466964948442,
+    "bathrooms": -155.3766782923851,
+    "sqft_living": 0.21271762430064592,
+    "sqft_lot": -0.04694934805852891,
+    "floors": 4.3480858711334305
+}},{latitude:47.6205, longitude:-122.3,actual:570000.0,predicted:562652,coefficients:{
+    "intercept": 254.69835694172667,
+    "bedrooms": -52.54218872160663,
+    "bathrooms": -156.8473893613344,
+    "sqft_living": 0.2100957508999199,
+    "sqft_lot": -0.04833956097187039,
+    "floors": 1.7313196142251737
+}},{latitude:47.6241, longitude:-122.305,actual:680000.0,predicted:686768,coefficients:{
+    "intercept": 250.85891148108186,
+    "bedrooms": -51.55856305417003,
+    "bathrooms": -158.37064829851698,
+    "sqft_living": 0.2058493081375748,
+    "sqft_lot": -0.05119804571001043,
+    "floors": -2.214868690739262
+}},{latitude:47.616, longitude:-122.282,actual:1850000.0,predicted:1846674,coefficients:{
+    "intercept": 259.2010579707787,
+    "bedrooms": -52.48879628746148,
+    "bathrooms": -154.46699535901513,
+    "sqft_living": 0.21547055235507528,
+    "sqft_lot": -0.045370192515822624,
+    "floors": 6.056487583400354
+}},{latitude:47.6209, longitude:-122.302,actual:700000.0,predicted:704075,coefficients:{
+    "intercept": 253.59550924682648,
+    "bedrooms": -52.35709565734837,
+    "bathrooms": -157.36662871328258,
+    "sqft_living": 0.20884749538427316,
+    "sqft_lot": -0.04914327901526927,
+    "floors": 0.5223107225831051
+}},{latitude:47.6401, longitude:-122.303,actual:855000.0,predicted:848842,coefficients:{
+    "intercept": 248.97845437315016,
+    "bedrooms": -51.02300053924041,
+    "bathrooms": -158.13147807588652,
+    "sqft_living": 0.20593743103572787,
+    "sqft_lot": -0.05122590139297171,
+    "floors": -2.1648838097176104
+}},{latitude:47.6148, longitude:-122.309,actual:540000.0,predicted:535030,coefficients:{
+    "intercept": 252.37955091470386,
+    "bedrooms": -51.17215407393201,
+    "bathrooms": -158.13631059655572,
+    "sqft_living": 0.20872630629780484,
+    "sqft_lot": -0.05003819676592055,
+    "floors": -2.66822150465886
+}},{latitude:47.6264, longitude:-122.283,actual:1300000.0,predicted:1301242,coefficients:{
+    "intercept": 258.2171685442479,
+    "bedrooms": -52.46830397834925,
+    "bathrooms": -154.6364180207633,
+    "sqft_living": 0.21473056607923577,
+    "sqft_lot": -0.045843862408857426,
+    "floors": 5.677386408316911
+}},{latitude:47.6122, longitude:-122.288,actual:850000.0,predicted:855597,coefficients:{
+    "intercept": 258.9599079256379,
+    "bedrooms": -52.6191879346143,
+    "bathrooms": -154.83404585254894,
+    "sqft_living": 0.21488017824394742,
+    "sqft_lot": -0.04559649494066434,
+    "floors": 5.56804908855037
+}},{latitude:47.6118, longitude:-122.284,actual:765000.0,predicted:756820,coefficients:{
+    "intercept": 259.368814004867,
+    "bedrooms": -52.533999639722545,
+    "bathrooms": -154.54304738401,
+    "sqft_living": 0.2154699533467147,
+    "sqft_lot": -0.04531986552737448,
+    "floors": 5.9893614120097665
+}},{latitude:47.6025, longitude:-122.31,actual:505000.0,predicted:521525,coefficients:{
+    "intercept": 254.56655008248106,
+    "bedrooms": -51.53354920932162,
+    "bathrooms": -157.5240713087204,
+    "sqft_living": 0.21113090724562672,
+    "sqft_lot": -0.048500532489134024,
+    "floors": -1.466601324341417
+}},{latitude:47.6341, longitude:-122.284,actual:1280000.0,predicted:1302427,coefficients:{
+    "intercept": 257.2816904366408,
+    "bedrooms": -52.418970187663106,
+    "bathrooms": -154.81518456505106,
+    "sqft_living": 0.21405781407534646,
+    "sqft_lot": -0.046277811101538016,
+    "floors": 5.2322070802340575
+}},{latitude:47.6308, longitude:-122.287,actual:1925000.0,predicted:1929452,coefficients:{
+    "intercept": 257.12992074525164,
+    "bedrooms": -52.493537019529114,
+    "bathrooms": -155.01628089044002,
+    "sqft_living": 0.21366261799989494,
+    "sqft_lot": -0.04643354633862758,
+    "floors": 5.002084160343587
+}},{latitude:47.6246, longitude:-122.312,actual:780500.0,predicted:777849,coefficients:{
+    "intercept": 250.07496358850105,
+    "bedrooms": -50.08698390463174,
+    "bathrooms": -158.66771947982414,
+    "sqft_living": 0.2077856419276126,
+    "sqft_lot": -0.051149943838089934,
+    "floors": -4.4770044087012035
+}},{latitude:47.5978, longitude:-122.299,actual:261500.0,predicted:268613,coefficients:{
+    "intercept": 258.47542498596425,
+    "bedrooms": -52.693315653420605,
+    "bathrooms": -155.8316767019306,
+    "sqft_living": 0.21395199581545382,
+    "sqft_lot": -0.04603051880981702,
+    "floors": 3.523207102174976
+}},{latitude:47.6109, longitude:-122.302,actual:550000.0,predicted:552388,coefficients:{
+    "intercept": 255.7243168158174,
+    "bedrooms": -52.62993808113206,
+    "bathrooms": -156.88603637340466,
+    "sqft_living": 0.2109705198212664,
+    "sqft_lot": -0.0478431889271279,
+    "floors": 1.5146278209964135
+}},{latitude:47.6092, longitude:-122.294,actual:847000.0,predicted:851064,coefficients:{
+    "intercept": 258.3328328103066,
+    "bedrooms": -52.72481908516113,
+    "bathrooms": -155.42445877237608,
+    "sqft_living": 0.21391993399111525,
+    "sqft_lot": -0.04605927265444512,
+    "floors": 4.568119652278039
+}},{latitude:47.6349, longitude:-122.318,actual:1600000.0,predicted:1590728,coefficients:{
+    "intercept": 248.81792154334815,
+    "bedrooms": -49.48109196546838,
+    "bathrooms": -158.93154457409167,
+    "sqft_living": 0.20841674463514095,
+    "sqft_lot": -0.051268471730109864,
+    "floors": -5.476809243375823
+}},{latitude:47.6226, longitude:-122.319,actual:475000.0,predicted:474262,coefficients:{
+    "intercept": 250.46252034012122,
+    "bedrooms": -49.740010224539304,
+    "bathrooms": -158.56446698027415,
+    "sqft_living": 0.20956047851847626,
+    "sqft_lot": -0.05053104432217765,
+    "floors": -4.803066772780315
+}},{latitude:47.6038, longitude:-122.294,actual:890000.0,predicted:884654,coefficients:{
+    "intercept": 258.8723851657066,
+    "bedrooms": -52.70759843927284,
+    "bathrooms": -155.31606740921217,
+    "sqft_living": 0.21444127051112252,
+    "sqft_lot": -0.04575021131962509,
+    "floors": 4.7096849172737505
+}},{latitude:47.6408, longitude:-122.307,actual:575000.0,predicted:600495,coefficients:{
+    "intercept": 248.37786535976963,
+    "bedrooms": -50.33035798687533,
+    "bathrooms": -158.56603471707987,
+    "sqft_living": 0.20641382444360362,
+    "sqft_lot": -0.05150256690144131,
+    "floors": -3.7154693888127266
+}},{latitude:47.6272, longitude:-122.318,actual:1200000.0,predicted:1160087,coefficients:{
+    "intercept": 249.73655725664946,
+    "bedrooms": -49.61472298237509,
+    "bathrooms": -158.7550271611877,
+    "sqft_living": 0.2089101380809855,
+    "sqft_lot": -0.050937699012250065,
+    "floors": -5.158524250111454
+}},{latitude:47.5999, longitude:-122.3,actual:352750.0,predicted:348508,coefficients:{
+    "intercept": 258.0168799128414,
+    "bedrooms": -52.703771217697565,
+    "bathrooms": -156.05013618005088,
+    "sqft_living": 0.21344903990903294,
+    "sqft_lot": -0.04633036656227866,
+    "floors": 3.1032198547621324
+}},{latitude:47.5955, longitude:-122.294,actual:800000.0,predicted:812626,coefficients:{
+    "intercept": 259.5186116449499,
+    "bedrooms": -52.64353515122603,
+    "bathrooms": -155.17145083809416,
+    "sqft_living": 0.21512901641816343,
+    "sqft_lot": -0.04535924780088356,
+    "floors": 4.834401412795291
+}},{latitude:47.6078, longitude:-122.292,actual:619500.0,predicted:608811,coefficients:{
+    "intercept": 258.82170657155126,
+    "bedrooms": -52.69181509423544,
+    "bathrooms": -155.1589828732265,
+    "sqft_living": 0.21449307609753537,
+    "sqft_lot": -0.045747443548888496,
+    "floors": 5.032154722402112
+}},{latitude:47.6414, longitude:-122.329,actual:403950.0,predicted:402520,coefficients:{
+    "intercept": 249.31843460180798,
+    "bedrooms": -49.44610067688568,
+    "bathrooms": -158.713578389685,
+    "sqft_living": 0.2099496073940302,
+    "sqft_lot": -0.05060558117906294,
+    "floors": -5.273522916610074
+}},{latitude:47.6279, longitude:-122.287,actual:1180500.0,predicted:1173295,coefficients:{
+    "intercept": 257.47637843924355,
+    "bedrooms": -52.52388485765758,
+    "bathrooms": -154.96844554595842,
+    "sqft_living": 0.21388776665178583,
+    "sqft_lot": -0.046279755193613874,
+    "floors": 5.149786021741713
+}},{latitude:47.6453, longitude:-122.302,actual:1000000.0,predicted:997695,coefficients:{
+    "intercept": 248.97118111634728,
+    "bedrooms": -51.05178059919593,
+    "bathrooms": -157.90691342520117,
+    "sqft_living": 0.2066351415376178,
+    "sqft_lot": -0.050873743979621536,
+    "floors": -1.8401056924577517
+}},{latitude:47.6189, longitude:-122.286,actual:1350000.0,predicted:1356290,coefficients:{
+    "intercept": 258.5819231467348,
+    "bedrooms": -52.564913679686356,
+    "bathrooms": -154.75460974601302,
+    "sqft_living": 0.2147423936297788,
+    "sqft_lot": -0.04574109968491217,
+    "floors": 5.633122924379144
+}},{latitude:47.6285, longitude:-122.303,actual:950000.0,predicted:919982,coefficients:{
+    "intercept": 251.00530409111272,
+    "bedrooms": -51.751375109589134,
+    "bathrooms": -157.99774795390175,
+    "sqft_living": 0.20635531083677083,
+    "sqft_lot": -0.050719191340665375,
+    "floors": -1.1546693221123796
+}},{latitude:47.627, longitude:-122.303,actual:799500.0,predicted:843364,coefficients:{
+    "intercept": 251.41956003233176,
+    "bedrooms": -51.857996432881386,
+    "bathrooms": -157.93004326960462,
+    "sqft_living": 0.20671329317737097,
+    "sqft_lot": -0.05049970090068889,
+    "floors": -0.9487019394946231
+}},{latitude:47.6108, longitude:-122.303,actual:590000.0,predicted:585261,coefficients:{
+    "intercept": 255.3139677994069,
+    "bedrooms": -52.56801213647021,
+    "bathrooms": -157.109139132995,
+    "sqft_living": 0.21053185894244078,
+    "sqft_lot": -0.04814596267532141,
+    "floors": 0.96009763984177
+}},{latitude:47.638, longitude:-122.306,actual:1049000.0,predicted:1046380,coefficients:{
+    "intercept": 248.600481621962,
+    "bedrooms": -50.50686272748074,
+    "bathrooms": -158.52518360478498,
+    "sqft_living": 0.20595870146213857,
+    "sqft_lot": -0.051589763152855156,
+    "floors": -3.416339779622916
+}},{latitude:47.6285, longitude:-122.304,actual:2140000.0,predicted:2139504,coefficients:{
+    "intercept": 250.28289967807393,
+    "bedrooms": -51.47591716144487,
+    "bathrooms": -158.2954413107226,
+    "sqft_living": 0.20549857016155426,
+    "sqft_lot": -0.05131509835304393,
+    "floors": -1.992952354812114
+}},{latitude:47.593, longitude:-122.293,actual:500000.0,predicted:501648,coefficients:{
+    "intercept": 259.78798360702564,
+    "bedrooms": -52.60613148704193,
+    "bathrooms": -155.0397879203739,
+    "sqft_living": 0.2154492192820034,
+    "sqft_lot": -0.045187951809845125,
+    "floors": 5.035084133939965
+}},{latitude:47.6154, longitude:-122.291,actual:890000.0,predicted:884339,coefficients:{
+    "intercept": 258.2071839274868,
+    "bedrooms": -52.67216792378019,
+    "bathrooms": -155.17622595901997,
+    "sqft_living": 0.21403564779903642,
+    "sqft_lot": -0.04605133707399762,
+    "floors": 5.00497024388281
+}},{latitude:47.6193, longitude:-122.304,actual:540000.0,predicted:548575,coefficients:{
+    "intercept": 252.84294927523115,
+    "bedrooms": -52.146590256733525,
+    "bathrooms": -157.82694925093176,
+    "sqft_living": 0.20792883546454008,
+    "sqft_lot": -0.04981142971018343,
+    "floors": -0.6905588925609093
+}},{latitude:47.5939, longitude:-122.302,actual:364000.0,predicted:374941,coefficients:{
+    "intercept": 258.15862569386456,
+    "bedrooms": -52.614233617195445,
+    "bathrooms": -156.14572704308577,
+    "sqft_living": 0.21371904036518666,
+    "sqft_lot": -0.046222080427325465,
+    "floors": 2.6332177759833164
+}},{latitude:47.6029, longitude:-122.307,actual:425000.0,predicted:421061,coefficients:{
+    "intercept": 255.21262198750213,
+    "bedrooms": -52.2209193807548,
+    "bathrooms": -157.42956141959203,
+    "sqft_living": 0.21087109205409987,
+    "sqft_lot": -0.048237726976471954,
+    "floors": -0.5288260578668028
+}},{latitude:47.6056, longitude:-122.311,actual:835000.0,predicted:830149,coefficients:{
+    "intercept": 253.84560318194582,
+    "bedrooms": -51.23387773755931,
+    "bathrooms": -157.71377984657005,
+    "sqft_living": 0.21070082047277577,
+    "sqft_lot": -0.04893237550796062,
+    "floors": -2.075667718391892
+}},{latitude:47.6236, longitude:-122.299,actual:610000.0,predicted:614879,coefficients:{
+    "intercept": 254.52131910534885,
+    "bedrooms": -52.51350958919661,
+    "bathrooms": -156.73061160823394,
+    "sqft_living": 0.21007713499800962,
+    "sqft_lot": -0.04835102437843062,
+    "floors": 1.9594773406796349
+}},{latitude:47.6251, longitude:-122.3,actual:427000.0,predicted:473258,coefficients:{
+    "intercept": 253.70155824987768,
+    "bedrooms": -52.39273008776472,
+    "bathrooms": -157.02843353873521,
+    "sqft_living": 0.2092284909178759,
+    "sqft_lot": -0.04887415644577889,
+    "floors": 1.2832846951642252
+}},{latitude:47.6127, longitude:-122.286,actual:1225000.0,predicted:1218894,coefficients:{
+    "intercept": 259.1300456564326,
+    "bedrooms": -52.57685546526229,
+    "bathrooms": -154.68326778993386,
+    "sqft_living": 0.21515469227655104,
+    "sqft_lot": -0.04547267566412482,
+    "floors": 5.789996011975419
+}},{latitude:47.614, longitude:-122.294,actual:720000.0,predicted:693626,coefficients:{
+    "intercept": 257.77000407161023,
+    "bedrooms": -52.71877132512084,
+    "bathrooms": -155.52884896510514,
+    "sqft_living": 0.21341261164385944,
+    "sqft_lot": -0.046367810264201635,
+    "floors": 4.394917363213814
+}},{latitude:47.6065, longitude:-122.291,actual:730000.0,predicted:744902,coefficients:{
+    "intercept": 259.08073801958267,
+    "bedrooms": -52.67010509574498,
+    "bathrooms": -155.03443601167515,
+    "sqft_living": 0.21478920855550945,
+    "sqft_lot": -0.0455870722260814,
+    "floors": 5.2374976839264225
+}},{latitude:47.6406, longitude:-122.317,actual:670500.0,predicted:668572,coefficients:{
+    "intercept": 248.36466463768633,
+    "bedrooms": -49.52970645329186,
+    "bathrooms": -158.94853270833482,
+    "sqft_living": 0.20815438391919086,
+    "sqft_lot": -0.051353602919537035,
+    "floors": -5.394955849352202
+}},{latitude:47.6144, longitude:-122.283,actual:845000.0,predicted:867545,coefficients:{
+    "intercept": 259.24964540919456,
+    "bedrooms": -52.511790851896784,
+    "bathrooms": -154.5075150729322,
+    "sqft_living": 0.21544299298443845,
+    "sqft_lot": -0.04536263162017381,
+    "floors": 6.019305243947405
+}},{latitude:47.6074, longitude:-122.305,actual:350000.0,predicted:377684,coefficients:{
+    "intercept": 255.09738882435104,
+    "bedrooms": -52.461410428227985,
+    "bathrooms": -157.38151207312677,
+    "sqft_living": 0.2103676281068506,
+    "sqft_lot": -0.048352863036492714,
+    "floors": 0.07796963257603153
+}},{latitude:47.6102, longitude:-122.296,actual:590000.0,predicted:586452,coefficients:{
+    "intercept": 257.7781214478514,
+    "bedrooms": -52.74348795046236,
+    "bathrooms": -155.7309856917244,
+    "sqft_living": 0.21327649814891228,
+    "sqft_lot": -0.04642010006768152,
+    "floors": 3.9992243476897054
+}},{latitude:47.6258, longitude:-122.312,actual:1185000.0,predicted:1181882,coefficients:{
+    "intercept": 249.82863577970306,
+    "bedrooms": -50.01886528267703,
+    "bathrooms": -158.72362311121566,
+    "sqft_living": 0.20760491364318334,
+    "sqft_lot": -0.05127634814500319,
+    "floors": -4.6092807899508825
+}},{latitude:47.631, longitude:-122.303,actual:1970000.0,predicted:1965922,coefficients:{
+    "intercept": 250.3034180286644,
+    "bedrooms": -51.56270670722482,
+    "bathrooms": -158.10640867205328,
+    "sqft_living": 0.2057740470233109,
+    "sqft_lot": -0.051074247466718785,
+    "floors": -1.506094568933085
+}},{latitude:47.6275, longitude:-122.305,actual:1457000.0,predicted:1447851,coefficients:{
+    "intercept": 249.8938634967888,
+    "bedrooms": -51.23211475255332,
+    "bathrooms": -158.5225146221849,
+    "sqft_living": 0.20499239899179433,
+    "sqft_lot": -0.05174074712523464,
+    "floors": -2.7092398205911814
+}},{latitude:47.5972, longitude:-122.292,actual:775000.0,predicted:776531,coefficients:{
+    "intercept": 259.6488907548669,
+    "bedrooms": -52.631671759276195,
+    "bathrooms": -155.00266693661965,
+    "sqft_living": 0.21531045897682125,
+    "sqft_lot": -0.04527038431741209,
+    "floors": 5.183141820059306
+}},{latitude:47.6288, longitude:-122.282,actual:2250000.0,predicted:2249137,coefficients:{
+    "intercept": 258.10290590885324,
+    "bedrooms": -52.434263450969766,
+    "bathrooms": -154.6050229436614,
+    "sqft_living": 0.21473447909001311,
+    "sqft_lot": -0.045873683277627024,
+    "floors": 5.670537589092571
+}},{latitude:47.6204, longitude:-122.292,actual:669000.0,predicted:661647,coefficients:{
+    "intercept": 257.4002671565985,
+    "bedrooms": -52.65868373854451,
+    "bathrooms": -155.3920614333477,
+    "sqft_living": 0.21330043090108713,
+    "sqft_lot": -0.046489147965064405,
+    "floors": 4.592485546697663
+}},{latitude:47.6374, longitude:-122.304,actual:739000.0,predicted:746903,coefficients:{
+    "intercept": 248.9362936317512,
+    "bedrooms": -50.907149737788814,
+    "bathrooms": -158.3123454636458,
+    "sqft_living": 0.20562351489494635,
+    "sqft_lot": -0.05146775325448404,
+    "floors": -2.5782296514377725
+}},{latitude:47.6321, longitude:-122.306,actual:842500.0,predicted:839612,coefficients:{
+    "intercept": 248.99367186007967,
+    "bedrooms": -50.646330368551816,
+    "bathrooms": -158.62826755549355,
+    "sqft_living": 0.20524370019027754,
+    "sqft_lot": -0.051886182513019435,
+    "floors": -3.446159935108879
+}},{latitude:47.6358, longitude:-122.322,actual:407500.0,predicted:401842,coefficients:{
+    "intercept": 249.06573805539185,
+    "bedrooms": -49.43170046602417,
+    "bathrooms": -158.86058652318158,
+    "sqft_living": 0.20913098094902505,
+    "sqft_lot": -0.05098424128651719,
+    "floors": -5.474889620667003
+}},{latitude:47.5962, longitude:-122.301,actual:395000.0,predicted:390940,coefficients:{
+    "intercept": 258.1705424598176,
+    "bedrooms": -52.65980012175825,
+    "bathrooms": -156.07766310416295,
+    "sqft_living": 0.2136664112571327,
+    "sqft_lot": -0.04622499934550552,
+    "floors": 2.900753786776227
+}},{latitude:47.6433, longitude:-122.3,actual:1050000.0,predicted:1028816,coefficients:{
+    "intercept": 249.48712499558536,
+    "bedrooms": -51.49245564063862,
+    "bathrooms": -157.62745436250714,
+    "sqft_living": 0.2064037580378352,
+    "sqft_lot": -0.05068314975167245,
+    "floors": -0.8302035930354602
+}},{latitude:47.6368, longitude:-122.306,actual:605000.0,predicted:616856,coefficients:{
+    "intercept": 248.66092316338975,
+    "bedrooms": -50.52461955198139,
+    "bathrooms": -158.54799491635043,
+    "sqft_living": 0.2058102400906021,
+    "sqft_lot": -0.051652592646908274,
+    "floors": -3.4286937163582927
+}},{latitude:47.6094, longitude:-122.31,actual:512500.0,predicted:543656,coefficients:{
+    "intercept": 253.3256202355457,
+    "bedrooms": -51.25494664414428,
+    "bathrooms": -157.87909901090765,
+    "sqft_living": 0.20993579238716809,
+    "sqft_lot": -0.049343811868387454,
+    "floors": -2.271105834126125
+}},{latitude:47.6451, longitude:-122.319,actual:982218.0,predicted:991307,coefficients:{
+    "intercept": 248.31371572300608,
+    "bedrooms": -49.52456181317221,
+    "bathrooms": -158.911488786598,
+    "sqft_living": 0.20852238815203158,
+    "sqft_lot": -0.05120405851129991,
+    "floors": -5.366583140783278
+}},{latitude:47.6244, longitude:-122.326,actual:625000.0,predicted:631513,coefficients:{
+    "intercept": 250.4582061525246,
+    "bedrooms": -49.575824242634944,
+    "bathrooms": -158.51358157771443,
+    "sqft_living": 0.2103605652434004,
+    "sqft_lot": -0.05026724988386188,
+    "floors": -4.917481262743155
+}},{latitude:47.637, longitude:-122.324,actual:800000.0,predicted:791560,coefficients:{
+    "intercept": 249.14620657562327,
+    "bedrooms": -49.424944593714486,
+    "bathrooms": -158.8221967276391,
+    "sqft_living": 0.20940657553178701,
+    "sqft_lot": -0.050865453230224136,
+    "floors": -5.439026052788816
+}},{latitude:47.5926, longitude:-122.3,actual:345000.0,predicted:341350,coefficients:{
+    "intercept": 258.7328553935999,
+    "bedrooms": -52.627066773282266,
+    "bathrooms": -155.8168755337993,
+    "sqft_living": 0.21430289938176697,
+    "sqft_lot": -0.04585210728510001,
+    "floors": 3.3700172987895862
+}},{latitude:47.617, longitude:-122.288,actual:1325000.0,predicted:1310635,coefficients:{
+    "intercept": 258.5090190438781,
+    "bedrooms": -52.61149878053524,
+    "bathrooms": -154.89693931330004,
+    "sqft_living": 0.21452625024634064,
+    "sqft_lot": -0.04582272661354234,
+    "floors": 5.440848229809366
+}},{latitude:47.5922, longitude:-122.297,actual:475000.0,predicted:469935,coefficients:{
+    "intercept": 259.30881092884897,
+    "bedrooms": -52.63113808525519,
+    "bathrooms": -155.43525683187528,
+    "sqft_living": 0.21489719511930563,
+    "sqft_lot": -0.0454905920992674,
+    "floors": 4.2138971564632355
+}},{latitude:47.6086, longitude:-122.294,actual:565000.0,predicted:619503,coefficients:{
+    "intercept": 258.3976481514037,
+    "bedrooms": -52.7240764594972,
+    "bathrooms": -155.411911044537,
+    "sqft_living": 0.2139805783051757,
+    "sqft_lot": -0.04602286851983149,
+    "floors": 4.586517953568585
+}},{latitude:47.6051, longitude:-122.289,actual:969500.0,predicted:955483,coefficients:{
+    "intercept": 259.4256374938914,
+    "bedrooms": -52.62627699481689,
+    "bathrooms": -154.8343582520695,
+    "sqft_living": 0.2152157231512964,
+    "sqft_lot": -0.04536718431114068,
+    "floors": 5.558987932631947
+}},{latitude:47.6373, longitude:-122.3,actual:895000.0,predicted:864857,coefficients:{
+    "intercept": 250.8045470361307,
+    "bedrooms": -51.814624463010155,
+    "bathrooms": -157.46483940636648,
+    "sqft_living": 0.20707272231097024,
+    "sqft_lot": -0.050218730940290966,
+    "floors": -0.11882571312329364
+}},{latitude:47.6398, longitude:-122.306,actual:886000.0,predicted:888440,coefficients:{
+    "intercept": 248.52329408059842,
+    "bedrooms": -50.486670495119085,
+    "bathrooms": -158.49051022628342,
+    "sqft_living": 0.2061759539860099,
+    "sqft_lot": -0.051497589635821725,
+    "floors": -3.3948923360625116
+}},{latitude:47.6308, longitude:-122.302,actual:370000.0,predicted:374394,coefficients:{
+    "intercept": 251.07755309955155,
+    "bedrooms": -51.818844164576824,
+    "bathrooms": -157.80105911925463,
+    "sqft_living": 0.20666363787080133,
+    "sqft_lot": -0.05048607880230539,
+    "floors": -0.693168996836383
+}},{latitude:47.6095, longitude:-122.296,actual:600000.0,predicted:599593,coefficients:{
+    "intercept": 257.8654091585118,
+    "bedrooms": -52.74395766763829,
+    "bathrooms": -155.71269231009134,
+    "sqft_living": 0.2133600130834848,
+    "sqft_lot": -0.046370079432805474,
+    "floors": 4.027605121194496
+}},{latitude:47.5945, longitude:-122.291,actual:570000.0,predicted:553026,coefficients:{
+    "intercept": 259.9063428016196,
+    "bedrooms": -52.59273047472967,
+    "bathrooms": -154.88504198637398,
+    "sqft_living": 0.21561635287190856,
+    "sqft_lot": -0.04510863226667698,
+    "floors": 5.349889327486246
+}},{latitude:47.6458, longitude:-122.306,actual:700000.0,predicted:700183,coefficients:{
+    "intercept": 248.37252429117964,
+    "bedrooms": -50.45782328641384,
+    "bathrooms": -158.3704492129919,
+    "sqft_living": 0.20685345335403876,
+    "sqft_lot": -0.05120770426282574,
+    "floors": -3.2978570808624106
+}},{latitude:47.5998, longitude:-122.312,actual:397500.0,predicted:398525,coefficients:{
+    "intercept": 254.59781083349256,
+    "bedrooms": -51.27193090055423,
+    "bathrooms": -157.46435221713892,
+    "sqft_living": 0.21164153215397058,
+    "sqft_lot": -0.04837017273144767,
+    "floors": -1.6704537300742381
+}},{latitude:47.6162, longitude:-122.288,actual:1190000.0,predicted:1189406,coefficients:{
+    "intercept": 258.5880669728922,
+    "bedrooms": -52.61378785738335,
+    "bathrooms": -154.88596005736883,
+    "sqft_living": 0.21458676664471563,
+    "sqft_lot": -0.045783687337782514,
+    "floors": 5.46490214275444
+}},{latitude:47.6275, longitude:-122.315,actual:1990000.0,predicted:1992777,coefficients:{
+    "intercept": 249.56397661468353,
+    "bedrooms": -49.719805652854305,
+    "bathrooms": -158.79873444762026,
+    "sqft_living": 0.20820364608270814,
+    "sqft_lot": -0.05119396761359958,
+    "floors": -5.065396365507228
+}},{latitude:47.6038, longitude:-122.303,actual:715000.0,predicted:706593,coefficients:{
+    "intercept": 256.57139802614483,
+    "bedrooms": -52.638839805425214,
+    "bathrooms": -156.75085244898762,
+    "sqft_living": 0.21191758691664878,
+    "sqft_lot": -0.047304686342241095,
+    "floors": 1.5782502256194388
+}},{latitude:47.6177, longitude:-122.308,actual:742000.0,predicted:732432,coefficients:{
+    "intercept": 251.85985569224934,
+    "bedrooms": -51.2153194371001,
+    "bathrooms": -158.26576488036991,
+    "sqft_living": 0.20786411998493012,
+    "sqft_lot": -0.05045437386914566,
+    "floors": -2.745219023029502
+}},{latitude:47.5929, longitude:-122.303,actual:435000.0,predicted:437071,coefficients:{
+    "intercept": 258.00821977136985,
+    "bedrooms": -52.57947758221523,
+    "bathrooms": -156.26031017803123,
+    "sqft_living": 0.21361256621180624,
+    "sqft_lot": -0.04631241274270888,
+    "floors": 2.297958038440912
+}},{latitude:47.5943, longitude:-122.302,actual:390000.0,predicted:388645,coefficients:{
+    "intercept": 258.1173004382357,
+    "bedrooms": -52.61849776896931,
+    "bathrooms": -156.16059354610087,
+    "sqft_living": 0.21366872892514496,
+    "sqft_lot": -0.04625055703912474,
+    "floors": 2.614221582420398
+}},{latitude:47.6301, longitude:-122.301,actual:1385000.0,predicted:1376990,coefficients:{
+    "intercept": 251.92670379929382,
+    "bedrooms": -52.043635771065595,
+    "bathrooms": -157.48756279407593,
+    "sqft_living": 0.2075845384911815,
+    "sqft_lot": -0.049897717789097816,
+    "floors": 0.10375198011693852
+}},{latitude:47.6183, longitude:-122.3,actual:581000.0,predicted:581878,coefficients:{
+    "intercept": 255.1459176484068,
+    "bedrooms": -52.597350568450665,
+    "bathrooms": -156.75897541941947,
+    "sqft_living": 0.21050511588071708,
+    "sqft_lot": -0.04808853888457662,
+    "floors": 1.9270834647487995
+}},{latitude:47.6123, longitude:-122.314,actual:591000.0,predicted:588778,coefficients:{
+    "intercept": 252.28994889572448,
+    "bedrooms": -50.508374045299895,
+    "bathrooms": -158.10691328123457,
+    "sqft_living": 0.21003563871026212,
+    "sqft_lot": -0.049758764517421526,
+    "floors": -3.3992462623006015
+}},{latitude:47.6394, longitude:-122.308,actual:715000.0,predicted:720684,coefficients:{
+    "intercept": 248.34574079634464,
+    "bedrooms": -50.194742183410476,
+    "bathrooms": -158.67400433584476,
+    "sqft_living": 0.2064239541392656,
+    "sqft_lot": -0.05160261610607822,
+    "floors": -4.049254261623572
+}},{latitude:47.5968, longitude:-122.29,actual:881000.0,predicted:888882,coefficients:{
+    "intercept": 259.8698597011033,
+    "bedrooms": -52.595841808313146,
+    "bathrooms": -154.82806860780312,
+    "sqft_living": 0.21560443414055053,
+    "sqft_lot": -0.04512495139814131,
+    "floors": 5.48560452147913
+}},{latitude:47.6263, longitude:-122.284,actual:2920000.0,predicted:2921703,coefficients:{
+    "intercept": 258.105030663695,
+    "bedrooms": -52.48712109369919,
+    "bathrooms": -154.7021650017223,
+    "sqft_living": 0.214576981254423,
+    "sqft_lot": -0.045916540691431876,
+    "floors": 5.586394260124459
+}},{latitude:47.636, longitude:-122.301,actual:952500.0,predicted:958639,coefficients:{
+    "intercept": 250.4220356691807,
+    "bedrooms": -51.69955453118041,
+    "bathrooms": -157.70529613916614,
+    "sqft_living": 0.20648596295217106,
+    "sqft_lot": -0.050577804082005066,
+    "floors": -0.6431986069999702
+}},{latitude:47.6426, longitude:-122.327,actual:1050000.0,predicted:1045055,coefficients:{
+    "intercept": 249.0790727491041,
+    "bedrooms": -49.43876400711099,
+    "bathrooms": -158.77540317829965,
+    "sqft_living": 0.20967608415962144,
+    "sqft_lot": -0.050742848968266495,
+    "floors": -5.354695674193629
+}},{latitude:47.6222, longitude:-122.287,actual:718500.0,predicted:718165,coefficients:{
+    "intercept": 258.1151162999555,
+    "bedrooms": -52.56843575610038,
+    "bathrooms": -154.88145681770914,
+    "sqft_living": 0.21432387156294222,
+    "sqft_lot": -0.04598664484970518,
+    "floors": 5.396994352587547
+}},{latitude:47.6133, longitude:-122.308,actual:685000.0,predicted:656421,coefficients:{
+    "intercept": 252.86209366093001,
+    "bedrooms": -51.50197958739186,
+    "bathrooms": -158.0347367443624,
+    "sqft_living": 0.20881530977208113,
+    "sqft_lot": -0.04980255361034345,
+    "floors": -2.1704789482482285
+}},{latitude:47.6401, longitude:-122.299,actual:1062500.0,predicted:1058197,coefficients:{
+    "intercept": 250.82737870225077,
+    "bedrooms": -51.83238400460468,
+    "bathrooms": -157.2808305067869,
+    "sqft_living": 0.2074229158979873,
+    "sqft_lot": -0.05002475912162761,
+    "floors": 0.17825930735045764
+}},{latitude:47.6007, longitude:-122.305,actual:380000.0,predicted:392292,coefficients:{
+    "intercept": 256.33845805675304,
+    "bedrooms": -52.531483398896206,
+    "bathrooms": -156.98490069517277,
+    "sqft_living": 0.21180172048783724,
+    "sqft_lot": -0.04746746823228188,
+    "floors": 0.7881478153955193
+}},{latitude:47.6263, longitude:-122.314,actual:3300000.0,predicted:3302851,coefficients:{
+    "intercept": 249.75395562396542,
+    "bedrooms": -49.83170803372379,
+    "bathrooms": -158.7509283723076,
+    "sqft_living": 0.20809744396589586,
+    "sqft_lot": -0.05116787721583888,
+    "floors": -4.877354064135465
+}},{latitude:47.6204, longitude:-122.296,actual:529000.0,predicted:528525,coefficients:{
+    "intercept": 256.29711488776485,
+    "bedrooms": -52.668955530352626,
+    "bathrooms": -156.01098728557747,
+    "sqft_living": 0.21196204150757433,
+    "sqft_lot": -0.04722493165918586,
+    "floors": 3.461539462804982
+}},{latitude:47.5963, longitude:-122.292,actual:1137500.0,predicted:1130384,coefficients:{
+    "intercept": 259.7046089229851,
+    "bedrooms": -52.62395465492573,
+    "bathrooms": -154.9912649579224,
+    "sqft_living": 0.21537092729247123,
+    "sqft_lot": -0.04523657331159061,
+    "floors": 5.188624094153583
+}},{latitude:47.6192, longitude:-122.307,actual:770000.0,predicted:775584,coefficients:{
+    "intercept": 251.62213206818592,
+    "bedrooms": -51.368806737299714,
+    "bathrooms": -158.32251697438664,
+    "sqft_living": 0.207207910711337,
+    "sqft_lot": -0.05069715544318883,
+    "floors": -2.6086538419878518
+}},{latitude:47.6199, longitude:-122.304,actual:574000.0,predicted:560383,coefficients:{
+    "intercept": 252.6866072697583,
+    "bedrooms": -52.11241035126504,
+    "bathrooms": -157.8597362500732,
+    "sqft_living": 0.20777093855772305,
+    "sqft_lot": -0.04990980257530261,
+    "floors": -0.7702602404286182
+}},{latitude:47.6111, longitude:-122.308,actual:651000.0,predicted:651210,coefficients:{
+    "intercept": 253.33939951928676,
+    "bedrooms": -51.6251353932669,
+    "bathrooms": -157.91626539890234,
+    "sqft_living": 0.20928454473440997,
+    "sqft_lot": -0.049480619582818096,
+    "floors": -1.8886688341353632
+}},{latitude:47.6168, longitude:-122.298,actual:815000.0,predicted:773339,coefficients:{
+    "intercept": 256.21317411094515,
+    "bedrooms": -52.690528239646945,
+    "bathrooms": -156.27759821664523,
+    "sqft_living": 0.21167473877429846,
+    "sqft_lot": -0.047373707584242065,
+    "floors": 2.94890344328976
+}},{latitude:47.6342, longitude:-122.282,actual:1600000.0,predicted:1602620,coefficients:{
+    "intercept": 257.5701595145578,
+    "bedrooms": -52.390076382371284,
+    "bathrooms": -154.67885803664615,
+    "sqft_living": 0.21440606497306236,
+    "sqft_lot": -0.04610517946715552,
+    "floors": 5.4360447513065315
+}},{latitude:47.6292, longitude:-122.312,actual:1325000.0,predicted:1326588,coefficients:{
+    "intercept": 249.21060848307903,
+    "bedrooms": -49.86363616136146,
+    "bathrooms": -158.84552404250945,
+    "sqft_living": 0.2072211580336748,
+    "sqft_lot": -0.051542945953657035,
+    "floors": -4.887822425222162
+}},{latitude:47.6093, longitude:-122.297,actual:710000.0,predicted:655205,coefficients:{
+    "intercept": 257.6417650833778,
+    "bedrooms": -52.74737533703423,
+    "bathrooms": -155.86357359403152,
+    "sqft_living": 0.21309022587167123,
+    "sqft_lot": -0.046523863485276554,
+    "floors": 3.7280008218008542
+}},{latitude:47.6118, longitude:-122.299,actual:517000.0,predicted:520690,coefficients:{
+    "intercept": 256.6908060187648,
+    "bedrooms": -52.7233244277209,
+    "bathrooms": -156.29820343950342,
+    "sqft_living": 0.2120547829389646,
+    "sqft_lot": -0.04714179209695104,
+    "floors": 2.8655970057650064
+}},{latitude:47.6059, longitude:-122.313,actual:575000.0,predicted:583058,coefficients:{
+    "intercept": 253.4781454381875,
+    "bedrooms": -50.90967370991395,
+    "bathrooms": -157.78399143088498,
+    "sqft_living": 0.21083592467523957,
+    "sqft_lot": -0.049063111361533025,
+    "floors": -2.533615177952522
+}},{latitude:47.6019, longitude:-122.29,actual:1388000.0,predicted:1380142,coefficients:{
+    "intercept": 259.5515490341592,
+    "bedrooms": -52.63042357938138,
+    "bathrooms": -154.882404424121,
+    "sqft_living": 0.21528367225748174,
+    "sqft_lot": -0.04530971586804848,
+    "floors": 5.455379190979737
+}},{latitude:47.6465, longitude:-122.319,actual:2147500.0,predicted:2147467,coefficients:{
+    "intercept": 248.26359446856645,
+    "bedrooms": -49.539959272530155,
+    "bathrooms": -158.90166399895733,
+    "sqft_living": 0.208531105690745,
+    "sqft_lot": -0.051191159094143915,
+    "floors": -5.333544350321391
+}},{latitude:47.6054, longitude:-122.295,actual:740000.0,predicted:739231,coefficients:{
+    "intercept": 258.54018281448856,
+    "bedrooms": -52.72732565748603,
+    "bathrooms": -155.47346879297803,
+    "sqft_living": 0.21406845268725275,
+    "sqft_lot": -0.04595907273575794,
+    "floors": 4.435871338434009
+}},{latitude:47.6059, longitude:-122.303,actual:415000.0,predicted:410704,coefficients:{
+    "intercept": 256.2229184218683,
+    "bedrooms": -52.62898472292589,
+    "bathrooms": -156.8557759498049,
+    "sqft_living": 0.21152605452496512,
+    "sqft_lot": -0.04754059617987979,
+    "floors": 1.406242385753335
+}},{latitude:47.6071, longitude:-122.285,actual:676500.0,predicted:678196,coefficients:{
+    "intercept": 259.624903405359,
+    "bedrooms": -52.549314700418314,
+    "bathrooms": -154.56494035122853,
+    "sqft_living": 0.21561465395690627,
+    "sqft_lot": -0.04520448191976571,
+    "floors": 5.970020846253058
+}},{latitude:47.6058, longitude:-122.319,actual:350000.0,predicted:354884,coefficients:{
+    "intercept": 252.85234210954576,
+    "bedrooms": -50.327532201912305,
+    "bathrooms": -157.88859033908847,
+    "sqft_living": 0.21131740180572472,
+    "sqft_lot": -0.04919185964199155,
+    "floors": -3.3015791323379995
+}},{latitude:47.6466, longitude:-122.321,actual:950000.0,predicted:951632,coefficients:{
+    "intercept": 248.42714021676184,
+    "bedrooms": -49.50785340777721,
+    "bathrooms": -158.87793968472158,
+    "sqft_living": 0.20884016896047825,
+    "sqft_lot": -0.05107924134543363,
+    "floors": -5.359155154254194
+}},{latitude:47.6351, longitude:-122.285,actual:940000.0,predicted:943763,coefficients:{
+    "intercept": 256.9956921779743,
+    "bedrooms": -52.42007004576717,
+    "bathrooms": -154.91027126063503,
+    "sqft_living": 0.21378803213561862,
+    "sqft_lot": -0.04642816663159955,
+    "floors": 5.054556570047405
+}},{latitude:47.6185, longitude:-122.295,actual:295000.0,predicted:291821,coefficients:{
+    "intercept": 256.8998939085569,
+    "bedrooms": -52.69529022974441,
+    "bathrooms": -155.78861365763518,
+    "sqft_living": 0.21257608646645235,
+    "sqft_lot": -0.046864282837203966,
+    "floors": 3.900013398931819
+}},{latitude:47.6075, longitude:-122.295,actual:774900.0,predicted:756907,coefficients:{
+    "intercept": 258.31864672546004,
+    "bedrooms": -52.733799263849036,
+    "bathrooms": -155.52044526799074,
+    "sqft_living": 0.21385050187316146,
+    "sqft_lot": -0.04608782151122889,
+    "floors": 4.373716409581374
+}},{latitude:47.6115, longitude:-122.287,actual:1028950.0,predicted:1014074,coefficients:{
+    "intercept": 259.1292091590141,
+    "bedrooms": -52.59810357432165,
+    "bathrooms": -154.74492360324092,
+    "sqft_living": 0.2150861710310087,
+    "sqft_lot": -0.04549113742712129,
+    "floors": 5.704810698378749
+}},{latitude:47.6059, longitude:-122.31,actual:345600.0,predicted:370790,coefficients:{
+    "intercept": 253.97562929343079,
+    "bedrooms": -51.40901960682148,
+    "bathrooms": -157.69813564838225,
+    "sqft_living": 0.21055532770690705,
+    "sqft_lot": -0.048905832039712736,
+    "floors": -1.855863393216102
+}},{latitude:47.6304, longitude:-122.309,actual:1003000.0,predicted:997282,coefficients:{
+    "intercept": 248.9432467171426,
+    "bedrooms": -50.1333849063071,
+    "bathrooms": -158.8313521841089,
+    "sqft_living": 0.20604963020811623,
+    "sqft_lot": -0.051885752768471814,
+    "floors": -4.461947918475364
+}},{latitude:47.6239, longitude:-122.297,actual:699999.0,predicted:685445,coefficients:{
+    "intercept": 255.32494520075048,
+    "bedrooms": -52.58878466472556,
+    "bathrooms": -156.30571393447627,
+    "sqft_living": 0.2110366591679443,
+    "sqft_lot": -0.04778207140192205,
+    "floors": 2.8353099700188316
+}},{latitude:47.6278, longitude:-122.292,actual:900000.0,predicted:913496,coefficients:{
+    "intercept": 256.3587958895696,
+    "bedrooms": -52.57216468147332,
+    "bathrooms": -155.54685511665008,
+    "sqft_living": 0.21253585209487702,
+    "sqft_lot": -0.046984684947466965,
+    "floors": 4.180209388766211
+}},{latitude:47.6004, longitude:-122.292,actual:675000.0,predicted:657851,coefficients:{
+    "intercept": 259.43309170457974,
+    "bedrooms": -52.65624154002481,
+    "bathrooms": -155.04560999072396,
+    "sqft_living": 0.215084043027165,
+    "sqft_lot": -0.045399052778128314,
+    "floors": 5.155135294304913
+}},{latitude:47.6088, longitude:-122.294,actual:675000.0,predicted:644825,coefficients:{
+    "intercept": 258.37617951755993,
+    "bedrooms": -52.72435879772708,
+    "bathrooms": -155.4160803544036,
+    "sqft_living": 0.21396043611300794,
+    "sqft_lot": -0.04603494744475129,
+    "floors": 4.580462492968096
+}},{latitude:47.5928, longitude:-122.295,actual:546000.0,predicted:548994,coefficients:{
+    "intercept": 259.55912414325843,
+    "bedrooms": -52.62543165537784,
+    "bathrooms": -155.22997038644002,
+    "sqft_living": 0.21517369410665899,
+    "sqft_lot": -0.04533386394696003,
+    "floors": 4.656826581820837
+}},{latitude:47.6207, longitude:-122.297,actual:585000.0,predicted:572996,coefficients:{
+    "intercept": 255.90025207805465,
+    "bedrooms": -52.65059033481901,
+    "bathrooms": -156.20712942920474,
+    "sqft_living": 0.21150942850169105,
+    "sqft_lot": -0.047487307561295884,
+    "floors": 3.0745744770237367
+}},{latitude:47.6135, longitude:-122.297,actual:525000.0,predicted:527813,coefficients:{
+    "intercept": 257.0596958940311,
+    "bedrooms": -52.73283509288778,
+    "bathrooms": -155.98724302174733,
+    "sqft_living": 0.21253471311801647,
+    "sqft_lot": -0.046858007145435566,
+    "floors": 3.522515023665605
+}},{latitude:47.6067, longitude:-122.298,actual:415000.0,predicted:408889,coefficients:{
+    "intercept": 257.7150740344812,
+    "bedrooms": -52.74585321389287,
+    "bathrooms": -155.94864357764197,
+    "sqft_living": 0.21312493388943243,
+    "sqft_lot": -0.04650147855054968,
+    "floors": 3.510914494902895
+}},{latitude:47.5926, longitude:-122.299,actual:373000.0,predicted:374510,coefficients:{
+    "intercept": 258.93379040942136,
+    "bedrooms": -52.636612804005516,
+    "bathrooms": -155.686462669691,
+    "sqft_living": 0.2144987542687596,
+    "sqft_lot": -0.04572689184770241,
+    "floors": 3.6739162603911355
+}},{latitude:47.6288, longitude:-122.3,actual:450000.0,predicted:438805,coefficients:{
+    "intercept": 252.85033861599928,
+    "bedrooms": -52.2408993587482,
+    "bathrooms": -157.16827838150243,
+    "sqft_living": 0.20853718941366714,
+    "sqft_lot": -0.04930259721762104,
+    "floors": 0.8871344960521628
+}},{latitude:47.62, longitude:-122.3,actual:500000.0,predicted:512790,coefficients:{
+    "intercept": 254.8018474342611,
+    "bedrooms": -52.55565701156568,
+    "bathrooms": -156.827366635787,
+    "sqft_living": 0.21018931025767854,
+    "sqft_lot": -0.04828210715858274,
+    "floors": 1.7768804857174068
+}},{latitude:47.6156, longitude:-122.295,actual:812000.0,predicted:808419,coefficients:{
+    "intercept": 257.31565640603196,
+    "bedrooms": -52.71856700943022,
+    "bathrooms": -155.7150058354075,
+    "sqft_living": 0.21293052431311177,
+    "sqft_lot": -0.046644831724112025,
+    "floors": 4.0506044060396755
+}},{latitude:47.6262, longitude:-122.323,actual:1450000.0,predicted:1447214,coefficients:{
+    "intercept": 250.11078009118535,
+    "bedrooms": -49.55467778300278,
+    "bathrooms": -158.63137161194695,
+    "sqft_living": 0.20984380051193505,
+    "sqft_lot": -0.050537077682266014,
+    "floors": -5.090492685895172
+}},{latitude:47.6032, longitude:-122.308,actual:386180.0,predicted:393316,coefficients:{
+    "intercept": 254.8994704056447,
+    "bedrooms": -51.95145085388933,
+    "bathrooms": -157.48534569370284,
+    "sqft_living": 0.21087739915760323,
+    "sqft_lot": -0.04839338096034136,
+    "floors": -0.9284534541655931
+}},{latitude:47.6004, longitude:-122.299,actual:349000.0,predicted:374108,coefficients:{
+    "intercept": 258.2073786375275,
+    "bedrooms": -52.714801533460985,
+    "bathrooms": -155.9106731204953,
+    "sqft_living": 0.21364643582268542,
+    "sqft_lot": -0.046204320297589745,
+    "floors": 3.43082668773101
+}},{latitude:47.62, longitude:-122.309,actual:675000.0,predicted:661455,coefficients:{
+    "intercept": 251.21928969936198,
+    "bedrooms": -50.82808488977288,
+    "bathrooms": -158.40215556385414,
+    "sqft_living": 0.2076876648765268,
+    "sqft_lot": -0.05075880964870492,
+    "floors": -3.3328058731566856
+}},{latitude:47.6175, longitude:-122.297,actual:299000.0,predicted:298068,coefficients:{
+    "intercept": 256.43990272244713,
+    "bedrooms": -52.69665156695431,
+    "bathrooms": -156.10868185185342,
+    "sqft_living": 0.21197407411816013,
+    "sqft_lot": -0.047200317424807695,
+    "floors": 3.289021716045242
+}},{latitude:47.5959, longitude:-122.298,actual:379900.0,predicted:377343,coefficients:{
+    "intercept": 258.8538862459446,
+    "bedrooms": -52.67573100877954,
+    "bathrooms": -155.64238015956306,
+    "sqft_living": 0.21437242593145842,
+    "sqft_lot": -0.04578527137137872,
+    "floors": 3.8783097251539704
+}},{latitude:47.626, longitude:-122.323,actual:2250000.0,predicted:2243049,coefficients:{
+    "intercept": 250.1355353574536,
+    "bedrooms": -49.5595615021422,
+    "bathrooms": -158.62485157773702,
+    "sqft_living": 0.20985978063114868,
+    "sqft_lot": -0.05052529262666312,
+    "floors": -5.077175545164808
+}},{latitude:47.6047, longitude:-122.305,actual:455000.0,predicted:449227,coefficients:{
+    "intercept": 255.62991068108028,
+    "bedrooms": -52.50553480340543,
+    "bathrooms": -157.21925444326493,
+    "sqft_living": 0.21097477891640126,
+    "sqft_lot": -0.0479746511275839,
+    "floors": 0.3789407816832092
+}},{latitude:47.6179, longitude:-122.301,actual:730000.0,predicted:716392,coefficients:{
+    "intercept": 254.77361059492495,
+    "bedrooms": -52.5478673987283,
+    "bathrooms": -156.97720450751538,
+    "sqft_living": 0.21006277044615687,
+    "sqft_lot": -0.048372194459658575,
+    "floors": 1.4316663582883147
+}},{latitude:47.5924, longitude:-122.299,actual:310000.0,predicted:307738,coefficients:{
+    "intercept": 258.94904062747946,
+    "bedrooms": -52.63372704320634,
+    "bathrooms": -155.68115588509858,
+    "sqft_living": 0.21451827942035656,
+    "sqft_lot": -0.045716506788926525,
+    "floors": 3.6785417685283
+}},{latitude:47.6073, longitude:-122.304,actual:615000.0,predicted:615608,coefficients:{
+    "intercept": 255.5616097153691,
+    "bedrooms": -52.55081158742616,
+    "bathrooms": -157.14773353252104,
+    "sqft_living": 0.21083137396856644,
+    "sqft_lot": -0.04800818014555759,
+    "floors": 0.7130149871788145
+}},{latitude:47.6166, longitude:-122.291,actual:1262000.0,predicted:1230055,coefficients:{
+    "intercept": 258.0719259258532,
+    "bedrooms": -52.66784418826247,
+    "bathrooms": -155.1971719603764,
+    "sqft_living": 0.21392647546132595,
+    "sqft_lot": -0.04612022990590026,
+    "floors": 4.962093800310387
+}},{latitude:47.6192, longitude:-122.297,actual:360000.0,predicted:360222,coefficients:{
+    "intercept": 256.15787375615787,
+    "bedrooms": -52.67412828182413,
+    "bathrooms": -156.16090955480854,
+    "sqft_living": 0.21172861978010024,
+    "sqft_lot": -0.04735157587224187,
+    "floors": 3.178190082248409
+}},{latitude:47.6248, longitude:-122.29,actual:1595000.0,predicted:1596070,coefficients:{
+    "intercept": 257.2695116549876,
+    "bedrooms": -52.594943205271335,
+    "bathrooms": -155.22853188153903,
+    "sqft_living": 0.2134240748154418,
+    "sqft_lot": -0.04647685934534281,
+    "floors": 4.795683534701966
+}},{latitude:47.6256, longitude:-122.299,actual:950000.0,predicted:943399,coefficients:{
+    "intercept": 254.10091144531435,
+    "bedrooms": -52.451751550260994,
+    "bathrooms": -156.80239611953584,
+    "sqft_living": 0.20972950701960233,
+    "sqft_lot": -0.04856675275252059,
+    "floors": 1.7718963257082694
+}},{latitude:47.6207, longitude:-122.301,actual:495000.0,predicted:482963,coefficients:{
+    "intercept": 254.16904763294966,
+    "bedrooms": -52.46363895271132,
+    "bathrooms": -157.0998094872097,
+    "sqft_living": 0.2094959760046543,
+    "sqft_lot": -0.04871980241635086,
+    "floors": 1.158018930278515
+}},{latitude:47.6173, longitude:-122.31,actual:685000.0,predicted:693755,coefficients:{
+    "intercept": 251.72120487281663,
+    "bedrooms": -50.81584455415587,
+    "bathrooms": -158.2847861455379,
+    "sqft_living": 0.20848022416117762,
+    "sqft_lot": -0.0503723049967139,
+    "floors": -3.2409647994227044
+}},{latitude:47.6196, longitude:-122.297,actual:759000.0,predicted:751207,coefficients:{
+    "intercept": 256.0899638824434,
+    "bedrooms": -52.66818948976785,
+    "bathrooms": -156.17322675298553,
+    "sqft_living": 0.2116703808022915,
+    "sqft_lot": -0.04738758041034426,
+    "floors": 3.1510938206959103
+}},{latitude:47.6161, longitude:-122.302,actual:555000.0,predicted:527157,coefficients:{
+    "intercept": 254.6795706864947,
+    "bedrooms": -52.52221983371566,
+    "bathrooms": -157.13749736199836,
+    "sqft_living": 0.2098989852615601,
+    "sqft_lot": -0.0484972655336411,
+    "floors": 1.0304988521279956
+}},{latitude:47.6427, longitude:-122.327,actual:527500.0,predicted:543444,coefficients:{
+    "intercept": 249.0739635380578,
+    "bedrooms": -49.43906281086095,
+    "bathrooms": -158.77579899260974,
+    "sqft_living": 0.20967391464716112,
+    "sqft_lot": -0.05074386728639538,
+    "floors": -5.354596084170828
+}},{latitude:47.644, longitude:-122.327,actual:975000.0,predicted:963447,coefficients:{
+    "intercept": 249.02093845272196,
+    "bedrooms": -49.447316062034346,
+    "bathrooms": -158.7752344906179,
+    "sqft_living": 0.20965591062188552,
+    "sqft_lot": -0.0507487097673515,
+    "floors": -5.340111310337533
+}},{latitude:47.6413, longitude:-122.329,actual:399950.0,predicted:401847,coefficients:{
+    "intercept": 249.3234903517122,
+    "bedrooms": -49.445894068394374,
+    "bathrooms": -158.71309551920442,
+    "sqft_living": 0.20995195215663912,
+    "sqft_lot": -0.050604400819246734,
+    "floors": -5.273418410599832
+}},{latitude:47.6127, longitude:-122.299,actual:547500.0,predicted:568624,coefficients:{
+    "intercept": 256.5463252878205,
+    "bedrooms": -52.71623491704436,
+    "bathrooms": -156.33085547918958,
+    "sqft_living": 0.21191306549357364,
+    "sqft_lot": -0.0472271790103518,
+    "floors": 2.8085807688634263
+}},{latitude:47.6179, longitude:-122.318,actual:640000.0,predicted:649659,coefficients:{
+    "intercept": 251.16999220391324,
+    "bedrooms": -49.95285434817583,
+    "bathrooms": -158.381078112141,
+    "sqft_living": 0.209906238993235,
+    "sqft_lot": -0.05020380947122427,
+    "floors": -4.349250894038283
+}},{latitude:47.6396, longitude:-122.329,actual:659000.0,predicted:656515,coefficients:{
+    "intercept": 249.3949685481709,
+    "bedrooms": -49.43708847551292,
+    "bathrooms": -158.7116292651128,
+    "sqft_living": 0.2099809539295427,
+    "sqft_lot": -0.050593922929164536,
+    "floors": -5.288377193146075
+}},{latitude:47.6181, longitude:-122.301,actual:515000.0,predicted:510086,coefficients:{
+    "intercept": 254.73158611417557,
+    "bedrooms": -52.5424992748229,
+    "bathrooms": -156.98602027716342,
+    "sqft_living": 0.210022689253454,
+    "sqft_lot": -0.04839673478984034,
+    "floors": 1.4127761717260188
+}},{latitude:47.6226, longitude:-122.313,actual:735000.0,predicted:727717,coefficients:{
+    "intercept": 250.45875435000377,
+    "bedrooms": -50.09803973352974,
+    "bathrooms": -158.5808993420949,
+    "sqft_living": 0.20835206754453237,
+    "sqft_lot": -0.050874202084229304,
+    "floors": -4.389152593730625
+}},{latitude:47.6239, longitude:-122.29,actual:1333000.0,predicted:1328744,coefficients:{
+    "intercept": 257.3846343728608,
+    "bedrooms": -52.60366739200561,
+    "bathrooms": -155.21210215655933,
+    "sqft_living": 0.2135061257539897,
+    "sqft_lot": -0.04642290161364206,
+    "floors": 4.840500965518939
+}},{latitude:47.5999, longitude:-122.286,actual:1050000.0,predicted:1048128,coefficients:{
+    "intercept": 259.9913689306569,
+    "bedrooms": -52.54190994783879,
+    "bathrooms": -154.57416920390676,
+    "sqft_living": 0.2158852036430362,
+    "sqft_lot": -0.04502000118046557,
+    "floors": 5.927065646143869
+}},{latitude:47.6168, longitude:-122.314,actual:625000.0,predicted:628714,coefficients:{
+    "intercept": 251.50128719237887,
+    "bedrooms": -50.29577746909136,
+    "bathrooms": -158.31761185681222,
+    "sqft_living": 0.20939964581146486,
+    "sqft_lot": -0.0502278769799616,
+    "floors": -3.8867185569672325
+}},{latitude:47.618, longitude:-122.311,actual:520000.0,predicted:536419,coefficients:{
+    "intercept": 251.48211091910085,
+    "bedrooms": -50.605604086013194,
+    "bathrooms": -158.33720504071016,
+    "sqft_living": 0.20859550958468093,
+    "sqft_lot": -0.05043979416833617,
+    "floors": -3.54298835789821
+}},{latitude:47.6172, longitude:-122.31,actual:665000.0,predicted:667184,coefficients:{
+    "intercept": 251.7425416254893,
+    "bedrooms": -50.822084361670875,
+    "bathrooms": -158.2797290234402,
+    "sqft_living": 0.2084987873823644,
+    "sqft_lot": -0.050359246335937816,
+    "floors": -3.2285647278557232
+}},{latitude:47.5929, longitude:-122.308,actual:500000.0,predicted:495392,coefficients:{
+    "intercept": 256.5327447027761,
+    "bedrooms": -52.142600788433924,
+    "bathrooms": -156.95037337209013,
+    "sqft_living": 0.21262578189991452,
+    "sqft_lot": -0.04722768139654731,
+    "floors": 0.15013630311607443
+}},{latitude:47.5917, longitude:-122.295,actual:340000.0,predicted:339427,coefficients:{
+    "intercept": 259.6251012559493,
+    "bedrooms": -52.61287644539241,
+    "bathrooms": -155.2120675043341,
+    "sqft_living": 0.2152536515309882,
+    "sqft_lot": -0.04529102962773435,
+    "floors": 4.665807601957389
+}},{latitude:47.6187, longitude:-122.301,actual:359950.0,predicted:364068,coefficients:{
+    "intercept": 254.6044210943374,
+    "bedrooms": -52.52579957981757,
+    "bathrooms": -157.0124231194791,
+    "sqft_living": 0.2099020240054867,
+    "sqft_lot": -0.04847065484213861,
+    "floors": 1.3554970628104968
+}},{latitude:47.6356, longitude:-122.281,actual:1800000.0,predicted:1786286,coefficients:{
+    "intercept": 257.56366441067723,
+    "bedrooms": -52.362711987156864,
+    "bathrooms": -154.6384696496846,
+    "sqft_living": 0.2144815115483934,
+    "sqft_lot": -0.046086200935551686,
+    "floors": 5.4591935392371
+}},{latitude:47.6206, longitude:-122.299,actual:525000.0,predicted:519814,coefficients:{
+    "intercept": 255.12628215860695,
+    "bedrooms": -52.59185906113785,
+    "bathrooms": -156.6212651468022,
+    "sqft_living": 0.21059729653363296,
+    "sqft_lot": -0.04802978852206498,
+    "floors": 2.22265641488202
+}},{latitude:47.612, longitude:-122.295,actual:405000.0,predicted:423356,coefficients:{
+    "intercept": 257.7906124088514,
+    "bedrooms": -52.733861069010516,
+    "bathrooms": -155.626205845883,
+    "sqft_living": 0.21335375393323264,
+    "sqft_lot": -0.04638611996208734,
+    "floors": 4.211332679868944
+}},{latitude:47.5998, longitude:-122.311,actual:356999.0,predicted:364542,coefficients:{
+    "intercept": 254.79319588511206,
+    "bedrooms": -51.43453423408668,
+    "bathrooms": -157.4275328674714,
+    "sqft_living": 0.21160288138637273,
+    "sqft_lot": -0.048288439006599265,
+    "floors": -1.433561727181965
+}},{latitude:47.6395, longitude:-122.329,actual:664950.0,predicted:656516,coefficients:{
+    "intercept": 249.3975552180347,
+    "bedrooms": -49.435976597700424,
+    "bathrooms": -158.71229014485186,
+    "sqft_living": 0.20998144146937459,
+    "sqft_lot": -0.05059438082883251,
+    "floors": -5.291097868952514
+}},{latitude:47.6018, longitude:-122.297,actual:465000.0,predicted:469308,coefficients:{
+    "intercept": 258.5057579114515,
+    "bedrooms": -52.72408416868666,
+    "bathrooms": -155.65842768344575,
+    "sqft_living": 0.2139772487318171,
+    "sqft_lot": -0.046003871569134415,
+    "floors": 4.003292032282615
+}},{latitude:47.6178, longitude:-122.29,actual:920000.0,predicted:926312,coefficients:{
+    "intercept": 258.1144343653307,
+    "bedrooms": -52.64583968621907,
+    "bathrooms": -155.1062657950972,
+    "sqft_living": 0.2140501449990978,
+    "sqft_lot": -0.04607012418916192,
+    "floors": 5.101560960528916
+}},{latitude:47.602, longitude:-122.308,actual:459000.0,predicted:465194,coefficients:{
+    "intercept": 255.11366604254462,
+    "bedrooms": -51.98596300201263,
+    "bathrooms": -157.42045976931766,
+    "sqft_living": 0.2111022381802479,
+    "sqft_lot": -0.04824132066007624,
+    "floors": -0.791619856519236
+}},{latitude:47.6376, longitude:-122.326,actual:584000.0,predicted:576950,coefficients:{
+    "intercept": 249.27223716357085,
+    "bedrooms": -49.426293870174284,
+    "bathrooms": -158.77553005338558,
+    "sqft_living": 0.20966928064054646,
+    "sqft_lot": -0.05074394384884296,
+    "floors": -5.382946871513109
+}},{latitude:47.6369, longitude:-122.327,actual:505000.0,predicted:495106,coefficients:{
+    "intercept": 249.35216490369984,
+    "bedrooms": -49.412803580396876,
+    "bathrooms": -158.763784692687,
+    "sqft_living": 0.20978521194086067,
+    "sqft_lot": -0.05069942916004948,
+    "floors": -5.393145241243948
+}},{latitude:47.5925, longitude:-122.302,actual:565000.0,predicted:557395,coefficients:{
+    "intercept": 258.2979540911563,
+    "bedrooms": -52.59845560378848,
+    "bathrooms": -156.09479823249805,
+    "sqft_living": 0.21389005098045877,
+    "sqft_lot": -0.04612581570356965,
+    "floors": 2.6972912207581983
+}},{latitude:47.6006, longitude:-122.305,actual:441000.0,predicted:422072,coefficients:{
+    "intercept": 256.3548860636794,
+    "bedrooms": -52.53178904946372,
+    "bathrooms": -156.97930500471665,
+    "sqft_living": 0.21182093193127693,
+    "sqft_lot": -0.04745572524428304,
+    "floors": 0.7976892778392309
+}},{latitude:47.6114, longitude:-122.31,actual:552500.0,predicted:541281,coefficients:{
+    "intercept": 252.9363541488009,
+    "bedrooms": -51.15518147124414,
+    "bathrooms": -157.98259790398401,
+    "sqft_living": 0.20957234594555235,
+    "sqft_lot": -0.04960106100635557,
+    "floors": -2.513501645468363
+}},{latitude:47.6372, longitude:-122.324,actual:653500.0,predicted:656512,coefficients:{
+    "intercept": 249.13253983532297,
+    "bedrooms": -49.42482282697772,
+    "bathrooms": -158.82387005033866,
+    "sqft_living": 0.20940038351722642,
+    "sqft_lot": -0.050868859335561005,
+    "floors": -5.440441648910737
+}},{latitude:47.6206, longitude:-122.3,actual:610000.0,predicted:612710,coefficients:{
+    "intercept": 254.67753698660104,
+    "bedrooms": -52.539429132299624,
+    "bathrooms": -156.85138776845545,
+    "sqft_living": 0.2100770086457346,
+    "sqft_lot": -0.048351076000271165,
+    "floors": 1.7221323304313383
+}},{latitude:47.6371, longitude:-122.327,actual:499950.0,predicted:506373,coefficients:{
+    "intercept": 249.3458586902005,
+    "bedrooms": -49.41503067670857,
+    "bathrooms": -158.76260576643955,
+    "sqft_living": 0.20978395999655425,
+    "sqft_lot": -0.05069863742953053,
+    "floors": -5.3876744299649735
+}},{latitude:47.5934, longitude:-122.298,actual:502000.0,predicted:500819,coefficients:{
+    "intercept": 259.0552556593493,
+    "bedrooms": -52.647677129041334,
+    "bathrooms": -155.58068788815308,
+    "sqft_living": 0.21461302455207984,
+    "sqft_lot": -0.045652867792971265,
+    "floors": 3.935475777701489
+}},{latitude:47.6179, longitude:-122.312,actual:654000.0,predicted:652093,coefficients:{
+    "intercept": 251.42507702953773,
+    "bedrooms": -50.46898470898288,
+    "bathrooms": -158.3470803503834,
+    "sqft_living": 0.20883887266859918,
+    "sqft_lot": -0.050401336860690336,
+    "floors": -3.7153127570323092
+}},{latitude:47.6034, longitude:-122.309,actual:530000.0,predicted:519313,coefficients:{
+    "intercept": 254.6286538969629,
+    "bedrooms": -51.71141879806494,
+    "bathrooms": -157.53378544953395,
+    "sqft_living": 0.21091025248497489,
+    "sqft_lot": -0.048518810985554384,
+    "floors": -1.2774279586925608
+}},{latitude:47.5973, longitude:-122.298,actual:515000.0,predicted:516745,coefficients:{
+    "intercept": 258.7315376832397,
+    "bedrooms": -52.689941623102335,
+    "bathrooms": -155.67852807766033,
+    "sqft_living": 0.21422988018553796,
+    "sqft_lot": -0.04586477267421823,
+    "floors": 3.842169647917657
+}},{latitude:47.6298, longitude:-122.321,actual:650000.0,predicted:644638,coefficients:{
+    "intercept": 249.53430544625138,
+    "bedrooms": -49.48424188185823,
+    "bathrooms": -158.79290940157136,
+    "sqft_living": 0.2092331635416541,
+    "sqft_lot": -0.050886583729420676,
+    "floors": -5.359589356405874
+}},{latitude:47.6023, longitude:-122.314,actual:411000.0,predicted:409195,coefficients:{
+    "intercept": 253.89199496316536,
+    "bedrooms": -50.912312389877435,
+    "bathrooms": -157.64288038108444,
+    "sqft_living": 0.2114012280397376,
+    "sqft_lot": -0.0487436199067714,
+    "floors": -2.3297752580109057
+}},{latitude:47.6205, longitude:-122.299,actual:699999.0,predicted:668948,coefficients:{
+    "intercept": 255.14587312619193,
+    "bedrooms": -52.59417063073051,
+    "bathrooms": -156.61759498144173,
+    "sqft_living": 0.21061453618622303,
+    "sqft_lot": -0.04801917546290235,
+    "floors": 2.2310456083107564
+}},{latitude:47.6088, longitude:-122.311,actual:749950.0,predicted:721273,coefficients:{
+    "intercept": 253.2764675796205,
+    "bedrooms": -51.096495949242,
+    "bathrooms": -157.87479343738377,
+    "sqft_living": 0.21017318131282386,
+    "sqft_lot": -0.049310826605457825,
+    "floors": -2.44606782901547
+}},{latitude:47.593, longitude:-122.291,actual:1900000.0,predicted:1884605,coefficients:{
+    "intercept": 259.983620156514,
+    "bedrooms": -52.57885561551611,
+    "bathrooms": -154.86986612297497,
+    "sqft_living": 0.2157035280256937,
+    "sqft_lot": -0.04506097922001483,
+    "floors": 5.351146232641149
+}},{latitude:47.5943, longitude:-122.299,actual:325000.0,predicted:324464,coefficients:{
+    "intercept": 258.7948215744033,
+    "bedrooms": -52.656835759159065,
+    "bathrooms": -155.73201077593626,
+    "sqft_living": 0.21432926931438373,
+    "sqft_lot": -0.04581986467045385,
+    "floors": 3.629326883582761
+}},{latitude:47.6264, longitude:-122.323,actual:690000.0,predicted:714744,coefficients:{
+    "intercept": 250.08604272805795,
+    "bedrooms": -49.549818862468356,
+    "bathrooms": -158.63787515210808,
+    "sqft_living": 0.20982785838686163,
+    "sqft_lot": -0.050548821306639166,
+    "floors": -5.103759079390277
+}},{latitude:47.6181, longitude:-122.318,actual:640000.0,predicted:633808,coefficients:{
+    "intercept": 251.1395070895762,
+    "bedrooms": -49.945276219943466,
+    "bathrooms": -158.38935633841612,
+    "sqft_living": 0.20988409294951374,
+    "sqft_lot": -0.0502204416893863,
+    "floors": -4.367550165720201
+}},{latitude:47.6031, longitude:-122.309,actual:526000.0,predicted:508586,coefficients:{
+    "intercept": 254.68138374456964,
+    "bedrooms": -51.721306825262836,
+    "bathrooms": -157.51802682347423,
+    "sqft_living": 0.2109635913106808,
+    "sqft_lot": -0.048481966828685434,
+    "floors": -1.2430804945843035
+}},{latitude:47.6236, longitude:-122.318,actual:630000.0,predicted:631718,coefficients:{
+    "intercept": 250.29301789646718,
+    "bedrooms": -49.740662671867746,
+    "bathrooms": -158.61354182279436,
+    "sqft_living": 0.20928537563520044,
+    "sqft_lot": -0.05066504571609393,
+    "floors": -4.856877625292368
+}},{latitude:47.6051, longitude:-122.304,actual:490000.0,predicted:496404,coefficients:{
+    "intercept": 255.96958817213397,
+    "bedrooms": -52.57610974246552,
+    "bathrooms": -157.02576728962666,
+    "sqft_living": 0.2112908223538427,
+    "sqft_lot": -0.047726474548066944,
+    "floors": 0.9282003941957094
+}},{latitude:47.6198, longitude:-122.289,actual:1300000.0,predicted:1283473,coefficients:{
+    "intercept": 258.06105145938307,
+    "bedrooms": -52.618350494276626,
+    "bathrooms": -155.0340709739347,
+    "sqft_living": 0.2141013831302796,
+    "sqft_lot": -0.04606770080334429,
+    "floors": 5.194835147306168
+}},{latitude:47.602, longitude:-122.311,actual:549900.0,predicted:515295,coefficients:{
+    "intercept": 254.44692373475354,
+    "bedrooms": -51.36566082068808,
+    "bathrooms": -157.53492408203934,
+    "sqft_living": 0.2112700568717337,
+    "sqft_lot": -0.048525356141782404,
+    "floors": -1.6719885727915402
+}},{latitude:47.6022, longitude:-122.311,actual:492000.0,predicted:476005,coefficients:{
+    "intercept": 254.41463706976253,
+    "bedrooms": -51.35896727492271,
+    "bathrooms": -157.5447687364988,
+    "sqft_living": 0.2112392059615667,
+    "sqft_lot": -0.04854736311328619,
+    "floors": -1.6939937190016332
+}},{latitude:47.5951, longitude:-122.301,actual:230000.0,predicted:247130,coefficients:{
+    "intercept": 258.2814429574985,
+    "bedrooms": -52.64533648193352,
+    "bathrooms": -156.03820434726128,
+    "sqft_living": 0.21380432777126962,
+    "sqft_lot": -0.04614893221113565,
+    "floors": 2.946310098086065
+}},{latitude:47.6076, longitude:-122.304,actual:521500.0,predicted:511336,coefficients:{
+    "intercept": 255.5037663534557,
+    "bedrooms": -52.546399302969,
+    "bathrooms": -157.16455838167607,
+    "sqft_living": 0.21076673804263307,
+    "sqft_lot": -0.04804794937335122,
+    "floors": 0.6826350679298486
+}},{latitude:47.602, longitude:-122.306,actual:450000.0,predicted:450093,coefficients:{
+    "intercept": 255.72250142844044,
+    "bedrooms": -52.43673432409865,
+    "bathrooms": -157.25904131945583,
+    "sqft_living": 0.21119754354912207,
+    "sqft_lot": -0.04790556912349121,
+    "floors": 0.07633492968495234
+}},{latitude:47.5924, longitude:-122.295,actual:370000.0,predicted:366129,coefficients:{
+    "intercept": 259.58350270168467,
+    "bedrooms": -52.62091359091089,
+    "bathrooms": -155.22339659022887,
+    "sqft_living": 0.21520306793959076,
+    "sqft_lot": -0.04531807963383787,
+    "floors": 4.660253504485849
+}},{latitude:47.6033, longitude:-122.309,actual:397500.0,predicted:420104,coefficients:{
+    "intercept": 254.64626984905033,
+    "bedrooms": -51.714738268916,
+    "bathrooms": -157.52852999706104,
+    "sqft_living": 0.210928062422414,
+    "sqft_lot": -0.04850650605641427,
+    "floors": -1.2659626070634225
+}},{latitude:47.6271, longitude:-122.324,actual:1080000.0,predicted:1063423,coefficients:{
+    "intercept": 250.05336636829995,
+    "bedrooms": -49.526551100454064,
+    "bathrooms": -158.63865999692226,
+    "sqft_living": 0.20991335030447875,
+    "sqft_lot": -0.05052714723876792,
+    "floors": -5.129996778998496
+}},{latitude:47.6201, longitude:-122.309,actual:649000.0,predicted:654763,coefficients:{
+    "intercept": 251.19635069813705,
+    "bedrooms": -50.821023053720815,
+    "bathrooms": -158.40716128507987,
+    "sqft_living": 0.2076678787930531,
+    "sqft_lot": -0.05077246416471646,
+    "floors": -3.345603172432675
+}},{latitude:47.6434, longitude:-122.324,actual:720000.0,predicted:714667,coefficients:{
+    "intercept": 248.7937947387918,
+    "bedrooms": -49.44902311251323,
+    "bathrooms": -158.84232409096623,
+    "sqft_living": 0.20927642569687688,
+    "sqft_lot": -0.05092102949331215,
+    "floors": -5.412480664754982
+}},{latitude:47.6112, longitude:-122.309,actual:500000.0,predicted:517343,coefficients:{
+    "intercept": 253.13831310479068,
+    "bedrooms": -51.37700653041228,
+    "bathrooms": -157.94721509004324,
+    "sqft_living": 0.20944110455048937,
+    "sqft_lot": -0.04953993602149646,
+    "floors": -2.2146677984789527
+}},{latitude:47.6126, longitude:-122.313,actual:552100.0,predicted:550740,coefficients:{
+    "intercept": 252.33330307973432,
+    "bedrooms": -50.6141002938616,
+    "bathrooms": -158.10519189770184,
+    "sqft_living": 0.20984761227956716,
+    "sqft_lot": -0.0497896952370538,
+    "floors": -3.2782646488935208
+}},{latitude:47.5914, longitude:-122.295,actual:374000.0,predicted:374195,coefficients:{
+    "intercept": 259.6425196308203,
+    "bedrooms": -52.6093832007432,
+    "bathrooms": -155.20728032184007,
+    "sqft_living": 0.21527501229714724,
+    "sqft_lot": -0.04527965815522054,
+    "floors": 4.668018640597885
+}},{latitude:47.592, longitude:-122.293,actual:620000.0,predicted:620809,coefficients:{
+    "intercept": 259.842040630337,
+    "bedrooms": -52.59562371867021,
+    "bathrooms": -155.02708692588055,
+    "sqft_living": 0.21551319347549003,
+    "sqft_lot": -0.04515357612217446,
+    "floors": 5.038361119918217
+}},{latitude:47.6221, longitude:-122.29,actual:1698000.0,predicted:1691826,coefficients:{
+    "intercept": 257.6093808354457,
+    "bedrooms": -52.619179946521285,
+    "bathrooms": -155.1798504703517,
+    "sqft_living": 0.2136691343797119,
+    "sqft_lot": -0.046316276526349114,
+    "floors": 4.9252776903406
+}},{latitude:47.616, longitude:-122.314,actual:353000.0,predicted:358715,coefficients:{
+    "intercept": 251.64396929281884,
+    "bedrooms": -50.33448173935392,
+    "bathrooms": -158.28025954699325,
+    "sqft_living": 0.20951269546127507,
+    "sqft_lot": -0.05014482798734198,
+    "floors": -3.8004011838967924
+}},{latitude:47.6113, longitude:-122.314,actual:729999.0,predicted:719325,coefficients:{
+    "intercept": 252.4601696110227,
+    "bedrooms": -50.5535453226585,
+    "bathrooms": -158.0600185475771,
+    "sqft_living": 0.21017631272218146,
+    "sqft_lot": -0.049654491722869044,
+    "floors": -3.2906964509135754
+}},{latitude:47.6093, longitude:-122.31,actual:375000.0,predicted:375126,coefficients:{
+    "intercept": 253.34475309470503,
+    "bedrooms": -51.2597139391238,
+    "bathrooms": -157.87392069719587,
+    "sqft_living": 0.20995380855529264,
+    "sqft_lot": -0.049331062042910455,
+    "floors": -2.2590719159636783
+}},{latitude:47.593, longitude:-122.295,actual:400000.0,predicted:403649,coefficients:{
+    "intercept": 259.54676722967554,
+    "bedrooms": -52.62766955129335,
+    "bathrooms": -155.2332845818868,
+    "sqft_living": 0.21515887865794187,
+    "sqft_lot": -0.04534184593850908,
+    "floors": 4.655042836958636
+}},{latitude:47.5923, longitude:-122.296,actual:449000.0,predicted:445155,coefficients:{
+    "intercept": 259.45253645873566,
+    "bedrooms": -52.627312567657356,
+    "bathrooms": -155.326382963269,
+    "sqft_living": 0.215054454536298,
+    "sqft_lot": -0.04540053613423078,
+    "floors": 4.446381432418659
+}},{latitude:47.6021, longitude:-122.294,actual:585000.0,predicted:586933,coefficients:{
+    "intercept": 259.0222355060611,
+    "bedrooms": -52.69772561483522,
+    "bathrooms": -155.28418517133682,
+    "sqft_living": 0.21459356022795506,
+    "sqft_lot": -0.04566177866270944,
+    "floors": 4.743713550980399
+}},{latitude:47.6228, longitude:-122.307,actual:516500.0,predicted:522033,coefficients:{
+    "intercept": 250.7089150264934,
+    "bedrooms": -51.06961733555391,
+    "bathrooms": -158.49889624846566,
+    "sqft_living": 0.2063783317435537,
+    "sqft_lot": -0.05125175856677826,
+    "floors": -3.099100938786192
+}},{latitude:47.5944, longitude:-122.299,actual:402101.0,predicted:403829,coefficients:{
+    "intercept": 258.7863268433433,
+    "bedrooms": -52.65797956017872,
+    "bathrooms": -155.73474890087513,
+    "sqft_living": 0.21431902319990573,
+    "sqft_lot": -0.0458255206826276,
+    "floors": 3.6265676105662856
+}},{latitude:47.5941, longitude:-122.299,actual:325000.0,predicted:325986,coefficients:{
+    "intercept": 258.8117029812953,
+    "bedrooms": -52.65453216185349,
+    "bathrooms": -155.72655407576013,
+    "sqft_living": 0.2143496687822387,
+    "sqft_lot": -0.045808615508026874,
+    "floors": 3.634799210533183
+}},]};export default DATASET;

@@ -1,0 +1,7663 @@
+import { Dataset } from "data/data";const DATASET:Dataset = {name:"mgwr_neural_network_ny",center:[40.844, -73.87],zoom:13,bandwidths:[
+  {
+    "label": "intercept",
+    "value": 6.0
+  },
+  {
+    "label": "minimum_nights",
+    "value": 1090.0
+  },
+  {
+    "label": "number_of_reviews",
+    "value": 36.0
+  },
+  {
+    "label": "reviews_per_month",
+    "value": 236.0
+  },
+  {
+    "label": "host_listings_count",
+    "value": 1088.0
+  },
+  {
+    "label": "availability_365",
+    "value": 1090.0
+  }
+],coefficientMins:[62.15865651013773, -0.3343209618957312, -0.26817286614333813, -9.747983997585052, -0.3920109220356841, 0.06877246660433686],coefficientMeds:[80.8317276714195, -0.3234149348795634, -0.15314274708773348, -2.144953375877416, -0.24791758120663668, 0.07094398694173482],coefficientMaxes:[189.97228462423166, -0.3210309844721672, 0.09132379582340576, 2.9686677279708586, 0.3336755123308941, 0.07776489839280162],data: [{latitude:40.83232, longitude:-73.93184,actual:40.0,predicted:27,coefficients:{
+    "intercept": 80.85949933369349,
+    "minimum_nights": -0.321438619897053,
+    "number_of_reviews": -0.2594816253260303,
+    "reviews_per_month": -9.371982300039441,
+    "host_listings_count": -0.38282302839637816,
+    "availability_365": 0.06890489659413615
+}},{latitude:40.83075, longitude:-73.93058,actual:45.0,predicted:53,coefficients:{
+    "intercept": 81.11353113191213,
+    "minimum_nights": -0.32150235510638236,
+    "number_of_reviews": -0.2535144897414089,
+    "reviews_per_month": -9.466868562634751,
+    "host_listings_count": -0.3819744353813647,
+    "availability_365": 0.06892241550828097
+}},{latitude:40.81309, longitude:-73.85514,actual:90.0,predicted:109,coefficients:{
+    "intercept": 82.29930000370258,
+    "minimum_nights": -0.3339255822865882,
+    "number_of_reviews": -0.010658769566236135,
+    "reviews_per_month": 1.3300709977993959,
+    "host_listings_count": 0.1559325218650154,
+    "availability_365": 0.07668855964425964
+}},{latitude:40.88057, longitude:-73.83572,actual:105.0,predicted:122,coefficients:{
+    "intercept": 88.42716152387605,
+    "minimum_nights": -0.330303616760372,
+    "number_of_reviews": 0.05944747900652957,
+    "reviews_per_month": 1.1760386134547807,
+    "host_listings_count": 0.31413436877210466,
+    "availability_365": 0.07753644958372521
+}},{latitude:40.87207, longitude:-73.90193,actual:90.0,predicted:93,coefficients:{
+    "intercept": 81.28457542922419,
+    "minimum_nights": -0.3220889010918214,
+    "number_of_reviews": -0.19729872388483652,
+    "reviews_per_month": -4.033029430664604,
+    "host_listings_count": -0.2870057364623208,
+    "availability_365": 0.07036605036500651
+}},{latitude:40.89747, longitude:-73.8639,actual:77.0,predicted:104,coefficients:{
+    "intercept": 77.59999750521379,
+    "minimum_nights": -0.32640671122764725,
+    "number_of_reviews": -0.011837535743005159,
+    "reviews_per_month": 2.4477611751309714,
+    "host_listings_count": 0.111336971364791,
+    "availability_365": 0.07604104616005705
+}},{latitude:40.85811, longitude:-73.90675,actual:37.0,predicted:63,coefficients:{
+    "intercept": 83.77153110815838,
+    "minimum_nights": -0.3220895027995592,
+    "number_of_reviews": -0.23769553298640209,
+    "reviews_per_month": -5.465229477432426,
+    "host_listings_count": -0.31528566103037325,
+    "availability_365": 0.06995684668004683
+}},{latitude:40.86466, longitude:-73.85709,actual:125.0,predicted:119,coefficients:{
+    "intercept": 78.09601414823659,
+    "minimum_nights": -0.3304174602816065,
+    "number_of_reviews": 0.02657787452699281,
+    "reviews_per_month": 2.800770364583836,
+    "host_listings_count": 0.19663974397805306,
+    "availability_365": 0.07741614665801462
+}},{latitude:40.82802, longitude:-73.92039,actual:50.0,predicted:14,coefficients:{
+    "intercept": 82.14557936771527,
+    "minimum_nights": -0.3219449203534509,
+    "number_of_reviews": -0.23191617134785034,
+    "reviews_per_month": -9.275772524646353,
+    "host_listings_count": -0.367650467917081,
+    "availability_365": 0.06916836072943279
+}},{latitude:40.83001, longitude:-73.92158,actual:50.0,predicted:19,coefficients:{
+    "intercept": 82.29633899540589,
+    "minimum_nights": -0.3218567175574792,
+    "number_of_reviews": -0.23448802380587302,
+    "reviews_per_month": -9.511449842477486,
+    "host_listings_count": -0.3689148201675192,
+    "availability_365": 0.06914555234966183
+}},{latitude:40.8679, longitude:-73.90023,actual:42.0,predicted:74,coefficients:{
+    "intercept": 78.87727845921137,
+    "minimum_nights": -0.32230475250028084,
+    "number_of_reviews": -0.1819112489479382,
+    "reviews_per_month": -3.66131309931804,
+    "host_listings_count": -0.28226909729966737,
+    "availability_365": 0.07044095582456056
+}},{latitude:40.89557, longitude:-73.8447,actual:50.0,predicted:110,coefficients:{
+    "intercept": 83.41779794777028,
+    "minimum_nights": -0.32922888360741,
+    "number_of_reviews": 0.08091571051398794,
+    "reviews_per_month": 1.906130328681298,
+    "host_listings_count": 0.2899580222665809,
+    "availability_365": 0.07772047148436528
+}},{latitude:40.87991, longitude:-73.91673,actual:120.0,predicted:108,coefficients:{
+    "intercept": 108.54771271470874,
+    "minimum_nights": -0.3211831579836814,
+    "number_of_reviews": -0.26817286614333813,
+    "reviews_per_month": -7.1299180911815805,
+    "host_listings_count": -0.33231668121090696,
+    "availability_365": 0.06966811670414376
+}},{latitude:40.81128, longitude:-73.92399,actual:49.0,predicted:96,coefficients:{
+    "intercept": 81.85927974992086,
+    "minimum_nights": -0.3220675319600591,
+    "number_of_reviews": -0.21859270417215185,
+    "reviews_per_month": -9.483296447108561,
+    "host_listings_count": -0.38097730519781636,
+    "availability_365": 0.06896293627254022
+}},{latitude:40.81611, longitude:-73.89909,actual:100.0,predicted:61,coefficients:{
+    "intercept": 76.63024970026841,
+    "minimum_nights": -0.3236647031169882,
+    "number_of_reviews": -0.1562998966166858,
+    "reviews_per_month": -4.5528269506272805,
+    "host_listings_count": -0.311809766681544,
+    "availability_365": 0.07003599420871957
+}},{latitude:40.8687, longitude:-73.8524,actual:35.0,predicted:84,coefficients:{
+    "intercept": 79.3667499765804,
+    "minimum_nights": -0.33037773831433975,
+    "number_of_reviews": 0.05669844519984309,
+    "reviews_per_month": 2.455907541922944,
+    "host_listings_count": 0.2350910686295603,
+    "availability_365": 0.07755249623557268
+}},{latitude:40.84937, longitude:-73.91328,actual:45.0,predicted:42,coefficients:{
+    "intercept": 85.65067709212597,
+    "minimum_nights": -0.3218992730484935,
+    "number_of_reviews": -0.25582641945504186,
+    "reviews_per_month": -7.360531225400842,
+    "host_listings_count": -0.3406767235783007,
+    "availability_365": 0.06957616997813397
+}},{latitude:40.82822, longitude:-73.92439,actual:250.0,predicted:62,coefficients:{
+    "intercept": 82.01405397488561,
+    "minimum_nights": -0.321768292839776,
+    "number_of_reviews": -0.23518502716819006,
+    "reviews_per_month": -9.735084802221516,
+    "host_listings_count": -0.3744535018861129,
+    "availability_365": 0.06905538108825554
+}},{latitude:40.85956, longitude:-73.87067,actual:39.0,predicted:87,coefficients:{
+    "intercept": 74.15804438373516,
+    "minimum_nights": -0.3266465026638735,
+    "number_of_reviews": -0.07867208677402095,
+    "reviews_per_month": 2.089383019496891,
+    "host_listings_count": -0.039930818039000456,
+    "availability_365": 0.0739476965386005
+}},{latitude:40.8584, longitude:-73.86969,actual:49.0,predicted:83,coefficients:{
+    "intercept": 74.7493013460746,
+    "minimum_nights": -0.32694021547679275,
+    "number_of_reviews": -0.07071280455890712,
+    "reviews_per_month": 2.233092245400164,
+    "host_listings_count": -0.027127987652047814,
+    "availability_365": 0.07413231566596964
+}},{latitude:40.85914, longitude:-73.86979,actual:38.0,predicted:84,coefficients:{
+    "intercept": 74.73849236615816,
+    "minimum_nights": -0.3268803212578127,
+    "number_of_reviews": -0.07071761755530306,
+    "reviews_per_month": 2.2413184368402717,
+    "host_listings_count": -0.027775374791847426,
+    "availability_365": 0.07412236496471343
+}},{latitude:40.80461, longitude:-73.92276,actual:60.0,predicted:51,coefficients:{
+    "intercept": 82.08762479177534,
+    "minimum_nights": -0.3222377058609158,
+    "number_of_reviews": -0.21018237758070235,
+    "reviews_per_month": -9.286835388925448,
+    "host_listings_count": -0.3817747183000363,
+    "availability_365": 0.06895518121070787
+}},{latitude:40.88757, longitude:-73.90522,actual:60.0,predicted:102,coefficients:{
+    "intercept": 90.21725560736225,
+    "minimum_nights": -0.3215512318157376,
+    "number_of_reviews": -0.2179036759765699,
+    "reviews_per_month": -4.689778001455392,
+    "host_listings_count": -0.29021197878815447,
+    "availability_365": 0.0703000230743017
+}},{latitude:40.84058, longitude:-73.91382,actual:30.0,predicted:-3,coefficients:{
+    "intercept": 83.45075258612292,
+    "minimum_nights": -0.3220404523833985,
+    "number_of_reviews": -0.24693564384253833,
+    "reviews_per_month": -7.626421638498389,
+    "host_listings_count": -0.34690706594918413,
+    "availability_365": 0.06948761368686693
+}},{latitude:40.85235, longitude:-73.78873,actual:84.0,predicted:162,coefficients:{
+    "intercept": 173.9741372718938,
+    "minimum_nights": -0.3307291198375725,
+    "number_of_reviews": -0.14338832161933746,
+    "reviews_per_month": -1.0445890350012585,
+    "host_listings_count": 0.3299924603027481,
+    "availability_365": 0.07636671388382835
+}},{latitude:40.81906, longitude:-73.92806,actual:85.0,predicted:100,coefficients:{
+    "intercept": 81.38241800735408,
+    "minimum_nights": -0.32177219744767116,
+    "number_of_reviews": -0.2361339863682014,
+    "reviews_per_month": -9.564937875426718,
+    "host_listings_count": -0.38353124322440624,
+    "availability_365": 0.06891071713202282
+}},{latitude:40.80904, longitude:-73.93037,actual:65.0,predicted:77,coefficients:{
+    "intercept": 81.03218654069613,
+    "minimum_nights": -0.32184101843799856,
+    "number_of_reviews": -0.2388183099318163,
+    "reviews_per_month": -9.250844877275744,
+    "host_listings_count": -0.39011236290026746,
+    "availability_365": 0.06880609243899198
+}},{latitude:40.81291, longitude:-73.90772,actual:60.0,predicted:51,coefficients:{
+    "intercept": 80.47430569512322,
+    "minimum_nights": -0.3229922149716907,
+    "number_of_reviews": -0.20147908766978623,
+    "reviews_per_month": -6.4304558707200545,
+    "host_listings_count": -0.3447276489494513,
+    "availability_365": 0.06954023970318285
+}},{latitude:40.88166, longitude:-73.91103,actual:90.0,predicted:123,coefficients:{
+    "intercept": 100.13834825526018,
+    "minimum_nights": -0.32138488925559733,
+    "number_of_reviews": -0.2573795400249079,
+    "reviews_per_month": -6.0241343532234595,
+    "host_listings_count": -0.31487762952769244,
+    "availability_365": 0.06993473098669624
+}},{latitude:40.80011, longitude:-73.9133,actual:60.0,predicted:80,coefficients:{
+    "intercept": 81.513759545963,
+    "minimum_nights": -0.32285851146403816,
+    "number_of_reviews": -0.19784259593188142,
+    "reviews_per_month": -7.5831425101900525,
+    "host_listings_count": -0.36568200594629696,
+    "availability_365": 0.06921903730488264
+}},{latitude:40.88296, longitude:-73.86264,actual:50.0,predicted:103,coefficients:{
+    "intercept": 77.67247460356077,
+    "minimum_nights": -0.3275776234173534,
+    "number_of_reviews": -0.004068791243595121,
+    "reviews_per_month": 2.8141240004840364,
+    "host_listings_count": 0.12044940967395021,
+    "availability_365": 0.07620905727003113
+}},{latitude:40.82138, longitude:-73.87603,actual:45.0,predicted:73,coefficients:{
+    "intercept": 64.84369287651869,
+    "minimum_nights": -0.3270102251211336,
+    "number_of_reviews": -0.155564364724258,
+    "reviews_per_month": 0.29656967759273134,
+    "host_listings_count": -0.14641383710274897,
+    "availability_365": 0.07243467722259744
+}},{latitude:40.84367, longitude:-73.91718,actual:43.0,predicted:103,coefficients:{
+    "intercept": 84.71293798924125,
+    "minimum_nights": -0.32181433168119805,
+    "number_of_reviews": -0.2507627023860132,
+    "reviews_per_month": -8.344292783946255,
+    "host_listings_count": -0.3533574767210935,
+    "availability_365": 0.06938254919100893
+}},{latitude:40.86317, longitude:-73.82494,actual:75.0,predicted:117,coefficients:{
+    "intercept": 86.33700630449479,
+    "minimum_nights": -0.33107885553476585,
+    "number_of_reviews": -0.010368184248528858,
+    "reviews_per_month": 0.4018725278499168,
+    "host_listings_count": 0.32858476669809716,
+    "availability_365": 0.07723438117728094
+}},{latitude:40.83645, longitude:-73.86634,actual:195.0,predicted:73,coefficients:{
+    "intercept": 75.24153812947766,
+    "minimum_nights": -0.3289640191496579,
+    "number_of_reviews": -0.06979809262693996,
+    "reviews_per_month": 1.8085035224044137,
+    "host_listings_count": -0.0009223914826136109,
+    "availability_365": 0.07452151370667728
+}},{latitude:40.85258, longitude:-73.78762,actual:120.0,predicted:163,coefficients:{
+    "intercept": 175.88388059670396,
+    "minimum_nights": -0.3306981393772949,
+    "number_of_reviews": -0.14127870715112267,
+    "reviews_per_month": -1.0712046844355343,
+    "host_listings_count": 0.3293472319334108,
+    "availability_365": 0.07634363108682962
+}},{latitude:40.80844, longitude:-73.92889,actual:140.0,predicted:90,coefficients:{
+    "intercept": 81.36337025015837,
+    "minimum_nights": -0.3219071025813557,
+    "number_of_reviews": -0.23181630499250766,
+    "reviews_per_month": -9.357668922627719,
+    "host_listings_count": -0.3886402891979671,
+    "availability_365": 0.06883315212404321
+}},{latitude:40.90804, longitude:-73.90005,actual:53.0,predicted:71,coefficients:{
+    "intercept": 85.03723230057227,
+    "minimum_nights": -0.3213902720073925,
+    "number_of_reviews": -0.1667421661514794,
+    "reviews_per_month": -3.353255893552702,
+    "host_listings_count": -0.25260612259103693,
+    "availability_365": 0.07083035638476391
+}},{latitude:40.85667, longitude:-73.86543,actual:80.0,predicted:76,coefficients:{
+    "intercept": 76.6233568128304,
+    "minimum_nights": -0.3282038081907666,
+    "number_of_reviews": -0.03546177512629622,
+    "reviews_per_month": 2.3941202708586946,
+    "host_listings_count": 0.03873965384835578,
+    "availability_365": 0.07507960902391102
+}},{latitude:40.82347, longitude:-73.89495,actual:65.0,predicted:64,coefficients:{
+    "intercept": 72.69507737452433,
+    "minimum_nights": -0.32390995435706527,
+    "number_of_reviews": -0.13724911596805164,
+    "reviews_per_month": -3.4527795911316037,
+    "host_listings_count": -0.28762341675504605,
+    "availability_365": 0.07039212336147942
+}},{latitude:40.86467, longitude:-73.90125,actual:75.0,predicted:101,coefficients:{
+    "intercept": 79.50386564541516,
+    "minimum_nights": -0.3223073548309951,
+    "number_of_reviews": -0.19206849979392396,
+    "reviews_per_month": -3.864645027488802,
+    "host_listings_count": -0.28914179833476084,
+    "availability_365": 0.0703422924699909
+}},{latitude:40.88579, longitude:-73.91599,actual:250.0,predicted:134,coefficients:{
+    "intercept": 113.99265355798937,
+    "minimum_nights": -0.321107224635166,
+    "number_of_reviews": -0.26029386002775606,
+    "reviews_per_month": -6.8611985811311165,
+    "host_listings_count": -0.32692342046215883,
+    "availability_365": 0.06974354169065483
+}},{latitude:40.88437, longitude:-73.89746,actual:32.0,predicted:81,coefficients:{
+    "intercept": 78.01459406645058,
+    "minimum_nights": -0.3221082777904712,
+    "number_of_reviews": -0.15335649676306887,
+    "reviews_per_month": -2.957515799033473,
+    "host_listings_count": -0.25659458951923253,
+    "availability_365": 0.07080121652239492
+}},{latitude:40.82528, longitude:-73.86004,actual:50.0,predicted:89,coefficients:{
+    "intercept": 78.28646174597469,
+    "minimum_nights": -0.3319451050016729,
+    "number_of_reviews": -0.029947999272318754,
+    "reviews_per_month": 1.7529017330608259,
+    "host_listings_count": 0.09983003480174561,
+    "availability_365": 0.07597455954344973
+}},{latitude:40.87605, longitude:-73.88047,actual:70.0,predicted:83,coefficients:{
+    "intercept": 67.96192589011683,
+    "minimum_nights": -0.3241309629672727,
+    "number_of_reviews": -0.1461876100184198,
+    "reviews_per_month": 0.6203153190431007,
+    "host_listings_count": -0.13924486237173436,
+    "availability_365": 0.07250739906408746
+}},{latitude:40.83012, longitude:-73.92714,actual:41.0,predicted:74,coefficients:{
+    "intercept": 81.77686326117782,
+    "minimum_nights": -0.3216313602979052,
+    "number_of_reviews": -0.24228197944541507,
+    "reviews_per_month": -9.683307263980174,
+    "host_listings_count": -0.3777401851622258,
+    "availability_365": 0.06899717603717535
+}},{latitude:40.86646, longitude:-73.82154,actual:80.0,predicted:112,coefficients:{
+    "intercept": 84.99072972922812,
+    "minimum_nights": -0.33094260907259665,
+    "number_of_reviews": -0.008208198036901924,
+    "reviews_per_month": 0.233455569226869,
+    "host_listings_count": 0.3336755123308941,
+    "availability_365": 0.07717768927762816
+}},{latitude:40.84192, longitude:-73.91108,actual:40.0,predicted:85,coefficients:{
+    "intercept": 82.95637168534063,
+    "minimum_nights": -0.3221667082692236,
+    "number_of_reviews": -0.24450368050618412,
+    "reviews_per_month": -6.946126733365353,
+    "host_listings_count": -0.3387528428942682,
+    "availability_365": 0.06961335144752222
+}},{latitude:40.80091, longitude:-73.91449,actual:71.0,predicted:76,coefficients:{
+    "intercept": 81.6146465543458,
+    "minimum_nights": -0.3227655968593719,
+    "number_of_reviews": -0.19939777391495897,
+    "reviews_per_month": -7.81531909345082,
+    "host_listings_count": -0.3679938933624624,
+    "availability_365": 0.06918207735132721
+}},{latitude:40.86705, longitude:-73.88545,actual:55.0,predicted:89,coefficients:{
+    "intercept": 67.42248511453752,
+    "minimum_nights": -0.32375989743582606,
+    "number_of_reviews": -0.14513342271319002,
+    "reviews_per_month": -0.3859955727068455,
+    "host_listings_count": -0.19168523062143558,
+    "availability_365": 0.0717625928593401
+}},{latitude:40.80554, longitude:-73.92606,actual:120.0,predicted:45,coefficients:{
+    "intercept": 81.87049593351149,
+    "minimum_nights": -0.32207056841195464,
+    "number_of_reviews": -0.2192766264813844,
+    "reviews_per_month": -9.383503506305004,
+    "host_listings_count": -0.38616714183003564,
+    "availability_365": 0.06887949415972192
+}},{latitude:40.85711, longitude:-73.91594,actual:44.0,predicted:40,coefficients:{
+    "intercept": 89.86615773407495,
+    "minimum_nights": -0.3216252720071767,
+    "number_of_reviews": -0.26415831890420244,
+    "reviews_per_month": -7.7098977375703805,
+    "host_listings_count": -0.3432397829217807,
+    "availability_365": 0.06952726892206737
+}},{latitude:40.83288, longitude:-73.91834,actual:50.0,predicted:86,coefficients:{
+    "intercept": 82.59588561355595,
+    "minimum_nights": -0.3219550302624331,
+    "number_of_reviews": -0.23772433821068337,
+    "reviews_per_month": -8.828381293545585,
+    "host_listings_count": -0.36129346582497396,
+    "availability_365": 0.06926667125033079
+}},{latitude:40.88075, longitude:-73.84845,actual:95.0,predicted:115,coefficients:{
+    "intercept": 81.14820948050604,
+    "minimum_nights": -0.32984072100719,
+    "number_of_reviews": 0.0753488336980325,
+    "reviews_per_month": 2.1837507404015217,
+    "host_listings_count": 0.26604353826594557,
+    "availability_365": 0.07766471803408861
+}},{latitude:40.89603, longitude:-73.89958,actual:75.0,predicted:93,coefficients:{
+    "intercept": 82.27929700840234,
+    "minimum_nights": -0.32168917735141805,
+    "number_of_reviews": -0.166584663295378,
+    "reviews_per_month": -3.395178293469051,
+    "host_listings_count": -0.25898113130379635,
+    "availability_365": 0.07075263620898013
+}},{latitude:40.81444, longitude:-73.92516,actual:75.0,predicted:65,coefficients:{
+    "intercept": 81.74093974567722,
+    "minimum_nights": -0.32196369965973826,
+    "number_of_reviews": -0.22399542175196266,
+    "reviews_per_month": -9.581094534691069,
+    "host_listings_count": -0.38142326085762496,
+    "availability_365": 0.06895227548639406
+}},{latitude:40.86677, longitude:-73.85938,actual:49.0,predicted:103,coefficients:{
+    "intercept": 77.77467107888658,
+    "minimum_nights": -0.3296746366647209,
+    "number_of_reviews": 0.0125994832515076,
+    "reviews_per_month": 2.9590451560460824,
+    "host_listings_count": 0.1698536106033291,
+    "availability_365": 0.07695775547943862
+}},{latitude:40.86689, longitude:-73.85776,actual:47.0,predicted:96,coefficients:{
+    "intercept": 77.9659526080999,
+    "minimum_nights": -0.3301961914362961,
+    "number_of_reviews": 0.022612759826425587,
+    "reviews_per_month": 2.8196407171636806,
+    "host_listings_count": 0.19292298118495296,
+    "availability_365": 0.07739943810569806
+}},{latitude:40.81055, longitude:-73.92482,actual:55.0,predicted:-6,coefficients:{
+    "intercept": 81.83571168669127,
+    "minimum_nights": -0.322042671081435,
+    "number_of_reviews": -0.21983078013795487,
+    "reviews_per_month": -9.51513566058951,
+    "host_listings_count": -0.3824936899225404,
+    "availability_365": 0.06893784719786433
+}},{latitude:40.81049, longitude:-73.9043,actual:79.0,predicted:75,coefficients:{
+    "intercept": 79.68950845830881,
+    "minimum_nights": -0.323318731759975,
+    "number_of_reviews": -0.18402260217787203,
+    "reviews_per_month": -5.7395295403724305,
+    "host_listings_count": -0.33506137622613513,
+    "availability_365": 0.06968839307333637
+}},{latitude:40.81954, longitude:-73.92715,actual:105.0,predicted:103,coefficients:{
+    "intercept": 81.51315367063297,
+    "minimum_nights": -0.3217996399740108,
+    "number_of_reviews": -0.23360871480417678,
+    "reviews_per_month": -9.61776959964154,
+    "host_listings_count": -0.3821390745907588,
+    "availability_365": 0.06893436586282672
+}},{latitude:40.82603, longitude:-73.92312,actual:87.0,predicted:74,coefficients:{
+    "intercept": 81.98319739709969,
+    "minimum_nights": -0.32185778437853846,
+    "number_of_reviews": -0.23140516477931006,
+    "reviews_per_month": -9.688406740583376,
+    "host_listings_count": -0.37336263055247093,
+    "availability_365": 0.0690761078467393
+}},{latitude:40.88855, longitude:-73.85127,actual:50.0,predicted:79,coefficients:{
+    "intercept": 79.61303518310214,
+    "minimum_nights": -0.3292060661444676,
+    "number_of_reviews": 0.053210022158117896,
+    "reviews_per_month": 2.4491766687752867,
+    "host_listings_count": 0.254776636738652,
+    "availability_365": 0.07770385028908579
+}},{latitude:40.84611, longitude:-73.91036,actual:40.0,predicted:84,coefficients:{
+    "intercept": 83.51752997759938,
+    "minimum_nights": -0.32212387795189307,
+    "number_of_reviews": -0.24682652830965432,
+    "reviews_per_month": -6.695998066100344,
+    "host_listings_count": -0.334264733987739,
+    "availability_365": 0.06967878643712351
+}},{latitude:40.8105, longitude:-73.92507,actual:55.0,predicted:-22,coefficients:{
+    "intercept": 81.82054038604225,
+    "minimum_nights": -0.32203251289929086,
+    "number_of_reviews": -0.22041309828373334,
+    "reviews_per_month": -9.527958976431842,
+    "host_listings_count": -0.38287253969521995,
+    "availability_365": 0.06893142396001906
+}},{latitude:40.80772, longitude:-73.91791,actual:53.0,predicted:-29,coefficients:{
+    "intercept": 81.72313412046567,
+    "minimum_nights": -0.3224345344643075,
+    "number_of_reviews": -0.20822749581037134,
+    "reviews_per_month": -8.543083791622761,
+    "host_listings_count": -0.37205469951516423,
+    "availability_365": 0.06911331248090462
+}},{latitude:40.89022, longitude:-73.9039,actual:95.0,predicted:82,coefficients:{
+    "intercept": 88.36252203638804,
+    "minimum_nights": -0.3215663720684105,
+    "number_of_reviews": -0.2053322157866733,
+    "reviews_per_month": -4.3892147605366,
+    "host_listings_count": -0.28298303264106067,
+    "availability_365": 0.070404794356559
+}},{latitude:40.81321, longitude:-73.90259,actual:100.0,predicted:90,coefficients:{
+    "intercept": 78.91927248830842,
+    "minimum_nights": -0.3234054327911535,
+    "number_of_reviews": -0.1764737914382037,
+    "reviews_per_month": -5.349959069171452,
+    "host_listings_count": -0.3274496739012391,
+    "availability_365": 0.06980262970769241
+}},{latitude:40.80866, longitude:-73.92069,actual:45.0,predicted:74,coefficients:{
+    "intercept": 81.8987854067652,
+    "minimum_nights": -0.3222702359964808,
+    "number_of_reviews": -0.21109323084830706,
+    "reviews_per_month": -9.114973823260241,
+    "host_listings_count": -0.37673763479445027,
+    "availability_365": 0.06903602454295582
+}},{latitude:40.81192, longitude:-73.85334,actual:155.0,predicted:110,coefficients:{
+    "intercept": 83.56803597997164,
+    "minimum_nights": -0.33392174856622087,
+    "number_of_reviews": -0.0013430050319271048,
+    "reviews_per_month": 1.2823475678982916,
+    "host_listings_count": 0.17078738482467054,
+    "availability_365": 0.07673927667723349
+}},{latitude:40.81225, longitude:-73.85349,actual:75.0,predicted:110,coefficients:{
+    "intercept": 83.42855595870154,
+    "minimum_nights": -0.3339083620767625,
+    "number_of_reviews": -0.0016470981762544922,
+    "reviews_per_month": 1.2928395444747207,
+    "host_listings_count": 0.16988769668539241,
+    "availability_365": 0.07673973935941679
+}},{latitude:40.87786, longitude:-73.87641,actual:50.0,predicted:79,coefficients:{
+    "intercept": 70.6933455859525,
+    "minimum_nights": -0.3247020201313957,
+    "number_of_reviews": -0.11418583667953479,
+    "reviews_per_month": 1.4045296753938266,
+    "host_listings_count": -0.09433858651002855,
+    "availability_365": 0.07314838074010552
+}},{latitude:40.85696, longitude:-73.91439,actual:47.0,predicted:44,coefficients:{
+    "intercept": 89.17736365559477,
+    "minimum_nights": -0.3216996092120959,
+    "number_of_reviews": -0.2633628211948907,
+    "reviews_per_month": -7.410956373074551,
+    "host_listings_count": -0.3393688253221506,
+    "availability_365": 0.06958813876608673
+}},{latitude:40.83331, longitude:-73.91742,actual:90.0,predicted:96,coefficients:{
+    "intercept": 82.60867840307529,
+    "minimum_nights": -0.3219920328686554,
+    "number_of_reviews": -0.23846254039805778,
+    "reviews_per_month": -8.611613701329361,
+    "host_listings_count": -0.3591336522153264,
+    "availability_365": 0.06930094516409667
+}},{latitude:40.8806, longitude:-73.83433,actual:75.0,predicted:123,coefficients:{
+    "intercept": 88.83106018930373,
+    "minimum_nights": -0.3303309186425068,
+    "number_of_reviews": 0.04932593486531854,
+    "reviews_per_month": 1.076996640795256,
+    "host_listings_count": 0.31760066904971174,
+    "availability_365": 0.0775121576451099
+}},{latitude:40.88009, longitude:-73.83442,actual:68.0,predicted:123,coefficients:{
+    "intercept": 88.8074636760971,
+    "minimum_nights": -0.33035139150162735,
+    "number_of_reviews": 0.04947994206471492,
+    "reviews_per_month": 1.0807782897015465,
+    "host_listings_count": 0.3172085486042382,
+    "availability_365": 0.07751136145349181
+}},{latitude:40.87184, longitude:-73.88622,actual:51.0,predicted:65,coefficients:{
+    "intercept": 68.19257898120975,
+    "minimum_nights": -0.3235128432901789,
+    "number_of_reviews": -0.1394184878895222,
+    "reviews_per_month": -0.5124124957176053,
+    "host_listings_count": -0.19366592448493242,
+    "availability_365": 0.07172921221158894
+}},{latitude:40.88399, longitude:-73.89502,actual:110.0,predicted:74,coefficients:{
+    "intercept": 75.62106414739375,
+    "minimum_nights": -0.32230314895225287,
+    "number_of_reviews": -0.13700101583626959,
+    "reviews_per_month": -2.403275073315295,
+    "host_listings_count": -0.24337452052269595,
+    "availability_365": 0.07099515455941363
+}},{latitude:40.81231, longitude:-73.85535,actual:45.0,predicted:111,coefficients:{
+    "intercept": 82.27948993874386,
+    "minimum_nights": -0.3339833572913058,
+    "number_of_reviews": -0.013330459211359311,
+    "reviews_per_month": 1.3143916705007501,
+    "host_listings_count": 0.15291580400129468,
+    "availability_365": 0.07666443666839307
+}},{latitude:40.86809, longitude:-73.90201,actual:37.0,predicted:83,coefficients:{
+    "intercept": 80.74593281789203,
+    "minimum_nights": -0.3221748867415031,
+    "number_of_reviews": -0.19895029452320429,
+    "reviews_per_month": -4.032281547839874,
+    "host_listings_count": -0.29010785346466894,
+    "availability_365": 0.07032430168990918
+}},{latitude:40.86682, longitude:-73.85812,actual:49.0,predicted:98,coefficients:{
+    "intercept": 77.91745890408309,
+    "minimum_nights": -0.3301662750769887,
+    "number_of_reviews": 0.020373088449335917,
+    "reviews_per_month": 2.8414175671211837,
+    "host_listings_count": 0.18909944133478995,
+    "availability_365": 0.07737471015050562
+}},{latitude:40.82636, longitude:-73.92655,actual:105.0,predicted:66,coefficients:{
+    "intercept": 81.70212403140378,
+    "minimum_nights": -0.32171354518818873,
+    "number_of_reviews": -0.23764545013224714,
+    "reviews_per_month": -9.70902198121862,
+    "host_listings_count": -0.37849468488413923,
+    "availability_365": 0.06898897132694472
+}},{latitude:40.87829, longitude:-73.89337,actual:57.0,predicted:91,coefficients:{
+    "intercept": 73.67807190572569,
+    "minimum_nights": -0.32259088179625905,
+    "number_of_reviews": -0.12986772165638338,
+    "reviews_per_month": -2.028389519212491,
+    "host_listings_count": -0.237963188870407,
+    "availability_365": 0.07108010195921685
+}},{latitude:40.86814, longitude:-73.85874,actual:47.0,predicted:105,coefficients:{
+    "intercept": 77.83845576898314,
+    "minimum_nights": -0.3298318807631645,
+    "number_of_reviews": 0.016737299787974506,
+    "reviews_per_month": 2.952183819261366,
+    "host_listings_count": 0.18485192109949453,
+    "availability_365": 0.07718796618168751
+}},{latitude:40.8423, longitude:-73.87055,actual:25.0,predicted:78,coefficients:{
+    "intercept": 72.74648177218724,
+    "minimum_nights": -0.3274675418912971,
+    "number_of_reviews": -0.10287625746219912,
+    "reviews_per_month": 1.717318783192386,
+    "host_listings_count": -0.05725851597978622,
+    "availability_365": 0.07371066340730185
+}},{latitude:40.87896, longitude:-73.84978,actual:55.0,predicted:101,coefficients:{
+    "intercept": 80.414827257562,
+    "minimum_nights": -0.3298759571476003,
+    "number_of_reviews": 0.0689185019499429,
+    "reviews_per_month": 2.3104610761794206,
+    "host_listings_count": 0.2578637866763993,
+    "availability_365": 0.07765133659352753
+}},{latitude:40.83719, longitude:-73.92015,actual:85.0,predicted:102,coefficients:{
+    "intercept": 83.261507021367,
+    "minimum_nights": -0.32179502483464256,
+    "number_of_reviews": -0.24237668197145273,
+    "reviews_per_month": -9.187211212389323,
+    "host_listings_count": -0.36284881209515835,
+    "availability_365": 0.0692369824509525
+}},{latitude:40.82393, longitude:-73.92414,actual:145.0,predicted:79,coefficients:{
+    "intercept": 81.85364820081654,
+    "minimum_nights": -0.3218497907909412,
+    "number_of_reviews": -0.2306619415099097,
+    "reviews_per_month": -9.722600126166752,
+    "host_listings_count": -0.37592278171087234,
+    "availability_365": 0.0690354821481899
+}},{latitude:40.83212, longitude:-73.93054,actual:60.0,predicted:79,coefficients:{
+    "intercept": 81.18201707893304,
+    "minimum_nights": -0.3214829171232969,
+    "number_of_reviews": -0.25429261380066565,
+    "reviews_per_month": -9.483856041967174,
+    "host_listings_count": -0.38136689831376724,
+    "availability_365": 0.06893116044216803
+}},{latitude:40.81214, longitude:-73.85371,actual:110.0,predicted:109,coefficients:{
+    "intercept": 83.31437058630664,
+    "minimum_nights": -0.3339241493538707,
+    "number_of_reviews": -0.0031251886225178243,
+    "reviews_per_month": 1.2964878113687717,
+    "host_listings_count": 0.16781102750481053,
+    "availability_365": 0.0767295067893433
+}},{latitude:40.88016, longitude:-73.84923,actual:43.0,predicted:100,coefficients:{
+    "intercept": 80.70263454306122,
+    "minimum_nights": -0.329834188536205,
+    "number_of_reviews": 0.07140710324534671,
+    "reviews_per_month": 2.2527732710501573,
+    "host_listings_count": 0.2615807000412486,
+    "availability_365": 0.07766046503812503
+}},{latitude:40.85062, longitude:-73.90251,actual:40.0,predicted:95,coefficients:{
+    "intercept": 79.215999817966,
+    "minimum_nights": -0.3225427530513029,
+    "number_of_reviews": -0.2014310034286647,
+    "reviews_per_month": -4.403626418295871,
+    "host_listings_count": -0.30397980630893695,
+    "availability_365": 0.07013409122948151
+}},{latitude:40.87829, longitude:-73.83471,actual:155.0,predicted:120,coefficients:{
+    "intercept": 88.72744025559395,
+    "minimum_nights": -0.3304246500692455,
+    "number_of_reviews": 0.04979904119677705,
+    "reviews_per_month": 1.0913376069060328,
+    "host_listings_count": 0.31586152783030075,
+    "availability_365": 0.07750774412651462
+}},{latitude:40.88017, longitude:-73.83484,actual:250.0,predicted:122,coefficients:{
+    "intercept": 88.69665271957375,
+    "minimum_nights": -0.33033969762276866,
+    "number_of_reviews": 0.05267745912280113,
+    "reviews_per_month": 1.1104201468022832,
+    "host_listings_count": 0.3162158538665142,
+    "availability_365": 0.07751923309214163
+}},{latitude:40.85465, longitude:-73.85669,actual:50.0,predicted:78,coefficients:{
+    "intercept": 78.37285310154533,
+    "minimum_nights": -0.3311506275466135,
+    "number_of_reviews": 0.026157360160211626,
+    "reviews_per_month": 2.6251021149354434,
+    "host_listings_count": 0.19033961359895504,
+    "availability_365": 0.07731009707617602
+}},{latitude:40.87054, longitude:-73.84681,actual:450.0,predicted:114,coefficients:{
+    "intercept": 82.40978634307238,
+    "minimum_nights": -0.33049413808739136,
+    "number_of_reviews": 0.08623363230205425,
+    "reviews_per_month": 1.902365391645461,
+    "host_listings_count": 0.2685377431698979,
+    "availability_365": 0.0775934044298648
+}},{latitude:40.83875, longitude:-73.88728,actual:38.0,predicted:61,coefficients:{
+    "intercept": 65.9744016837849,
+    "minimum_nights": -0.32441479296205844,
+    "number_of_reviews": -0.1488442167923912,
+    "reviews_per_month": -1.3583346354460415,
+    "host_listings_count": -0.22956368606291266,
+    "availability_365": 0.07123435153221566
+}},{latitude:40.85535, longitude:-73.91388,actual:57.0,predicted:49,coefficients:{
+    "intercept": 88.19108267511547,
+    "minimum_nights": -0.3217545883593096,
+    "number_of_reviews": -0.2616829644763004,
+    "reviews_per_month": -7.357683708726675,
+    "host_listings_count": -0.33892554660880897,
+    "availability_365": 0.06959691719213172
+}},{latitude:40.83161, longitude:-73.91958,actual:150.0,predicted:100,coefficients:{
+    "intercept": 82.47137055530514,
+    "minimum_nights": -0.32191915152780287,
+    "number_of_reviews": -0.23601507944813688,
+    "reviews_per_month": -9.088539775524831,
+    "host_listings_count": -0.36440990441103527,
+    "availability_365": 0.06921754339367256
+}},{latitude:40.83887, longitude:-73.88805,actual:42.0,predicted:60,coefficients:{
+    "intercept": 66.57437449550541,
+    "minimum_nights": -0.3243075847791683,
+    "number_of_reviews": -0.14364343552904124,
+    "reviews_per_month": -1.5147427276097551,
+    "host_listings_count": -0.23487311246035084,
+    "availability_365": 0.07115728235039835
+}},{latitude:40.84061, longitude:-73.88858,actual:30.0,predicted:63,coefficients:{
+    "intercept": 67.13326681950059,
+    "minimum_nights": -0.32418547694137356,
+    "number_of_reviews": -0.1397217963188717,
+    "reviews_per_month": -1.5809574517976417,
+    "host_listings_count": -0.2371055373467487,
+    "availability_365": 0.07112407332047013
+}},{latitude:40.8789, longitude:-73.84855,actual:45.0,predicted:106,coefficients:{
+    "intercept": 81.11639774121288,
+    "minimum_nights": -0.3299428719502968,
+    "number_of_reviews": 0.0758421041095874,
+    "reviews_per_month": 2.1657610726577285,
+    "host_listings_count": 0.26449630895287024,
+    "availability_365": 0.0776529574336572
+}},{latitude:40.82209, longitude:-73.90086,actual:80.0,predicted:93,coefficients:{
+    "intercept": 77.74507692212865,
+    "minimum_nights": -0.32335194267700695,
+    "number_of_reviews": -0.1711407282125359,
+    "reviews_per_month": -4.8174555525684095,
+    "host_listings_count": -0.31546940258605405,
+    "availability_365": 0.06997962605073149
+}},{latitude:40.87765, longitude:-73.86318,actual:63.0,predicted:99,coefficients:{
+    "intercept": 77.59517765546316,
+    "minimum_nights": -0.3277232716810229,
+    "number_of_reviews": -0.007372585269217925,
+    "reviews_per_month": 2.8029263611623807,
+    "host_listings_count": 0.104023222142479,
+    "availability_365": 0.07598627237654904
+}},{latitude:40.81935, longitude:-73.90772,actual:65.0,predicted:81,coefficients:{
+    "intercept": 80.41408520403577,
+    "minimum_nights": -0.32285486065139396,
+    "number_of_reviews": -0.2084543341002166,
+    "reviews_per_month": -6.368149885489912,
+    "host_listings_count": -0.3412848057729376,
+    "availability_365": 0.06959021777152061
+}},{latitude:40.8115, longitude:-73.85607,actual:110.0,predicted:103,coefficients:{
+    "intercept": 81.93440364918472,
+    "minimum_nights": -0.3340663157822611,
+    "number_of_reviews": -0.019614253325340794,
+    "reviews_per_month": 1.3198990257048255,
+    "host_listings_count": 0.14481400482380588,
+    "availability_365": 0.07661470189297372
+}},{latitude:40.82122, longitude:-73.92773,actual:56.0,predicted:26,coefficients:{
+    "intercept": 81.44059781555491,
+    "minimum_nights": -0.32175057891792047,
+    "number_of_reviews": -0.23671098994079637,
+    "reviews_per_month": -9.628828630799967,
+    "host_listings_count": -0.38223469892012035,
+    "availability_365": 0.06893068893897199
+}},{latitude:40.84819, longitude:-73.90648,actual:125.0,predicted:90,coefficients:{
+    "intercept": 81.73804736095951,
+    "minimum_nights": -0.3223199570275902,
+    "number_of_reviews": -0.23064115181336922,
+    "reviews_per_month": -5.610771085524106,
+    "host_listings_count": -0.32051093277311005,
+    "availability_365": 0.06988712122113776
+}},{latitude:40.82883, longitude:-73.88854,actual:119.0,predicted:71,coefficients:{
+    "intercept": 66.24172706023164,
+    "minimum_nights": -0.32454594051910785,
+    "number_of_reviews": -0.14590408733950377,
+    "reviews_per_month": -1.869474882413226,
+    "host_listings_count": -0.24620362527509773,
+    "availability_365": 0.07099614595322819
+}},{latitude:40.84626, longitude:-73.90473,actual:105.0,predicted:78,coefficients:{
+    "intercept": 80.40202590491084,
+    "minimum_nights": -0.3224813361490322,
+    "number_of_reviews": -0.21731003129986387,
+    "reviews_per_month": -5.16016510728096,
+    "host_listings_count": -0.31541981453492124,
+    "availability_365": 0.06996581194587127
+}},{latitude:40.82809, longitude:-73.9159,actual:65.0,predicted:51,coefficients:{
+    "intercept": 81.91039285134718,
+    "minimum_nights": -0.32216685816259427,
+    "number_of_reviews": -0.2322114511086403,
+    "reviews_per_month": -8.228027019699399,
+    "host_listings_count": -0.35836085486110386,
+    "availability_365": 0.06931804383064549
+}},{latitude:40.88241, longitude:-73.83422,actual:115.0,predicted:121,coefficients:{
+    "intercept": 88.85920135019292,
+    "minimum_nights": -0.33025447034668226,
+    "number_of_reviews": 0.05028773736414579,
+    "reviews_per_month": 1.079501471469273,
+    "host_listings_count": 0.31847294833404105,
+    "availability_365": 0.07751850875403617
+}},{latitude:40.82639, longitude:-73.90363,actual:680.0,predicted:78,coefficients:{
+    "intercept": 79.13301715111606,
+    "minimum_nights": -0.323013868530708,
+    "number_of_reviews": -0.1936339480318902,
+    "reviews_per_month": -5.34745705446721,
+    "host_listings_count": -0.3235412266996812,
+    "availability_365": 0.06985651116660896
+}},{latitude:40.8198, longitude:-73.90341,actual:99.0,predicted:78,coefficients:{
+    "intercept": 79.12736635230537,
+    "minimum_nights": -0.32318277655647926,
+    "number_of_reviews": -0.18664740283083472,
+    "reviews_per_month": -5.420919368506261,
+    "host_listings_count": -0.3266300504916334,
+    "availability_365": 0.06981284532275327
+}},{latitude:40.87225, longitude:-73.88748,actual:33.0,predicted:60,coefficients:{
+    "intercept": 68.90920630034931,
+    "minimum_nights": -0.323353378831761,
+    "number_of_reviews": -0.13353233727282912,
+    "reviews_per_month": -0.7840127146089543,
+    "host_listings_count": -0.2030008384128275,
+    "availability_365": 0.07159396589930125
+}},{latitude:40.88238, longitude:-73.90689,actual:159.0,predicted:95,coefficients:{
+    "intercept": 91.75054752011842,
+    "minimum_nights": -0.3215713485580671,
+    "number_of_reviews": -0.234187883210038,
+    "reviews_per_month": -5.125690487778149,
+    "host_listings_count": -0.30009329099211784,
+    "availability_365": 0.0701576883460012
+}},{latitude:40.80993, longitude:-73.92613,actual:100.0,predicted:76,coefficients:{
+    "intercept": 81.74246297012287,
+    "minimum_nights": -0.3219961367197135,
+    "number_of_reviews": -0.22289978627543333,
+    "reviews_per_month": -9.517434195129502,
+    "host_listings_count": -0.3845719751958027,
+    "availability_365": 0.06890278366488592
+}},{latitude:40.85073, longitude:-73.9128,actual:50.0,predicted:97,coefficients:{
+    "intercept": 85.90458529337455,
+    "minimum_nights": -0.32189781595232797,
+    "number_of_reviews": -0.2564690955350553,
+    "reviews_per_month": -7.214664843601957,
+    "host_listings_count": -0.3386101178998592,
+    "availability_365": 0.06960690762231256
+}},{latitude:40.87183, longitude:-73.90371,actual:75.0,predicted:82,coefficients:{
+    "intercept": 83.42866952150399,
+    "minimum_nights": -0.3219792031247792,
+    "number_of_reviews": -0.21385594532488272,
+    "reviews_per_month": -4.413053770918974,
+    "host_listings_count": -0.2947175201660442,
+    "availability_365": 0.07025134308520806
+}},{latitude:40.82873, longitude:-73.89553,actual:120.0,predicted:66,coefficients:{
+    "intercept": 73.30964261004436,
+    "minimum_nights": -0.323708048566725,
+    "number_of_reviews": -0.14006434740868645,
+    "reviews_per_month": -3.4445238978446353,
+    "host_listings_count": -0.2869490043980802,
+    "availability_365": 0.07040040060607977
+}},{latitude:40.81335, longitude:-73.8873,actual:40.0,predicted:73,coefficients:{
+    "intercept": 63.857076542824736,
+    "minimum_nights": -0.3251909652009529,
+    "number_of_reviews": -0.16711526273495184,
+    "reviews_per_month": -1.9639379944048068,
+    "host_listings_count": -0.24996349237547083,
+    "availability_365": 0.07094266498279264
+}},{latitude:40.81395, longitude:-73.88675,actual:40.0,predicted:72,coefficients:{
+    "intercept": 63.41566849789966,
+    "minimum_nights": -0.32525681009663554,
+    "number_of_reviews": -0.17208436916335357,
+    "reviews_per_month": -1.844046618099678,
+    "host_listings_count": -0.24575149795709722,
+    "availability_365": 0.0710037688131006
+}},{latitude:40.82381, longitude:-73.92725,actual:110.0,predicted:80,coefficients:{
+    "intercept": 81.54275597258298,
+    "minimum_nights": -0.32172765894131655,
+    "number_of_reviews": -0.2373427300902941,
+    "reviews_per_month": -9.654838017121282,
+    "host_listings_count": -0.38053330507797695,
+    "availability_365": 0.068957010569425
+}},{latitude:40.82417, longitude:-73.90156,actual:95.0,predicted:26,coefficients:{
+    "intercept": 78.12097364720795,
+    "minimum_nights": -0.32324000212817,
+    "number_of_reviews": -0.1774595381381676,
+    "reviews_per_month": -4.928027421140232,
+    "host_listings_count": -0.3169923730265406,
+    "availability_365": 0.06995600569619968
+}},{latitude:40.81229, longitude:-73.88887,actual:40.0,predicted:70,coefficients:{
+    "intercept": 65.36491294591288,
+    "minimum_nights": -0.32499086518009057,
+    "number_of_reviews": -0.15382751767593886,
+    "reviews_per_month": -2.326350477704433,
+    "host_listings_count": -0.2610053667605277,
+    "availability_365": 0.07078227151335365
+}},{latitude:40.81387, longitude:-73.88797,actual:37.0,predicted:74,coefficients:{
+    "intercept": 64.54738766758295,
+    "minimum_nights": -0.32507518607172486,
+    "number_of_reviews": -0.16036181022072066,
+    "reviews_per_month": -2.0980207216170013,
+    "host_listings_count": -0.2540196133274047,
+    "availability_365": 0.0708838742386855
+}},{latitude:40.84423, longitude:-73.83602,actual:59.0,predicted:112,coefficients:{
+    "intercept": 87.20251088379489,
+    "minimum_nights": -0.3319149462041467,
+    "number_of_reviews": 0.009713681339320865,
+    "reviews_per_month": 0.9028941552780776,
+    "host_listings_count": 0.29563933980428103,
+    "availability_365": 0.0772931610279109
+}},{latitude:40.88001, longitude:-73.8345,actual:62.0,predicted:117,coefficients:{
+    "intercept": 88.78702992597272,
+    "minimum_nights": -0.3303533486127934,
+    "number_of_reviews": 0.04999501487359551,
+    "reviews_per_month": 1.0857244396177546,
+    "host_listings_count": 0.3169880989222905,
+    "availability_365": 0.07751241460924484
+}},{latitude:40.88211, longitude:-73.83625,actual:45.0,predicted:117,coefficients:{
+    "intercept": 88.22856655806257,
+    "minimum_nights": -0.33022228542928866,
+    "number_of_reviews": 0.06436680957688715,
+    "reviews_per_month": 1.219036341435877,
+    "host_listings_count": 0.31329130466002625,
+    "availability_365": 0.07755274616590499
+}},{latitude:40.80247, longitude:-73.91435,actual:90.0,predicted:45,coefficients:{
+    "intercept": 81.53512497561906,
+    "minimum_nights": -0.32274460476823225,
+    "number_of_reviews": -0.2010310792496752,
+    "reviews_per_month": -7.794565127527544,
+    "host_listings_count": -0.3669912798648899,
+    "availability_365": 0.0691973565356124
+}},{latitude:40.85205, longitude:-73.78868,actual:107.0,predicted:175,coefficients:{
+    "intercept": 174.14285558613594,
+    "minimum_nights": -0.33073380577466716,
+    "number_of_reviews": -0.14338558767155649,
+    "reviews_per_month": -1.0460694327136053,
+    "host_listings_count": 0.32988949025103204,
+    "availability_365": 0.07636443766379936
+}},{latitude:40.81476, longitude:-73.80001,actual:325.0,predicted:134,coefficients:{
+    "intercept": 131.14645439798804,
+    "minimum_nights": -0.33180860313074023,
+    "number_of_reviews": -0.14801601848345852,
+    "reviews_per_month": -0.8195930567359627,
+    "host_listings_count": 0.32172867395218946,
+    "availability_365": 0.07639972815555632
+}},{latitude:40.84328, longitude:-73.88173,actual:79.0,predicted:76,coefficients:{
+    "intercept": 64.34077822093504,
+    "minimum_nights": -0.3250988272219276,
+    "number_of_reviews": -0.17923313436442553,
+    "reviews_per_month": -0.18341955229295287,
+    "host_listings_count": -0.1813137997142947,
+    "availability_365": 0.07192925409026536
+}},{latitude:40.88301, longitude:-73.85452,actual:65.0,predicted:88,coefficients:{
+    "intercept": 78.45785977042564,
+    "minimum_nights": -0.3293203692799496,
+    "number_of_reviews": 0.03772944166810659,
+    "reviews_per_month": 2.746753647726852,
+    "host_listings_count": 0.23085424540391425,
+    "availability_365": 0.07763737162261469
+}},{latitude:40.86789, longitude:-73.85999,actual:63.0,predicted:80,coefficients:{
+    "intercept": 77.72065928229986,
+    "minimum_nights": -0.3293744588849879,
+    "number_of_reviews": 0.009121129163909463,
+    "reviews_per_month": 2.9557350035676953,
+    "host_listings_count": 0.15778717054247818,
+    "availability_365": 0.07678154325021919
+}},{latitude:40.85362, longitude:-73.82949,actual:150.0,predicted:114,coefficients:{
+    "intercept": 86.86877368832374,
+    "minimum_nights": -0.33146815728264867,
+    "number_of_reviews": -0.01804468148651701,
+    "reviews_per_month": 0.6412758584172689,
+    "host_listings_count": 0.3170912235717254,
+    "availability_365": 0.07726520497878414
+}},{latitude:40.88837, longitude:-73.90939,actual:65.0,predicted:26,coefficients:{
+    "intercept": 100.39414629803471,
+    "minimum_nights": -0.32132923315520207,
+    "number_of_reviews": -0.24435769009710387,
+    "reviews_per_month": -5.565004832851977,
+    "host_listings_count": -0.30521701777870897,
+    "availability_365": 0.07007327045429498
+}},{latitude:40.83746, longitude:-73.92268,actual:59.0,predicted:58,coefficients:{
+    "intercept": 83.11760792848159,
+    "minimum_nights": -0.3216832933478367,
+    "number_of_reviews": -0.242958311989325,
+    "reviews_per_month": -9.560964318925684,
+    "host_listings_count": -0.3674185910003551,
+    "availability_365": 0.06916179132232457
+}},{latitude:40.82939, longitude:-73.86514,actual:28.0,predicted:79,coefficients:{
+    "intercept": 75.62624823558677,
+    "minimum_nights": -0.3297191334548754,
+    "number_of_reviews": -0.06920513050664079,
+    "reviews_per_month": 1.6344710398597782,
+    "host_listings_count": 0.010114313301258447,
+    "availability_365": 0.0746811702923683
+}},{latitude:40.81773, longitude:-73.86164,actual:100.0,predicted:100,coefficients:{
+    "intercept": 77.76250185479797,
+    "minimum_nights": -0.331663699623486,
+    "number_of_reviews": -0.054944374901703036,
+    "reviews_per_month": 1.4270496941098951,
+    "host_listings_count": 0.05720544265059103,
+    "availability_365": 0.07535681069083648
+}},{latitude:40.82424, longitude:-73.91316,actual:225.0,predicted:80,coefficients:{
+    "intercept": 81.3502592879059,
+    "minimum_nights": -0.3223953936920706,
+    "number_of_reviews": -0.22638548625946214,
+    "reviews_per_month": -7.595188603204933,
+    "host_listings_count": -0.3537831584449477,
+    "availability_365": 0.06939342994005007
+}},{latitude:40.86711, longitude:-73.89525,actual:65.0,predicted:73,coefficients:{
+    "intercept": 74.3272281385609,
+    "minimum_nights": -0.32272256230717183,
+    "number_of_reviews": -0.14053919615927254,
+    "reviews_per_month": -2.48494037402786,
+    "host_listings_count": -0.2575392785580134,
+    "availability_365": 0.07080610847559564
+}},{latitude:40.85311, longitude:-73.90861,actual:33.0,predicted:63,coefficients:{
+    "intercept": 84.11816207617284,
+    "minimum_nights": -0.3220827668771403,
+    "number_of_reviews": -0.2457017217308818,
+    "reviews_per_month": -6.099783775711836,
+    "host_listings_count": -0.32468180042390754,
+    "availability_365": 0.06981899360579308
+}},{latitude:40.82226, longitude:-73.88906,actual:60.0,predicted:89,coefficients:{
+    "intercept": 66.27669744276567,
+    "minimum_nights": -0.32467069172398616,
+    "number_of_reviews": -0.14617972542304095,
+    "reviews_per_month": -2.144953375877416,
+    "host_listings_count": -0.25469029466689963,
+    "availability_365": 0.0708739587647462
+}},{latitude:40.87709, longitude:-73.88228,actual:38.0,predicted:78,coefficients:{
+    "intercept": 67.69566683582227,
+    "minimum_nights": -0.3238406709967921,
+    "number_of_reviews": -0.1491349375980321,
+    "reviews_per_month": 0.24223968180423983,
+    "host_listings_count": -0.15549841316284665,
+    "availability_365": 0.07227295136103105
+}},{latitude:40.82705, longitude:-73.91337,actual:95.0,predicted:90,coefficients:{
+    "intercept": 81.54600187595959,
+    "minimum_nights": -0.3223280596590632,
+    "number_of_reviews": -0.23008295956534033,
+    "reviews_per_month": -7.64349397527254,
+    "host_listings_count": -0.3528736415112389,
+    "availability_365": 0.06940563413575207
+}},{latitude:40.84487, longitude:-73.78954,actual:110.0,predicted:167,coefficients:{
+    "intercept": 174.65274313983798,
+    "minimum_nights": -0.33089573164645203,
+    "number_of_reviews": -0.1469788280912269,
+    "reviews_per_month": -1.0319160157358216,
+    "host_listings_count": 0.3285777025735546,
+    "availability_365": 0.07635314194919955
+}},{latitude:40.86617, longitude:-73.848,actual:47.0,predicted:126,coefficients:{
+    "intercept": 81.79384555267647,
+    "minimum_nights": -0.3307033169331416,
+    "number_of_reviews": 0.08188831146728784,
+    "reviews_per_month": 1.9543373444410583,
+    "host_listings_count": 0.2596287796033814,
+    "availability_365": 0.07755937233777901
+}},{latitude:40.81897, longitude:-73.92735,actual:159.0,predicted:80,coefficients:{
+    "intercept": 81.48586330678563,
+    "minimum_nights": -0.3218009427449914,
+    "number_of_reviews": -0.23376554134676483,
+    "reviews_per_month": -9.60869163673817,
+    "host_listings_count": -0.3826365406543254,
+    "availability_365": 0.06892641005983997
+}},{latitude:40.87842, longitude:-73.9029,actual:75.0,predicted:89,coefficients:{
+    "intercept": 83.74681832493305,
+    "minimum_nights": -0.32188298569780477,
+    "number_of_reviews": -0.20395022886373998,
+    "reviews_per_month": -4.231642708942692,
+    "host_listings_count": -0.2868037314412856,
+    "availability_365": 0.07036155717487934
+}},{latitude:40.83735, longitude:-73.85997,actual:139.0,predicted:105,coefficients:{
+    "intercept": 77.88011267861253,
+    "minimum_nights": -0.3312732180637217,
+    "number_of_reviews": -0.013216327135705627,
+    "reviews_per_month": 2.142138320964152,
+    "host_listings_count": 0.11854712957418588,
+    "availability_365": 0.0762439172447048
+}},{latitude:40.8113, longitude:-73.92465,actual:65.0,predicted:104,coefficients:{
+    "intercept": 81.82856029443697,
+    "minimum_nights": -0.32203774664538104,
+    "number_of_reviews": -0.2200682142632112,
+    "reviews_per_month": -9.533012581936214,
+    "host_listings_count": -0.38194720422402506,
+    "availability_365": 0.06894644601657016
+}},{latitude:40.879, longitude:-73.90062,actual:189.0,predicted:102,coefficients:{
+    "intercept": 80.84091585146217,
+    "minimum_nights": -0.3220164034131924,
+    "number_of_reviews": -0.18251831838121466,
+    "reviews_per_month": -3.746514636271723,
+    "host_listings_count": -0.2761937329315048,
+    "availability_365": 0.07051831139937625
+}},{latitude:40.85487, longitude:-73.88711,actual:70.0,predicted:64,coefficients:{
+    "intercept": 67.21017616272309,
+    "minimum_nights": -0.3239354521901857,
+    "number_of_reviews": -0.14150789033984798,
+    "reviews_per_month": -0.9679011742722716,
+    "host_listings_count": -0.21492366896221585,
+    "availability_365": 0.07143707278822282
+}},{latitude:40.85753, longitude:-73.86605,actual:85.0,predicted:101,coefficients:{
+    "intercept": 76.46457747372985,
+    "minimum_nights": -0.3279728055671651,
+    "number_of_reviews": -0.0395878712357102,
+    "reviews_per_month": 2.3459733935330744,
+    "host_listings_count": 0.02914614235327623,
+    "availability_365": 0.07494089862842068
+}},{latitude:40.88165, longitude:-73.85625,actual:34.0,predicted:102,coefficients:{
+    "intercept": 78.09609839716825,
+    "minimum_nights": -0.3292790843148533,
+    "number_of_reviews": 0.02865415323373689,
+    "reviews_per_month": 2.861211774025826,
+    "host_listings_count": 0.2174069057328806,
+    "availability_365": 0.07759574268534006
+}},{latitude:40.88422, longitude:-73.90886,actual:85.0,predicted:96,coefficients:{
+    "intercept": 96.82228025310104,
+    "minimum_nights": -0.32143570995654674,
+    "number_of_reviews": -0.24515255901682353,
+    "reviews_per_month": -5.534055899181136,
+    "host_listings_count": -0.3060087400740193,
+    "availability_365": 0.07006616310675094
+}},{latitude:40.82023, longitude:-73.92844,actual:87.0,predicted:33,coefficients:{
+    "intercept": 81.32344454312437,
+    "minimum_nights": -0.32173946190342495,
+    "number_of_reviews": -0.23830849460635606,
+    "reviews_per_month": -9.57313158655034,
+    "host_listings_count": -0.38355283179205407,
+    "availability_365": 0.06890889801731268
+}},{latitude:40.81192, longitude:-73.90949,actual:64.0,predicted:66,coefficients:{
+    "intercept": 80.75192258065786,
+    "minimum_nights": -0.32288345750785885,
+    "number_of_reviews": -0.20563787955006155,
+    "reviews_per_month": -6.812811558680155,
+    "host_listings_count": -0.350364033833891,
+    "availability_365": 0.06945378286199795
+}},{latitude:40.85292, longitude:-73.91683,actual:51.0,predicted:95,coefficients:{
+    "intercept": 88.02514554088778,
+    "minimum_nights": -0.3216619086319607,
+    "number_of_reviews": -0.26049288069852655,
+    "reviews_per_month": -8.007098949844071,
+    "host_listings_count": -0.3476710810188874,
+    "availability_365": 0.06946233635394333
+}},{latitude:40.85592, longitude:-73.86743,actual:80.0,predicted:73,coefficients:{
+    "intercept": 75.83147629718242,
+    "minimum_nights": -0.3276591672365743,
+    "number_of_reviews": -0.05310372974794392,
+    "reviews_per_month": 2.259192854782257,
+    "host_listings_count": 0.0046245998264605355,
+    "availability_365": 0.07459012763760364
+}},{latitude:40.85598, longitude:-73.90052,actual:35.0,predicted:76,coefficients:{
+    "intercept": 78.02382838682195,
+    "minimum_nights": -0.3225673672504353,
+    "number_of_reviews": -0.1846407708398641,
+    "reviews_per_month": -3.7788851167129227,
+    "host_listings_count": -0.29188765640994296,
+    "availability_365": 0.0703098259847905
+}},{latitude:40.84721, longitude:-73.83222,actual:37.0,predicted:85,coefficients:{
+    "intercept": 86.86698102131223,
+    "minimum_nights": -0.3317489777792181,
+    "number_of_reviews": -0.013065243874576662,
+    "reviews_per_month": 0.7544364762512871,
+    "host_listings_count": 0.307849435270678,
+    "availability_365": 0.07726448939192854
+}},{latitude:40.83953, longitude:-73.85717,actual:88.0,predicted:99,coefficients:{
+    "intercept": 78.78221776604573,
+    "minimum_nights": -0.33218892284420465,
+    "number_of_reviews": 0.010916917254611247,
+    "reviews_per_month": 2.177215092794234,
+    "host_listings_count": 0.16954113060042716,
+    "availability_365": 0.07705875370279924
+}},{latitude:40.88808, longitude:-73.86017,actual:85.0,predicted:93,coefficients:{
+    "intercept": 77.75322087608397,
+    "minimum_nights": -0.32803377041040366,
+    "number_of_reviews": 0.0066369709081103186,
+    "reviews_per_month": 2.822362129314891,
+    "host_listings_count": 0.17711645010495394,
+    "availability_365": 0.07700648972657743
+}},{latitude:40.88777, longitude:-73.9059,actual:70.0,predicted:90,coefficients:{
+    "intercept": 91.72294328807436,
+    "minimum_nights": -0.3215112445473719,
+    "number_of_reviews": -0.22289914111756726,
+    "reviews_per_month": -4.82781961688147,
+    "host_listings_count": -0.292773283526721,
+    "availability_365": 0.07026144528931529
+}},{latitude:40.86553, longitude:-73.83993,actual:35.0,predicted:95,coefficients:{
+    "intercept": 86.79466447041048,
+    "minimum_nights": -0.3309248870224237,
+    "number_of_reviews": 0.07449888666280406,
+    "reviews_per_month": 1.3090468438985774,
+    "host_listings_count": 0.294758263266964,
+    "availability_365": 0.07750899999645092
+}},{latitude:40.8506, longitude:-73.90231,actual:109.0,predicted:62,coefficients:{
+    "intercept": 79.06423840887655,
+    "minimum_nights": -0.3225581214907928,
+    "number_of_reviews": -0.1996484713820003,
+    "reviews_per_month": -4.340691621604047,
+    "host_listings_count": -0.30317364772946875,
+    "availability_365": 0.07014617382358031
+}},{latitude:40.88214, longitude:-73.90847,actual:99.0,predicted:114,coefficients:{
+    "intercept": 94.91399424072813,
+    "minimum_nights": -0.3214961761797373,
+    "number_of_reviews": -0.2444845243925252,
+    "reviews_per_month": -5.487445401875059,
+    "host_listings_count": -0.30597884462028746,
+    "availability_365": 0.07006924023550745
+}},{latitude:40.87223, longitude:-73.84335,actual:95.0,predicted:122,coefficients:{
+    "intercept": 84.65406707156883,
+    "minimum_nights": -0.33051277806996676,
+    "number_of_reviews": 0.0908963232656635,
+    "reviews_per_month": 1.6174196781882384,
+    "host_listings_count": 0.28519306542143996,
+    "availability_365": 0.07758803462334142
+}},{latitude:40.89694, longitude:-73.86055,actual:90.0,predicted:115,coefficients:{
+    "intercept": 77.72077174109666,
+    "minimum_nights": -0.32736468959136195,
+    "number_of_reviews": 0.001341183114806035,
+    "reviews_per_month": 2.6830281853066724,
+    "host_listings_count": 0.17802001399964865,
+    "availability_365": 0.07699197297484917
+}},{latitude:40.87556, longitude:-73.8584,actual:85.0,predicted:114,coefficients:{
+    "intercept": 77.85362935369741,
+    "minimum_nights": -0.32946863598856946,
+    "number_of_reviews": 0.018635069764703024,
+    "reviews_per_month": 2.8939103717769994,
+    "host_listings_count": 0.19448270697086129,
+    "availability_365": 0.07741238711553518
+}},{latitude:40.82345, longitude:-73.9033,actual:89.0,predicted:25,coefficients:{
+    "intercept": 79.01720253451322,
+    "minimum_nights": -0.323108266516644,
+    "number_of_reviews": -0.18896009098555822,
+    "reviews_per_month": -5.332705258596779,
+    "host_listings_count": -0.3240774789740622,
+    "availability_365": 0.0698498174916455
+}},{latitude:40.82731, longitude:-73.91632,actual:100.0,predicted:57,coefficients:{
+    "intercept": 81.88383405930163,
+    "minimum_nights": -0.32215911833046773,
+    "number_of_reviews": -0.23123155382940264,
+    "reviews_per_month": -8.315234686178503,
+    "host_listings_count": -0.3596848532714855,
+    "availability_365": 0.06929761147288478
+}},{latitude:40.88599, longitude:-73.89868,actual:45.0,predicted:77,coefficients:{
+    "intercept": 79.56936839737341,
+    "minimum_nights": -0.32198309930317875,
+    "number_of_reviews": -0.16271173673375114,
+    "reviews_per_month": -3.2715459040474397,
+    "host_listings_count": -0.26173409031622114,
+    "availability_365": 0.07072393402581195
+}},{latitude:40.85324, longitude:-73.86506,actual:40.0,predicted:98,coefficients:{
+    "intercept": 76.58942092436311,
+    "minimum_nights": -0.32850123665728076,
+    "number_of_reviews": -0.03610025692636496,
+    "reviews_per_month": 2.3808008867458534,
+    "host_listings_count": 0.041101238012953484,
+    "availability_365": 0.07511662631614463
+}},{latitude:40.88058, longitude:-73.91812,actual:79.0,predicted:72,coefficients:{
+    "intercept": 110.6187835358157,
+    "minimum_nights": -0.32112119824224145,
+    "number_of_reviews": -0.265312796708778,
+    "reviews_per_month": -7.29294625122094,
+    "host_listings_count": -0.335415577699828,
+    "availability_365": 0.06961855966409161
+}},{latitude:40.9008, longitude:-73.90639,actual:49.0,predicted:118,coefficients:{
+    "intercept": 97.89649823364203,
+    "minimum_nights": -0.32122101064790587,
+    "number_of_reviews": -0.21402557860518884,
+    "reviews_per_month": -4.749508946782619,
+    "host_listings_count": -0.2860090312539074,
+    "availability_365": 0.07034645543267076
+}},{latitude:40.8787, longitude:-73.90098,actual:35.0,predicted:78,coefficients:{
+    "intercept": 81.23618881057072,
+    "minimum_nights": -0.3219994135300929,
+    "number_of_reviews": -0.18599575958629988,
+    "reviews_per_month": -3.8193348408791934,
+    "host_listings_count": -0.27807640361187425,
+    "availability_365": 0.07049080330122352
+}},{latitude:40.8183, longitude:-73.91938,actual:150.0,predicted:56,coefficients:{
+    "intercept": 81.71479175144209,
+    "minimum_nights": -0.32216570699727815,
+    "number_of_reviews": -0.22059571694891003,
+    "reviews_per_month": -8.967781120375776,
+    "host_listings_count": -0.3701866812370953,
+    "availability_365": 0.06913588683159146
+}},{latitude:40.85139, longitude:-73.78414,actual:95.0,predicted:146,coefficients:{
+    "intercept": 182.50800564111864,
+    "minimum_nights": -0.33063675423713607,
+    "number_of_reviews": -0.1357469602830451,
+    "reviews_per_month": -1.1515036745679519,
+    "host_listings_count": 0.32670788281001656,
+    "availability_365": 0.07626471425620497
+}},{latitude:40.82442, longitude:-73.86193,actual:45.0,predicted:76,coefficients:{
+    "intercept": 77.34984477345589,
+    "minimum_nights": -0.33118756509275477,
+    "number_of_reviews": -0.0473946723183563,
+    "reviews_per_month": 1.6566761268091017,
+    "host_listings_count": 0.06109170661057175,
+    "availability_365": 0.07541495050542764
+}},{latitude:40.8199, longitude:-73.9281,actual:110.0,predicted:80,coefficients:{
+    "intercept": 81.37743226550062,
+    "minimum_nights": -0.3217574268554409,
+    "number_of_reviews": -0.23690120582295837,
+    "reviews_per_month": -9.582350605030998,
+    "host_listings_count": -0.3832482143668573,
+    "availability_365": 0.06891463731151651
+}},{latitude:40.81778, longitude:-73.90858,actual:60.0,predicted:77,coefficients:{
+    "intercept": 80.5704951893586,
+    "minimum_nights": -0.32282602150254963,
+    "number_of_reviews": -0.20972007345179441,
+    "reviews_per_month": -6.576343894578083,
+    "host_listings_count": -0.3447091088301853,
+    "availability_365": 0.0695383713904582
+}},{latitude:40.87925, longitude:-73.88254,actual:80.0,predicted:67,coefficients:{
+    "intercept": 67.87411695760231,
+    "minimum_nights": -0.3237322967468092,
+    "number_of_reviews": -0.14783495500195154,
+    "reviews_per_month": 0.2023771232056881,
+    "host_listings_count": -0.15593807505145332,
+    "availability_365": 0.07226422536490723
+}},{latitude:40.8522, longitude:-73.91014,actual:26.0,predicted:82,coefficients:{
+    "intercept": 84.91816163667431,
+    "minimum_nights": -0.3220129272447124,
+    "number_of_reviews": -0.2513051051249241,
+    "reviews_per_month": -6.523283813795004,
+    "host_listings_count": -0.3300502033301299,
+    "availability_365": 0.06973767165679522
+}},{latitude:40.8883, longitude:-73.91665,actual:150.0,predicted:101,coefficients:{
+    "intercept": 118.13854330559302,
+    "minimum_nights": -0.32103987978987925,
+    "number_of_reviews": -0.2564393887275298,
+    "reviews_per_month": -6.871072147125639,
+    "host_listings_count": -0.3272285332820048,
+    "availability_365": 0.0697355433411324
+}},{latitude:40.8098, longitude:-73.92149,actual:500.0,predicted:103,coefficients:{
+    "intercept": 81.89905303227846,
+    "minimum_nights": -0.322210443688441,
+    "number_of_reviews": -0.21311937682718732,
+    "reviews_per_month": -9.24888720726882,
+    "host_listings_count": -0.37761912012728094,
+    "availability_365": 0.06902053063477642
+}},{latitude:40.80903, longitude:-73.92143,actual:125.0,predicted:30,coefficients:{
+    "intercept": 81.91831803401627,
+    "minimum_nights": -0.3222267599157735,
+    "number_of_reviews": -0.21228554736428856,
+    "reviews_per_month": -9.23644267524128,
+    "host_listings_count": -0.3778391486381227,
+    "availability_365": 0.06901748781886977
+}},{latitude:40.81928, longitude:-73.90933,actual:60.0,predicted:77,coefficients:{
+    "intercept": 80.69435587301794,
+    "minimum_nights": -0.32274186660601606,
+    "number_of_reviews": -0.21368477183322643,
+    "reviews_per_month": -6.736690343235048,
+    "host_listings_count": -0.34609451015678705,
+    "availability_365": 0.06951623756961414
+}},{latitude:40.81725, longitude:-73.90929,actual:55.0,predicted:86,coefficients:{
+    "intercept": 80.68094490867561,
+    "minimum_nights": -0.3227868931889781,
+    "number_of_reviews": -0.21121577905599936,
+    "reviews_per_month": -6.739263539703404,
+    "host_listings_count": -0.34704744576774343,
+    "availability_365": 0.06950257558725861
+}},{latitude:40.81911, longitude:-73.90939,actual:60.0,predicted:60,coefficients:{
+    "intercept": 80.70228238793183,
+    "minimum_nights": -0.32274124950025695,
+    "number_of_reviews": -0.2136514524689991,
+    "reviews_per_month": -6.751235374872062,
+    "host_listings_count": -0.3463560961328978,
+    "availability_365": 0.06951228834771629
+}},{latitude:40.83648, longitude:-73.85812,actual:59.0,predicted:110,coefficients:{
+    "intercept": 78.57583395844732,
+    "minimum_nights": -0.33215251012701474,
+    "number_of_reviews": 0.000281271471823914,
+    "reviews_per_month": 2.1058427288557797,
+    "host_listings_count": 0.15604960128469933,
+    "availability_365": 0.07681421430047206
+}},{latitude:40.86323, longitude:-73.84638,actual:450.0,predicted:120,coefficients:{
+    "intercept": 82.95238018113481,
+    "minimum_nights": -0.33091602466599385,
+    "number_of_reviews": 0.08680069565950692,
+    "reviews_per_month": 1.7487794474715357,
+    "host_listings_count": 0.26611362210570666,
+    "availability_365": 0.07753502909793229
+}},{latitude:40.83703, longitude:-73.85648,actual:75.0,predicted:94,coefficients:{
+    "intercept": 79.18705701780215,
+    "minimum_nights": -0.3323989299291653,
+    "number_of_reviews": 0.013387229148998463,
+    "reviews_per_month": 2.0449095772480907,
+    "host_listings_count": 0.17308507358918682,
+    "availability_365": 0.07706719448182499
+}},{latitude:40.81384, longitude:-73.90514,actual:85.0,predicted:75,coefficients:{
+    "intercept": 79.87025526017385,
+    "minimum_nights": -0.3231739604158399,
+    "number_of_reviews": -0.19128480548742932,
+    "reviews_per_month": -5.87393207113153,
+    "host_listings_count": -0.3360496026503607,
+    "availability_365": 0.06967240616528762
+}},{latitude:40.86947, longitude:-73.85993,actual:104.0,predicted:87,coefficients:{
+    "intercept": 77.73072115768375,
+    "minimum_nights": -0.3292961410743987,
+    "number_of_reviews": 0.00979071568989575,
+    "reviews_per_month": 2.9537366174738002,
+    "host_listings_count": 0.16097280933449118,
+    "availability_365": 0.07682478068153648
+}},{latitude:40.89118, longitude:-73.84987,actual:99.0,predicted:87,coefficients:{
+    "intercept": 80.30517870591382,
+    "minimum_nights": -0.3291467489099799,
+    "number_of_reviews": 0.059387287229871105,
+    "reviews_per_month": 2.3446001568741903,
+    "host_listings_count": 0.26391537825410283,
+    "availability_365": 0.07772183538392806
+}},{latitude:40.88871, longitude:-73.86175,actual:40.0,predicted:114,coefficients:{
+    "intercept": 77.71433981638295,
+    "minimum_nights": -0.32750417121666037,
+    "number_of_reviews": -0.0005927059072993067,
+    "reviews_per_month": 2.7656685796621843,
+    "host_listings_count": 0.14450305378573966,
+    "availability_365": 0.07653804800470698
+}},{latitude:40.86412, longitude:-73.84664,actual:75.0,predicted:115,coefficients:{
+    "intercept": 82.74667916024991,
+    "minimum_nights": -0.33085965522281385,
+    "number_of_reviews": 0.08638645882186508,
+    "reviews_per_month": 1.7874735822989645,
+    "host_listings_count": 0.2653829227094211,
+    "availability_365": 0.07754273047776893
+}},{latitude:40.82575, longitude:-73.92421,actual:175.0,predicted:81,coefficients:{
+    "intercept": 81.91119897517066,
+    "minimum_nights": -0.32181661587541116,
+    "number_of_reviews": -0.23252731135791033,
+    "reviews_per_month": -9.747983997585052,
+    "host_listings_count": -0.3752461374359388,
+    "availability_365": 0.06904485558547259
+}},{latitude:40.83211, longitude:-73.92052,actual:49.0,predicted:90,coefficients:{
+    "intercept": 82.52702407372776,
+    "minimum_nights": -0.3218673987599483,
+    "number_of_reviews": -0.23658213331707095,
+    "reviews_per_month": -9.299864954563667,
+    "host_listings_count": -0.36598476698226695,
+    "availability_365": 0.06919137429222025
+}},{latitude:40.83049, longitude:-73.87354,actual:51.0,predicted:72,coefficients:{
+    "intercept": 68.56129878109157,
+    "minimum_nights": -0.32722925000784464,
+    "number_of_reviews": -0.15428914493643214,
+    "reviews_per_month": 1.023435458114221,
+    "host_listings_count": -0.10875695562165497,
+    "availability_365": 0.07297496975874275
+}},{latitude:40.85396, longitude:-73.89872,actual:34.0,predicted:75,coefficients:{
+    "intercept": 76.43063844971248,
+    "minimum_nights": -0.3227610061908246,
+    "number_of_reviews": -0.1677400171551647,
+    "reviews_per_month": -3.420261357280053,
+    "host_listings_count": -0.2850040698230394,
+    "availability_365": 0.07041371724476995
+}},{latitude:40.86032, longitude:-73.88493,actual:130.0,predicted:92,coefficients:{
+    "intercept": 66.60372940386662,
+    "minimum_nights": -0.32404561315917935,
+    "number_of_reviews": -0.1513234511594611,
+    "reviews_per_month": -0.4505364544748134,
+    "host_listings_count": -0.19335007175662153,
+    "availability_365": 0.07174460059304497
+}},{latitude:40.83458, longitude:-73.91021,actual:57.0,predicted:50,coefficients:{
+    "intercept": 81.63763958797735,
+    "minimum_nights": -0.3223680365540367,
+    "number_of_reviews": -0.23413452560103984,
+    "reviews_per_month": -6.8325203105197305,
+    "host_listings_count": -0.3403457281559645,
+    "availability_365": 0.06959492187888378
+}},{latitude:40.88493, longitude:-73.8618,actual:67.0,predicted:102,coefficients:{
+    "intercept": 77.70943921838622,
+    "minimum_nights": -0.32771478061586995,
+    "number_of_reviews": -0.00011816161538504455,
+    "reviews_per_month": 2.828785774694668,
+    "host_listings_count": 0.1394262671038902,
+    "availability_365": 0.0764757015893935
+}},{latitude:40.84268, longitude:-73.89294,actual:68.0,predicted:70,coefficients:{
+    "intercept": 71.13213624761107,
+    "minimum_nights": -0.3236089082064643,
+    "number_of_reviews": -0.13164678936624064,
+    "reviews_per_month": -2.4206585724408787,
+    "host_listings_count": -0.2628611297959385,
+    "availability_365": 0.07074755623299855
+}},{latitude:40.82909, longitude:-73.92249,actual:95.0,predicted:80,coefficients:{
+    "intercept": 82.19103360539386,
+    "minimum_nights": -0.321832948959069,
+    "number_of_reviews": -0.2340139043027924,
+    "reviews_per_month": -9.64672692155567,
+    "host_listings_count": -0.3709331618305756,
+    "availability_365": 0.0691131950916253
+}},{latitude:40.87938, longitude:-73.86349,actual:500.0,predicted:104,coefficients:{
+    "intercept": 77.59250721190864,
+    "minimum_nights": -0.32753258434041116,
+    "number_of_reviews": -0.008784291623638977,
+    "reviews_per_month": 2.7682477784321096,
+    "host_listings_count": 0.10003667195382784,
+    "availability_365": 0.07592519691629834
+}},{latitude:40.80884, longitude:-73.9302,actual:139.0,predicted:73,coefficients:{
+    "intercept": 81.07535340338886,
+    "minimum_nights": -0.3218504763738723,
+    "number_of_reviews": -0.2378983955742216,
+    "reviews_per_month": -9.263180260654849,
+    "host_listings_count": -0.38999687921794857,
+    "availability_365": 0.06880841747243202
+}},{latitude:40.80872, longitude:-73.93051,actual:49.0,predicted:60,coefficients:{
+    "intercept": 81.00349593794172,
+    "minimum_nights": -0.3218406924033182,
+    "number_of_reviews": -0.2392993872333532,
+    "reviews_per_month": -9.237853022222426,
+    "host_listings_count": -0.3903828729253035,
+    "availability_365": 0.0688015960907506
+}},{latitude:40.80952, longitude:-73.93025,actual:41.0,predicted:61,coefficients:{
+    "intercept": 81.05306178867238,
+    "minimum_nights": -0.32183813885869006,
+    "number_of_reviews": -0.23853807158107249,
+    "reviews_per_month": -9.262973888936648,
+    "host_listings_count": -0.38980379516136693,
+    "availability_365": 0.06881107213143005
+}},{latitude:40.84559, longitude:-73.89815,actual:41.0,predicted:71,coefficients:{
+    "intercept": 75.6960636373796,
+    "minimum_nights": -0.323018921171151,
+    "number_of_reviews": -0.16111114972013252,
+    "reviews_per_month": -3.52288484658565,
+    "host_listings_count": -0.28813469417975224,
+    "availability_365": 0.07037382055329366
+}},{latitude:40.83166, longitude:-73.81747,actual:89.0,predicted:97,coefficients:{
+    "intercept": 79.40338406396917,
+    "minimum_nights": -0.3319792342865838,
+    "number_of_reviews": -0.025098784021232307,
+    "reviews_per_month": -0.09691344761707534,
+    "host_listings_count": 0.3234041804939744,
+    "availability_365": 0.07687531807060152
+}},{latitude:40.85927, longitude:-73.90142,actual:40.0,predicted:83,coefficients:{
+    "intercept": 79.07301325726547,
+    "minimum_nights": -0.322421608155983,
+    "number_of_reviews": -0.19359622559365375,
+    "reviews_per_month": -3.9379759928444997,
+    "host_listings_count": -0.2935964243771811,
+    "availability_365": 0.07028134581703649
+}},{latitude:40.83041, longitude:-73.91838,actual:75.0,predicted:81,coefficients:{
+    "intercept": 82.30688046043034,
+    "minimum_nights": -0.3219976758483821,
+    "number_of_reviews": -0.23475365819669422,
+    "reviews_per_month": -8.847636348621302,
+    "host_listings_count": -0.3625738001764519,
+    "availability_365": 0.06924844893892639
+}},{latitude:40.8357, longitude:-73.91023,actual:110.0,predicted:51,coefficients:{
+    "intercept": 81.76572711226802,
+    "minimum_nights": -0.32234387328710584,
+    "number_of_reviews": -0.23547264941054993,
+    "reviews_per_month": -6.823531370958952,
+    "host_listings_count": -0.3397814622066196,
+    "availability_365": 0.0696027520855363
+}},{latitude:40.80842, longitude:-73.93136,actual:33.0,predicted:57,coefficients:{
+    "intercept": 80.79113497912401,
+    "minimum_nights": -0.32181391239962487,
+    "number_of_reviews": -0.24334924154060023,
+    "reviews_per_month": -9.166475121028778,
+    "host_listings_count": -0.39140235687428426,
+    "availability_365": 0.06878344145715602
+}},{latitude:40.81937, longitude:-73.90978,actual:45.0,predicted:63,coefficients:{
+    "intercept": 80.76247659363268,
+    "minimum_nights": -0.3227090765845104,
+    "number_of_reviews": -0.21497666906562352,
+    "reviews_per_month": -6.8404713656154215,
+    "host_listings_count": -0.34732679501190405,
+    "availability_365": 0.06949713969233565
+}},{latitude:40.81949, longitude:-73.92913,actual:99.0,predicted:46,coefficients:{
+    "intercept": 81.20019585174214,
+    "minimum_nights": -0.32172548893036274,
+    "number_of_reviews": -0.2402780986292739,
+    "reviews_per_month": -9.519884925532569,
+    "host_listings_count": -0.3847087193172732,
+    "availability_365": 0.06888949820154233
+}},{latitude:40.82716, longitude:-73.89911,actual:30.0,predicted:72,coefficients:{
+    "intercept": 76.43670138320117,
+    "minimum_nights": -0.3233904615077869,
+    "number_of_reviews": -0.161435698498936,
+    "reviews_per_month": -4.262513915248281,
+    "host_listings_count": -0.30489262644821225,
+    "availability_365": 0.07013541457856048
+}},{latitude:40.82412, longitude:-73.90266,actual:350.0,predicted:76,coefficients:{
+    "intercept": 78.70699599697316,
+    "minimum_nights": -0.32314641372338637,
+    "number_of_reviews": -0.18516679470897146,
+    "reviews_per_month": -5.178569619043608,
+    "host_listings_count": -0.32128360438652626,
+    "availability_365": 0.06989159303552238
+}},{latitude:40.86048, longitude:-73.91181,actual:120.0,predicted:88,coefficients:{
+    "intercept": 89.14364198286626,
+    "minimum_nights": -0.3217585700901569,
+    "number_of_reviews": -0.26142535721800286,
+    "reviews_per_month": -6.754180520129146,
+    "host_listings_count": -0.3301698351644265,
+    "availability_365": 0.0697268419410319
+}},{latitude:40.82162, longitude:-73.92698,actual:50.0,predicted:80,coefficients:{
+    "intercept": 81.54765978390066,
+    "minimum_nights": -0.3217729876139938,
+    "number_of_reviews": -0.234795691749106,
+    "reviews_per_month": -9.667102990846868,
+    "host_listings_count": -0.3810627911109485,
+    "availability_365": 0.06895051729937642
+}},{latitude:40.89984, longitude:-73.86902,actual:85.0,predicted:99,coefficients:{
+    "intercept": 76.60520249990464,
+    "minimum_nights": -0.32512271929610825,
+    "number_of_reviews": -0.03631914237174997,
+    "reviews_per_month": 1.88360528349268,
+    "host_listings_count": 0.026284726575397557,
+    "availability_365": 0.07482752762333464
+}},{latitude:40.85859, longitude:-73.89571,actual:65.0,predicted:71,coefficients:{
+    "intercept": 74.17393682932565,
+    "minimum_nights": -0.3229045877479733,
+    "number_of_reviews": -0.14403791941847957,
+    "reviews_per_month": -2.642503826755372,
+    "host_listings_count": -0.26643798649089157,
+    "availability_365": 0.07068353059993876
+}},{latitude:40.82296, longitude:-73.91429,actual:42.0,predicted:79,coefficients:{
+    "intercept": 81.41795129149605,
+    "minimum_nights": -0.32235390818481435,
+    "number_of_reviews": -0.22545482253739374,
+    "reviews_per_month": -7.848991993501137,
+    "host_listings_count": -0.3571760666804754,
+    "availability_365": 0.06934090673802917
+}},{latitude:40.8355, longitude:-73.83729,actual:71.0,predicted:92,coefficients:{
+    "intercept": 86.68879832413482,
+    "minimum_nights": -0.3323147911946609,
+    "number_of_reviews": 0.0041991990141562055,
+    "reviews_per_month": 0.8834257522303274,
+    "host_listings_count": 0.28578123711871817,
+    "availability_365": 0.07722465984923392
+}},{latitude:40.82948, longitude:-73.92364,actual:82.0,predicted:80,coefficients:{
+    "intercept": 82.15148869063044,
+    "minimum_nights": -0.32177800664147627,
+    "number_of_reviews": -0.23546924592940352,
+    "reviews_per_month": -9.716470962472172,
+    "host_listings_count": -0.3726901595546045,
+    "availability_365": 0.06908350764440863
+}},{latitude:40.86066, longitude:-73.85414,actual:50.0,predicted:101,coefficients:{
+    "intercept": 78.94441271329488,
+    "minimum_nights": -0.3308285667518881,
+    "number_of_reviews": 0.04545979462723108,
+    "reviews_per_month": 2.5324268871773756,
+    "host_listings_count": 0.21639858854642846,
+    "availability_365": 0.07744618312723381
+}},{latitude:40.8947, longitude:-73.85601,actual:52.0,predicted:83,coefficients:{
+    "intercept": 78.14074474706534,
+    "minimum_nights": -0.3284194527172662,
+    "number_of_reviews": 0.021991799345754418,
+    "reviews_per_month": 2.716588634363125,
+    "host_listings_count": 0.2278010213572217,
+    "availability_365": 0.07768489070584284
+}},{latitude:40.83736, longitude:-73.92318,actual:22.0,predicted:77,coefficients:{
+    "intercept": 83.04214942311177,
+    "minimum_nights": -0.321664852571526,
+    "number_of_reviews": -0.2431186944928274,
+    "reviews_per_month": -9.656340744260216,
+    "host_listings_count": -0.36833619366287995,
+    "availability_365": 0.06914672056671803
+}},{latitude:40.86853, longitude:-73.88301,actual:120.0,predicted:86,coefficients:{
+    "intercept": 66.93537141944314,
+    "minimum_nights": -0.3240331035258942,
+    "number_of_reviews": -0.15386926012788443,
+    "reviews_per_month": 0.06946427064976565,
+    "host_listings_count": -0.16979804200927706,
+    "availability_365": 0.07207648213734559
+}},{latitude:40.88393, longitude:-73.90639,actual:50.0,predicted:86,coefficients:{
+    "intercept": 91.33740188403877,
+    "minimum_nights": -0.32156541854904624,
+    "number_of_reviews": -0.22951474935714766,
+    "reviews_per_month": -4.989936034486449,
+    "host_listings_count": -0.297193097301526,
+    "availability_365": 0.07019949628389151
+}},{latitude:40.82148, longitude:-73.89122,actual:60.0,predicted:92,coefficients:{
+    "intercept": 68.5444076470375,
+    "minimum_nights": -0.3244076496746179,
+    "number_of_reviews": -0.13617256234515754,
+    "reviews_per_month": -2.6609578505986535,
+    "host_listings_count": -0.2685523261102231,
+    "availability_365": 0.07067206414103447
+}},{latitude:40.84166, longitude:-73.86818,actual:425.0,predicted:99,coefficients:{
+    "intercept": 74.46582809852308,
+    "minimum_nights": -0.32814806488435166,
+    "number_of_reviews": -0.07974338642566099,
+    "reviews_per_month": 1.8193362111995508,
+    "host_listings_count": -0.02360651528822301,
+    "availability_365": 0.0741938875084422
+}},{latitude:40.84277, longitude:-73.92588,actual:76.0,predicted:62,coefficients:{
+    "intercept": 83.43343763847238,
+    "minimum_nights": -0.32147480849457033,
+    "number_of_reviews": -0.2510064804770526,
+    "reviews_per_month": -9.604608586698435,
+    "host_listings_count": -0.3702877686894335,
+    "availability_365": 0.06910709324180148
+}},{latitude:40.81998, longitude:-73.90325,actual:75.0,predicted:64,coefficients:{
+    "intercept": 79.05495835982983,
+    "minimum_nights": -0.32319213400136804,
+    "number_of_reviews": -0.18578141250855096,
+    "reviews_per_month": -5.383815341555991,
+    "host_listings_count": -0.32594081290999777,
+    "availability_365": 0.06982317148749234
+}},{latitude:40.81587, longitude:-73.81532,actual:175.0,predicted:81,coefficients:{
+    "intercept": 80.7377417374225,
+    "minimum_nights": -0.332334618786408,
+    "number_of_reviews": -0.046352754805927175,
+    "reviews_per_month": -0.2596853798005938,
+    "host_listings_count": 0.3170740600325052,
+    "availability_365": 0.07670051613124527
+}},{latitude:40.80779, longitude:-73.93095,actual:110.0,predicted:78,coefficients:{
+    "intercept": 80.90748176892416,
+    "minimum_nights": -0.3218385441780308,
+    "number_of_reviews": -0.2409294222760331,
+    "reviews_per_month": -9.196705260043379,
+    "host_listings_count": -0.3911946733068263,
+    "availability_365": 0.06878801720808608
+}},{latitude:40.83796, longitude:-73.9016,actual:38.0,predicted:71,coefficients:{
+    "intercept": 78.07355998758428,
+    "minimum_nights": -0.32291026186870225,
+    "number_of_reviews": -0.18694927627390195,
+    "reviews_per_month": -4.555909231011091,
+    "host_listings_count": -0.3084899053563473,
+    "availability_365": 0.07007603494403095
+}},{latitude:40.88444, longitude:-73.90583,actual:80.0,predicted:103,coefficients:{
+    "intercept": 90.39304789570078,
+    "minimum_nights": -0.32158441138248467,
+    "number_of_reviews": -0.22498434779529664,
+    "reviews_per_month": -4.846594522084322,
+    "host_listings_count": -0.2947005078199706,
+    "availability_365": 0.07023635159468716
+}},{latitude:40.89581, longitude:-73.89778,actual:59.0,predicted:77,coefficients:{
+    "intercept": 79.87425947818824,
+    "minimum_nights": -0.321809525276627,
+    "number_of_reviews": -0.15314274708773348,
+    "reviews_per_month": -2.9813635900934767,
+    "host_listings_count": -0.24983664190628188,
+    "availability_365": 0.07088699333214946
+}},{latitude:40.86932, longitude:-73.90057,actual:30.0,predicted:64,coefficients:{
+    "intercept": 79.3924835428135,
+    "minimum_nights": -0.3222466357059951,
+    "number_of_reviews": -0.18492461186837805,
+    "reviews_per_month": -3.737926409301313,
+    "host_listings_count": -0.28283355276359046,
+    "availability_365": 0.07043106447911886
+}},{latitude:40.83112, longitude:-73.87319,actual:49.0,predicted:64,coefficients:{
+    "intercept": 69.0090329676054,
+    "minimum_nights": -0.3272881136878681,
+    "number_of_reviews": -0.1495796012012972,
+    "reviews_per_month": 1.108471163424431,
+    "host_listings_count": -0.10384344180200468,
+    "availability_365": 0.07304537325919046
+}},{latitude:40.88985, longitude:-73.90747,actual:85.0,predicted:89,coefficients:{
+    "intercept": 96.2275939623021,
+    "minimum_nights": -0.32138998989797024,
+    "number_of_reviews": -0.2318663329684878,
+    "reviews_per_month": -5.150175689840353,
+    "host_listings_count": -0.29739287055158103,
+    "availability_365": 0.07018961834686352
+}},{latitude:40.88207, longitude:-73.83538,actual:299.0,predicted:120,coefficients:{
+    "intercept": 88.5288161371602,
+    "minimum_nights": -0.33024436030884835,
+    "number_of_reviews": 0.05831495666316753,
+    "reviews_per_month": 1.161525564592207,
+    "host_listings_count": 0.3155328709257255,
+    "availability_365": 0.07753767682157768
+}},{latitude:40.85499, longitude:-73.86728,actual:43.0,predicted:81,coefficients:{
+    "intercept": 75.84453103296667,
+    "minimum_nights": -0.32774810975731056,
+    "number_of_reviews": -0.052900554692136025,
+    "reviews_per_month": 2.2247133018869065,
+    "host_listings_count": 0.005955910548249044,
+    "availability_365": 0.07461003860475446
+}},{latitude:40.82974, longitude:-73.92092,actual:159.0,predicted:87,coefficients:{
+    "intercept": 82.28517940367006,
+    "minimum_nights": -0.3218907270009652,
+    "number_of_reviews": -0.23397224519072296,
+    "reviews_per_month": -9.371506338846867,
+    "host_listings_count": -0.36783873368416214,
+    "availability_365": 0.0691635200715708
+}},{latitude:40.85401, longitude:-73.86594,actual:76.0,predicted:74,coefficients:{
+    "intercept": 76.33226824466753,
+    "minimum_nights": -0.3281895514569743,
+    "number_of_reviews": -0.04252679160275944,
+    "reviews_per_month": 2.3090989799922372,
+    "host_listings_count": 0.026880404886939293,
+    "availability_365": 0.07491148987055958
+}},{latitude:40.86533, longitude:-73.89713,actual:40.0,predicted:86,coefficients:{
+    "intercept": 75.79317624062531,
+    "minimum_nights": -0.3226083828944223,
+    "number_of_reviews": -0.15429255141566645,
+    "reviews_per_month": -2.924774669821366,
+    "host_listings_count": -0.2689513634031029,
+    "availability_365": 0.0706402776462656
+}},{latitude:40.90175, longitude:-73.89761,actual:77.0,predicted:77,coefficients:{
+    "intercept": 80.47500206187647,
+    "minimum_nights": -0.32167968284114734,
+    "number_of_reviews": -0.15120051416265207,
+    "reviews_per_month": -2.894137760027959,
+    "host_listings_count": -0.24450231660291996,
+    "availability_365": 0.07095736860634931
+}},{latitude:40.88253, longitude:-73.86951,actual:68.0,predicted:82,coefficients:{
+    "intercept": 76.1614159459031,
+    "minimum_nights": -0.3258367430778079,
+    "number_of_reviews": -0.04586575963091368,
+    "reviews_per_month": 2.2022931656841895,
+    "host_listings_count": 0.0013944514459181619,
+    "availability_365": 0.07450856055604203
+}},{latitude:40.85585, longitude:-73.86486,actual:40.0,predicted:102,coefficients:{
+    "intercept": 76.7537340461155,
+    "minimum_nights": -0.32842376223537484,
+    "number_of_reviews": -0.0317558224605007,
+    "reviews_per_month": 2.4476012629509865,
+    "host_listings_count": 0.04774077981191358,
+    "availability_365": 0.07520982747062706
+}},{latitude:40.85236, longitude:-73.86632,actual:35.0,predicted:78,coefficients:{
+    "intercept": 76.10452522807442,
+    "minimum_nights": -0.328161175103181,
+    "number_of_reviews": -0.04769850567748089,
+    "reviews_per_month": 2.2857007662698074,
+    "host_listings_count": 0.01856505250046069,
+    "availability_365": 0.07479331350587462
+}},{latitude:40.8722, longitude:-73.87607,actual:50.0,predicted:92,coefficients:{
+    "intercept": 70.52719186104787,
+    "minimum_nights": -0.32498628062701024,
+    "number_of_reviews": -0.1171550592685609,
+    "reviews_per_month": 1.4309907186601314,
+    "host_listings_count": -0.09595329476171717,
+    "availability_365": 0.07313218598097775
+}},{latitude:40.81658, longitude:-73.88889,actual:59.0,predicted:81,coefficients:{
+    "intercept": 65.69971040987592,
+    "minimum_nights": -0.3248619989782789,
+    "number_of_reviews": -0.15081757152435216,
+    "reviews_per_month": -2.2425723805680944,
+    "host_listings_count": -0.2579167171972499,
+    "availability_365": 0.07082737367951245
+}},{latitude:40.81201, longitude:-73.90823,actual:100.0,predicted:17,coefficients:{
+    "intercept": 80.57362913130001,
+    "minimum_nights": -0.3229732184197547,
+    "number_of_reviews": -0.2022195646942379,
+    "reviews_per_month": -6.545498704515938,
+    "host_listings_count": -0.3467130014251632,
+    "availability_365": 0.06951007914338729
+}},{latitude:40.88283, longitude:-73.89326,actual:60.0,predicted:98,coefficients:{
+    "intercept": 73.99701290136123,
+    "minimum_nights": -0.3224788072739736,
+    "number_of_reviews": -0.12907189373291997,
+    "reviews_per_month": -1.987644910319401,
+    "host_listings_count": -0.23376093231499903,
+    "availability_365": 0.07113656836597107
+}},{latitude:40.81072, longitude:-73.92349,actual:120.0,predicted:85,coefficients:{
+    "intercept": 81.88664647032088,
+    "minimum_nights": -0.322099694373451,
+    "number_of_reviews": -0.21709169431862865,
+    "reviews_per_month": -9.45748216947437,
+    "host_listings_count": -0.38044482363112875,
+    "availability_365": 0.06897244807355749
+}},{latitude:40.86663, longitude:-73.84139,actual:35.0,predicted:105,coefficients:{
+    "intercept": 86.00158374242575,
+    "minimum_nights": -0.3308457214353403,
+    "number_of_reviews": 0.08316621038725655,
+    "reviews_per_month": 1.4112549208252985,
+    "host_listings_count": 0.2899964573412998,
+    "availability_365": 0.07753224705389994
+}},{latitude:40.83844, longitude:-73.92489,actual:75.0,predicted:62,coefficients:{
+    "intercept": 82.93777729842535,
+    "minimum_nights": -0.3215808346479374,
+    "number_of_reviews": -0.2457125763092433,
+    "reviews_per_month": -9.662476381406771,
+    "host_listings_count": -0.370688408805777,
+    "availability_365": 0.06910613057434288
+}},{latitude:40.89121, longitude:-73.85131,actual:79.0,predicted:81,coefficients:{
+    "intercept": 79.60337867549347,
+    "minimum_nights": -0.32904192938634813,
+    "number_of_reviews": 0.05071264097697706,
+    "reviews_per_month": 2.4482192522441126,
+    "host_listings_count": 0.2559396081747303,
+    "availability_365": 0.07771769325823401
+}},{latitude:40.82006, longitude:-73.90332,actual:80.0,predicted:76,coefficients:{
+    "intercept": 79.08373710191007,
+    "minimum_nights": -0.32318439320539155,
+    "number_of_reviews": -0.1862922710460079,
+    "reviews_per_month": -5.396878517093173,
+    "host_listings_count": -0.3261499556468735,
+    "availability_365": 0.06981998619763753
+}},{latitude:40.88297, longitude:-73.90727,actual:105.0,predicted:89,coefficients:{
+    "intercept": 92.76725100156675,
+    "minimum_nights": -0.3215396118353205,
+    "number_of_reviews": -0.23636059802072826,
+    "reviews_per_month": -5.200932302214379,
+    "host_listings_count": -0.30111321092135623,
+    "availability_365": 0.07014156086211602
+}},{latitude:40.87529, longitude:-73.8762,actual:40.0,predicted:70,coefficients:{
+    "intercept": 70.67036084266115,
+    "minimum_nights": -0.32484005366537255,
+    "number_of_reviews": -0.11491495103895458,
+    "reviews_per_month": 1.416068459192736,
+    "host_listings_count": -0.0944268572845477,
+    "availability_365": 0.07315038411759697
+}},{latitude:40.88546, longitude:-73.90526,actual:55.0,predicted:93,coefficients:{
+    "intercept": 89.60703244519128,
+    "minimum_nights": -0.3215935739681205,
+    "number_of_reviews": -0.21983017810286962,
+    "reviews_per_month": -4.714525537888191,
+    "host_listings_count": -0.2917787623984552,
+    "availability_365": 0.07027898770813794
+}},{latitude:40.85018, longitude:-73.9167,actual:55.0,predicted:111,coefficients:{
+    "intercept": 86.85050867892207,
+    "minimum_nights": -0.32171773149594995,
+    "number_of_reviews": -0.257864456996532,
+    "reviews_per_month": -8.081549526997833,
+    "host_listings_count": -0.34883146274663657,
+    "availability_365": 0.06944715813203395
+}},{latitude:40.84862, longitude:-73.92412,actual:75.0,predicted:106,coefficients:{
+    "intercept": 85.37399795197679,
+    "minimum_nights": -0.32144287493385487,
+    "number_of_reviews": -0.2547790206747991,
+    "reviews_per_month": -9.457865203953853,
+    "host_listings_count": -0.3646531734276597,
+    "availability_365": 0.0691932451155832
+}},{latitude:40.85711, longitude:-73.86474,actual:45.0,predicted:100,coefficients:{
+    "intercept": 76.83431679662733,
+    "minimum_nights": -0.32839315533724256,
+    "number_of_reviews": -0.02957868582509994,
+    "reviews_per_month": 2.49384274793891,
+    "host_listings_count": 0.051369159957241756,
+    "availability_365": 0.07526082335506287
+}},{latitude:40.89743, longitude:-73.86983,actual:68.0,predicted:78,coefficients:{
+    "intercept": 76.27703671970532,
+    "minimum_nights": -0.32507322217033585,
+    "number_of_reviews": -0.0417021326192295,
+    "reviews_per_month": 1.855795188853986,
+    "host_listings_count": 0.011616160854069975,
+    "availability_365": 0.07462468615901816
+}},{latitude:40.82286, longitude:-73.84765,actual:86.0,predicted:104,coefficients:{
+    "intercept": 85.00608827208214,
+    "minimum_nights": -0.3331419818974032,
+    "number_of_reviews": 0.03830720270860757,
+    "reviews_per_month": 1.2430551478734466,
+    "host_listings_count": 0.2254925940710996,
+    "availability_365": 0.07706662716424936
+}},{latitude:40.86352, longitude:-73.90503,actual:80.0,predicted:98,coefficients:{
+    "intercept": 83.22956801003178,
+    "minimum_nights": -0.32207942400831385,
+    "number_of_reviews": -0.22618139135105422,
+    "reviews_per_month": -4.885293114203574,
+    "host_listings_count": -0.30548239488621154,
+    "availability_365": 0.07009915933664555
+}},{latitude:40.86914, longitude:-73.8951,actual:79.0,predicted:60,coefficients:{
+    "intercept": 74.35289801907888,
+    "minimum_nights": -0.3226824682463011,
+    "number_of_reviews": -0.1394035139223401,
+    "reviews_per_month": -2.4233197253106096,
+    "host_listings_count": -0.2551612345904037,
+    "availability_365": 0.07083888477300784
+}},{latitude:40.87372, longitude:-73.88625,actual:60.0,predicted:93,coefficients:{
+    "intercept": 68.37047652575302,
+    "minimum_nights": -0.32345016119514697,
+    "number_of_reviews": -0.13865103701809922,
+    "reviews_per_month": -0.5258660307020563,
+    "host_listings_count": -0.19228368235155416,
+    "availability_365": 0.07174716294651905
+}},{latitude:40.88467, longitude:-73.90575,actual:30.0,predicted:84,coefficients:{
+    "intercept": 90.31340683233371,
+    "minimum_nights": -0.3215838627070607,
+    "number_of_reviews": -0.22420655438246698,
+    "reviews_per_month": -4.822938770360972,
+    "host_listings_count": -0.29423662713214005,
+    "availability_365": 0.07024305110627993
+}},{latitude:40.87583, longitude:-73.87737,actual:125.0,predicted:69,coefficients:{
+    "intercept": 69.74942909317555,
+    "minimum_nights": -0.32462052967279564,
+    "number_of_reviews": -0.12535937866418345,
+    "reviews_per_month": 1.2445556956969155,
+    "host_listings_count": -0.1071261186600823,
+    "availability_365": 0.0729679262144018
+}},{latitude:40.90154, longitude:-73.89791,actual:125.0,predicted:84,coefficients:{
+    "intercept": 80.83138897664502,
+    "minimum_nights": -0.3216655612914293,
+    "number_of_reviews": -0.1531973324660682,
+    "reviews_per_month": -2.9613249311159557,
+    "host_listings_count": -0.24627706337345626,
+    "availability_365": 0.07093172509587047
+}},{latitude:40.86605, longitude:-73.90694,actual:47.0,predicted:78,coefficients:{
+    "intercept": 86.06636919956149,
+    "minimum_nights": -0.3219095433761779,
+    "number_of_reviews": -0.2404230816172924,
+    "reviews_per_month": -5.36829245043629,
+    "host_listings_count": -0.3109197896373111,
+    "availability_365": 0.07001437496905111
+}},{latitude:40.87093, longitude:-73.8934,actual:58.0,predicted:59,coefficients:{
+    "intercept": 73.09339081466796,
+    "minimum_nights": -0.32278662126918145,
+    "number_of_reviews": -0.130765048303238,
+    "reviews_per_month": -2.066355537539696,
+    "host_listings_count": -0.24390653598272122,
+    "availability_365": 0.07100154840075154
+}},{latitude:40.86909, longitude:-73.89396,actual:55.0,predicted:62,coefficients:{
+    "intercept": 73.40770751463388,
+    "minimum_nights": -0.3227851190291171,
+    "number_of_reviews": -0.13332149574372026,
+    "reviews_per_month": -2.1679868764830093,
+    "host_listings_count": -0.2486572442878511,
+    "availability_365": 0.07093408036293193
+}},{latitude:40.81841, longitude:-73.89067,actual:45.0,predicted:81,coefficients:{
+    "intercept": 67.7701160210464,
+    "minimum_nights": -0.32456624681513835,
+    "number_of_reviews": -0.13932669870274494,
+    "reviews_per_month": -2.597026803503338,
+    "host_listings_count": -0.2675393095235989,
+    "availability_365": 0.0706871856274133
+}},{latitude:40.82388, longitude:-73.9279,actual:60.0,predicted:61,coefficients:{
+    "intercept": 81.44759498339012,
+    "minimum_nights": -0.321702129117657,
+    "number_of_reviews": -0.2393160154262749,
+    "reviews_per_month": -9.619776289877834,
+    "host_listings_count": -0.38137957059708516,
+    "availability_365": 0.06894225189472769
+}},{latitude:40.82415, longitude:-73.92778,actual:50.0,predicted:52,coefficients:{
+    "intercept": 81.47116005186722,
+    "minimum_nights": -0.3217023300578601,
+    "number_of_reviews": -0.23916234410197337,
+    "reviews_per_month": -9.630694602602938,
+    "host_listings_count": -0.3811094670491788,
+    "availability_365": 0.0689466046595793
+}},{latitude:40.82441, longitude:-73.89454,actual:50.0,predicted:56,coefficients:{
+    "intercept": 72.27621233914326,
+    "minimum_nights": -0.3239305011395201,
+    "number_of_reviews": -0.13601689505836412,
+    "reviews_per_month": -3.3456602745407724,
+    "host_listings_count": -0.28485802763611373,
+    "availability_365": 0.07043255893730468
+}},{latitude:40.84012, longitude:-73.86521,actual:40.0,predicted:75,coefficients:{
+    "intercept": 75.9756697195078,
+    "minimum_nights": -0.32914525936430594,
+    "number_of_reviews": -0.05390916665742174,
+    "reviews_per_month": 2.0464913319334634,
+    "host_listings_count": 0.022454740875638413,
+    "availability_365": 0.07485647815218655
+}},{latitude:40.89279, longitude:-73.89946,actual:135.0,predicted:94,coefficients:{
+    "intercept": 81.58122164622876,
+    "minimum_nights": -0.3217715574082139,
+    "number_of_reviews": -0.16677440556709971,
+    "reviews_per_month": -3.3946854892189156,
+    "host_listings_count": -0.2607302602554705,
+    "availability_365": 0.07073087477650943
+}},{latitude:40.86084, longitude:-73.90288,actual:110.0,predicted:80,coefficients:{
+    "intercept": 80.59466036357463,
+    "minimum_nights": -0.322281252978169,
+    "number_of_reviews": -0.2073838446914105,
+    "reviews_per_month": -4.293861650544683,
+    "host_listings_count": -0.2987133044096631,
+    "availability_365": 0.07020344120079534
+}},{latitude:40.80743, longitude:-73.92971,actual:115.0,predicted:75,coefficients:{
+    "intercept": 81.21188998464245,
+    "minimum_nights": -0.32189091836458567,
+    "number_of_reviews": -0.23477908949185222,
+    "reviews_per_month": -9.29153764487867,
+    "host_listings_count": -0.38996147239115286,
+    "availability_365": 0.06881072275034726
+}},{latitude:40.8179, longitude:-73.91456,actual:100.0,predicted:104,coefficients:{
+    "intercept": 81.30048059377147,
+    "minimum_nights": -0.3224354347453057,
+    "number_of_reviews": -0.21925059652605008,
+    "reviews_per_month": -7.881737130766721,
+    "host_listings_count": -0.3602851798464587,
+    "availability_365": 0.0692952540417758
+}},{latitude:40.83248, longitude:-73.83203,actual:46.0,predicted:94,coefficients:{
+    "intercept": 84.77229441857169,
+    "minimum_nights": -0.3323327216936093,
+    "number_of_reviews": -0.03363230649861738,
+    "reviews_per_month": 0.6495887758327819,
+    "host_listings_count": 0.2996913576116048,
+    "availability_365": 0.07713487614911795
+}},{latitude:40.87692, longitude:-73.87427,actual:130.0,predicted:77,coefficients:{
+    "intercept": 72.49738558196344,
+    "minimum_nights": -0.32512106959061854,
+    "number_of_reviews": -0.09374066280211323,
+    "reviews_per_month": 1.5795992695885512,
+    "host_listings_count": -0.06964512296344094,
+    "availability_365": 0.07350275923248233
+}},{latitude:40.8262, longitude:-73.92557,actual:150.0,predicted:38,coefficients:{
+    "intercept": 81.81123765796393,
+    "minimum_nights": -0.32175422794831327,
+    "number_of_reviews": -0.23533591971177054,
+    "reviews_per_month": -9.732285159736856,
+    "host_listings_count": -0.37713562415145274,
+    "availability_365": 0.06901237355885487
+}},{latitude:40.85188, longitude:-73.90321,actual:60.0,predicted:53,coefficients:{
+    "intercept": 79.85252763482661,
+    "minimum_nights": -0.32246260020596146,
+    "number_of_reviews": -0.20805895810133765,
+    "reviews_per_month": -4.577085130273002,
+    "host_listings_count": -0.30597806924649995,
+    "availability_365": 0.07010305806149528
+}},{latitude:40.85318, longitude:-73.90204,actual:71.0,predicted:65,coefficients:{
+    "intercept": 79.0511091092363,
+    "minimum_nights": -0.3225182116546451,
+    "number_of_reviews": -0.19812485027656332,
+    "reviews_per_month": -4.201784728929755,
+    "host_listings_count": -0.3003444360766564,
+    "availability_365": 0.07018625348932703
+}},{latitude:40.8115, longitude:-73.9258,actual:80.0,predicted:78,coefficients:{
+    "intercept": 81.73985524495906,
+    "minimum_nights": -0.3219845928958371,
+    "number_of_reviews": -0.22319757543793994,
+    "reviews_per_month": -9.544211025477528,
+    "host_listings_count": -0.3835039472773409,
+    "availability_365": 0.06891960651581884
+}},{latitude:40.82987, longitude:-73.86608,actual:60.0,predicted:81,coefficients:{
+    "intercept": 75.08507186540061,
+    "minimum_nights": -0.3293759001116079,
+    "number_of_reviews": -0.07750117772843902,
+    "reviews_per_month": 1.5657011055235632,
+    "host_listings_count": -0.0048383311543176355,
+    "availability_365": 0.07446618996200073
+}},{latitude:40.84906, longitude:-73.85418,actual:73.0,predicted:91,coefficients:{
+    "intercept": 79.41281339463958,
+    "minimum_nights": -0.3316017222808439,
+    "number_of_reviews": 0.04061291214708956,
+    "reviews_per_month": 2.2647846833834415,
+    "host_listings_count": 0.20539316023945864,
+    "availability_365": 0.0773094293464801
+}},{latitude:40.8562, longitude:-73.90899,actual:43.0,predicted:91,coefficients:{
+    "intercept": 85.23032642117661,
+    "minimum_nights": -0.32199667209459043,
+    "number_of_reviews": -0.2493025956522027,
+    "reviews_per_month": -6.13263419288262,
+    "host_listings_count": -0.3240427530112175,
+    "availability_365": 0.06982560348147901
+}},{latitude:40.87035, longitude:-73.89335,actual:79.0,predicted:57,coefficients:{
+    "intercept": 73.00846363479361,
+    "minimum_nights": -0.3228069298415164,
+    "number_of_reviews": -0.13063894697347322,
+    "reviews_per_month": -2.055126486771561,
+    "host_listings_count": -0.24405853313316547,
+    "availability_365": 0.07099993490019481
+}},{latitude:40.86925, longitude:-73.89534,actual:60.0,predicted:54,coefficients:{
+    "intercept": 74.56272618605668,
+    "minimum_nights": -0.32265880515622153,
+    "number_of_reviews": -0.14087630048858876,
+    "reviews_per_month": -2.5108203902192656,
+    "host_listings_count": -0.25642018082901524,
+    "availability_365": 0.07082032929628414
+}},{latitude:40.87924, longitude:-73.89791,actual:84.0,predicted:49,coefficients:{
+    "intercept": 77.86059008493272,
+    "minimum_nights": -0.32220104173685116,
+    "number_of_reviews": -0.1582679645756272,
+    "reviews_per_month": -3.0976526160193654,
+    "host_listings_count": -0.26271401174076814,
+    "availability_365": 0.07071681828316259
+}},{latitude:40.82692, longitude:-73.92183,actual:45.0,predicted:66,coefficients:{
+    "intercept": 82.06767967248875,
+    "minimum_nights": -0.3218988293069835,
+    "number_of_reviews": -0.23125752292771284,
+    "reviews_per_month": -9.525256513742653,
+    "host_listings_count": -0.3707660147277483,
+    "availability_365": 0.06911827613791903
+}},{latitude:40.85615, longitude:-73.90077,actual:34.0,predicted:81,coefficients:{
+    "intercept": 78.24443180687575,
+    "minimum_nights": -0.32254408507272775,
+    "number_of_reviews": -0.18702290004167957,
+    "reviews_per_month": -3.835671564400489,
+    "host_listings_count": -0.29288068678683327,
+    "availability_365": 0.07029490132604972
+}},{latitude:40.87031, longitude:-73.89322,actual:79.0,predicted:54,coefficients:{
+    "intercept": 72.90086280010642,
+    "minimum_nights": -0.32282002489914585,
+    "number_of_reviews": -0.13016823249031456,
+    "reviews_per_month": -2.03204748943432,
+    "host_listings_count": -0.24330655312469837,
+    "availability_365": 0.07101094831872928
+}},{latitude:40.86917, longitude:-73.89465,actual:60.0,predicted:58,coefficients:{
+    "intercept": 73.98069209528501,
+    "minimum_nights": -0.3227211593417053,
+    "number_of_reviews": -0.13680057424229491,
+    "reviews_per_month": -2.305224206934716,
+    "host_listings_count": -0.25258887799835605,
+    "availability_365": 0.07087650952111628
+}},{latitude:40.86673, longitude:-73.845,actual:119.0,predicted:105,coefficients:{
+    "intercept": 83.73438670729054,
+    "minimum_nights": -0.3307592351880267,
+    "number_of_reviews": 0.08977771207117316,
+    "reviews_per_month": 1.67993174235065,
+    "host_listings_count": 0.2749253969257197,
+    "availability_365": 0.07755906738769046
+}},{latitude:40.86686, longitude:-73.84207,actual:35.0,predicted:88,coefficients:{
+    "intercept": 85.59946801600927,
+    "minimum_nights": -0.3308207027765553,
+    "number_of_reviews": 0.08595072338907672,
+    "reviews_per_month": 1.4582752247535615,
+    "host_listings_count": 0.2874902225948085,
+    "availability_365": 0.07754024571571609
+}},{latitude:40.84752, longitude:-73.82797,actual:89.0,predicted:103,coefficients:{
+    "intercept": 85.32141490301231,
+    "minimum_nights": -0.331683063654172,
+    "number_of_reviews": -0.028557944628526885,
+    "reviews_per_month": 0.5205026853879339,
+    "host_listings_count": 0.3170728892767513,
+    "availability_365": 0.07719395947194656
+}},{latitude:40.83243, longitude:-73.92035,actual:40.0,predicted:91,coefficients:{
+    "intercept": 82.56601680790693,
+    "minimum_nights": -0.32186945503103886,
+    "number_of_reviews": -0.2369379975127359,
+    "reviews_per_month": -9.25407754970817,
+    "host_listings_count": -0.36551095640535564,
+    "availability_365": 0.06919877118235453
+}},{latitude:40.83173, longitude:-73.92824,actual:75.0,predicted:15,coefficients:{
+    "intercept": 81.66787849419352,
+    "minimum_nights": -0.3215665266417262,
+    "number_of_reviews": -0.24650980780969986,
+    "reviews_per_month": -9.64314265561666,
+    "host_listings_count": -0.378576604527162,
+    "availability_365": 0.0689805945536563
+}},{latitude:40.84034, longitude:-73.83007,actual:20.0,predicted:84,coefficients:{
+    "intercept": 85.10897564410082,
+    "minimum_nights": -0.3319882407250255,
+    "number_of_reviews": -0.030693916997509344,
+    "reviews_per_month": 0.5971537171559318,
+    "host_listings_count": 0.3090679494118243,
+    "availability_365": 0.07717456967067918
+}},{latitude:40.85929, longitude:-73.90048,actual:45.0,predicted:80,coefficients:{
+    "intercept": 78.24730117862616,
+    "minimum_nights": -0.3224913361302892,
+    "number_of_reviews": -0.1846610098112139,
+    "reviews_per_month": -3.7568558828138148,
+    "host_listings_count": -0.2894282050818584,
+    "availability_365": 0.07034334149492703
+}},{latitude:40.81632, longitude:-73.90991,actual:130.0,predicted:54,coefficients:{
+    "intercept": 80.76742749068762,
+    "minimum_nights": -0.32276309673373993,
+    "number_of_reviews": -0.21169799456686428,
+    "reviews_per_month": -6.881606902664814,
+    "host_listings_count": -0.3492774170952072,
+    "availability_365": 0.0694685512871805
+}},{latitude:40.87094, longitude:-73.89386,actual:79.0,predicted:52,coefficients:{
+    "intercept": 73.46717046529147,
+    "minimum_nights": -0.3227445477572016,
+    "number_of_reviews": -0.13266829214306985,
+    "reviews_per_month": -2.145630725716113,
+    "host_listings_count": -0.24663770783752317,
+    "availability_365": 0.07096166680316167
+}},{latitude:40.88438, longitude:-73.86397,actual:125.0,predicted:77,coefficients:{
+    "intercept": 77.60224143526037,
+    "minimum_nights": -0.32711408155836497,
+    "number_of_reviews": -0.01077470987737108,
+    "reviews_per_month": 2.7195641617047364,
+    "host_listings_count": 0.0964709140642054,
+    "availability_365": 0.07586253693248618
+}},{latitude:40.86437, longitude:-73.83863,actual:43.0,predicted:90,coefficients:{
+    "intercept": 87.38183089419334,
+    "minimum_nights": -0.33099805644834596,
+    "number_of_reviews": 0.06431183089163921,
+    "reviews_per_month": 1.2232627173129134,
+    "host_listings_count": 0.29858670977205903,
+    "availability_365": 0.07748520852055146
+}},{latitude:40.84565, longitude:-73.91684,actual:80.0,predicted:83,coefficients:{
+    "intercept": 85.27048297645287,
+    "minimum_nights": -0.3217940875581212,
+    "number_of_reviews": -0.25306645762937735,
+    "reviews_per_month": -8.24353141659704,
+    "host_listings_count": -0.3515513547842995,
+    "availability_365": 0.06940911148170072
+}},{latitude:40.8781, longitude:-73.89998,actual:99.0,predicted:48,coefficients:{
+    "intercept": 79.94620584922615,
+    "minimum_nights": -0.3220809113537582,
+    "number_of_reviews": -0.1769095292916949,
+    "reviews_per_month": -3.607401981664539,
+    "host_listings_count": -0.2738193139294948,
+    "availability_365": 0.0705545036399041
+}},{latitude:40.86437, longitude:-73.8485,actual:47.0,predicted:113,coefficients:{
+    "intercept": 81.55243573577182,
+    "minimum_nights": -0.3307921614935635,
+    "number_of_reviews": 0.0796160239382513,
+    "reviews_per_month": 1.9760232651662175,
+    "host_listings_count": 0.25568244963943493,
+    "availability_365": 0.07754304436166129
+}},{latitude:40.86868, longitude:-73.85483,actual:105.0,predicted:96,coefficients:{
+    "intercept": 78.53295517134724,
+    "minimum_nights": -0.3302578145310101,
+    "number_of_reviews": 0.04103204830340371,
+    "reviews_per_month": 2.773602348351468,
+    "host_listings_count": 0.218020339766675,
+    "availability_365": 0.07751364628683198
+}},{latitude:40.8709, longitude:-73.89946,actual:60.0,predicted:98,coefficients:{
+    "intercept": 78.45510457200032,
+    "minimum_nights": -0.32228932846195263,
+    "number_of_reviews": -0.17407464186925953,
+    "reviews_per_month": -3.4792380665745966,
+    "host_listings_count": -0.27650751284196834,
+    "availability_365": 0.07052300964213401
+}},{latitude:40.84546, longitude:-73.89013,actual:150.0,predicted:72,coefficients:{
+    "intercept": 68.76226693960602,
+    "minimum_nights": -0.3238491846335483,
+    "number_of_reviews": -0.13179825671191955,
+    "reviews_per_month": -1.7830864438191938,
+    "host_listings_count": -0.24352509119850738,
+    "availability_365": 0.07102814365355954
+}},{latitude:40.81034, longitude:-73.93166,actual:165.0,predicted:67,coefficients:{
+    "intercept": 80.68840162963718,
+    "minimum_nights": -0.32177406228518834,
+    "number_of_reviews": -0.24591766064500484,
+    "reviews_per_month": -9.19879778048095,
+    "host_listings_count": -0.39102543547946084,
+    "availability_365": 0.06878785536642035
+}},{latitude:40.81234, longitude:-73.91688,actual:42.0,predicted:71,coefficients:{
+    "intercept": 81.52472555214557,
+    "minimum_nights": -0.3224070366351636,
+    "number_of_reviews": -0.21312300283275276,
+    "reviews_per_month": -8.370935516409197,
+    "host_listings_count": -0.3679462023873405,
+    "availability_365": 0.06917666231492423
+}},{latitude:40.81387, longitude:-73.91553,actual:42.0,predicted:71,coefficients:{
+    "intercept": 81.37951169085217,
+    "minimum_nights": -0.3224554900356998,
+    "number_of_reviews": -0.21463185925434278,
+    "reviews_per_month": -8.071054382681922,
+    "host_listings_count": -0.3643781358504626,
+    "availability_365": 0.06923282036806515
+}},{latitude:40.88534, longitude:-73.83434,actual:75.0,predicted:117,coefficients:{
+    "intercept": 88.81449441894846,
+    "minimum_nights": -0.3301245356090885,
+    "number_of_reviews": 0.05375031960037725,
+    "reviews_per_month": 1.1021023374605599,
+    "host_listings_count": 0.3191362738625276,
+    "availability_365": 0.0775335067397315
+}},{latitude:40.82097, longitude:-73.92739,actual:145.0,predicted:42,coefficients:{
+    "intercept": 81.48749414993999,
+    "minimum_nights": -0.3217675348331075,
+    "number_of_reviews": -0.23546769846448162,
+    "reviews_per_month": -9.637117984091908,
+    "host_listings_count": -0.3818832027538078,
+    "availability_365": 0.06893709792521723
+}},{latitude:40.85311, longitude:-73.88763,actual:29.0,predicted:65,coefficients:{
+    "intercept": 67.39867234401383,
+    "minimum_nights": -0.32392444631270445,
+    "number_of_reviews": -0.13938594809812305,
+    "reviews_per_month": -1.0945851273605296,
+    "host_listings_count": -0.22020007843870962,
+    "availability_365": 0.07136192254232153
+}},{latitude:40.81217, longitude:-73.91777,actual:41.0,predicted:90,coefficients:{
+    "intercept": 81.60898743197072,
+    "minimum_nights": -0.3223609157668622,
+    "number_of_reviews": -0.21314769121884647,
+    "reviews_per_month": -8.564332666213739,
+    "host_listings_count": -0.36981880632172376,
+    "availability_365": 0.06914656599683822
+}},{latitude:40.88364, longitude:-73.83561,actual:70.0,predicted:116,coefficients:{
+    "intercept": 88.44001532968626,
+    "minimum_nights": -0.33016916821416903,
+    "number_of_reviews": 0.06116948635023981,
+    "reviews_per_month": 1.1865602469906256,
+    "host_listings_count": 0.31548544145776625,
+    "availability_365": 0.07754883943627774
+}},{latitude:40.8134, longitude:-73.89893,actual:75.0,predicted:79,coefficients:{
+    "intercept": 76.55449904995757,
+    "minimum_nights": -0.32374728321642393,
+    "number_of_reviews": -0.15425422456203428,
+    "reviews_per_month": -4.568346590893243,
+    "host_listings_count": -0.31280256256656325,
+    "availability_365": 0.07002174752600232
+}},{latitude:40.84499, longitude:-73.91157,actual:60.0,predicted:80,coefficients:{
+    "intercept": 83.77608350880827,
+    "minimum_nights": -0.32207727197710384,
+    "number_of_reviews": -0.24878262336492038,
+    "reviews_per_month": -7.018539808136774,
+    "host_listings_count": -0.33841933846418065,
+    "availability_365": 0.06961565656075855
+}},{latitude:40.87372, longitude:-73.84065,actual:75.0,predicted:96,coefficients:{
+    "intercept": 86.27393726919249,
+    "minimum_nights": -0.3305098430365381,
+    "number_of_reviews": 0.08438626852989643,
+    "reviews_per_month": 1.441544670735237,
+    "host_listings_count": 0.2962707994327088,
+    "availability_365": 0.07757094896243709
+}},{latitude:40.84647, longitude:-73.89299,actual:38.0,predicted:86,coefficients:{
+    "intercept": 71.32582959143565,
+    "minimum_nights": -0.3234984533473033,
+    "number_of_reviews": -0.13150801625370384,
+    "reviews_per_month": -2.3042020922157604,
+    "host_listings_count": -0.26029732681475887,
+    "availability_365": 0.07078277194718077
+}},{latitude:40.85487, longitude:-73.91391,actual:53.0,predicted:61,coefficients:{
+    "intercept": 87.99599188505577,
+    "minimum_nights": -0.32176224941757864,
+    "number_of_reviews": -0.26133162219145206,
+    "reviews_per_month": -7.3694341489877955,
+    "host_listings_count": -0.3392760945557839,
+    "availability_365": 0.06959199460896937
+}},{latitude:40.82942, longitude:-73.87564,actual:60.0,predicted:55,coefficients:{
+    "intercept": 66.22231021620583,
+    "minimum_nights": -0.3267853181485877,
+    "number_of_reviews": -0.1529693419542134,
+    "reviews_per_month": 0.6398066046412925,
+    "host_listings_count": -0.13408074387386218,
+    "availability_365": 0.0726118329887224
+}},{latitude:40.83081, longitude:-73.87587,actual:45.0,predicted:57,coefficients:{
+    "intercept": 66.16621306487711,
+    "minimum_nights": -0.32667985904863844,
+    "number_of_reviews": -0.15614101594839866,
+    "reviews_per_month": 0.6455883696434025,
+    "host_listings_count": -0.1352065240671362,
+    "availability_365": 0.0725955472066647
+}},{latitude:40.86718, longitude:-73.86235,actual:33.0,predicted:90,coefficients:{
+    "intercept": 77.51015845798771,
+    "minimum_nights": -0.3285938506544976,
+    "number_of_reviews": -0.005684900916446832,
+    "reviews_per_month": 2.872503752924374,
+    "host_listings_count": 0.1080810079263452,
+    "availability_365": 0.07606537394483372
+}},{latitude:40.84992, longitude:-73.90346,actual:50.0,predicted:76,coefficients:{
+    "intercept": 79.86168530116281,
+    "minimum_nights": -0.32248930750033916,
+    "number_of_reviews": -0.20931704021749142,
+    "reviews_per_month": -4.698358041436237,
+    "host_listings_count": -0.3082403589784389,
+    "availability_365": 0.07007080593929538
+}},{latitude:40.83018, longitude:-73.83413,actual:42.0,predicted:96,coefficients:{
+    "intercept": 85.3540050663602,
+    "minimum_nights": -0.3324737512654635,
+    "number_of_reviews": -0.02769381280284793,
+    "reviews_per_month": 0.7290979520548806,
+    "host_listings_count": 0.29233340837815547,
+    "availability_365": 0.07713897738568304
+}},{latitude:40.83117, longitude:-73.87566,actual:43.0,predicted:60,coefficients:{
+    "intercept": 66.41768204822934,
+    "minimum_nights": -0.3267119343805121,
+    "number_of_reviews": -0.15849420597008304,
+    "reviews_per_month": 0.6999834806502891,
+    "host_listings_count": -0.13252768884368787,
+    "availability_365": 0.07263394070038812
+}},{latitude:40.84289, longitude:-73.92688,actual:100.0,predicted:38,coefficients:{
+    "intercept": 83.18070244731814,
+    "minimum_nights": -0.32143820233067355,
+    "number_of_reviews": -0.2526790664997069,
+    "reviews_per_month": -9.54157399952524,
+    "host_listings_count": -0.37176872322649457,
+    "availability_365": 0.06908186384403009
+}},{latitude:40.81406, longitude:-73.88997,actual:65.0,predicted:82,coefficients:{
+    "intercept": 66.71732906070086,
+    "minimum_nights": -0.3247850358349235,
+    "number_of_reviews": -0.14502994203323077,
+    "reviews_per_month": -2.5276436577018346,
+    "host_listings_count": -0.26651044384135036,
+    "availability_365": 0.07070227765033721
+}},{latitude:40.85878, longitude:-73.83402,actual:199.0,predicted:114,coefficients:{
+    "intercept": 88.18820275238856,
+    "minimum_nights": -0.3312767953894968,
+    "number_of_reviews": 0.017707934582776603,
+    "reviews_per_month": 0.9302954968401753,
+    "host_listings_count": 0.3092768611611157,
+    "availability_365": 0.07737937322636496
+}},{latitude:40.8298, longitude:-73.87715,actual:40.0,predicted:57,coefficients:{
+    "intercept": 64.87308428685014,
+    "minimum_nights": -0.32644457589010467,
+    "number_of_reviews": -0.1681367811625988,
+    "reviews_per_month": 0.34596279943223446,
+    "host_listings_count": -0.1498929971592838,
+    "availability_365": 0.07238487567966166
+}},{latitude:40.84111, longitude:-73.92513,actual:80.0,predicted:42,coefficients:{
+    "intercept": 83.31587315391702,
+    "minimum_nights": -0.321528513903096,
+    "number_of_reviews": -0.24852598594078826,
+    "reviews_per_month": -9.61932384868349,
+    "host_listings_count": -0.3698556882681706,
+    "availability_365": 0.06911660604973584
+}},{latitude:40.83159, longitude:-73.83375,actual:40.0,predicted:98,coefficients:{
+    "intercept": 85.38114872330891,
+    "minimum_nights": -0.33240773992930844,
+    "number_of_reviews": -0.02756911664284374,
+    "reviews_per_month": 0.721229648243065,
+    "host_listings_count": 0.2943929986516485,
+    "availability_365": 0.07714838879897366
+}},{latitude:40.91169, longitude:-73.90564,actual:50.0,predicted:7,coefficients:{
+    "intercept": 99.42329151495616,
+    "minimum_nights": -0.32103775073612134,
+    "number_of_reviews": -0.1997758558639615,
+    "reviews_per_month": -4.379722407062095,
+    "host_listings_count": -0.27558294327456734,
+    "availability_365": 0.07048666103247389
+}},{latitude:40.87192, longitude:-73.84676,actual:60.0,predicted:82,coefficients:{
+    "intercept": 82.40132427865092,
+    "minimum_nights": -0.3304184168621557,
+    "number_of_reviews": 0.08623498692101333,
+    "reviews_per_month": 1.9157351984826363,
+    "host_listings_count": 0.26960357070090335,
+    "availability_365": 0.07760339777507017
+}},{latitude:40.84594, longitude:-73.89358,actual:45.0,predicted:82,coefficients:{
+    "intercept": 71.82846673203422,
+    "minimum_nights": -0.32345078878389966,
+    "number_of_reviews": -0.1332153264908163,
+    "reviews_per_month": -2.4301168048057784,
+    "host_listings_count": -0.2640854745787857,
+    "availability_365": 0.07072764904214476
+}},{latitude:40.87309, longitude:-73.86326,actual:60.0,predicted:77,coefficients:{
+    "intercept": 77.5226221113249,
+    "minimum_nights": -0.32796048408885325,
+    "number_of_reviews": -0.00901414057850687,
+    "reviews_per_month": 2.8277950832384633,
+    "host_listings_count": 0.09727374069840858,
+    "availability_365": 0.07589934733883567
+}},{latitude:40.88702, longitude:-73.86575,actual:60.0,predicted:107,coefficients:{
+    "intercept": 77.41515704205794,
+    "minimum_nights": -0.326499411472353,
+    "number_of_reviews": -0.019869445685450998,
+    "reviews_per_month": 2.4836354406548002,
+    "host_listings_count": 0.06711442705237221,
+    "availability_365": 0.07543719833890239
+}},{latitude:40.87315, longitude:-73.87925,actual:65.0,predicted:67,coefficients:{
+    "intercept": 68.2537875790064,
+    "minimum_nights": -0.32442027280030844,
+    "number_of_reviews": -0.14258408314649995,
+    "reviews_per_month": 0.8695222978435692,
+    "host_listings_count": -0.12970288294126323,
+    "availability_365": 0.07264750285490579
+}},{latitude:40.84473, longitude:-73.91175,actual:55.0,predicted:40,coefficients:{
+    "intercept": 83.78354194365579,
+    "minimum_nights": -0.3220723595875804,
+    "number_of_reviews": -0.24887805625457768,
+    "reviews_per_month": -7.071356879823216,
+    "host_listings_count": -0.33907364404819174,
+    "availability_365": 0.06960576319292093
+}},{latitude:40.85961, longitude:-73.86361,actual:49.0,predicted:76,coefficients:{
+    "intercept": 77.1663182393809,
+    "minimum_nights": -0.32861573875671696,
+    "number_of_reviews": -0.018911164312058654,
+    "reviews_per_month": 2.6747266983642852,
+    "host_listings_count": 0.07494619877210275,
+    "availability_365": 0.07559756336869128
+}},{latitude:40.87063, longitude:-73.84896,actual:70.0,predicted:81,coefficients:{
+    "intercept": 81.06088023937923,
+    "minimum_nights": -0.330408418382081,
+    "number_of_reviews": 0.07681876451828888,
+    "reviews_per_month": 2.1256765597889116,
+    "host_listings_count": 0.25729556952971455,
+    "availability_365": 0.07759324454451086
+}},{latitude:40.87188, longitude:-73.842,actual:75.0,predicted:104,coefficients:{
+    "intercept": 85.51765651543059,
+    "minimum_nights": -0.3305676611903986,
+    "number_of_reviews": 0.08831248322594498,
+    "reviews_per_month": 1.514659542635772,
+    "host_listings_count": 0.29039156605299,
+    "availability_365": 0.07757382197474408
+}},{latitude:40.85152, longitude:-73.90374,actual:48.0,predicted:54,coefficients:{
+    "intercept": 80.22076805602683,
+    "minimum_nights": -0.3224329665615617,
+    "number_of_reviews": -0.21239958946485138,
+    "reviews_per_month": -4.743236763973671,
+    "host_listings_count": -0.3083022212694862,
+    "availability_365": 0.07006848539762554
+}},{latitude:40.86707, longitude:-73.90712,actual:55.0,predicted:108,coefficients:{
+    "intercept": 86.60308124138558,
+    "minimum_nights": -0.32187769122070786,
+    "number_of_reviews": -0.24161143902834128,
+    "reviews_per_month": -5.393765837019496,
+    "host_listings_count": -0.3109103520762526,
+    "availability_365": 0.0700133584799729
+}},{latitude:40.83051, longitude:-73.82511,actual:95.0,predicted:100,coefficients:{
+    "intercept": 80.95737736322673,
+    "minimum_nights": -0.3322292716772463,
+    "number_of_reviews": -0.03568116572851585,
+    "reviews_per_month": 0.2689286516233264,
+    "host_listings_count": 0.3131653984006904,
+    "availability_365": 0.07700950792577538
+}},{latitude:40.87271, longitude:-73.89972,actual:60.0,predicted:77,coefficients:{
+    "intercept": 78.93594618052974,
+    "minimum_nights": -0.32222707049531046,
+    "number_of_reviews": -0.1760964244858906,
+    "reviews_per_month": -3.545454871239464,
+    "host_listings_count": -0.2764520884836797,
+    "availability_365": 0.0705218251224587
+}},{latitude:40.85484, longitude:-73.90646,actual:60.0,predicted:81,coefficients:{
+    "intercept": 82.83327938911363,
+    "minimum_nights": -0.32217768789985873,
+    "number_of_reviews": -0.23443430481872712,
+    "reviews_per_month": -5.455481035824224,
+    "host_listings_count": -0.31631244991785695,
+    "availability_365": 0.06994456845310132
+}},{latitude:40.85624, longitude:-73.90946,actual:40.0,predicted:95,coefficients:{
+    "intercept": 85.6205757543137,
+    "minimum_nights": -0.3219691008528516,
+    "number_of_reviews": -0.25137806652643024,
+    "reviews_per_month": -6.253786898514746,
+    "host_listings_count": -0.32552378758127665,
+    "availability_365": 0.06980291119490954
+}},{latitude:40.80652, longitude:-73.85312,actual:350.0,predicted:83,coefficients:{
+    "intercept": 84.57797024098389,
+    "minimum_nights": -0.33422797482500205,
+    "number_of_reviews": -0.009381318497284219,
+    "reviews_per_month": 1.1697923054864308,
+    "host_listings_count": 0.1654965683281053,
+    "availability_365": 0.07664824560462206
+}},{latitude:40.90281, longitude:-73.85201,actual:28.0,predicted:79,coefficients:{
+    "intercept": 79.44213677492503,
+    "minimum_nights": -0.3282865100813001,
+    "number_of_reviews": 0.035489013238114375,
+    "reviews_per_month": 2.3973573726150366,
+    "host_listings_count": 0.2573659120448798,
+    "availability_365": 0.07776359508771236
+}},{latitude:40.85168, longitude:-73.86659,actual:100.0,predicted:87,coefficients:{
+    "intercept": 75.95650420946957,
+    "minimum_nights": -0.3281157922773075,
+    "number_of_reviews": -0.05088420684889814,
+    "reviews_per_month": 2.2260351503483458,
+    "host_listings_count": 0.013303451568701642,
+    "availability_365": 0.07471822479522253
+}},{latitude:40.8229, longitude:-73.90295,actual:100.0,predicted:65,coefficients:{
+    "intercept": 78.86585554948455,
+    "minimum_nights": -0.3231501932902606,
+    "number_of_reviews": -0.1861781391386072,
+    "reviews_per_month": -5.26878320409677,
+    "host_listings_count": -0.3231053921418778,
+    "availability_365": 0.06986470524885177
+}},{latitude:40.82964, longitude:-73.92882,actual:60.0,predicted:73,coefficients:{
+    "intercept": 81.45254022232778,
+    "minimum_nights": -0.32157881457564247,
+    "number_of_reviews": -0.24662555508781747,
+    "reviews_per_month": -9.60953514214647,
+    "host_listings_count": -0.3802200838470303,
+    "availability_365": 0.06895486379558119
+}},{latitude:40.81023, longitude:-73.91926,actual:70.0,predicted:87,coefficients:{
+    "intercept": 81.76832311048527,
+    "minimum_nights": -0.3223162081798192,
+    "number_of_reviews": -0.2116169028243497,
+    "reviews_per_month": -8.862139507099068,
+    "host_listings_count": -0.37351901853413005,
+    "availability_365": 0.06908776541187736
+}},{latitude:40.8329, longitude:-73.89608,actual:60.0,predicted:83,coefficients:{
+    "intercept": 73.84214769762553,
+    "minimum_nights": -0.3235415253015337,
+    "number_of_reviews": -0.14354337241467235,
+    "reviews_per_month": -3.4392161216030264,
+    "host_listings_count": -0.2868304591078749,
+    "availability_365": 0.07040043666287965
+}},{latitude:40.85771, longitude:-73.90899,actual:40.0,predicted:92,coefficients:{
+    "intercept": 85.67784675809496,
+    "minimum_nights": -0.3219655956634714,
+    "number_of_reviews": -0.25007234412822155,
+    "reviews_per_month": -6.091678033873728,
+    "host_listings_count": -0.3231250650604486,
+    "availability_365": 0.06983803252733774
+}},{latitude:40.81227, longitude:-73.88871,actual:37.0,predicted:75,coefficients:{
+    "intercept": 65.19021278115031,
+    "minimum_nights": -0.3250145054144674,
+    "number_of_reviews": -0.15513939612291217,
+    "reviews_per_month": -2.290186322235888,
+    "host_listings_count": -0.26000685414141406,
+    "availability_365": 0.07079678169395741
+}},{latitude:40.90391, longitude:-73.85312,actual:120.0,predicted:88,coefficients:{
+    "intercept": 79.02743078566307,
+    "minimum_nights": -0.3281160547929599,
+    "number_of_reviews": 0.02840137747361654,
+    "reviews_per_month": 2.391893600452906,
+    "host_listings_count": 0.25136223256606477,
+    "availability_365": 0.07776043665125615
+}},{latitude:40.88249, longitude:-73.86274,actual:50.0,predicted:111,coefficients:{
+    "intercept": 77.66518895919859,
+    "minimum_nights": -0.32757521079695145,
+    "number_of_reviews": -0.004571325098718609,
+    "reviews_per_month": 2.8104990102363967,
+    "host_listings_count": 0.11796759814952466,
+    "availability_365": 0.07617468266681013
+}},{latitude:40.83855, longitude:-73.83167,actual:85.0,predicted:84,coefficients:{
+    "intercept": 85.51352064492566,
+    "minimum_nights": -0.332087007439193,
+    "number_of_reviews": -0.027511181537394923,
+    "reviews_per_month": 0.6704079762891487,
+    "host_listings_count": 0.30430749036189053,
+    "availability_365": 0.07718429956565279
+}},{latitude:40.83625, longitude:-73.91079,actual:127.0,predicted:65,coefficients:{
+    "intercept": 81.9838693504291,
+    "minimum_nights": -0.3222984065756498,
+    "number_of_reviews": -0.23751791772405204,
+    "reviews_per_month": -6.9572087779980825,
+    "host_listings_count": -0.3410870477354373,
+    "availability_365": 0.06958211670752697
+}},{latitude:40.83083, longitude:-73.91928,actual:62.0,predicted:85,coefficients:{
+    "intercept": 82.38100667623127,
+    "minimum_nights": -0.32194704743448527,
+    "number_of_reviews": -0.2351285550511077,
+    "reviews_per_month": -9.044713753313335,
+    "host_listings_count": -0.36418959411027724,
+    "availability_365": 0.06922190535196478
+}},{latitude:40.86729, longitude:-73.89046,actual:75.0,predicted:93,coefficients:{
+    "intercept": 70.52709962816745,
+    "minimum_nights": -0.3231762292034608,
+    "number_of_reviews": -0.12656114655012674,
+    "reviews_per_month": -1.4659815377476426,
+    "host_listings_count": -0.2281984494646178,
+    "availability_365": 0.0712339085346495
+}},{latitude:40.8774, longitude:-73.87537,actual:29.0,predicted:70,coefficients:{
+    "intercept": 71.55971776983324,
+    "minimum_nights": -0.32490109009671286,
+    "number_of_reviews": -0.1043401538660736,
+    "reviews_per_month": 1.4993370753056872,
+    "host_listings_count": -0.0825972233029583,
+    "availability_365": 0.07331690933629693
+}},{latitude:40.82153, longitude:-73.92683,actual:140.0,predicted:79,coefficients:{
+    "intercept": 81.56566046378575,
+    "minimum_nights": -0.32178026264577253,
+    "number_of_reviews": -0.23430366826511798,
+    "reviews_per_month": -9.669759857524966,
+    "host_listings_count": -0.3808934539047565,
+    "availability_365": 0.06895354705542248
+}},{latitude:40.81133, longitude:-73.92356,actual:100.0,predicted:72,coefficients:{
+    "intercept": 81.87097787212795,
+    "minimum_nights": -0.3220862084766923,
+    "number_of_reviews": -0.2177823624663947,
+    "reviews_per_month": -9.466963100296695,
+    "host_listings_count": -0.3803039995182044,
+    "availability_365": 0.06897427288518271
+}},{latitude:40.85152, longitude:-73.86121,actual:39.0,predicted:86,coefficients:{
+    "intercept": 77.45973202611785,
+    "minimum_nights": -0.32992762586980345,
+    "number_of_reviews": -0.00804247069330192,
+    "reviews_per_month": 2.568182937885236,
+    "host_listings_count": 0.11180193658343945,
+    "availability_365": 0.07613722409060822
+}},{latitude:40.89785, longitude:-73.86977,actual:70.0,predicted:75,coefficients:{
+    "intercept": 76.30491060425204,
+    "minimum_nights": -0.32506573107195424,
+    "number_of_reviews": -0.041216925297136116,
+    "reviews_per_month": 1.8477114238845747,
+    "host_listings_count": 0.01292552867065645,
+    "availability_365": 0.0746423716888529
+}},{latitude:40.88671, longitude:-73.9151,actual:2500.0,predicted:124,coefficients:{
+    "intercept": 113.27341143735926,
+    "minimum_nights": -0.3211238950671369,
+    "number_of_reviews": -0.2630430264054417,
+    "reviews_per_month": -6.685093720138697,
+    "host_listings_count": -0.32395560625493536,
+    "availability_365": 0.06978844423790247
+}},{latitude:40.83561, longitude:-73.91108,actual:58.0,predicted:49,coefficients:{
+    "intercept": 81.97810708690596,
+    "minimum_nights": -0.32229385148143197,
+    "number_of_reviews": -0.23742349596476064,
+    "reviews_per_month": -7.045361926893983,
+    "host_listings_count": -0.34225995356069144,
+    "availability_365": 0.06956447023123093
+}},{latitude:40.85167, longitude:-73.92144,actual:50.0,predicted:111,coefficients:{
+    "intercept": 87.23576090423467,
+    "minimum_nights": -0.321492030722529,
+    "number_of_reviews": -0.25745330481343537,
+    "reviews_per_month": -9.042327045094511,
+    "host_listings_count": -0.3582315224542152,
+    "availability_365": 0.06929456330574432
+}},{latitude:40.85306, longitude:-73.78948,actual:85.0,predicted:177,coefficients:{
+    "intercept": 172.46785016649898,
+    "minimum_nights": -0.3307329258843155,
+    "number_of_reviews": -0.14457925931798954,
+    "reviews_per_month": -1.0254664058076215,
+    "host_listings_count": 0.3306198890548514,
+    "availability_365": 0.07638582345557278
+}},{latitude:40.84932, longitude:-73.85883,actual:35.0,predicted:83,coefficients:{
+    "intercept": 77.97393126304485,
+    "minimum_nights": -0.33102102937847583,
+    "number_of_reviews": 0.007568807186374445,
+    "reviews_per_month": 2.5755326131494183,
+    "host_listings_count": 0.15987662712735323,
+    "availability_365": 0.07683497185892399
+}},{latitude:40.81699, longitude:-73.86741,actual:80.0,predicted:79,coefficients:{
+    "intercept": 73.54852420850054,
+    "minimum_nights": -0.3295494687223008,
+    "number_of_reviews": -0.10775155944988184,
+    "reviews_per_month": 1.1394273054486324,
+    "host_listings_count": -0.0415565085070115,
+    "availability_365": 0.07393655918116135
+}},{latitude:40.87896, longitude:-73.90674,actual:75.0,predicted:88,coefficients:{
+    "intercept": 90.14679413416957,
+    "minimum_nights": -0.3216501073179342,
+    "number_of_reviews": -0.2353076845470639,
+    "reviews_per_month": -5.123663818786383,
+    "host_listings_count": -0.30179433224100327,
+    "availability_365": 0.07013652576934307
+}},{latitude:40.85961, longitude:-73.89031,actual:110.0,predicted:69,coefficients:{
+    "intercept": 69.84577937667987,
+    "minimum_nights": -0.3234149348795634,
+    "number_of_reviews": -0.12811393059253223,
+    "reviews_per_month": -1.5143132343177776,
+    "host_listings_count": -0.2334059415769775,
+    "availability_365": 0.07116521131551026
+}},{latitude:40.82164, longitude:-73.90163,actual:65.0,predicted:76,coefficients:{
+    "intercept": 78.21209030784816,
+    "minimum_nights": -0.32329361337725593,
+    "number_of_reviews": -0.17621359362782896,
+    "reviews_per_month": -5.002147805424971,
+    "host_listings_count": -0.3188112436240144,
+    "availability_365": 0.069929741360139
+}},{latitude:40.83914, longitude:-73.78158,actual:80.0,predicted:215,coefficients:{
+    "intercept": 189.97228462423166,
+    "minimum_nights": -0.3307885523371143,
+    "number_of_reviews": -0.1325187296074955,
+    "reviews_per_month": -1.2175497166290223,
+    "host_listings_count": 0.3218728765926307,
+    "availability_365": 0.07616298563870923
+}},{latitude:40.83507, longitude:-73.9104,actual:72.0,predicted:64,coefficients:{
+    "intercept": 81.74039772026944,
+    "minimum_nights": -0.3223462422866186,
+    "number_of_reviews": -0.2351998699137052,
+    "reviews_per_month": -6.873369314022724,
+    "host_listings_count": -0.34062324162142604,
+    "availability_365": 0.06959024609071734
+}},{latitude:40.84024, longitude:-73.85836,actual:45.0,predicted:84,coefficients:{
+    "intercept": 78.33725242407088,
+    "minimum_nights": -0.33180536023508167,
+    "number_of_reviews": 0.0026383449804054547,
+    "reviews_per_month": 2.2529122945485556,
+    "host_listings_count": 0.1576068224663278,
+    "availability_365": 0.07681227051333611
+}},{latitude:40.84899, longitude:-73.90375,actual:250.0,predicted:79,coefficients:{
+    "intercept": 79.98799033750778,
+    "minimum_nights": -0.32248958082428403,
+    "number_of_reviews": -0.21125531362610184,
+    "reviews_per_month": -4.811178639500653,
+    "host_listings_count": -0.3099712824410048,
+    "availability_365": 0.07004559033749702
+}},{latitude:40.83805, longitude:-73.85867,actual:26.0,predicted:106,coefficients:{
+    "intercept": 78.31068942410144,
+    "minimum_nights": -0.3318017062751338,
+    "number_of_reviews": -0.002167686039187053,
+    "reviews_per_month": 2.1796116467988886,
+    "host_listings_count": 0.14775078764667396,
+    "availability_365": 0.07666676073777828
+}},{latitude:40.83384, longitude:-73.8863,actual:65.0,predicted:67,coefficients:{
+    "intercept": 64.85859891773752,
+    "minimum_nights": -0.32470604946058707,
+    "number_of_reviews": -0.15964571566371785,
+    "reviews_per_month": -1.2742861219497161,
+    "host_listings_count": -0.22652581127284604,
+    "availability_365": 0.07128017440657257
+}},{latitude:40.85145, longitude:-73.86129,actual:29.0,predicted:94,coefficients:{
+    "intercept": 77.44317585485517,
+    "minimum_nights": -0.3299015935117779,
+    "number_of_reviews": -0.00869505357104421,
+    "reviews_per_month": 2.566005623118518,
+    "host_listings_count": 0.11008141821203164,
+    "availability_365": 0.07611243272985983
+}},{latitude:40.81005, longitude:-73.91977,actual:40.0,predicted:39,coefficients:{
+    "intercept": 81.8081415365399,
+    "minimum_nights": -0.32229280969876,
+    "number_of_reviews": -0.21175054446080052,
+    "reviews_per_month": -8.950937162240502,
+    "host_listings_count": -0.374526613384575,
+    "availability_365": 0.06907139349683117
+}},{latitude:40.83336, longitude:-73.88636,actual:75.0,predicted:73,coefficients:{
+    "intercept": 64.85597751694058,
+    "minimum_nights": -0.3247124955171282,
+    "number_of_reviews": -0.15951451212258178,
+    "reviews_per_month": -1.295308245939586,
+    "host_listings_count": -0.22736148195386818,
+    "availability_365": 0.07126822044320542
+}},{latitude:40.85527, longitude:-73.86719,actual:35.0,predicted:97,coefficients:{
+    "intercept": 75.90131524490364,
+    "minimum_nights": -0.3277594611895631,
+    "number_of_reviews": -0.05177375585671588,
+    "reviews_per_month": 2.2223501333347797,
+    "host_listings_count": 0.007724805878175238,
+    "availability_365": 0.07463520433252614
+}},{latitude:40.83758, longitude:-73.84382,actual:72.0,predicted:99,coefficients:{
+    "intercept": 85.59493041736118,
+    "minimum_nights": -0.3323071846408989,
+    "number_of_reviews": 0.05787182851851121,
+    "reviews_per_month": 1.173131028415624,
+    "host_listings_count": 0.2601982191877754,
+    "availability_365": 0.07727990642242295
+}},{latitude:40.88032, longitude:-73.85877,actual:45.0,predicted:107,coefficients:{
+    "intercept": 77.81918452350631,
+    "minimum_nights": -0.32901407183475273,
+    "number_of_reviews": 0.01571689218032493,
+    "reviews_per_month": 2.860457290041794,
+    "host_listings_count": 0.1953002763580183,
+    "availability_365": 0.07735541601951006
+}},{latitude:40.85634, longitude:-73.86633,actual:45.0,predicted:97,coefficients:{
+    "intercept": 76.30742704201074,
+    "minimum_nights": -0.327952482467499,
+    "number_of_reviews": -0.04318386425916322,
+    "reviews_per_month": 2.3159001013483307,
+    "host_listings_count": 0.02306045887365651,
+    "availability_365": 0.07485455578325913
+}},{latitude:40.90734, longitude:-73.90137,actual:119.0,predicted:86,coefficients:{
+    "intercept": 87.35998116332928,
+    "minimum_nights": -0.32133387787940787,
+    "number_of_reviews": -0.1758407009875891,
+    "reviews_per_month": -3.6323142816765834,
+    "host_listings_count": -0.2595862370624536,
+    "availability_365": 0.07072891877921997
+}},{latitude:40.82406, longitude:-73.8934,actual:155.0,predicted:86,coefficients:{
+    "intercept": 71.0510251070495,
+    "minimum_nights": -0.32407011232937794,
+    "number_of_reviews": -0.13373478150813156,
+    "reviews_per_month": -3.1009380510340065,
+    "host_listings_count": -0.2790347435187488,
+    "availability_365": 0.07051816816145672
+}},{latitude:40.88667, longitude:-73.91494,actual:600.0,predicted:130,coefficients:{
+    "intercept": 112.89503359582946,
+    "minimum_nights": -0.3211306217824263,
+    "number_of_reviews": -0.2637074837186204,
+    "reviews_per_month": -6.651484156944229,
+    "host_listings_count": -0.3235327599630997,
+    "availability_365": 0.06979504348593199
+}},{latitude:40.88515, longitude:-73.91411,actual:800.0,predicted:126,coefficients:{
+    "intercept": 109.61283226613934,
+    "minimum_nights": -0.3211899214960367,
+    "number_of_reviews": -0.26435335686315586,
+    "reviews_per_month": -6.548229492588326,
+    "host_listings_count": -0.3220759179202393,
+    "availability_365": 0.069819468717042
+}},{latitude:40.83296, longitude:-73.88668,actual:0.0,predicted:60,coefficients:{
+    "intercept": 65.04454953886278,
+    "minimum_nights": -0.3246789960151773,
+    "number_of_reviews": -0.15719955691773368,
+    "reviews_per_month": -1.3675443336855506,
+    "host_listings_count": -0.23001241166946235,
+    "availability_365": 0.07122994261876375
+}},{latitude:40.8372, longitude:-73.84345,actual:70.0,predicted:102,coefficients:{
+    "intercept": 85.76123909934685,
+    "minimum_nights": -0.332322606306572,
+    "number_of_reviews": 0.055487542356390696,
+    "reviews_per_month": 1.152375106416288,
+    "host_listings_count": 0.26169117165580236,
+    "availability_365": 0.07727545211093065
+}},{latitude:40.83243, longitude:-73.88608,actual:55.0,predicted:62,coefficients:{
+    "intercept": 64.58436213857925,
+    "minimum_nights": -0.32478264563137776,
+    "number_of_reviews": -0.1625528538731228,
+    "reviews_per_month": -1.266159080361812,
+    "host_listings_count": -0.22607637615319146,
+    "availability_365": 0.07128709694964849
+}},{latitude:40.88304, longitude:-73.88278,actual:58.0,predicted:66,coefficients:{
+    "intercept": 68.1915662382693,
+    "minimum_nights": -0.3235730504101629,
+    "number_of_reviews": -0.14574838415767274,
+    "reviews_per_month": 0.17455250099214265,
+    "host_listings_count": -0.15473378550670414,
+    "availability_365": 0.07227707341383117
+}},{latitude:40.83556, longitude:-73.91098,actual:70.0,predicted:62,coefficients:{
+    "intercept": 81.9468797379237,
+    "minimum_nights": -0.32230088742218155,
+    "number_of_reviews": -0.2371493146206269,
+    "reviews_per_month": -7.021572070685157,
+    "host_listings_count": -0.34200599419042244,
+    "availability_365": 0.06956844774621776
+}},{latitude:40.88165, longitude:-73.90633,actual:100.0,predicted:69,coefficients:{
+    "intercept": 90.3747219215134,
+    "minimum_nights": -0.32161602774057557,
+    "number_of_reviews": -0.23068057747162013,
+    "reviews_per_month": -5.006569212835977,
+    "host_listings_count": -0.2984677508997996,
+    "availability_365": 0.07018308035959393
+}},{latitude:40.81941, longitude:-73.92762,actual:69.0,predicted:26,coefficients:{
+    "intercept": 81.44855355606096,
+    "minimum_nights": -0.3217834920023543,
+    "number_of_reviews": -0.2349569386224607,
+    "reviews_per_month": -9.591533870493603,
+    "host_listings_count": -0.3828178095393709,
+    "availability_365": 0.06892273636705643
+}},{latitude:40.85031, longitude:-73.90102,actual:105.0,predicted:68,coefficients:{
+    "intercept": 78.06910001565538,
+    "minimum_nights": -0.322663711083601,
+    "number_of_reviews": -0.18786644735498825,
+    "reviews_per_month": -4.005761409987423,
+    "host_listings_count": -0.2979311255985589,
+    "availability_365": 0.07022470968623364
+}},{latitude:40.88883, longitude:-73.90046,actual:175.0,predicted:77,coefficients:{
+    "intercept": 82.29748125460264,
+    "minimum_nights": -0.32179967648334906,
+    "number_of_reviews": -0.17678765238100844,
+    "reviews_per_month": -3.656551234313004,
+    "host_listings_count": -0.2684646353242877,
+    "availability_365": 0.07062157203284632
+}},{latitude:40.85217, longitude:-73.90239,actual:100.0,predicted:74,coefficients:{
+    "intercept": 79.24497527314306,
+    "minimum_nights": -0.3225157317504973,
+    "number_of_reviews": -0.20095375630880097,
+    "reviews_per_month": -4.313504647682578,
+    "host_listings_count": -0.3024664489244441,
+    "availability_365": 0.07015540824565794
+}},{latitude:40.89756, longitude:-73.85639,actual:50.0,predicted:107,coefficients:{
+    "intercept": 78.08650034076587,
+    "minimum_nights": -0.3281919784955253,
+    "number_of_reviews": 0.018077309219706298,
+    "reviews_per_month": 2.6798394093160183,
+    "host_listings_count": 0.22677613109677888,
+    "availability_365": 0.07769266270468331
+}},{latitude:40.83206, longitude:-73.91969,actual:60.0,predicted:80,coefficients:{
+    "intercept": 82.5240414753509,
+    "minimum_nights": -0.3219060888906236,
+    "number_of_reviews": -0.23653032879894817,
+    "reviews_per_month": -9.116333544199822,
+    "host_listings_count": -0.3644112256961711,
+    "availability_365": 0.06921706153206
+}},{latitude:40.88698, longitude:-73.86049,actual:35.0,predicted:94,coefficients:{
+    "intercept": 77.74464721469894,
+    "minimum_nights": -0.3279996773579625,
+    "number_of_reviews": 0.005534507609606869,
+    "reviews_per_month": 2.8347292160236455,
+    "host_listings_count": 0.16902995786551317,
+    "availability_365": 0.07689392638044729
+}},{latitude:40.83121, longitude:-73.8483,actual:450.0,predicted:110,coefficients:{
+    "intercept": 83.85908785959383,
+    "minimum_nights": -0.3327020740627584,
+    "number_of_reviews": 0.05220396246899058,
+    "reviews_per_month": 1.3830765662308748,
+    "host_listings_count": 0.22966162544223825,
+    "availability_365": 0.07717760890806026
+}},{latitude:40.84711, longitude:-73.83039,actual:80.0,predicted:90,coefficients:{
+    "intercept": 86.27067164171415,
+    "minimum_nights": -0.3317312004309014,
+    "number_of_reviews": -0.022110157736938155,
+    "reviews_per_month": 0.6550533473473477,
+    "host_listings_count": 0.3120121377848141,
+    "availability_365": 0.07723368656691477
+}},{latitude:40.82627, longitude:-73.90803,actual:65.0,predicted:79,coefficients:{
+    "intercept": 80.57289171001919,
+    "minimum_nights": -0.3226853320416117,
+    "number_of_reviews": -0.21736913807793348,
+    "reviews_per_month": -6.3691760518182035,
+    "host_listings_count": -0.33843852847120537,
+    "availability_365": 0.06963006325721256
+}},{latitude:40.85657, longitude:-73.90915,actual:55.0,predicted:83,coefficients:{
+    "intercept": 85.46941356499794,
+    "minimum_nights": -0.32197991708768237,
+    "number_of_reviews": -0.2502226285356075,
+    "reviews_per_month": -6.166823822287449,
+    "host_listings_count": -0.324334197639298,
+    "availability_365": 0.06982076150579804
+}},{latitude:40.84964, longitude:-73.78717,actual:50.0,predicted:177,coefficients:{
+    "intercept": 177.46100966602833,
+    "minimum_nights": -0.3307436573078797,
+    "number_of_reviews": -0.14123967912710483,
+    "reviews_per_month": -1.0836295590026064,
+    "host_listings_count": 0.3283521116344684,
+    "availability_365": 0.07632232203136245
+}},{latitude:40.84101, longitude:-73.92626,actual:62.0,predicted:53,coefficients:{
+    "intercept": 83.03465386209336,
+    "minimum_nights": -0.3214895483836231,
+    "number_of_reviews": -0.24998969109319116,
+    "reviews_per_month": -9.590985310745195,
+    "host_listings_count": -0.37167556546246105,
+    "availability_365": 0.0690860681198601
+}},{latitude:40.89811, longitude:-73.85543,actual:55.0,predicted:125,coefficients:{
+    "intercept": 78.27791688459095,
+    "minimum_nights": -0.32825319906680145,
+    "number_of_reviews": 0.02212226919684323,
+    "reviews_per_month": 2.5962205216768797,
+    "host_listings_count": 0.23377184027284276,
+    "availability_365": 0.07771136818651643
+}},{latitude:40.84184, longitude:-73.92535,actual:42.0,predicted:39,coefficients:{
+    "intercept": 83.39533363502855,
+    "minimum_nights": -0.3215086984007256,
+    "number_of_reviews": -0.24946897201536375,
+    "reviews_per_month": -9.606408999568883,
+    "host_listings_count": -0.3698739969940014,
+    "availability_365": 0.06911532233290821
+}},{latitude:40.84103, longitude:-73.92701,actual:42.0,predicted:38,coefficients:{
+    "intercept": 82.8478283406211,
+    "minimum_nights": -0.32146311829189766,
+    "number_of_reviews": -0.25131701517558575,
+    "reviews_per_month": -9.565160886246082,
+    "host_listings_count": -0.3727971847041696,
+    "availability_365": 0.06906699566123181
+}},{latitude:40.89685, longitude:-73.85382,actual:55.0,predicted:78,coefficients:{
+    "intercept": 78.69445296446567,
+    "minimum_nights": -0.32848696882996087,
+    "number_of_reviews": 0.031341397102702465,
+    "reviews_per_month": 2.548167117624237,
+    "host_listings_count": 0.2436817656460932,
+    "availability_365": 0.07772610702826484
+}},{latitude:40.81645, longitude:-73.86355,actual:40.0,predicted:87,coefficients:{
+    "intercept": 76.54882988274592,
+    "minimum_nights": -0.3309547323155596,
+    "number_of_reviews": -0.074345893683122,
+    "reviews_per_month": 1.2844994565523664,
+    "host_listings_count": 0.02048226428937384,
+    "availability_365": 0.07482736367869564
+}},{latitude:40.83257, longitude:-73.91245,actual:45.0,predicted:81,coefficients:{
+    "intercept": 81.90902011339071,
+    "minimum_nights": -0.3222733522835412,
+    "number_of_reviews": -0.2360586180175916,
+    "reviews_per_month": -7.405298321810291,
+    "host_listings_count": -0.3476315504886648,
+    "availability_365": 0.06948337978598336
+}},{latitude:40.85751, longitude:-73.90805,actual:45.0,predicted:101,coefficients:{
+    "intercept": 84.79701253519596,
+    "minimum_nights": -0.3220241056377927,
+    "number_of_reviews": -0.24524810763861135,
+    "reviews_per_month": -5.838531539251233,
+    "host_listings_count": -0.3201431752998025,
+    "availability_365": 0.0698837074197611
+}},{latitude:40.835, longitude:-73.91114,actual:60.0,predicted:75,coefficients:{
+    "intercept": 81.9181193976429,
+    "minimum_nights": -0.32230254532492186,
+    "number_of_reviews": -0.2368348330560979,
+    "reviews_per_month": -7.067170486890741,
+    "host_listings_count": -0.34276270913937446,
+    "availability_365": 0.06955717182193533
+}},{latitude:40.83497, longitude:-73.9189,actual:35.0,predicted:61,coefficients:{
+    "intercept": 82.90778161472812,
+    "minimum_nights": -0.3218910041136908,
+    "number_of_reviews": -0.2400723723853091,
+    "reviews_per_month": -8.94119141733141,
+    "host_listings_count": -0.3614277695622157,
+    "availability_365": 0.06926238322363695
+}},{latitude:40.90356, longitude:-73.84172,actual:59.0,predicted:89,coefficients:{
+    "intercept": 85.20843956856906,
+    "minimum_nights": -0.32899254766737474,
+    "number_of_reviews": 0.08061044708560665,
+    "reviews_per_month": 1.6676371032482111,
+    "host_listings_count": 0.30345126129387595,
+    "availability_365": 0.07771364214359609
+}},{latitude:40.82638, longitude:-73.92225,actual:55.0,predicted:53,coefficients:{
+    "intercept": 82.0291213479877,
+    "minimum_nights": -0.3218895450997281,
+    "number_of_reviews": -0.23096930133641602,
+    "reviews_per_month": -9.61757523056296,
+    "host_listings_count": -0.37173875585002797,
+    "availability_365": 0.0691027417884668
+}},{latitude:40.86144, longitude:-73.86427,actual:79.0,predicted:102,coefficients:{
+    "intercept": 77.09324652228317,
+    "minimum_nights": -0.32830314883277983,
+    "number_of_reviews": -0.02225575270717657,
+    "reviews_per_month": 2.6009677012128827,
+    "host_listings_count": 0.06494506565693914,
+    "availability_365": 0.07545157508702026
+}},{latitude:40.85362, longitude:-73.8896,actual:140.0,predicted:74,coefficients:{
+    "intercept": 68.87348299320128,
+    "minimum_nights": -0.32367101856075303,
+    "number_of_reviews": -0.13096223341175106,
+    "reviews_per_month": -1.5111987101816038,
+    "host_listings_count": -0.23350820529369234,
+    "availability_365": 0.07116844676944274
+}},{latitude:40.82453, longitude:-73.92563,actual:60.0,predicted:70,coefficients:{
+    "intercept": 81.75254898487466,
+    "minimum_nights": -0.32177905067009815,
+    "number_of_reviews": -0.23395582649061322,
+    "reviews_per_month": -9.720818760365031,
+    "host_listings_count": -0.37793369944926863,
+    "availability_365": 0.06900075046252065
+}},{latitude:40.81553, longitude:-73.92453,actual:120.0,predicted:80,coefficients:{
+    "intercept": 81.76695499382052,
+    "minimum_nights": -0.3219728016820494,
+    "number_of_reviews": -0.22353625605905092,
+    "reviews_per_month": -9.596118776621914,
+    "host_listings_count": -0.3800537337236701,
+    "availability_365": 0.06897448413862836
+}},{latitude:40.84038, longitude:-73.85662,actual:65.0,predicted:79,coefficients:{
+    "intercept": 78.9420956892029,
+    "minimum_nights": -0.3321637001744759,
+    "number_of_reviews": 0.01590777231378545,
+    "reviews_per_month": 2.1763899231875605,
+    "host_listings_count": 0.17564975392411195,
+    "availability_365": 0.07711358055101974
+}},{latitude:40.88192, longitude:-73.86186,actual:60.0,predicted:109,coefficients:{
+    "intercept": 77.69703722420074,
+    "minimum_nights": -0.3278761776802936,
+    "number_of_reviews": -0.0001261848270617666,
+    "reviews_per_month": 2.8575007009729405,
+    "host_listings_count": 0.13489690765541823,
+    "availability_365": 0.07641867109125486
+}},{latitude:40.87759, longitude:-73.88459,actual:42.0,predicted:70,coefficients:{
+    "intercept": 68.04729164179757,
+    "minimum_nights": -0.32352647943013496,
+    "number_of_reviews": -0.14437261435243826,
+    "reviews_per_month": -0.19910117076919068,
+    "host_listings_count": -0.1753913630951091,
+    "availability_365": 0.07198639342311451
+}},{latitude:40.85444, longitude:-73.88462,actual:30.0,predicted:89,coefficients:{
+    "intercept": 65.93609228926368,
+    "minimum_nights": -0.32428073036857497,
+    "number_of_reviews": -0.15674153842017913,
+    "reviews_per_month": -0.5111384887617905,
+    "host_listings_count": -0.19597275041657974,
+    "availability_365": 0.07171130340128525
+}},{latitude:40.86506, longitude:-73.84295,actual:40.0,predicted:93,coefficients:{
+    "intercept": 85.11226386609522,
+    "minimum_nights": -0.33089496204297353,
+    "number_of_reviews": 0.08740958039209673,
+    "reviews_per_month": 1.493712376417973,
+    "host_listings_count": 0.28292408696276883,
+    "availability_365": 0.07753424629657485
+}},{latitude:40.80762, longitude:-73.92454,actual:115.0,predicted:23,coefficients:{
+    "intercept": 81.9313293594163,
+    "minimum_nights": -0.32210376642651745,
+    "number_of_reviews": -0.2166576402119799,
+    "reviews_per_month": -9.42794192743763,
+    "host_listings_count": -0.38324888963906173,
+    "availability_365": 0.06892768771998509
+}},{latitude:40.86924, longitude:-73.90651,actual:40.0,predicted:84,coefficients:{
+    "intercept": 86.47768064802702,
+    "minimum_nights": -0.32186696251614033,
+    "number_of_reviews": -0.23720711298933195,
+    "reviews_per_month": -5.193041440144452,
+    "host_listings_count": -0.30730396109607644,
+    "availability_365": 0.07006534441865746
+}},{latitude:40.83408, longitude:-73.87419,actual:28.0,predicted:79,coefficients:{
+    "intercept": 68.28684817113073,
+    "minimum_nights": -0.3269275831052642,
+    "number_of_reviews": -0.1547325197085241,
+    "reviews_per_month": 1.0601518567601431,
+    "host_listings_count": -0.11272439483722131,
+    "availability_365": 0.0729175710250314
+}},{latitude:40.83439, longitude:-73.8585,actual:300.0,predicted:78,coefficients:{
+    "intercept": 78.52653608824266,
+    "minimum_nights": -0.3321055367128134,
+    "number_of_reviews": -0.005191544250364814,
+    "reviews_per_month": 2.044065199634777,
+    "host_listings_count": 0.14624134378260586,
+    "availability_365": 0.07664618439554662
+}},{latitude:40.83555, longitude:-73.8757,actual:25.0,predicted:69,coefficients:{
+    "intercept": 66.91513485862345,
+    "minimum_nights": -0.3265298181259658,
+    "number_of_reviews": -0.1577843906198389,
+    "reviews_per_month": 0.854147608676063,
+    "host_listings_count": -0.12852874275033022,
+    "availability_365": 0.07269052615887171
+}},{latitude:40.85632, longitude:-73.88631,actual:35.0,predicted:89,coefficients:{
+    "intercept": 66.87140900357498,
+    "minimum_nights": -0.32399245874736315,
+    "number_of_reviews": -0.14550921551779933,
+    "reviews_per_month": -0.7686065505161408,
+    "host_listings_count": -0.20767747088465963,
+    "availability_365": 0.07154082854494202
+}},{latitude:40.8459, longitude:-73.91558,actual:77.0,predicted:61,coefficients:{
+    "intercept": 85.17397278452512,
+    "minimum_nights": -0.321849696954804,
+    "number_of_reviews": -0.25349944318180506,
+    "reviews_per_month": -7.936129572684908,
+    "host_listings_count": -0.3484412663349933,
+    "availability_365": 0.06945808506263532
+}},{latitude:40.85579, longitude:-73.88512,actual:29.0,predicted:86,coefficients:{
+    "intercept": 66.25467362707383,
+    "minimum_nights": -0.3241676087737673,
+    "number_of_reviews": -0.15295825087226764,
+    "reviews_per_month": -0.5757892660970645,
+    "host_listings_count": -0.19882768536147227,
+    "availability_365": 0.07166910273243039
+}},{latitude:40.87666, longitude:-73.90034,actual:149.0,predicted:75,coefficients:{
+    "intercept": 80.14976908659325,
+    "minimum_nights": -0.32209003007239045,
+    "number_of_reviews": -0.18075530239834842,
+    "reviews_per_month": -3.6939779300637117,
+    "host_listings_count": -0.27655610568788624,
+    "availability_365": 0.07051574523677283
+}},{latitude:40.82706, longitude:-73.91779,actual:80.0,predicted:87,coefficients:{
+    "intercept": 81.97464745627788,
+    "minimum_nights": -0.3220877219209898,
+    "number_of_reviews": -0.2307889585875473,
+    "reviews_per_month": -8.70377823590052,
+    "host_listings_count": -0.36296372001074256,
+    "availability_365": 0.06924528854114195
+}},{latitude:40.85456, longitude:-73.88521,actual:29.0,predicted:89,coefficients:{
+    "intercept": 66.17717518681819,
+    "minimum_nights": -0.3241953318215562,
+    "number_of_reviews": -0.1531811101865902,
+    "reviews_per_month": -0.6256002431953457,
+    "host_listings_count": -0.20061265703827555,
+    "availability_365": 0.07164422688880252
+}},{latitude:40.82407, longitude:-73.8614,actual:49.0,predicted:92,coefficients:{
+    "intercept": 77.64075162173174,
+    "minimum_nights": -0.3314256379068678,
+    "number_of_reviews": -0.04328440243440961,
+    "reviews_per_month": 1.667221306324975,
+    "host_listings_count": 0.07081572364846785,
+    "availability_365": 0.07555518648121366
+}},{latitude:40.8568, longitude:-73.9149,actual:175.0,predicted:51,coefficients:{
+    "intercept": 89.32730030363176,
+    "minimum_nights": -0.32167862188032326,
+    "number_of_reviews": -0.2635772860868944,
+    "reviews_per_month": -7.521171895805168,
+    "host_listings_count": -0.34078563723433364,
+    "availability_365": 0.06956616516312218
+}},{latitude:40.81728, longitude:-73.86343,actual:40.0,predicted:103,coefficients:{
+    "intercept": 76.61400643212896,
+    "minimum_nights": -0.330959941709996,
+    "number_of_reviews": -0.07193109183507548,
+    "reviews_per_month": 1.3213490813191604,
+    "host_listings_count": 0.02372146543991898,
+    "availability_365": 0.07487434970309487
+}},{latitude:40.87847, longitude:-73.90268,actual:80.0,predicted:81,coefficients:{
+    "intercept": 83.44600765547104,
+    "minimum_nights": -0.32189551831418267,
+    "number_of_reviews": -0.20191394774118204,
+    "reviews_per_month": -4.18793222933985,
+    "host_listings_count": -0.2858221206563704,
+    "availability_365": 0.07037610508529837
+}},{latitude:40.80889, longitude:-73.92028,actual:125.0,predicted:59,coefficients:{
+    "intercept": 81.87034068655308,
+    "minimum_nights": -0.3222870796085332,
+    "number_of_reviews": -0.21094251520735277,
+    "reviews_per_month": -9.043069605670393,
+    "host_listings_count": -0.3759275093976571,
+    "availability_365": 0.06904921952944944
+}},{latitude:40.82276, longitude:-73.92682,actual:114.0,predicted:44,coefficients:{
+    "intercept": 81.5822303763688,
+    "minimum_nights": -0.32176092686615876,
+    "number_of_reviews": -0.23529375043786765,
+    "reviews_per_month": -9.658261186200255,
+    "host_listings_count": -0.38037415379858197,
+    "availability_365": 0.06896103356302347
+}},{latitude:40.82251, longitude:-73.91125,actual:60.0,predicted:85,coefficients:{
+    "intercept": 81.03347908919388,
+    "minimum_nights": -0.32254780578216113,
+    "number_of_reviews": -0.22185883976344423,
+    "reviews_per_month": -7.164596979435007,
+    "host_listings_count": -0.34972968094121176,
+    "availability_365": 0.06945798102407433
+}},{latitude:40.82995, longitude:-73.90342,actual:50.0,predicted:78,coefficients:{
+    "intercept": 79.02906285614888,
+    "minimum_nights": -0.3229492890250238,
+    "number_of_reviews": -0.19517546871508648,
+    "reviews_per_month": -5.232056131932777,
+    "host_listings_count": -0.32061947155883613,
+    "availability_365": 0.06989868798654576
+}},{latitude:40.82245, longitude:-73.90875,actual:110.0,predicted:69,coefficients:{
+    "intercept": 80.63559185426072,
+    "minimum_nights": -0.3227158432839676,
+    "number_of_reviews": -0.21561317866532365,
+    "reviews_per_month": -6.572707171069897,
+    "host_listings_count": -0.34270932988413405,
+    "availability_365": 0.06956668264472304
+}},{latitude:40.89215, longitude:-73.83351,actual:75.0,predicted:105,coefficients:{
+    "intercept": 88.95071168095568,
+    "minimum_nights": -0.3298520105850215,
+    "number_of_reviews": 0.05089159400561874,
+    "reviews_per_month": 1.0583851851998327,
+    "host_listings_count": 0.32295307361624165,
+    "availability_365": 0.07754405007508114
+}},{latitude:40.83079, longitude:-73.8815,actual:50.0,predicted:79,coefficients:{
+    "intercept": 62.936926783684484,
+    "minimum_nights": -0.32557341315355137,
+    "number_of_reviews": -0.1948736244260079,
+    "reviews_per_month": -0.4219908691104744,
+    "host_listings_count": -0.19060059259408046,
+    "availability_365": 0.0717995521298772
+}},{latitude:40.8118, longitude:-73.92263,actual:54.0,predicted:74,coefficients:{
+    "intercept": 81.87076718370926,
+    "minimum_nights": -0.322121300567123,
+    "number_of_reviews": -0.21662793951345824,
+    "reviews_per_month": -9.435261507920925,
+    "host_listings_count": -0.3786535143470328,
+    "availability_365": 0.06900159796846256
+}},{latitude:40.88302, longitude:-73.90899,actual:70.0,predicted:91,coefficients:{
+    "intercept": 96.48488662458863,
+    "minimum_nights": -0.3214533031444645,
+    "number_of_reviews": -0.24678943207465007,
+    "reviews_per_month": -5.582656022764041,
+    "host_listings_count": -0.3072242941443418,
+    "availability_365": 0.07004921160305949
+}},{latitude:40.88688, longitude:-73.84789,actual:70.0,predicted:112,coefficients:{
+    "intercept": 81.42825817804409,
+    "minimum_nights": -0.3295200808763255,
+    "number_of_reviews": 0.07418093687174654,
+    "reviews_per_month": 2.1449832920277583,
+    "host_listings_count": 0.2720237166582378,
+    "availability_365": 0.07769913225449268
+}},{latitude:40.81039, longitude:-73.92478,actual:73.0,predicted:80,coefficients:{
+    "intercept": 81.84196894330547,
+    "minimum_nights": -0.322047085944324,
+    "number_of_reviews": -0.21959661910129077,
+    "reviews_per_month": -9.506513373666074,
+    "host_listings_count": -0.382499591451772,
+    "availability_365": 0.06893789893076263
+}},{latitude:40.84607, longitude:-73.83842,actual:99.0,predicted:112,coefficients:{
+    "intercept": 87.17326409435246,
+    "minimum_nights": -0.331852592164532,
+    "number_of_reviews": 0.0344205399804158,
+    "reviews_per_month": 1.0064764413069096,
+    "host_listings_count": 0.2888347343486062,
+    "availability_365": 0.07733630450184995
+}},{latitude:40.83067, longitude:-73.88024,actual:35.0,predicted:59,coefficients:{
+    "intercept": 63.16212152665149,
+    "minimum_nights": -0.32580471053293236,
+    "number_of_reviews": -0.19687924226346473,
+    "reviews_per_month": -0.20146921938352896,
+    "host_listings_count": -0.17936431978756937,
+    "availability_365": 0.07196128888572931
+}},{latitude:40.86264, longitude:-73.84854,actual:62.0,predicted:97,coefficients:{
+    "intercept": 81.59850990383003,
+    "minimum_nights": -0.33089207950259464,
+    "number_of_reviews": 0.07926073391359624,
+    "reviews_per_month": 1.949606322221753,
+    "host_listings_count": 0.25425655266746444,
+    "availability_365": 0.07752772932763251
+}},{latitude:40.85973, longitude:-73.86699,actual:70.0,predicted:76,coefficients:{
+    "intercept": 76.23314407618159,
+    "minimum_nights": -0.3275893539949984,
+    "number_of_reviews": -0.04502443879581565,
+    "reviews_per_month": 2.2966263154912934,
+    "host_listings_count": 0.01607765609651938,
+    "availability_365": 0.07475104006258233
+}},{latitude:40.86706, longitude:-73.84674,actual:40.0,predicted:87,coefficients:{
+    "intercept": 82.57108916337152,
+    "minimum_nights": -0.330691922920044,
+    "number_of_reviews": 0.08650855989911051,
+    "reviews_per_month": 1.8422473418454253,
+    "host_listings_count": 0.26675459668874807,
+    "availability_365": 0.07756665067464412
+}},{latitude:40.82739, longitude:-73.88176,actual:50.0,predicted:61,coefficients:{
+    "intercept": 62.534874840401486,
+    "minimum_nights": -0.32564506579432445,
+    "number_of_reviews": -0.1983696328405517,
+    "reviews_per_month": -0.5608686700569075,
+    "host_listings_count": -0.19591531956509398,
+    "availability_365": 0.07172349113074859
+}},{latitude:40.8739, longitude:-73.90364,actual:69.0,predicted:94,coefficients:{
+    "intercept": 83.78680469549204,
+    "minimum_nights": -0.3219376673889262,
+    "number_of_reviews": -0.21255648674658806,
+    "reviews_per_month": -4.396844475251843,
+    "host_listings_count": -0.29302317155844054,
+    "availability_365": 0.07027424697012472
+}},{latitude:40.80024, longitude:-73.91422,actual:49.0,predicted:44,coefficients:{
+    "intercept": 81.6126834656577,
+    "minimum_nights": -0.3227957666296301,
+    "number_of_reviews": -0.19853630939561812,
+    "reviews_per_month": -7.7629938866952655,
+    "host_listings_count": -0.36769661276071913,
+    "availability_365": 0.06918707287572867
+}},{latitude:40.82668, longitude:-73.8822,actual:50.0,predicted:61,coefficients:{
+    "intercept": 62.46989969722535,
+    "minimum_nights": -0.3255922207806496,
+    "number_of_reviews": -0.1973359144341549,
+    "reviews_per_month": -0.6565425797988864,
+    "host_listings_count": -0.20030987585226132,
+    "availability_365": 0.07166025230507578
+}},{latitude:40.84572, longitude:-73.91023,actual:39.0,predicted:62,coefficients:{
+    "intercept": 83.37422762503778,
+    "minimum_nights": -0.32213938516859597,
+    "number_of_reviews": -0.24606183867126202,
+    "reviews_per_month": -6.669628001634799,
+    "host_listings_count": -0.33410144218615623,
+    "availability_365": 0.06968166855808468
+}},{latitude:40.82496, longitude:-73.91389,actual:45.0,predicted:66,coefficients:{
+    "intercept": 81.47508052696537,
+    "minimum_nights": -0.32233844604316664,
+    "number_of_reviews": -0.2277820680356484,
+    "reviews_per_month": -7.764848112894347,
+    "host_listings_count": -0.3552158216160471,
+    "availability_365": 0.06937036023810926
+}},{latitude:40.84279, longitude:-73.86527,actual:100.0,predicted:87,coefficients:{
+    "intercept": 76.0625249563665,
+    "minimum_nights": -0.3289864397903899,
+    "number_of_reviews": -0.05075968070794027,
+    "reviews_per_month": 2.121250870038976,
+    "host_listings_count": 0.024737560203508962,
+    "availability_365": 0.07488814683008076
+}},{latitude:40.88447, longitude:-73.90157,actual:55.0,predicted:85,coefficients:{
+    "intercept": 83.07412558796234,
+    "minimum_nights": -0.32182953495725597,
+    "number_of_reviews": -0.18876865708213914,
+    "reviews_per_month": -3.916286321742801,
+    "host_listings_count": -0.2767193730475632,
+    "availability_365": 0.07050435668325462
+}},{latitude:40.87491, longitude:-73.87575,actual:87.0,predicted:70,coefficients:{
+    "intercept": 71.03319370266553,
+    "minimum_nights": -0.3249343225158421,
+    "number_of_reviews": -0.11088807166601813,
+    "reviews_per_month": 1.4756237884592158,
+    "host_listings_count": -0.08955685921168324,
+    "availability_365": 0.07322056069600223
+}},{latitude:40.85828, longitude:-73.88559,actual:30.0,predicted:65,coefficients:{
+    "intercept": 66.68867089516877,
+    "minimum_nights": -0.3240240298627924,
+    "number_of_reviews": -0.1487537235886483,
+    "reviews_per_month": -0.595030997464101,
+    "host_listings_count": -0.20040283696397607,
+    "availability_365": 0.07164443789133636
+}},{latitude:40.81037, longitude:-73.91946,actual:65.0,predicted:48,coefficients:{
+    "intercept": 81.77942344577782,
+    "minimum_nights": -0.3223032273371409,
+    "number_of_reviews": -0.21188668940099117,
+    "reviews_per_month": -8.900710468902245,
+    "host_listings_count": -0.37382604853120516,
+    "availability_365": 0.06908264042435654
+}},{latitude:40.8785, longitude:-73.86347,actual:200.0,predicted:114,coefficients:{
+    "intercept": 77.58362272645421,
+    "minimum_nights": -0.3275884771700368,
+    "number_of_reviews": -0.008827166470323736,
+    "reviews_per_month": 2.7764011781978057,
+    "host_listings_count": 0.09943297451538674,
+    "availability_365": 0.07591853847535211
+}},{latitude:40.83314, longitude:-73.91708,actual:38.0,predicted:81,coefficients:{
+    "intercept": 82.56336381637205,
+    "minimum_nights": -0.32201204537165823,
+    "number_of_reviews": -0.2383307312585298,
+    "reviews_per_month": -8.526514580437956,
+    "host_listings_count": -0.35847871052318714,
+    "availability_365": 0.06931159144814229
+}},{latitude:40.86674, longitude:-73.89284,actual:30.0,predicted:77,coefficients:{
+    "intercept": 72.33322402273981,
+    "minimum_nights": -0.32295345354377336,
+    "number_of_reviews": -0.12931290239764062,
+    "reviews_per_month": -2.0131549747271267,
+    "host_listings_count": -0.24379427596919187,
+    "availability_365": 0.0710074296919905
+}},{latitude:40.80726, longitude:-73.92999,actual:50.0,predicted:77,coefficients:{
+    "intercept": 81.15141046857423,
+    "minimum_nights": -0.32188279796336744,
+    "number_of_reviews": -0.23597215660886808,
+    "reviews_per_month": -9.269244197924943,
+    "host_listings_count": -0.3903381477443517,
+    "availability_365": 0.0688041529370435
+}},{latitude:40.87504, longitude:-73.88476,actual:200.0,predicted:72,coefficients:{
+    "intercept": 67.87874099081816,
+    "minimum_nights": -0.32358824205485864,
+    "number_of_reviews": -0.14477426168371918,
+    "reviews_per_month": -0.2142698676464499,
+    "host_listings_count": -0.1790491807844958,
+    "availability_365": 0.07193648891405341
+}},{latitude:40.82441, longitude:-73.90361,actual:125.0,predicted:66,coefficients:{
+    "intercept": 79.14102068325884,
+    "minimum_nights": -0.3230607368188376,
+    "number_of_reviews": -0.191812645133887,
+    "reviews_per_month": -5.380713373728301,
+    "host_listings_count": -0.32464616114232364,
+    "availability_365": 0.06984080036725357
+}},{latitude:40.87446, longitude:-73.87453,actual:187.0,predicted:76,coefficients:{
+    "intercept": 72.0885956792822,
+    "minimum_nights": -0.32517507799056383,
+    "number_of_reviews": -0.09907469493631213,
+    "reviews_per_month": 1.5424559323169031,
+    "host_listings_count": -0.07533080974910415,
+    "availability_365": 0.07342471312694947
+}},{latitude:40.83373, longitude:-73.91147,actual:140.0,predicted:36,coefficients:{
+    "intercept": 81.84555352246949,
+    "minimum_nights": -0.3223082596447758,
+    "number_of_reviews": -0.23597086832139452,
+    "reviews_per_month": -7.162172993230624,
+    "host_listings_count": -0.3443700427851134,
+    "availability_365": 0.06953324479811128
+}},{latitude:40.823, longitude:-73.90859,actual:60.0,predicted:46,coefficients:{
+    "intercept": 80.61512872487629,
+    "minimum_nights": -0.32271541447284263,
+    "number_of_reviews": -0.21571157791547138,
+    "reviews_per_month": -6.5307065964652615,
+    "host_listings_count": -0.3419351451257937,
+    "availability_365": 0.06957828294319664
+}},{latitude:40.85702, longitude:-73.83697,actual:300.0,predicted:87,coefficients:{
+    "intercept": 87.78908111279027,
+    "minimum_nights": -0.33134987922873893,
+    "number_of_reviews": 0.04025661393579349,
+    "reviews_per_month": 1.0621944967420969,
+    "host_listings_count": 0.30003625663265016,
+    "availability_365": 0.07741017020636112
+}},{latitude:40.80986, longitude:-73.9214,actual:140.0,predicted:40,coefficients:{
+    "intercept": 81.89460568158066,
+    "minimum_nights": -0.3222138290109428,
+    "number_of_reviews": -0.21307122160699143,
+    "reviews_per_month": -9.24033239201066,
+    "host_listings_count": -0.37744337483174467,
+    "availability_365": 0.06902340169535515
+}},{latitude:40.87396, longitude:-73.87785,actual:26.0,predicted:79,coefficients:{
+    "intercept": 69.22744425593748,
+    "minimum_nights": -0.3246134162429919,
+    "number_of_reviews": -0.1315088002449372,
+    "reviews_per_month": 1.135731978890702,
+    "host_listings_count": -0.11417552031979596,
+    "availability_365": 0.07286916197905262
+}},{latitude:40.86665, longitude:-73.8954,actual:80.0,predicted:66,coefficients:{
+    "intercept": 74.4194521199105,
+    "minimum_nights": -0.32272147379140764,
+    "number_of_reviews": -0.1415325019329746,
+    "reviews_per_month": -2.5245344694397587,
+    "host_listings_count": -0.25871878820505134,
+    "availability_365": 0.07078927844516121
+}},{latitude:40.85419, longitude:-73.89827,actual:40.0,predicted:85,coefficients:{
+    "intercept": 76.07465014185419,
+    "minimum_nights": -0.32279306127810026,
+    "number_of_reviews": -0.16381287499335054,
+    "reviews_per_month": -3.2971735577980943,
+    "host_listings_count": -0.28268520290769755,
+    "availability_365": 0.07044783844487505
+}},{latitude:40.88435, longitude:-73.90305,actual:145.0,predicted:101,coefficients:{
+    "intercept": 85.3237287085531,
+    "minimum_nights": -0.3217424437195748,
+    "number_of_reviews": -0.20207466777618813,
+    "reviews_per_month": -4.244444324937253,
+    "host_listings_count": -0.2833618282052029,
+    "availability_365": 0.07040584019050256
+}},{latitude:40.81943, longitude:-73.90224,actual:80.0,predicted:72,coefficients:{
+    "intercept": 78.5892297988986,
+    "minimum_nights": -0.3232917603211075,
+    "number_of_reviews": -0.1787798986721554,
+    "reviews_per_month": -5.1750683499433,
+    "host_listings_count": -0.3224952404754729,
+    "availability_365": 0.06987524448166677
+}},{latitude:40.81961, longitude:-73.90019,actual:40.0,predicted:74,coefficients:{
+    "intercept": 77.36345699332149,
+    "minimum_nights": -0.32347340152854287,
+    "number_of_reviews": -0.1650836603254139,
+    "reviews_per_month": -4.719159881820378,
+    "host_listings_count": -0.31426064400566917,
+    "availability_365": 0.06999852833426783
+}},{latitude:40.81978, longitude:-73.88743,actual:45.0,predicted:63,coefficients:{
+    "intercept": 64.5221456691611,
+    "minimum_nights": -0.3249767095531115,
+    "number_of_reviews": -0.16065229871177567,
+    "reviews_per_month": -1.8443552775550596,
+    "host_listings_count": -0.2458421018767477,
+    "availability_365": 0.07100265833819518
+}},{latitude:40.80906, longitude:-73.92031,actual:150.0,predicted:84,coefficients:{
+    "intercept": 81.86723694272513,
+    "minimum_nights": -0.32228254449865146,
+    "number_of_reviews": -0.21114378458110244,
+    "reviews_per_month": -9.051377291799058,
+    "host_listings_count": -0.3759083809496974,
+    "availability_365": 0.06904940824597543
+}},{latitude:40.88007, longitude:-73.87326,actual:50.0,predicted:95,coefficients:{
+    "intercept": 73.55848454833732,
+    "minimum_nights": -0.3251782924913569,
+    "number_of_reviews": -0.08051937195051034,
+    "reviews_per_month": 1.6891108874528464,
+    "host_listings_count": -0.053624458003679314,
+    "availability_365": 0.073727181656426
+}},{latitude:40.86664, longitude:-73.89844,actual:70.0,predicted:55,coefficients:{
+    "intercept": 77.0566063600538,
+    "minimum_nights": -0.3224703327802757,
+    "number_of_reviews": -0.1653882436060551,
+    "reviews_per_month": -3.250389421823383,
+    "host_listings_count": -0.2746135870426609,
+    "availability_365": 0.07055549778441246
+}},{latitude:40.85407, longitude:-73.83264,actual:69.0,predicted:92,coefficients:{
+    "intercept": 87.71045250192944,
+    "minimum_nights": -0.33147153044902145,
+    "number_of_reviews": -0.00012927439216337667,
+    "reviews_per_month": 0.8229224946189728,
+    "host_listings_count": 0.31039952998852016,
+    "availability_365": 0.07732333677756503
+}},{latitude:40.84934, longitude:-73.83345,actual:119.0,predicted:115,coefficients:{
+    "intercept": 87.3677563610131,
+    "minimum_nights": -0.3316732961530841,
+    "number_of_reviews": -0.0018286055859433729,
+    "reviews_per_month": 0.8313262591322474,
+    "host_listings_count": 0.30590270385988644,
+    "availability_365": 0.07730037878662557
+}},{latitude:40.85929, longitude:-73.84229,actual:60.0,predicted:93,coefficients:{
+    "intercept": 85.66562563899642,
+    "minimum_nights": -0.3312015077411126,
+    "number_of_reviews": 0.08078438784656683,
+    "reviews_per_month": 1.3608662376979914,
+    "host_listings_count": 0.28225349201922934,
+    "availability_365": 0.0774841938446496
+}},{latitude:40.87906, longitude:-73.85987,actual:35.0,predicted:77,coefficients:{
+    "intercept": 77.7585979927786,
+    "minimum_nights": -0.32870607865024076,
+    "number_of_reviews": 0.010259236483023399,
+    "reviews_per_month": 2.9686677279708586,
+    "host_listings_count": 0.17368020362326994,
+    "availability_365": 0.07698312840321603
+}},{latitude:40.88049, longitude:-73.8613,actual:41.0,predicted:77,coefficients:{
+    "intercept": 77.70937545277661,
+    "minimum_nights": -0.328139400325734,
+    "number_of_reviews": 0.0027811549093423125,
+    "reviews_per_month": 2.9332070690410883,
+    "host_listings_count": 0.14479021438790943,
+    "availability_365": 0.07656425525992959
+}},{latitude:40.8805, longitude:-73.86178,actual:45.0,predicted:78,coefficients:{
+    "intercept": 77.69265372856538,
+    "minimum_nights": -0.32798617071264524,
+    "number_of_reviews": 0.000329327336456243,
+    "reviews_per_month": 2.9018141738371663,
+    "host_listings_count": 0.13493785515136447,
+    "availability_365": 0.07642287027649411
+}},{latitude:40.8987, longitude:-73.86389,actual:29.0,predicted:103,coefficients:{
+    "intercept": 77.59020235967705,
+    "minimum_nights": -0.3263416371206977,
+    "number_of_reviews": -0.0121298470954204,
+    "reviews_per_month": 2.4283900086232286,
+    "host_listings_count": 0.11273733530584043,
+    "availability_365": 0.0760575697036256
+}},{latitude:40.8273, longitude:-73.88906,actual:37.0,predicted:63,coefficients:{
+    "intercept": 66.62300990044457,
+    "minimum_nights": -0.32452132238743336,
+    "number_of_reviews": -0.14343461355293666,
+    "reviews_per_month": -2.0191524379024304,
+    "host_listings_count": -0.25081177964385226,
+    "availability_365": 0.07092951174258717
+}},{latitude:40.84882, longitude:-73.90263,actual:80.0,predicted:70,coefficients:{
+    "intercept": 79.17551556071733,
+    "minimum_nights": -0.3225754751099459,
+    "number_of_reviews": -0.20170021749933906,
+    "reviews_per_month": -4.486432111846911,
+    "host_listings_count": -0.3056462689748386,
+    "availability_365": 0.07011064010452529
+}},{latitude:40.85662, longitude:-73.89797,actual:65.0,predicted:73,coefficients:{
+    "intercept": 75.94776463737614,
+    "minimum_nights": -0.3227575969458563,
+    "number_of_reviews": -0.16145436939797453,
+    "reviews_per_month": -3.1619699695463814,
+    "host_listings_count": -0.27949610154149945,
+    "availability_365": 0.07049289991122597
+}},{latitude:40.86578, longitude:-73.86534,actual:250.0,predicted:106,coefficients:{
+    "intercept": 77.00947190294256,
+    "minimum_nights": -0.3277436607191043,
+    "number_of_reviews": -0.02667691397600751,
+    "reviews_per_month": 2.53121667784751,
+    "host_listings_count": 0.0508552487917434,
+    "availability_365": 0.07524386695325658
+}},{latitude:40.84718, longitude:-73.91378,actual:20.0,predicted:78,coefficients:{
+    "intercept": 85.1315042970315,
+    "minimum_nights": -0.32191565218121365,
+    "number_of_reviews": -0.25413821647404716,
+    "reviews_per_month": -7.5021506325779646,
+    "host_listings_count": -0.3432149236777688,
+    "availability_365": 0.06953883212087379
+}},{latitude:40.83168, longitude:-73.91977,actual:47.0,predicted:67,coefficients:{
+    "intercept": 82.4810334324156,
+    "minimum_nights": -0.321909113183617,
+    "number_of_reviews": -0.23608379113280442,
+    "reviews_per_month": -9.12714500389883,
+    "host_listings_count": -0.3647482728699054,
+    "availability_365": 0.06921197322348815
+}},{latitude:40.8315, longitude:-73.92047,actual:54.0,predicted:73,coefficients:{
+    "intercept": 82.46049465872929,
+    "minimum_nights": -0.32188031374301757,
+    "number_of_reviews": -0.2358851780565908,
+    "reviews_per_month": -9.2933159303695,
+    "host_listings_count": -0.366177149069956,
+    "availability_365": 0.06918887373660638
+}},{latitude:40.86918, longitude:-73.8905,actual:34.0,predicted:69,coefficients:{
+    "intercept": 70.7035275802238,
+    "minimum_nights": -0.3231175987828828,
+    "number_of_reviews": -0.12623367265593033,
+    "reviews_per_month": -1.464039641640983,
+    "host_listings_count": -0.2269336962294927,
+    "availability_365": 0.07125040847064777
+}},{latitude:40.85655, longitude:-73.90377,actual:73.0,predicted:67,coefficients:{
+    "intercept": 80.8317276714195,
+    "minimum_nights": -0.32231722912083643,
+    "number_of_reviews": -0.21448432232878287,
+    "reviews_per_month": -4.642002767294289,
+    "host_listings_count": -0.3051465916046185,
+    "availability_365": 0.07011125164232702
+}},{latitude:40.843, longitude:-73.84806,actual:65.0,predicted:93,coefficients:{
+    "intercept": 83.01768524980157,
+    "minimum_nights": -0.3320347676527735,
+    "number_of_reviews": 0.06881245038756595,
+    "reviews_per_month": 1.5421781112579553,
+    "host_listings_count": 0.24175604354652896,
+    "availability_365": 0.07732784460438906
+}},{latitude:40.83452, longitude:-73.93143,actual:80.0,predicted:52,coefficients:{
+    "intercept": 81.07466948293171,
+    "minimum_nights": -0.3214185884473076,
+    "number_of_reviews": -0.2592308418973379,
+    "reviews_per_month": -9.41694561875117,
+    "host_listings_count": -0.3814526664865265,
+    "availability_365": 0.06892599017386612
+}},{latitude:40.83593, longitude:-73.93004,actual:80.0,predicted:56,coefficients:{
+    "intercept": 81.52859615367578,
+    "minimum_nights": -0.3214412983506276,
+    "number_of_reviews": -0.25519952451217254,
+    "reviews_per_month": -9.518836571149047,
+    "host_listings_count": -0.37916660417344045,
+    "availability_365": 0.06896429374948572
+}},{latitude:40.87993, longitude:-73.87195,actual:50.0,predicted:98,coefficients:{
+    "intercept": 74.56808906982268,
+    "minimum_nights": -0.325441446509279,
+    "number_of_reviews": -0.06829256077195218,
+    "reviews_per_month": 1.8663425425536737,
+    "host_listings_count": -0.03630270864376432,
+    "availability_365": 0.07397477448172819
+}},{latitude:40.87021, longitude:-73.86095,actual:85.0,predicted:117,coefficients:{
+    "intercept": 77.66088394764304,
+    "minimum_nights": -0.3288862560430888,
+    "number_of_reviews": 0.0038896896060953753,
+    "reviews_per_month": 2.935008996021594,
+    "host_listings_count": 0.14008972126102642,
+    "availability_365": 0.07652178099931897
+}},{latitude:40.86737, longitude:-73.89415,actual:47.0,predicted:82,coefficients:{
+    "intercept": 73.43705622615897,
+    "minimum_nights": -0.3228139248495431,
+    "number_of_reviews": -0.1343972163865619,
+    "reviews_per_month": -2.2236132452521282,
+    "host_listings_count": -0.2510904197998316,
+    "availability_365": 0.07090025010113937
+}},{latitude:40.83604, longitude:-73.93099,actual:240.0,predicted:60,coefficients:{
+    "intercept": 81.28457027055072,
+    "minimum_nights": -0.3214095409025776,
+    "number_of_reviews": -0.25857462480136323,
+    "reviews_per_month": -9.454998307132545,
+    "host_listings_count": -0.3802998450465976,
+    "availability_365": 0.06894413068001042
+}},{latitude:40.89873, longitude:-73.86449,actual:34.0,predicted:95,coefficients:{
+    "intercept": 77.5471870869926,
+    "minimum_nights": -0.3261897392385279,
+    "number_of_reviews": -0.014537068472549541,
+    "reviews_per_month": 2.378727704915019,
+    "host_listings_count": 0.10161632421339634,
+    "availability_365": 0.07589946426202557
+}},{latitude:40.88316, longitude:-73.91151,actual:360.0,predicted:101,coefficients:{
+    "intercept": 102.21740540731545,
+    "minimum_nights": -0.3213348744834829,
+    "number_of_reviews": -0.25819808066540373,
+    "reviews_per_month": -6.085825806476376,
+    "host_listings_count": -0.315462987904571,
+    "availability_365": 0.06992372541895266
+}},{latitude:40.88455, longitude:-73.86587,actual:26.0,predicted:102,coefficients:{
+    "intercept": 77.36953209107202,
+    "minimum_nights": -0.3265990519261863,
+    "number_of_reviews": -0.02100508858193297,
+    "reviews_per_month": 2.4940250882598636,
+    "host_listings_count": 0.062412599798275174,
+    "availability_365": 0.07537554906277313
+}},{latitude:40.82434, longitude:-73.91377,actual:40.0,predicted:43,coefficients:{
+    "intercept": 81.42726276944227,
+    "minimum_nights": -0.3223574505383491,
+    "number_of_reviews": -0.22693400138153721,
+    "reviews_per_month": -7.737580954330926,
+    "host_listings_count": -0.35523626899761634,
+    "availability_365": 0.06937049927766283
+}},{latitude:40.83086, longitude:-73.92025,actual:57.0,predicted:90,coefficients:{
+    "intercept": 82.39473734764559,
+    "minimum_nights": -0.3219015176448679,
+    "number_of_reviews": -0.2351394060383653,
+    "reviews_per_month": -9.250037606304666,
+    "host_listings_count": -0.3660604835572506,
+    "availability_365": 0.06919144393894874
+}},{latitude:40.89691, longitude:-73.85121,actual:69.0,predicted:102,coefficients:{
+    "intercept": 79.69848826115216,
+    "minimum_nights": -0.3287072868301987,
+    "number_of_reviews": 0.04600712989424813,
+    "reviews_per_month": 2.4125577763437316,
+    "host_listings_count": 0.25927667868198423,
+    "availability_365": 0.07774453658660845
+}},{latitude:40.83218, longitude:-73.91951,actual:47.0,predicted:40,coefficients:{
+    "intercept": 82.53656722725574,
+    "minimum_nights": -0.32191229784588493,
+    "number_of_reviews": -0.23668681637694566,
+    "reviews_per_month": -9.07264185896195,
+    "host_listings_count": -0.3640001634462634,
+    "availability_365": 0.06922361379565806
+}},{latitude:40.87257, longitude:-73.9009,actual:65.0,predicted:103,coefficients:{
+    "intercept": 80.18613501843693,
+    "minimum_nights": -0.32214722118785677,
+    "number_of_reviews": -0.1873293732752311,
+    "reviews_per_month": -3.8080780252604782,
+    "host_listings_count": -0.2820513430532187,
+    "availability_365": 0.07043906602905936
+}},{latitude:40.87287, longitude:-73.90157,actual:65.0,predicted:104,coefficients:{
+    "intercept": 80.99424543843533,
+    "minimum_nights": -0.3220946235800309,
+    "number_of_reviews": -0.19364190060805955,
+    "reviews_per_month": -3.9586623625025323,
+    "host_listings_count": -0.28485836496236067,
+    "availability_365": 0.07039705928959282
+}},{latitude:40.85989, longitude:-73.91189,actual:60.0,predicted:93,coefficients:{
+    "intercept": 88.94439506847324,
+    "minimum_nights": -0.3217660483505912,
+    "number_of_reviews": -0.2613258942022289,
+    "reviews_per_month": -6.790901053598317,
+    "host_listings_count": -0.3307515074754066,
+    "availability_365": 0.06971854378544466
+}},{latitude:40.84857, longitude:-73.85976,actual:190.0,predicted:82,coefficients:{
+    "intercept": 77.76831120635232,
+    "minimum_nights": -0.33067856732576845,
+    "number_of_reviews": 0.00012519244342863711,
+    "reviews_per_month": 2.5223532186994384,
+    "host_listings_count": 0.13838992302696138,
+    "availability_365": 0.07652431914788539
+}},{latitude:40.82434, longitude:-73.88705,actual:44.0,predicted:57,coefficients:{
+    "intercept": 64.58220615916572,
+    "minimum_nights": -0.3248929670368968,
+    "number_of_reviews": -0.1605016903808247,
+    "reviews_per_month": -1.6591655171645612,
+    "host_listings_count": -0.2396163343053059,
+    "availability_365": 0.07109257561310109
+}},{latitude:40.80863, longitude:-73.92121,actual:50.0,predicted:58,coefficients:{
+    "intercept": 81.92224207396065,
+    "minimum_nights": -0.32224463153251776,
+    "number_of_reviews": -0.2116271688921022,
+    "reviews_per_month": -9.19743399567302,
+    "host_listings_count": -0.3776362636353194,
+    "availability_365": 0.06902116887477398
+}},{latitude:40.88004, longitude:-73.9,actual:79.0,predicted:63,coefficients:{
+    "intercept": 80.25608131842799,
+    "minimum_nights": -0.322033890641604,
+    "number_of_reviews": -0.17639660520311262,
+    "reviews_per_month": -3.612045120971374,
+    "host_listings_count": -0.27251646865210716,
+    "availability_365": 0.07057141126775829
+}},{latitude:40.86615, longitude:-73.84185,actual:35.0,predicted:87,coefficients:{
+    "intercept": 85.74712883021773,
+    "minimum_nights": -0.33086102800890044,
+    "number_of_reviews": 0.08469268068940221,
+    "reviews_per_month": 1.4346163508651435,
+    "host_listings_count": 0.2879659492777291,
+    "availability_365": 0.07753317082325534
+}},{latitude:40.81952, longitude:-73.92844,actual:95.0,predicted:57,coefficients:{
+    "intercept": 81.32160399544085,
+    "minimum_nights": -0.3217506070755926,
+    "number_of_reviews": -0.2377849170299157,
+    "reviews_per_month": -9.557476864314397,
+    "host_listings_count": -0.3838348454559172,
+    "availability_365": 0.0689048372229782
+}},{latitude:40.86286, longitude:-73.9024,actual:35.0,predicted:93,coefficients:{
+    "intercept": 80.40271285597287,
+    "minimum_nights": -0.3222682612676335,
+    "number_of_reviews": -0.2030460432222287,
+    "reviews_per_month": -4.149390377035277,
+    "host_listings_count": -0.29534957373170456,
+    "availability_365": 0.07025165681609837
+}},{latitude:40.83252, longitude:-73.89811,actual:40.0,predicted:80,coefficients:{
+    "intercept": 75.59315525750941,
+    "minimum_nights": -0.3233514344033297,
+    "number_of_reviews": -0.15651341400927413,
+    "reviews_per_month": -3.871366719180036,
+    "host_listings_count": -0.2968602932836349,
+    "availability_365": 0.07025229588468317
+}},{latitude:40.84197, longitude:-73.91292,actual:25.0,predicted:81,coefficients:{
+    "intercept": 83.53310651022295,
+    "minimum_nights": -0.3220620838018344,
+    "number_of_reviews": -0.2477050961280331,
+    "reviews_per_month": -7.3915162647407335,
+    "host_listings_count": -0.34380507050861636,
+    "availability_365": 0.0695348021953772
+}},{latitude:40.83216, longitude:-73.91598,actual:70.0,predicted:89,coefficients:{
+    "intercept": 82.34428467232613,
+    "minimum_nights": -0.32208637389134054,
+    "number_of_reviews": -0.23727617507687823,
+    "reviews_per_month": -8.24953394536722,
+    "host_listings_count": -0.3565101783507907,
+    "availability_365": 0.06934389287244952
+}},{latitude:40.87997, longitude:-73.90035,actual:65.0,predicted:59,coefficients:{
+    "intercept": 80.66553258175924,
+    "minimum_nights": -0.3220118943248564,
+    "number_of_reviews": -0.17963867499586134,
+    "reviews_per_month": -3.68876509966482,
+    "host_listings_count": -0.2742308704386942,
+    "availability_365": 0.07054616305359693
+}},{latitude:40.88068, longitude:-73.90012,actual:79.0,predicted:59,coefficients:{
+    "intercept": 80.49721797393777,
+    "minimum_nights": -0.3220107612596762,
+    "number_of_reviews": -0.1772516618471575,
+    "reviews_per_month": -3.635933144850298,
+    "host_listings_count": -0.27262810087874134,
+    "availability_365": 0.0705689793637579
+}},{latitude:40.89641, longitude:-73.85077,actual:88.0,predicted:106,coefficients:{
+    "intercept": 79.89775759434416,
+    "minimum_nights": -0.32877203195886745,
+    "number_of_reviews": 0.049095609787876644,
+    "reviews_per_month": 2.3731832291809116,
+    "host_listings_count": 0.26148735325778805,
+    "availability_365": 0.07774383021634697
+}},{latitude:40.83139, longitude:-73.90166,actual:23.0,predicted:70,coefficients:{
+    "intercept": 78.08808294247459,
+    "minimum_nights": -0.32306063888181064,
+    "number_of_reviews": -0.18316317672179472,
+    "reviews_per_month": -4.780719079107972,
+    "host_listings_count": -0.3129086581176761,
+    "availability_365": 0.07001374946811809
+}},{latitude:40.84367, longitude:-73.84911,actual:65.0,predicted:96,coefficients:{
+    "intercept": 82.35177676853301,
+    "minimum_nights": -0.33199374738356907,
+    "number_of_reviews": 0.06606289339642647,
+    "reviews_per_month": 1.6343860034683255,
+    "host_listings_count": 0.2359419041779316,
+    "availability_365": 0.07732677767898664
+}},{latitude:40.81011, longitude:-73.92166,actual:125.0,predicted:44,coefficients:{
+    "intercept": 81.89589742579926,
+    "minimum_nights": -0.3221967515104382,
+    "number_of_reviews": -0.2136354844265813,
+    "reviews_per_month": -9.29506139054622,
+    "host_listings_count": -0.37777323138168256,
+    "availability_365": 0.0690177179606832
+}},{latitude:40.88634, longitude:-73.83431,actual:75.0,predicted:104,coefficients:{
+    "intercept": 88.81434611139343,
+    "minimum_nights": -0.33008178185018583,
+    "number_of_reviews": 0.05435628105686884,
+    "reviews_per_month": 1.1039517841064674,
+    "host_listings_count": 0.31951568996769153,
+    "availability_365": 0.077537120623181
+}},{latitude:40.81862, longitude:-73.8791,actual:40.0,predicted:65,coefficients:{
+    "intercept": 62.15865651013773,
+    "minimum_nights": -0.32645584817468604,
+    "number_of_reviews": -0.21379640206900621,
+    "reviews_per_month": -0.33855707028380255,
+    "host_listings_count": -0.1799101805684909,
+    "availability_365": 0.07195350728628996
+}},{latitude:40.87816, longitude:-73.87213,actual:125.0,predicted:95,coefficients:{
+    "intercept": 74.34091062345638,
+    "minimum_nights": -0.32548347797865884,
+    "number_of_reviews": -0.07157527750195235,
+    "reviews_per_month": 1.8732462792443738,
+    "host_listings_count": -0.040564726969250106,
+    "availability_365": 0.07391661913242988
+}},{latitude:40.88764, longitude:-73.8558,actual:100.0,predicted:94,coefficients:{
+    "intercept": 78.16422707878091,
+    "minimum_nights": -0.3289095784781939,
+    "number_of_reviews": 0.0278582922896825,
+    "reviews_per_month": 2.814682682356464,
+    "host_listings_count": 0.2248814694632739,
+    "availability_365": 0.07764702600322397
+}},{latitude:40.84059, longitude:-73.92156,actual:150.0,predicted:79,coefficients:{
+    "intercept": 83.8179397733633,
+    "minimum_nights": -0.3216759717941809,
+    "number_of_reviews": -0.24603358228811956,
+    "reviews_per_month": -9.343945769092057,
+    "host_listings_count": -0.3639043992140337,
+    "availability_365": 0.06921585635158435
+}},{latitude:40.88764, longitude:-73.90449,actual:50.0,predicted:76,coefficients:{
+    "intercept": 88.77489211956487,
+    "minimum_nights": -0.32158920504802274,
+    "number_of_reviews": -0.21205495081565084,
+    "reviews_per_month": -4.533008911652191,
+    "host_listings_count": -0.2871974414221167,
+    "availability_365": 0.07034498140543428
+}},{latitude:40.82601, longitude:-73.81907,actual:50.0,predicted:79,coefficients:{
+    "intercept": 78.81980889197325,
+    "minimum_nights": -0.3321950842443019,
+    "number_of_reviews": -0.017442323170076504,
+    "reviews_per_month": -0.03888315840449581,
+    "host_listings_count": 0.31885501814561484,
+    "availability_365": 0.07686360974907451
+}},{latitude:40.81437, longitude:-73.82774,actual:74.0,predicted:85,coefficients:{
+    "intercept": 79.70698037953466,
+    "minimum_nights": -0.33283664860243645,
+    "number_of_reviews": -0.03537257614765407,
+    "reviews_per_month": 0.3108240073565905,
+    "host_listings_count": 0.2978873248525614,
+    "availability_365": 0.0768860604940887
+}},{latitude:40.86778, longitude:-73.85491,actual:45.0,predicted:94,coefficients:{
+    "intercept": 78.52809021032961,
+    "minimum_nights": -0.33031453295632957,
+    "number_of_reviews": 0.040613816258046914,
+    "reviews_per_month": 2.7626385980963764,
+    "host_listings_count": 0.2166856243652074,
+    "availability_365": 0.07750336029432868
+}},{latitude:40.82696, longitude:-73.81927,actual:40.0,predicted:81,coefficients:{
+    "intercept": 78.87705661691344,
+    "minimum_nights": -0.33217277129028516,
+    "number_of_reviews": -0.016880913847108162,
+    "reviews_per_month": -0.025845356307606263,
+    "host_listings_count": 0.3191342454765419,
+    "availability_365": 0.0768748091273612
+}},{latitude:40.83088, longitude:-73.92779,actual:103.0,predicted:60,coefficients:{
+    "intercept": 81.7058253189923,
+    "minimum_nights": -0.32159579405253624,
+    "number_of_reviews": -0.24458632004702802,
+    "reviews_per_month": -9.659222170010072,
+    "host_listings_count": -0.37832251339401674,
+    "availability_365": 0.06898614009188499
+}},{latitude:40.83413, longitude:-73.92918,actual:50.0,predicted:71,coefficients:{
+    "intercept": 81.61453063434934,
+    "minimum_nights": -0.32149707299062114,
+    "number_of_reviews": -0.251137406249045,
+    "reviews_per_month": -9.598780000864359,
+    "host_listings_count": -0.3788151224574723,
+    "availability_365": 0.06897308496961498
+}},{latitude:40.8801, longitude:-73.89709,actual:46.0,predicted:56,coefficients:{
+    "intercept": 77.14376944616885,
+    "minimum_nights": -0.32224103359001866,
+    "number_of_reviews": -0.151500522553526,
+    "reviews_per_month": -2.882152385453113,
+    "host_listings_count": -0.2577758950570963,
+    "availability_365": 0.0707883422353588
+}},{latitude:40.83688, longitude:-73.85584,actual:80.0,predicted:79,coefficients:{
+    "intercept": 79.4631661598831,
+    "minimum_nights": -0.3324093957040516,
+    "number_of_reviews": 0.017972475248090772,
+    "reviews_per_month": 1.9916390140787659,
+    "host_listings_count": 0.17869373754769163,
+    "availability_365": 0.0770887371976763
+}},{latitude:40.88485, longitude:-73.89756,actual:399.0,predicted:93,coefficients:{
+    "intercept": 78.17860418647722,
+    "minimum_nights": -0.32208930936382657,
+    "number_of_reviews": -0.15401196780286786,
+    "reviews_per_month": -2.9841680188922495,
+    "host_listings_count": -0.2567696743270248,
+    "availability_365": 0.07079812753473598
+}},{latitude:40.83022, longitude:-73.83286,actual:90.0,predicted:87,coefficients:{
+    "intercept": 84.82049246085936,
+    "minimum_nights": -0.33244132635643514,
+    "number_of_reviews": -0.03345340474530079,
+    "reviews_per_month": 0.6734565840804845,
+    "host_listings_count": 0.2960077818572745,
+    "availability_365": 0.07712422923656279
+}},{latitude:40.82617, longitude:-73.82073,actual:74.0,predicted:83,coefficients:{
+    "intercept": 78.89143111107134,
+    "minimum_nights": -0.33224187442954217,
+    "number_of_reviews": -0.016842439397534617,
+    "reviews_per_month": 0.038989366819838486,
+    "host_listings_count": 0.3170086231647594,
+    "availability_365": 0.07689568526562289
+}},{latitude:40.86681, longitude:-73.84073,actual:86.0,predicted:102,coefficients:{
+    "intercept": 86.36351752586505,
+    "minimum_nights": -0.3308489838193086,
+    "number_of_reviews": 0.08018347761739557,
+    "reviews_per_month": 1.372391804606214,
+    "host_listings_count": 0.29255328238416595,
+    "availability_365": 0.07752676176614885
+}},{latitude:40.87579, longitude:-73.86532,actual:33.0,predicted:104,coefficients:{
+    "intercept": 77.3085731189584,
+    "minimum_nights": -0.3272111594916489,
+    "number_of_reviews": -0.02061006067501466,
+    "reviews_per_month": 2.643102695498208,
+    "host_listings_count": 0.06248999232541933,
+    "availability_365": 0.07539481339398131
+}},{latitude:40.85519, longitude:-73.82932,actual:195.0,predicted:111,coefficients:{
+    "intercept": 87.02382219756664,
+    "minimum_nights": -0.3314059026436499,
+    "number_of_reviews": -0.016916930259401414,
+    "reviews_per_month": 0.639746800349437,
+    "host_listings_count": 0.31815000109318353,
+    "availability_365": 0.07727280002977749
+}},{latitude:40.86273, longitude:-73.83715,actual:80.0,predicted:108,coefficients:{
+    "intercept": 87.8782973725395,
+    "minimum_nights": -0.3310890606189893,
+    "number_of_reviews": 0.050358530649802315,
+    "reviews_per_month": 1.1279093310164978,
+    "host_listings_count": 0.30244226462447343,
+    "availability_365": 0.07745405511254874
+}},{latitude:40.87901, longitude:-73.90155,actual:45.0,predicted:84,coefficients:{
+    "intercept": 82.01800797593172,
+    "minimum_nights": -0.3219550131233575,
+    "number_of_reviews": -0.1911927499146256,
+    "reviews_per_month": -3.9357622931921488,
+    "host_listings_count": -0.28045414806696034,
+    "availability_365": 0.0704551849765769
+}},{latitude:40.89124, longitude:-73.83423,actual:149.0,predicted:121,coefficients:{
+    "intercept": 88.77251864876565,
+    "minimum_nights": -0.32987132275165293,
+    "number_of_reviews": 0.05623956284058293,
+    "reviews_per_month": 1.1095078543310475,
+    "host_listings_count": 0.3211166705682603,
+    "availability_365": 0.07755454219817852
+}},{latitude:40.8156, longitude:-73.90075,actual:60.0,predicted:89,coefficients:{
+    "intercept": 77.83083937884051,
+    "minimum_nights": -0.3235172408435681,
+    "number_of_reviews": -0.16650589239333174,
+    "reviews_per_month": -4.921854932338583,
+    "host_listings_count": -0.31897728069082326,
+    "availability_365": 0.06992915815242988
+}},{latitude:40.81668, longitude:-73.89988,actual:35.0,predicted:62,coefficients:{
+    "intercept": 77.21428168524476,
+    "minimum_nights": -0.323573778868388,
+    "number_of_reviews": -0.16150749249469337,
+    "reviews_per_month": -4.710182933921506,
+    "host_listings_count": -0.31478137344740104,
+    "availability_365": 0.06999157486342282
+}},{latitude:40.90329, longitude:-73.89991,actual:105.0,predicted:94,coefficients:{
+    "intercept": 84.00365970617152,
+    "minimum_nights": -0.3215042830705583,
+    "number_of_reviews": -0.16682363334746164,
+    "reviews_per_month": -3.38513384433914,
+    "host_listings_count": -0.25535960005906333,
+    "availability_365": 0.07079646124066853
+}},{latitude:40.83464, longitude:-73.92505,actual:70.0,predicted:103,coefficients:{
+    "intercept": 82.44155583915085,
+    "minimum_nights": -0.32163679176601717,
+    "number_of_reviews": -0.24229564214670593,
+    "reviews_per_month": -9.742009559426833,
+    "host_listings_count": -0.37265529391116303,
+    "availability_365": 0.06907790424620167
+}},{latitude:40.8901, longitude:-73.84031,actual:125.0,predicted:103,coefficients:{
+    "intercept": 86.15129850711689,
+    "minimum_nights": -0.3297182916321211,
+    "number_of_reviews": 0.08608602046318752,
+    "reviews_per_month": 1.532209375006125,
+    "host_listings_count": 0.3040720161604226,
+    "availability_365": 0.07764995546965386
+}},{latitude:40.85548, longitude:-73.85585,actual:125.0,predicted:102,coefficients:{
+    "intercept": 78.57550118563357,
+    "minimum_nights": -0.33112035927583394,
+    "number_of_reviews": 0.032348146732096836,
+    "reviews_per_month": 2.5903824723872333,
+    "host_listings_count": 0.19823754270330055,
+    "availability_365": 0.07734579840600904
+}},{latitude:40.82936, longitude:-73.90867,actual:150.0,predicted:66,coefficients:{
+    "intercept": 80.84891137675247,
+    "minimum_nights": -0.32257611416838106,
+    "number_of_reviews": -0.2232806280913946,
+    "reviews_per_month": -6.497655079581383,
+    "host_listings_count": -0.3386783264657791,
+    "availability_365": 0.06962440831765228
+}},{latitude:40.87077, longitude:-73.8817,actual:33.0,predicted:65,coefficients:{
+    "intercept": 67.18319782396456,
+    "minimum_nights": -0.32413998524307025,
+    "number_of_reviews": -0.15328250276950273,
+    "reviews_per_month": 0.3186229365739474,
+    "host_listings_count": -0.15587554517484864,
+    "availability_365": 0.07227438921656429
+}},{latitude:40.84787, longitude:-73.86177,actual:107.0,predicted:85,coefficients:{
+    "intercept": 77.30453120790516,
+    "minimum_nights": -0.32993206790201657,
+    "number_of_reviews": -0.015702455737331464,
+    "reviews_per_month": 2.440743745208193,
+    "host_listings_count": 0.09581295236342034,
+    "availability_365": 0.07590931177945535
+}},{latitude:40.84778, longitude:-73.86146,actual:150.0,predicted:84,coefficients:{
+    "intercept": 77.37766164583662,
+    "minimum_nights": -0.3300543916137995,
+    "number_of_reviews": -0.013405938134683744,
+    "reviews_per_month": 2.445575623876696,
+    "host_listings_count": 0.101897213069326,
+    "availability_365": 0.07599724057926202
+}},{latitude:40.84346, longitude:-73.91151,actual:35.0,predicted:55,coefficients:{
+    "intercept": 83.41445258448678,
+    "minimum_nights": -0.32211116115113153,
+    "number_of_reviews": -0.24707665731966888,
+    "reviews_per_month": -7.022863999553791,
+    "host_listings_count": -0.33911064374898736,
+    "availability_365": 0.06960639247055052
+}},{latitude:40.82257, longitude:-73.83773,actual:100.0,predicted:93,coefficients:{
+    "intercept": 85.90729465058497,
+    "minimum_nights": -0.3328798205081613,
+    "number_of_reviews": -0.0050586171271036415,
+    "reviews_per_month": 0.8214125658717797,
+    "host_listings_count": 0.27448364555146076,
+    "availability_365": 0.07708483021180959
+}},{latitude:40.85801, longitude:-73.88247,actual:21.0,predicted:63,coefficients:{
+    "intercept": 65.88730197995882,
+    "minimum_nights": -0.3244706635410916,
+    "number_of_reviews": -0.1630195740986158,
+    "reviews_per_month": -0.04487897041413869,
+    "host_listings_count": -0.17451330931376036,
+    "availability_365": 0.07201795438828577
+}},{latitude:40.8084, longitude:-73.92037,actual:115.0,predicted:52,coefficients:{
+    "intercept": 81.88975005696602,
+    "minimum_nights": -0.3222911083839459,
+    "number_of_reviews": -0.21052116040572294,
+    "reviews_per_month": -9.052242485037672,
+    "host_listings_count": -0.37629161058399924,
+    "availability_365": 0.06904358120363543
+}},{latitude:40.88058, longitude:-73.90552,actual:85.0,predicted:79,coefficients:{
+    "intercept": 88.51167945037444,
+    "minimum_nights": -0.32168259862566906,
+    "number_of_reviews": -0.22519993776267155,
+    "reviews_per_month": -4.815308457012951,
+    "host_listings_count": -0.29605946743340983,
+    "availability_365": 0.07022059924825186
+}},{latitude:40.88723, longitude:-73.86351,actual:45.0,predicted:105,coefficients:{
+    "intercept": 77.64769119199748,
+    "minimum_nights": -0.3270820796056549,
+    "number_of_reviews": -0.008479562474748075,
+    "reviews_per_month": 2.6720166189088026,
+    "host_listings_count": 0.10820736264064032,
+    "availability_365": 0.07602330451570476
+}},{latitude:40.86259, longitude:-73.90359,actual:65.0,predicted:79,coefficients:{
+    "intercept": 81.54993414609112,
+    "minimum_nights": -0.3221934157354331,
+    "number_of_reviews": -0.21390852472582814,
+    "reviews_per_month": -4.462626189883369,
+    "host_listings_count": -0.300439182367409,
+    "availability_365": 0.07017583306202523
+}},{latitude:40.86113, longitude:-73.91511,actual:100.0,predicted:89,coefficients:{
+    "intercept": 91.76235181947621,
+    "minimum_nights": -0.32158848293396514,
+    "number_of_reviews": -0.26666803971199565,
+    "reviews_per_month": -7.426093368600487,
+    "host_listings_count": -0.3388959350236217,
+    "availability_365": 0.06959052175872787
+}},{latitude:40.85104, longitude:-73.78573,actual:110.0,predicted:186,coefficients:{
+    "intercept": 179.6939643567692,
+    "minimum_nights": -0.33068188655526065,
+    "number_of_reviews": -0.1383822210731003,
+    "reviews_per_month": -1.116320235194269,
+    "host_listings_count": 0.32773359682285935,
+    "availability_365": 0.076297116757579
+}},{latitude:40.82848, longitude:-73.85466,actual:85.0,predicted:109,coefficients:{
+    "intercept": 80.71972344087901,
+    "minimum_nights": -0.3329620191290123,
+    "number_of_reviews": 0.01603804204461103,
+    "reviews_per_month": 1.6997516010112474,
+    "host_listings_count": 0.17940905655818234,
+    "availability_365": 0.07699687218683743
+}},{latitude:40.83193, longitude:-73.92223,actual:40.0,predicted:75,coefficients:{
+    "intercept": 82.44865935447815,
+    "minimum_nights": -0.3217957251364669,
+    "number_of_reviews": -0.23687181416838665,
+    "reviews_per_month": -9.590787052791546,
+    "host_listings_count": -0.36918769631980397,
+    "availability_365": 0.06913895239757507
+}},{latitude:40.89374, longitude:-73.85579,actual:60.0,predicted:108,coefficients:{
+    "intercept": 78.17840674258476,
+    "minimum_nights": -0.32850413802437844,
+    "number_of_reviews": 0.023768515086802087,
+    "reviews_per_month": 2.720174023810583,
+    "host_listings_count": 0.22878182371305458,
+    "availability_365": 0.07768355606645229
+}},{latitude:40.82753, longitude:-73.92463,actual:200.0,predicted:106,coefficients:{
+    "intercept": 81.95751671614556,
+    "minimum_nights": -0.3217699789997667,
+    "number_of_reviews": -0.23488494296751203,
+    "reviews_per_month": -9.738665477091642,
+    "host_listings_count": -0.3751311954060096,
+    "availability_365": 0.06904476347641368
+}},{latitude:40.82714, longitude:-73.92528,actual:200.0,predicted:93,coefficients:{
+    "intercept": 81.8784039084396,
+    "minimum_nights": -0.3217503669832693,
+    "number_of_reviews": -0.2356339310740317,
+    "reviews_per_month": -9.737418084313907,
+    "host_listings_count": -0.37629796073806165,
+    "availability_365": 0.06902548823769646
+}},{latitude:40.85609, longitude:-73.88391,actual:30.0,predicted:63,coefficients:{
+    "intercept": 65.88397164171025,
+    "minimum_nights": -0.32432613921452424,
+    "number_of_reviews": -0.15933356730309697,
+    "reviews_per_month": -0.34561952703756615,
+    "host_listings_count": -0.1886592606348887,
+    "availability_365": 0.07181560455689583
+}},{latitude:40.8616, longitude:-73.86227,actual:142.0,predicted:107,coefficients:{
+    "intercept": 77.4234630216272,
+    "minimum_nights": -0.32894868216297546,
+    "number_of_reviews": -0.008111430101091097,
+    "reviews_per_month": 2.7615672563733242,
+    "host_listings_count": 0.10305270043195719,
+    "availability_365": 0.07600022415412638
+}},{latitude:40.85456, longitude:-73.86921,actual:79.0,predicted:79,coefficients:{
+    "intercept": 74.772119373244,
+    "minimum_nights": -0.32724535756695067,
+    "number_of_reviews": -0.07117846414951265,
+    "reviews_per_month": 2.1164340045612646,
+    "host_listings_count": -0.02431634779790773,
+    "availability_365": 0.07417587833536872
+}},{latitude:40.84879, longitude:-73.78987,actual:125.0,predicted:179,coefficients:{
+    "intercept": 172.9773711069768,
+    "minimum_nights": -0.33082705396818857,
+    "number_of_reviews": -0.14666250503326356,
+    "reviews_per_month": -1.0189301373979447,
+    "host_listings_count": 0.3297925797701654,
+    "availability_365": 0.07637687342255213
+}},{latitude:40.86255, longitude:-73.90669,actual:80.0,predicted:45,coefficients:{
+    "intercept": 84.79873896802151,
+    "minimum_nights": -0.32199845440128305,
+    "number_of_reviews": -0.2384379436990827,
+    "reviews_per_month": -5.363050902479392,
+    "host_listings_count": -0.3122594394487683,
+    "availability_365": 0.06999797994078728
+}},{latitude:40.81309, longitude:-73.85367,actual:70.0,predicted:112,coefficients:{
+    "intercept": 83.19427360385596,
+    "minimum_nights": -0.33386536166039427,
+    "number_of_reviews": -0.0012944099094131327,
+    "reviews_per_month": 1.3162915307957157,
+    "host_listings_count": 0.1693537740560924,
+    "availability_365": 0.076748243640201
+}},{latitude:40.81225, longitude:-73.85502,actual:80.0,predicted:113,coefficients:{
+    "intercept": 82.49537492708093,
+    "minimum_nights": -0.33397294450829434,
+    "number_of_reviews": -0.011207622777399439,
+    "reviews_per_month": 1.3131414035170992,
+    "host_listings_count": 0.1559736886545515,
+    "availability_365": 0.07667803236792856
+}},{latitude:40.85978, longitude:-73.8619,actual:142.0,predicted:87,coefficients:{
+    "intercept": 77.4434934800955,
+    "minimum_nights": -0.3291843817761497,
+    "number_of_reviews": -0.00673092811959346,
+    "reviews_per_month": 2.755271781440001,
+    "host_listings_count": 0.10819876195989282,
+    "availability_365": 0.07607661900569702
+}},{latitude:40.86017, longitude:-73.86198,actual:142.0,predicted:91,coefficients:{
+    "intercept": 77.43852715586601,
+    "minimum_nights": -0.32913325365881246,
+    "number_of_reviews": -0.00702973736333817,
+    "reviews_per_month": 2.7452499139712923,
+    "host_listings_count": 0.10707605322481038,
+    "availability_365": 0.07605996387928485
+}},{latitude:40.86239, longitude:-73.84362,actual:99.0,predicted:125,coefficients:{
+    "intercept": 84.77704161031981,
+    "minimum_nights": -0.33102092854581244,
+    "number_of_reviews": 0.0871801089642396,
+    "reviews_per_month": 1.5022286219958776,
+    "host_listings_count": 0.27849975154330214,
+    "availability_365": 0.0775180434134389
+}},{latitude:40.86014, longitude:-73.86301,actual:142.0,predicted:87,coefficients:{
+    "intercept": 77.284472191031,
+    "minimum_nights": -0.32878329311033627,
+    "number_of_reviews": -0.014217168151459326,
+    "reviews_per_month": 2.6958068665788666,
+    "host_listings_count": 0.08691970323970219,
+    "availability_365": 0.07576942736824592
+}},{latitude:40.86013, longitude:-73.86339,actual:142.0,predicted:88,coefficients:{
+    "intercept": 77.2202189931653,
+    "minimum_nights": -0.32865823034253105,
+    "number_of_reviews": -0.016924877450404496,
+    "reviews_per_month": 2.715105376234139,
+    "host_listings_count": 0.07969308958075562,
+    "availability_365": 0.07566534279326295
+}},{latitude:40.84835, longitude:-73.9141,actual:149.0,predicted:83,coefficients:{
+    "intercept": 85.59831123922311,
+    "minimum_nights": -0.32187695905610125,
+    "number_of_reviews": -0.2555630928263792,
+    "reviews_per_month": -7.550773856566155,
+    "host_listings_count": -0.3434040502376381,
+    "availability_365": 0.06953464385467438
+}},{latitude:40.84171, longitude:-73.91159,actual:150.0,predicted:107,coefficients:{
+    "intercept": 83.08624573554769,
+    "minimum_nights": -0.32214152347648306,
+    "number_of_reviews": -0.24536613238287508,
+    "reviews_per_month": -7.063064152603151,
+    "host_listings_count": -0.3403150159139224,
+    "availability_365": 0.06958933879188439
+}},{latitude:40.83791, longitude:-73.85845,actual:26.0,predicted:104,coefficients:{
+    "intercept": 78.39375129844072,
+    "minimum_nights": -0.331910494390275,
+    "number_of_reviews": -0.0006223894642614252,
+    "reviews_per_month": 2.1708780510766688,
+    "host_listings_count": 0.15247701129923588,
+    "availability_365": 0.07673538487605046
+}},{latitude:40.81639, longitude:-73.81954,actual:60.0,predicted:80,coefficients:{
+    "intercept": 78.20286012980775,
+    "minimum_nights": -0.33247309673936126,
+    "number_of_reviews": -0.016956971449592795,
+    "reviews_per_month": -0.06272840018145516,
+    "host_listings_count": 0.3130082708555367,
+    "availability_365": 0.07677948861419367
+}},{latitude:40.86153, longitude:-73.83656,actual:102.0,predicted:121,coefficients:{
+    "intercept": 88.00501518172153,
+    "minimum_nights": -0.33114777420554276,
+    "number_of_reviews": 0.04361132064515889,
+    "reviews_per_month": 1.0863459527453172,
+    "host_listings_count": 0.3036097131411082,
+    "availability_365": 0.07743733207476433
+}},{latitude:40.86659, longitude:-73.866,actual:34.0,predicted:76,coefficients:{
+    "intercept": 76.87393148234783,
+    "minimum_nights": -0.3275115352287256,
+    "number_of_reviews": -0.030883645941780034,
+    "reviews_per_month": 2.479580632474033,
+    "host_listings_count": 0.04036481110615295,
+    "availability_365": 0.07509218438310461
+}},{latitude:40.8612, longitude:-73.91065,actual:150.0,predicted:96,coefficients:{
+    "intercept": 88.42503979682296,
+    "minimum_nights": -0.32180420634157797,
+    "number_of_reviews": -0.25830066559024983,
+    "reviews_per_month": -6.437087041111946,
+    "host_listings_count": -0.32625716611598,
+    "availability_365": 0.06978623384464373
+}},{latitude:40.89245, longitude:-73.83721,actual:42.0,predicted:96,coefficients:{
+    "intercept": 87.66556948011024,
+    "minimum_nights": -0.32972393657354965,
+    "number_of_reviews": 0.07475479868216947,
+    "reviews_per_month": 1.323732771230512,
+    "host_listings_count": 0.31405439701845794,
+    "availability_365": 0.077611901613526
+}},{latitude:40.82823, longitude:-73.90114,actual:150.0,predicted:76,coefficients:{
+    "intercept": 77.80633921151143,
+    "minimum_nights": -0.3231803549527263,
+    "number_of_reviews": -0.17709013475602078,
+    "reviews_per_month": -4.732031093103603,
+    "host_listings_count": -0.3127899110416457,
+    "availability_365": 0.07001712859204871
+}},{latitude:40.81518, longitude:-73.84758,actual:62.0,predicted:92,coefficients:{
+    "intercept": 85.89395280963355,
+    "minimum_nights": -0.33351923750938095,
+    "number_of_reviews": 0.02298671600421282,
+    "reviews_per_month": 1.146850368634476,
+    "host_listings_count": 0.2180603813758954,
+    "availability_365": 0.07693842452482431
+}},{latitude:40.83224, longitude:-73.92068,actual:38.0,predicted:87,coefficients:{
+    "intercept": 82.53915786725466,
+    "minimum_nights": -0.3218579621435221,
+    "number_of_reviews": -0.23674325535634738,
+    "reviews_per_month": -9.335504657170615,
+    "host_listings_count": -0.36622527001075517,
+    "availability_365": 0.06918730589432069
+}},{latitude:40.83285, longitude:-73.92158,actual:45.0,predicted:51,coefficients:{
+    "intercept": 82.57992315400915,
+    "minimum_nights": -0.32180785595035705,
+    "number_of_reviews": -0.23760091797795274,
+    "reviews_per_month": -9.481996341912675,
+    "host_listings_count": -0.3676017456949823,
+    "availability_365": 0.06916407486259415
+}},{latitude:40.83201, longitude:-73.89996,actual:140.0,predicted:76,coefficients:{
+    "intercept": 76.99027125536935,
+    "minimum_nights": -0.3231935266801841,
+    "number_of_reviews": -0.17025231440109143,
+    "reviews_per_month": -4.3065264134396015,
+    "host_listings_count": -0.3054466210556164,
+    "availability_365": 0.07012491825930069
+}},{latitude:40.8212, longitude:-73.92859,actual:80.0,predicted:52,coefficients:{
+    "intercept": 81.30310047687193,
+    "minimum_nights": -0.32171868638442,
+    "number_of_reviews": -0.23954611700993567,
+    "reviews_per_month": -9.58601181770798,
+    "host_listings_count": -0.38335708192352846,
+    "availability_365": 0.0689111101314362
+}},{latitude:40.85322, longitude:-73.85144,actual:75.0,predicted:83,coefficients:{
+    "intercept": 80.42939365812728,
+    "minimum_nights": -0.33138872485015664,
+    "number_of_reviews": 0.060907808801083554,
+    "reviews_per_month": 2.07192432724965,
+    "host_listings_count": 0.22908002555172413,
+    "availability_365": 0.07740979011191991
+}},{latitude:40.8859, longitude:-73.83517,actual:95.0,predicted:113,coefficients:{
+    "intercept": 88.56136308967757,
+    "minimum_nights": -0.3300798217612564,
+    "number_of_reviews": 0.059859696329716,
+    "reviews_per_month": 1.1641897054126988,
+    "host_listings_count": 0.3173241681973906,
+    "availability_365": 0.07755091477916447
+}},{latitude:40.82855, longitude:-73.91856,actual:47.0,predicted:94,coefficients:{
+    "intercept": 82.13718164980646,
+    "minimum_nights": -0.3220224484923223,
+    "number_of_reviews": -0.2324997425076749,
+    "reviews_per_month": -8.899475623291965,
+    "host_listings_count": -0.363833334116387,
+    "availability_365": 0.06922988871699456
+}},{latitude:40.82445, longitude:-73.90341,actual:90.0,predicted:76,coefficients:{
+    "intercept": 79.05318264346792,
+    "minimum_nights": -0.3230762294216358,
+    "number_of_reviews": -0.1905234478934867,
+    "reviews_per_month": -5.338467059564492,
+    "host_listings_count": -0.3238886308520972,
+    "availability_365": 0.0698522090490093
+}},{latitude:40.89382, longitude:-73.84844,actual:75.0,predicted:88,coefficients:{
+    "intercept": 81.10830130205358,
+    "minimum_nights": -0.3290918168037159,
+    "number_of_reviews": 0.0652664522087306,
+    "reviews_per_month": 2.1922150511073815,
+    "host_listings_count": 0.27248285782769016,
+    "availability_365": 0.07773349517984146
+}},{latitude:40.81192, longitude:-73.91781,actual:132.0,predicted:45,coefficients:{
+    "intercept": 81.61634903096663,
+    "minimum_nights": -0.32236330508376393,
+    "number_of_reviews": -0.2128751433838558,
+    "reviews_per_month": -8.570313846082978,
+    "host_listings_count": -0.3700094009612145,
+    "availability_365": 0.06914365537732134
+}},{latitude:40.88878, longitude:-73.86349,actual:60.0,predicted:98,coefficients:{
+    "intercept": 77.65201002324359,
+    "minimum_nights": -0.32700013855961835,
+    "number_of_reviews": -0.00849989324196557,
+    "reviews_per_month": 2.6699639273209717,
+    "host_listings_count": 0.11022786992834652,
+    "availability_365": 0.07604823535517441
+}},{latitude:40.83454, longitude:-73.92751,actual:10.0,predicted:93,coefficients:{
+    "intercept": 82.0037717497727,
+    "minimum_nights": -0.32154808830949977,
+    "number_of_reviews": -0.2468874973300466,
+    "reviews_per_month": -9.669326038881168,
+    "host_listings_count": -0.3763696592306812,
+    "availability_365": 0.06901485668478817
+}},{latitude:40.81822, longitude:-73.90812,actual:35.0,predicted:83,coefficients:{
+    "intercept": 80.49070114593174,
+    "minimum_nights": -0.32284981962842124,
+    "number_of_reviews": -0.20867119137128495,
+    "reviews_per_month": -6.4683520047531555,
+    "host_listings_count": -0.343106768593432,
+    "availability_365": 0.06956280180209697
+}},{latitude:40.87015, longitude:-73.85582,actual:75.0,predicted:100,coefficients:{
+    "intercept": 78.2694659784923,
+    "minimum_nights": -0.3301018471670615,
+    "number_of_reviews": 0.03459508988861398,
+    "reviews_per_month": 2.800984801341219,
+    "host_listings_count": 0.2117159834932099,
+    "availability_365": 0.07750633522628218
+}},{latitude:40.86299, longitude:-73.89088,actual:75.0,predicted:80,coefficients:{
+    "intercept": 70.52612227240502,
+    "minimum_nights": -0.3232559412090536,
+    "number_of_reviews": -0.12706665986102825,
+    "reviews_per_month": -1.607000220577371,
+    "host_listings_count": -0.23442816772646533,
+    "availability_365": 0.0711473905141596
+}},{latitude:40.81872, longitude:-73.90014,actual:75.0,predicted:74,coefficients:{
+    "intercept": 77.34973266028607,
+    "minimum_nights": -0.3234996207721439,
+    "number_of_reviews": -0.16426508309921714,
+    "reviews_per_month": -4.726291485624842,
+    "host_listings_count": -0.31460289804804153,
+    "availability_365": 0.06999368544562304
+}},{latitude:40.88017, longitude:-73.83574,actual:475.0,predicted:119,coefficients:{
+    "intercept": 88.42269073566956,
+    "minimum_nights": -0.3303210579183925,
+    "number_of_reviews": 0.05924153725812197,
+    "reviews_per_month": 1.1742854001780128,
+    "host_listings_count": 0.31393813898899353,
+    "availability_365": 0.07753485255075686
+}},{latitude:40.83658, longitude:-73.86181,actual:55.0,predicted:107,coefficients:{
+    "intercept": 77.24046301164698,
+    "minimum_nights": -0.3305648652978567,
+    "number_of_reviews": -0.02919246773003151,
+    "reviews_per_month": 2.0845944551303344,
+    "host_listings_count": 0.08009260870158622,
+    "availability_365": 0.07568832057638945
+}},{latitude:40.88445, longitude:-73.89663,actual:50.0,predicted:80,coefficients:{
+    "intercept": 77.18280749203039,
+    "minimum_nights": -0.3221673794895895,
+    "number_of_reviews": -0.14718217314964283,
+    "reviews_per_month": -2.7460560301066157,
+    "host_listings_count": -0.2520746342500408,
+    "availability_365": 0.07086740818982804
+}},{latitude:40.82972, longitude:-73.84957,actual:60.0,predicted:103,coefficients:{
+    "intercept": 83.32712385117594,
+    "minimum_nights": -0.33280598056236776,
+    "number_of_reviews": 0.04631189287691302,
+    "reviews_per_month": 1.434081962767763,
+    "host_listings_count": 0.2199139286100866,
+    "availability_365": 0.07713990655158645
+}},{latitude:40.863, longitude:-73.90661,actual:80.0,predicted:67,coefficients:{
+    "intercept": 84.829658948635,
+    "minimum_nights": -0.32199365545544345,
+    "number_of_reviews": -0.2379575146931729,
+    "reviews_per_month": -5.334795223522037,
+    "host_listings_count": -0.31168488285159207,
+    "availability_365": 0.0700061820390399
+}},{latitude:40.82248, longitude:-73.89915,actual:50.0,predicted:87,coefficients:{
+    "intercept": 76.54910788500594,
+    "minimum_nights": -0.32350210349894326,
+    "number_of_reviews": -0.15952206453835907,
+    "reviews_per_month": -4.40739687906641,
+    "host_listings_count": -0.3080665982811545,
+    "availability_365": 0.07008993891556461
+}},{latitude:40.8358, longitude:-73.85833,actual:65.0,predicted:78,coefficients:{
+    "intercept": 78.5274296069886,
+    "minimum_nights": -0.3320971547939684,
+    "number_of_reviews": -0.002151028897462325,
+    "reviews_per_month": 2.087533257678337,
+    "host_listings_count": 0.15211741306499996,
+    "availability_365": 0.0767309972958278
+}},{latitude:40.88354, longitude:-73.89061,actual:85.0,predicted:77,coefficients:{
+    "intercept": 71.97988637255663,
+    "minimum_nights": -0.3226971885090795,
+    "number_of_reviews": -0.124614872079738,
+    "reviews_per_month": -1.4015260526175024,
+    "host_listings_count": -0.21604526944361885,
+    "availability_365": 0.07139309401252047
+}},{latitude:40.87886, longitude:-73.84301,actual:69.0,predicted:110,coefficients:{
+    "intercept": 84.71320595710522,
+    "minimum_nights": -0.33017944271733163,
+    "number_of_reviews": 0.09116196637872113,
+    "reviews_per_month": 1.6653783028796847,
+    "host_listings_count": 0.2898383745395024,
+    "availability_365": 0.07762610861582195
+}},{latitude:40.8773, longitude:-73.84329,actual:53.0,predicted:114,coefficients:{
+    "intercept": 84.56604564913088,
+    "minimum_nights": -0.330250569632433,
+    "number_of_reviews": 0.09132379582340576,
+    "reviews_per_month": 1.6708356812948728,
+    "host_listings_count": 0.2879831397501451,
+    "availability_365": 0.07761948875795457
+}},{latitude:40.8546, longitude:-73.86785,actual:50.0,predicted:90,coefficients:{
+    "intercept": 75.54746822698303,
+    "minimum_nights": -0.3276082985815744,
+    "number_of_reviews": -0.05847100217880697,
+    "reviews_per_month": 2.2115836479842703,
+    "host_listings_count": -0.003528135859873521,
+    "availability_365": 0.07447418720107955
+}},{latitude:40.83581, longitude:-73.85864,actual:65.0,predicted:78,coefficients:{
+    "intercept": 78.40967116692427,
+    "minimum_nights": -0.33195379127563734,
+    "number_of_reviews": -0.00455868047094108,
+    "reviews_per_month": 2.09582108058532,
+    "host_listings_count": 0.14518819000017877,
+    "availability_365": 0.07663046620360962
+}},{latitude:40.83148, longitude:-73.82931,actual:65.0,predicted:112,coefficients:{
+    "intercept": 83.27374379496459,
+    "minimum_nights": -0.33230508451542706,
+    "number_of_reviews": -0.0396584026337741,
+    "reviews_per_month": 0.5049314805804559,
+    "host_listings_count": 0.3056055075361939,
+    "availability_365": 0.07708650975480241
+}},{latitude:40.82952, longitude:-73.82818,actual:140.0,predicted:111,coefficients:{
+    "intercept": 82.34784502138281,
+    "minimum_nights": -0.332347032098956,
+    "number_of_reviews": -0.040763228266164776,
+    "reviews_per_month": 0.4350152259880591,
+    "host_listings_count": 0.306841438184571,
+    "availability_365": 0.07705158457269062
+}},{latitude:40.87633, longitude:-73.88328,actual:45.0,predicted:75,coefficients:{
+    "intercept": 67.66504077581135,
+    "minimum_nights": -0.3237338384660229,
+    "number_of_reviews": -0.1486606364951346,
+    "reviews_per_month": 0.05728418731761442,
+    "host_listings_count": -0.16519165512332104,
+    "availability_365": 0.07213447057545017
+}},{latitude:40.84633, longitude:-73.83029,actual:80.0,predicted:92,coefficients:{
+    "intercept": 86.11976662250919,
+    "minimum_nights": -0.3317603269313606,
+    "number_of_reviews": -0.02341487979289151,
+    "reviews_per_month": 0.6444288145706888,
+    "host_listings_count": 0.3118228319732705,
+    "availability_365": 0.07722599978228128
+}},{latitude:40.88563, longitude:-73.85975,actual:50.0,predicted:88,coefficients:{
+    "intercept": 77.76830770749586,
+    "minimum_nights": -0.3283271764065807,
+    "number_of_reviews": 0.00937139197486275,
+    "reviews_per_month": 2.8422348764091776,
+    "host_listings_count": 0.18367443683986065,
+    "availability_365": 0.07710780756528003
+}},{latitude:40.87135, longitude:-73.85736,actual:145.0,predicted:79,coefficients:{
+    "intercept": 77.98845286946116,
+    "minimum_nights": -0.3299216377195095,
+    "number_of_reviews": 0.025089564857769475,
+    "reviews_per_month": 2.8505678170730318,
+    "host_listings_count": 0.20039723729096612,
+    "availability_365": 0.07747787857751907
+}},{latitude:40.83729, longitude:-73.83323,actual:69.0,predicted:112,coefficients:{
+    "intercept": 85.92214143425547,
+    "minimum_nights": -0.33216622012805636,
+    "number_of_reviews": -0.021916567567365416,
+    "reviews_per_month": 0.7366037695132306,
+    "host_listings_count": 0.2995007421196127,
+    "availability_365": 0.077195241828208
+}},{latitude:40.88271, longitude:-73.83217,actual:50.0,predicted:96,coefficients:{
+    "intercept": 89.2505932782511,
+    "minimum_nights": -0.3302807240082149,
+    "number_of_reviews": 0.03575661497835547,
+    "reviews_per_month": 0.9426088882007718,
+    "host_listings_count": 0.32307775764003227,
+    "availability_365": 0.07748100843646517
+}},{latitude:40.87675, longitude:-73.86372,actual:280.0,predicted:111,coefficients:{
+    "intercept": 77.5381154383719,
+    "minimum_nights": -0.32761400198360985,
+    "number_of_reviews": -0.010633140810835242,
+    "reviews_per_month": 2.7660763731952547,
+    "host_listings_count": 0.09273369469140623,
+    "availability_365": 0.07582635835013382
+}},{latitude:40.80769, longitude:-73.91617,actual:130.0,predicted:66,coefficients:{
+    "intercept": 81.552132573789,
+    "minimum_nights": -0.3225344020997342,
+    "number_of_reviews": -0.2075933745544023,
+    "reviews_per_month": -8.183301806276972,
+    "host_listings_count": -0.3685683789678144,
+    "availability_365": 0.06916955322736135
+}},{latitude:40.83703, longitude:-73.91643,actual:40.0,predicted:57,coefficients:{
+    "intercept": 83.12950597332419,
+    "minimum_nights": -0.32197271616755363,
+    "number_of_reviews": -0.24318630842998235,
+    "reviews_per_month": -8.30626983617209,
+    "host_listings_count": -0.3550684532858626,
+    "availability_365": 0.06936220388739697
+}},{latitude:40.80644, longitude:-73.8518,actual:48.0,predicted:92,coefficients:{
+    "intercept": 85.33380713713262,
+    "minimum_nights": -0.33416714260712016,
+    "number_of_reviews": -0.0012951123090455964,
+    "reviews_per_month": 1.148329966762093,
+    "host_listings_count": 0.17666666720070812,
+    "availability_365": 0.07669345468650823
+}},{latitude:40.8106, longitude:-73.91667,actual:68.0,predicted:88,coefficients:{
+    "intercept": 81.5326729067422,
+    "minimum_nights": -0.32245120846177044,
+    "number_of_reviews": -0.21106073716302018,
+    "reviews_per_month": -8.310323091227145,
+    "host_listings_count": -0.3682996685921771,
+    "availability_365": 0.0691721097086105
+}},{latitude:40.83659, longitude:-73.91777,actual:40.0,predicted:81,coefficients:{
+    "intercept": 83.14153250596739,
+    "minimum_nights": -0.3219152215026306,
+    "number_of_reviews": -0.24231936858238126,
+    "reviews_per_month": -8.676872937660516,
+    "host_listings_count": -0.35825766526072034,
+    "availability_365": 0.06931171848540013
+}},{latitude:40.85409, longitude:-73.85032,actual:50.0,predicted:84,coefficients:{
+    "intercept": 80.97700519885471,
+    "minimum_nights": -0.33135821703647655,
+    "number_of_reviews": 0.06782755268032031,
+    "reviews_per_month": 1.9684269598151694,
+    "host_listings_count": 0.2371268082079064,
+    "availability_365": 0.07743239102398387
+}},{latitude:40.85361, longitude:-73.85018,actual:85.0,predicted:110,coefficients:{
+    "intercept": 81.08188025670094,
+    "minimum_nights": -0.3313900986461776,
+    "number_of_reviews": 0.06836668791228027,
+    "reviews_per_month": 1.9410222427927604,
+    "host_listings_count": 0.23761961789741606,
+    "availability_365": 0.07742865131730821
+}},{latitude:40.85287, longitude:-73.88536,actual:100.0,predicted:60,coefficients:{
+    "intercept": 66.08514851527978,
+    "minimum_nights": -0.3242296376934805,
+    "number_of_reviews": -0.1533119932787093,
+    "reviews_per_month": -0.6880730577063469,
+    "host_listings_count": -0.20326222998318652,
+    "availability_365": 0.07160714443248709
+}},{latitude:40.82145, longitude:-73.92856,actual:102.0,predicted:67,coefficients:{
+    "intercept": 81.30999763099862,
+    "minimum_nights": -0.3217158800727952,
+    "number_of_reviews": -0.23962633692786703,
+    "reviews_per_month": -9.592882456508288,
+    "host_listings_count": -0.3832190885586901,
+    "availability_365": 0.06891321287561185
+}},{latitude:40.81161, longitude:-73.90513,actual:35.0,predicted:71,coefficients:{
+    "intercept": 79.92086507877688,
+    "minimum_nights": -0.32322428286082505,
+    "number_of_reviews": -0.18920801485492386,
+    "reviews_per_month": -5.897098676575239,
+    "host_listings_count": -0.3372428424538172,
+    "availability_365": 0.06965498482102414
+}},{latitude:40.8102, longitude:-73.93147,actual:28.0,predicted:59,coefficients:{
+    "intercept": 80.74056573282637,
+    "minimum_nights": -0.3217829852241792,
+    "number_of_reviews": -0.24487356740486593,
+    "reviews_per_month": -9.21241527000403,
+    "host_listings_count": -0.3908770178255625,
+    "availability_365": 0.06879075152332793
+}},{latitude:40.84184, longitude:-73.84967,actual:28.0,predicted:97,coefficients:{
+    "intercept": 82.16825673967094,
+    "minimum_nights": -0.3320998605047322,
+    "number_of_reviews": 0.06185643129575938,
+    "reviews_per_month": 1.6445440923915549,
+    "host_listings_count": 0.23076202730932072,
+    "availability_365": 0.07729856309589575
+}},{latitude:40.80952, longitude:-73.93005,actual:28.0,predicted:63,coefficients:{
+    "intercept": 81.0990333850248,
+    "minimum_nights": -0.3218456569903385,
+    "number_of_reviews": -0.23761044657113387,
+    "reviews_per_month": -9.278738191328308,
+    "host_listings_count": -0.3895799845353585,
+    "availability_365": 0.06881510003394425
+}},{latitude:40.80994, longitude:-73.93061,actual:28.0,predicted:48,coefficients:{
+    "intercept": 80.96156489248675,
+    "minimum_nights": -0.32181829691721514,
+    "number_of_reviews": -0.2404885926285556,
+    "reviews_per_month": -9.242067964593417,
+    "host_listings_count": -0.39004789069774076,
+    "availability_365": 0.06880614916583512
+}},{latitude:40.80977, longitude:-73.93038,actual:28.0,predicted:58,coefficients:{
+    "intercept": 81.01888933476229,
+    "minimum_nights": -0.32182944019524307,
+    "number_of_reviews": -0.23929678872523721,
+    "reviews_per_month": -9.253863558924397,
+    "host_listings_count": -0.3898566117576475,
+    "availability_365": 0.06880981418559082
+}},{latitude:40.81072, longitude:-73.92031,actual:55.0,predicted:48,coefficients:{
+    "intercept": 81.82491815647832,
+    "minimum_nights": -0.3222532670113579,
+    "number_of_reviews": -0.2128638952808011,
+    "reviews_per_month": -9.072220299715012,
+    "host_listings_count": -0.375203989234994,
+    "availability_365": 0.06905975401302641
+}},{latitude:40.85536, longitude:-73.90242,actual:55.0,predicted:82,coefficients:{
+    "intercept": 79.55234995226634,
+    "minimum_nights": -0.3224396865776219,
+    "number_of_reviews": -0.20220799042147095,
+    "reviews_per_month": -4.270169840931537,
+    "host_listings_count": -0.3004735960364109,
+    "availability_365": 0.0701823668922461
+}},{latitude:40.88688, longitude:-73.85848,actual:37.0,predicted:108,coefficients:{
+    "intercept": 77.8335950933739,
+    "minimum_nights": -0.3286816965462524,
+    "number_of_reviews": 0.014897591538680543,
+    "reviews_per_month": 2.8506256429149626,
+    "host_listings_count": 0.20282170582323955,
+    "availability_365": 0.07753606981879518
+}},{latitude:40.82228, longitude:-73.92783,actual:45.0,predicted:55,coefficients:{
+    "intercept": 81.43552618164533,
+    "minimum_nights": -0.32173002353837804,
+    "number_of_reviews": -0.23784989734305675,
+    "reviews_per_month": -9.621553047136969,
+    "host_listings_count": -0.3819378943456524,
+    "availability_365": 0.068934545169852
+}},{latitude:40.83088, longitude:-73.86492,actual:42.0,predicted:86,coefficients:{
+    "intercept": 75.79117623589777,
+    "minimum_nights": -0.32972001007006974,
+    "number_of_reviews": -0.06483435052000085,
+    "reviews_per_month": 1.706720824754668,
+    "host_listings_count": 0.015748786704036274,
+    "availability_365": 0.0747621523263919
+}},{latitude:40.85267, longitude:-73.88627,actual:50.0,predicted:77,coefficients:{
+    "intercept": 66.52543546920371,
+    "minimum_nights": -0.3241135331429403,
+    "number_of_reviews": -0.14766699259942387,
+    "reviews_per_month": -0.845037302917965,
+    "host_listings_count": -0.21048196795688,
+    "availability_365": 0.07150291667705788
+}},{latitude:40.81232, longitude:-73.90299,actual:100.0,predicted:102,coefficients:{
+    "intercept": 79.1273366731833,
+    "minimum_nights": -0.32339053791059336,
+    "number_of_reviews": -0.17819584041061517,
+    "reviews_per_month": -5.4469401015951915,
+    "host_listings_count": -0.32942211248943964,
+    "availability_365": 0.06977314330233439
+}},{latitude:40.83739, longitude:-73.91118,actual:26.0,predicted:62,coefficients:{
+    "intercept": 82.24180618213803,
+    "minimum_nights": -0.32225199786753644,
+    "number_of_reviews": -0.23969567304161465,
+    "reviews_per_month": -7.041643159166131,
+    "host_listings_count": -0.34156067087799913,
+    "availability_365": 0.06957382816324992
+}},{latitude:40.83988, longitude:-73.86978,actual:300.0,predicted:99,coefficients:{
+    "intercept": 73.16444998386487,
+    "minimum_nights": -0.32778326244007844,
+    "number_of_reviews": -0.09875780225605678,
+    "reviews_per_month": 1.7078216964056263,
+    "host_listings_count": -0.049187393945918555,
+    "availability_365": 0.07382739553059801
+}},{latitude:40.85362, longitude:-73.85011,actual:65.0,predicted:108,coefficients:{
+    "intercept": 81.12059918905011,
+    "minimum_nights": -0.3313908378165593,
+    "number_of_reviews": 0.06874692024553114,
+    "reviews_per_month": 1.9329564135717465,
+    "host_listings_count": 0.23806900393071398,
+    "availability_365": 0.07742943545990189
+}},{latitude:40.85105, longitude:-73.86049,actual:60.0,predicted:99,coefficients:{
+    "intercept": 77.60190819980927,
+    "minimum_nights": -0.3302332427407608,
+    "number_of_reviews": -0.0031444665369419708,
+    "reviews_per_month": 2.583677865098998,
+    "host_listings_count": 0.126108358730626,
+    "availability_365": 0.076344432686942
+}},{latitude:40.82718, longitude:-73.90241,actual:90.0,predicted:53,coefficients:{
+    "intercept": 78.53939583109045,
+    "minimum_nights": -0.3230962797926979,
+    "number_of_reviews": -0.18575050210782867,
+    "reviews_per_month": -5.057647161056144,
+    "host_listings_count": -0.3184714676127821,
+    "availability_365": 0.06993244874139962
+}},{latitude:40.8289, longitude:-73.86219,actual:87.0,predicted:109,coefficients:{
+    "intercept": 77.13572725736445,
+    "minimum_nights": -0.33084052306534867,
+    "number_of_reviews": -0.04307056816904454,
+    "reviews_per_month": 1.8066670679298256,
+    "host_listings_count": 0.06232325730666769,
+    "availability_365": 0.07543309863927837
+}},{latitude:40.8878, longitude:-73.85372,actual:47.0,predicted:109,coefficients:{
+    "intercept": 78.67725249810282,
+    "minimum_nights": -0.3290703764095139,
+    "number_of_reviews": 0.03922017922190232,
+    "reviews_per_month": 2.6196245716951383,
+    "host_listings_count": 0.23926639634286928,
+    "availability_365": 0.07767928545629252
+}},{latitude:40.89399, longitude:-73.84279,actual:65.0,predicted:127,coefficients:{
+    "intercept": 84.62299947537655,
+    "minimum_nights": -0.3294131657938074,
+    "number_of_reviews": 0.08617153300658772,
+    "reviews_per_month": 1.7397464034444678,
+    "host_listings_count": 0.29679473802439116,
+    "availability_365": 0.07769588689657675
+}},{latitude:40.83413, longitude:-73.91669,actual:35.0,predicted:50,coefficients:{
+    "intercept": 82.67464062890332,
+    "minimum_nights": -0.32201335848269663,
+    "number_of_reviews": -0.23961701479143283,
+    "reviews_per_month": -8.418877151570653,
+    "host_listings_count": -0.35712207536695295,
+    "availability_365": 0.06933230948089515
+}},{latitude:40.85661, longitude:-73.85281,actual:40.0,predicted:86,coefficients:{
+    "intercept": 79.6145305028809,
+    "minimum_nights": -0.3311393175567123,
+    "number_of_reviews": 0.05342756336639221,
+    "reviews_per_month": 2.3112368547722313,
+    "host_listings_count": 0.22254107099257078,
+    "availability_365": 0.07742660798118012
+}},{latitude:40.88805, longitude:-73.83248,actual:90.0,predicted:91,coefficients:{
+    "intercept": 89.21734226149921,
+    "minimum_nights": -0.3300509916998168,
+    "number_of_reviews": 0.042886399013558195,
+    "reviews_per_month": 0.9817208188980443,
+    "host_listings_count": 0.3240160655395565,
+    "availability_365": 0.07750895447494838
+}},{latitude:40.83285, longitude:-73.8879,actual:60.0,predicted:78,coefficients:{
+    "intercept": 65.98534465473404,
+    "minimum_nights": -0.3245115707991819,
+    "number_of_reviews": -0.14796936276486422,
+    "reviews_per_month": -1.6202235479813862,
+    "host_listings_count": -0.23868852535501145,
+    "availability_365": 0.07110416470377004
+}},{latitude:40.85324, longitude:-73.92143,actual:240.0,predicted:112,coefficients:{
+    "intercept": 87.92008106513082,
+    "minimum_nights": -0.32146581292692794,
+    "number_of_reviews": -0.25894554094380096,
+    "reviews_per_month": -8.975421881625158,
+    "host_listings_count": -0.3574218360871866,
+    "availability_365": 0.06930565805365246
+}},{latitude:40.81377, longitude:-73.88933,actual:40.0,predicted:76,coefficients:{
+    "intercept": 65.97655776980943,
+    "minimum_nights": -0.32488229003279295,
+    "number_of_reviews": -0.14938687915215054,
+    "reviews_per_month": -2.395615132421643,
+    "host_listings_count": -0.26278942408657807,
+    "availability_365": 0.07075643318192934
+}},{latitude:40.8546, longitude:-73.83026,actual:299.0,predicted:87,coefficients:{
+    "intercept": 87.24259630177916,
+    "minimum_nights": -0.33143574766600786,
+    "number_of_reviews": -0.01343828910585169,
+    "reviews_per_month": 0.6924230299355146,
+    "host_listings_count": 0.3159923371829317,
+    "availability_365": 0.07728598318074392
+}},{latitude:40.85413, longitude:-73.83065,actual:125.0,predicted:111,coefficients:{
+    "intercept": 87.29429059914352,
+    "minimum_nights": -0.33145708144727376,
+    "number_of_reviews": -0.012092953361803282,
+    "reviews_per_month": 0.7119579960834272,
+    "host_listings_count": 0.3149505618487454,
+    "availability_365": 0.07728968372713146
+}},{latitude:40.86777, longitude:-73.88397,actual:90.0,predicted:92,coefficients:{
+    "intercept": 67.01082881159657,
+    "minimum_nights": -0.3239285168001667,
+    "number_of_reviews": -0.15145230314771393,
+    "reviews_per_month": -0.12670171889225432,
+    "host_listings_count": -0.17880552685440687,
+    "availability_365": 0.07194755904223586
+}},{latitude:40.84802, longitude:-73.78963,actual:84.0,predicted:177,coefficients:{
+    "intercept": 173.6041202475349,
+    "minimum_nights": -0.3308362640612616,
+    "number_of_reviews": -0.14639111766465476,
+    "reviews_per_month": -1.025682457136275,
+    "host_listings_count": 0.3294560328124737,
+    "availability_365": 0.07636847596819023
+}},{latitude:40.87704, longitude:-73.86276,actual:80.0,predicted:67,coefficients:{
+    "intercept": 77.61659312965106,
+    "minimum_nights": -0.32788599793959444,
+    "number_of_reviews": -0.005145864977164863,
+    "reviews_per_month": 2.85465236095969,
+    "host_listings_count": 0.11147560235447691,
+    "availability_365": 0.07609457608690326
+}},{latitude:40.89502, longitude:-73.85071,actual:75.0,predicted:99,coefficients:{
+    "intercept": 79.91125699372951,
+    "minimum_nights": -0.3288590124863101,
+    "number_of_reviews": 0.050801751460377825,
+    "reviews_per_month": 2.3768355492152033,
+    "host_listings_count": 0.26117694467145847,
+    "availability_365": 0.07773798860096824
+}},{latitude:40.80861, longitude:-73.93015,actual:100.0,predicted:51,coefficients:{
+    "intercept": 81.09074309667496,
+    "minimum_nights": -0.32185590296535915,
+    "number_of_reviews": -0.23752702884610524,
+    "reviews_per_month": -9.265746407861247,
+    "host_listings_count": -0.3900251756058249,
+    "availability_365": 0.06880818455080161
+}},{latitude:40.84084, longitude:-73.92178,actual:48.0,predicted:82,coefficients:{
+    "intercept": 83.84565854725875,
+    "minimum_nights": -0.3216626612806606,
+    "number_of_reviews": -0.24631231836449083,
+    "reviews_per_month": -9.362026775179825,
+    "host_listings_count": -0.3641934358107193,
+    "availability_365": 0.06921082131009887
+}},{latitude:40.84605, longitude:-73.8493,actual:39.0,predicted:80,coefficients:{
+    "intercept": 82.06862371537152,
+    "minimum_nights": -0.33185318502616457,
+    "number_of_reviews": 0.06752507601227237,
+    "reviews_per_month": 1.6940258570784885,
+    "host_listings_count": 0.23681506327040752,
+    "availability_365": 0.07735287855370496
+}},{latitude:40.85336, longitude:-73.88549,actual:65.0,predicted:62,coefficients:{
+    "intercept": 66.19026845479468,
+    "minimum_nights": -0.32419606115246474,
+    "number_of_reviews": -0.15219425527220806,
+    "reviews_per_month": -0.696025015510138,
+    "host_listings_count": -0.2038621443223001,
+    "availability_365": 0.07159813686200556
+}},{latitude:40.81322, longitude:-73.91696,actual:42.0,predicted:90,coefficients:{
+    "intercept": 81.52236628038395,
+    "minimum_nights": -0.32238626148362143,
+    "number_of_reviews": -0.21416441925627083,
+    "reviews_per_month": -8.394670376162766,
+    "host_listings_count": -0.36771140408284236,
+    "availability_365": 0.06917984675719104
+}},{latitude:40.87072, longitude:-73.89974,actual:65.0,predicted:102,coefficients:{
+    "intercept": 78.71551603666309,
+    "minimum_nights": -0.3222731686811854,
+    "number_of_reviews": -0.17674006976184012,
+    "reviews_per_month": -3.547945596334313,
+    "host_listings_count": -0.27797107465528936,
+    "availability_365": 0.07050156232341866
+}},{latitude:40.83144, longitude:-73.86639,actual:38.0,predicted:89,coefficients:{
+    "intercept": 74.96360775494888,
+    "minimum_nights": -0.32919644455517016,
+    "number_of_reviews": -0.07804880078245148,
+    "reviews_per_month": 1.586668569577178,
+    "host_listings_count": -0.007899249719943938,
+    "availability_365": 0.07442210871030588
+}},{latitude:40.81017, longitude:-73.92266,actual:79.0,predicted:84,coefficients:{
+    "intercept": 81.90862063801164,
+    "minimum_nights": -0.3221476972803299,
+    "number_of_reviews": -0.2151239807295705,
+    "reviews_per_month": -9.399773167328721,
+    "host_listings_count": -0.37937315257224835,
+    "availability_365": 0.06899095213456474
+}},{latitude:40.80958, longitude:-73.91895,actual:120.0,predicted:67,coefficients:{
+    "intercept": 81.76065618868729,
+    "minimum_nights": -0.3223442753639358,
+    "number_of_reviews": -0.21074337516351954,
+    "reviews_per_month": -8.79178009794593,
+    "host_listings_count": -0.3732249618042253,
+    "availability_365": 0.06909303136474017
+}},{latitude:40.81102, longitude:-73.92778,actual:81.0,predicted:72,coefficients:{
+    "intercept": 81.50628705101576,
+    "minimum_nights": -0.32191048794830224,
+    "number_of_reviews": -0.22922533730133637,
+    "reviews_per_month": -9.44694379935699,
+    "host_listings_count": -0.3863109479248571,
+    "availability_365": 0.06887138047294215
+}},{latitude:40.88453, longitude:-73.86273,actual:80.0,predicted:97,coefficients:{
+    "intercept": 77.67629901578952,
+    "minimum_nights": -0.32745974357807284,
+    "number_of_reviews": -0.004564519283190296,
+    "reviews_per_month": 2.756272171802616,
+    "host_listings_count": 0.1203940882972876,
+    "availability_365": 0.07620432740550158
+}},{latitude:40.89385, longitude:-73.8448,actual:80.0,predicted:84,coefficients:{
+    "intercept": 83.35587574859623,
+    "minimum_nights": -0.32931383183097845,
+    "number_of_reviews": 0.08196933894397915,
+    "reviews_per_month": 1.9116289179389743,
+    "host_listings_count": 0.2889207279124151,
+    "availability_365": 0.07771466623420463
+}},{latitude:40.85791, longitude:-73.89528,actual:39.0,predicted:77,coefficients:{
+    "intercept": 73.781573790803,
+    "minimum_nights": -0.32296172567190035,
+    "number_of_reviews": -0.14128694945115083,
+    "reviews_per_month": -2.576903486616709,
+    "host_listings_count": -0.26461388252199197,
+    "availability_365": 0.07071090685048742
+}},{latitude:40.85765, longitude:-73.90351,actual:48.0,predicted:68,coefficients:{
+    "intercept": 80.74865667576337,
+    "minimum_nights": -0.3223102696116909,
+    "number_of_reviews": -0.2125127364398288,
+    "reviews_per_month": -4.53700619857668,
+    "host_listings_count": -0.30339134171493987,
+    "availability_365": 0.07013652699922965
+}},{latitude:40.82132, longitude:-73.92884,actual:100.0,predicted:53,coefficients:{
+    "intercept": 81.26024776275717,
+    "minimum_nights": -0.32170761441012546,
+    "number_of_reviews": -0.24051669532841907,
+    "reviews_per_month": -9.57300752185969,
+    "host_listings_count": -0.3836250372666021,
+    "availability_365": 0.06890625204842721
+}},{latitude:40.87448, longitude:-73.87412,actual:200.0,predicted:81,coefficients:{
+    "intercept": 72.45539349565742,
+    "minimum_nights": -0.325251602463898,
+    "number_of_reviews": -0.09489415240393566,
+    "reviews_per_month": 1.6070578405337226,
+    "host_listings_count": -0.07022376698036328,
+    "availability_365": 0.07349775932879805
+}},{latitude:40.81819, longitude:-73.88653,actual:150.0,predicted:60,coefficients:{
+    "intercept": 63.614578802439034,
+    "minimum_nights": -0.3251604465776157,
+    "number_of_reviews": -0.17045614145878102,
+    "reviews_per_month": -1.7020607404726702,
+    "host_listings_count": -0.24087947403279092,
+    "availability_365": 0.07107460046618562
+}},{latitude:40.85449, longitude:-73.88437,actual:100.0,predicted:86,coefficients:{
+    "intercept": 65.85738394917468,
+    "minimum_nights": -0.3243141689899042,
+    "number_of_reviews": -0.15810688872479803,
+    "reviews_per_month": -0.45804954599584685,
+    "host_listings_count": -0.19388610053164218,
+    "availability_365": 0.07174138010583786
+}},{latitude:40.80504, longitude:-73.85327,actual:300.0,predicted:112,coefficients:{
+    "intercept": 84.74486445401327,
+    "minimum_nights": -0.3343209618957312,
+    "number_of_reviews": -0.011309153432989499,
+    "reviews_per_month": 1.1406394323099835,
+    "host_listings_count": 0.1620746688911234,
+    "availability_365": 0.07661460086424829
+}},{latitude:40.82598, longitude:-73.85203,actual:90.0,predicted:94,coefficients:{
+    "intercept": 82.40339000478671,
+    "minimum_nights": -0.33307130786737105,
+    "number_of_reviews": 0.029181774341170846,
+    "reviews_per_month": 1.5068591436022774,
+    "host_listings_count": 0.19808387867872074,
+    "availability_365": 0.07703491976761648
+}},{latitude:40.89753, longitude:-73.87359,actual:50.0,predicted:74,coefficients:{
+    "intercept": 74.00944505348059,
+    "minimum_nights": -0.3243824048737179,
+    "number_of_reviews": -0.06662264143565122,
+    "reviews_per_month": 1.380592059751247,
+    "host_listings_count": -0.04078612390111024,
+    "availability_365": 0.07388052736367323
+}},{latitude:40.83007, longitude:-73.92251,actual:45.0,predicted:59,coefficients:{
+    "intercept": 82.26555921303435,
+    "minimum_nights": -0.3218154413365342,
+    "number_of_reviews": -0.23506333536899784,
+    "reviews_per_month": -9.642505029332264,
+    "host_listings_count": -0.37052409846519707,
+    "availability_365": 0.06911890017091113
+}},{latitude:40.83217, longitude:-73.93148,actual:45.0,predicted:63,coefficients:{
+    "intercept": 80.94784849671507,
+    "minimum_nights": -0.32145211601156853,
+    "number_of_reviews": -0.25793083829292535,
+    "reviews_per_month": -9.405057407249881,
+    "host_listings_count": -0.3824670956771938,
+    "availability_365": 0.06891150511474257
+}},{latitude:40.87831, longitude:-73.86511,actual:350.0,predicted:102,coefficients:{
+    "intercept": 77.39570564520439,
+    "minimum_nights": -0.32713296992050916,
+    "number_of_reviews": -0.018334776916328732,
+    "reviews_per_month": 2.631782387778227,
+    "host_listings_count": 0.0690159408953133,
+    "availability_365": 0.07548319783541182
+}},{latitude:40.82773, longitude:-73.92308,actual:100.0,predicted:90,coefficients:{
+    "intercept": 82.07416164857159,
+    "minimum_nights": -0.3218308113079705,
+    "number_of_reviews": -0.23310292838153807,
+    "reviews_per_month": -9.692838017668368,
+    "host_listings_count": -0.37254269111763166,
+    "availability_365": 0.06908792938703713
+}},{latitude:40.86923, longitude:-73.86275,actual:90.0,predicted:88,coefficients:{
+    "intercept": 77.50517338745972,
+    "minimum_nights": -0.3283435059116612,
+    "number_of_reviews": -0.007327665262985682,
+    "reviews_per_month": 2.8777098595752997,
+    "host_listings_count": 0.10261318327086259,
+    "availability_365": 0.07598369174834911
+}},{latitude:40.885, longitude:-73.83518,actual:75.0,predicted:112,coefficients:{
+    "intercept": 88.56806634416597,
+    "minimum_nights": -0.3301193262721632,
+    "number_of_reviews": 0.059266024159708455,
+    "reviews_per_month": 1.1622986042138752,
+    "host_listings_count": 0.31701140608551115,
+    "availability_365": 0.0775472572203485
+}},{latitude:40.81177, longitude:-73.92726,actual:60.0,predicted:61,coefficients:{
+    "intercept": 81.5680818218082,
+    "minimum_nights": -0.32191952129406604,
+    "number_of_reviews": -0.2279431929802468,
+    "reviews_per_month": -9.48158180600816,
+    "host_listings_count": -0.38535697796123963,
+    "availability_365": 0.06888723791068732
+}},{latitude:40.8114, longitude:-73.92747,actual:60.0,predicted:23,coefficients:{
+    "intercept": 81.54542020477975,
+    "minimum_nights": -0.3219169233622783,
+    "number_of_reviews": -0.22839342608593577,
+    "reviews_per_month": -9.467549001405043,
+    "host_listings_count": -0.3857706942846008,
+    "availability_365": 0.06888041968415148
+}},{latitude:40.86116, longitude:-73.86248,actual:55.0,predicted:111,coefficients:{
+    "intercept": 77.38649040166396,
+    "minimum_nights": -0.32890277953409286,
+    "number_of_reviews": -0.009824895838557583,
+    "reviews_per_month": 2.72561135185131,
+    "host_listings_count": 0.09839795976333579,
+    "availability_365": 0.07593365155157569
+}},{latitude:40.81, longitude:-73.92654,actual:65.0,predicted:52,coefficients:{
+    "intercept": 81.69568695339525,
+    "minimum_nights": -0.3219776989461576,
+    "number_of_reviews": -0.22422608824560844,
+    "reviews_per_month": -9.504590900792287,
+    "host_listings_count": -0.38509585422042303,
+    "availability_365": 0.06889364805289479
+}},{latitude:40.89429, longitude:-73.84392,actual:49.0,predicted:120,coefficients:{
+    "intercept": 83.9135521168825,
+    "minimum_nights": -0.32933902328240783,
+    "number_of_reviews": 0.08406637217360632,
+    "reviews_per_month": 1.8352484310212194,
+    "host_listings_count": 0.292607565605938,
+    "availability_365": 0.07770860488125984
+}},{latitude:40.894, longitude:-73.84362,actual:130.0,predicted:116,coefficients:{
+    "intercept": 84.1042592227635,
+    "minimum_nights": -0.3293699731564133,
+    "number_of_reviews": 0.08491308539401526,
+    "reviews_per_month": 1.8092143071638833,
+    "host_listings_count": 0.29366906762340694,
+    "availability_365": 0.07770458218889018
+}},{latitude:40.88071, longitude:-73.92074,actual:60.0,predicted:122,coefficients:{
+    "intercept": 111.66930873895696,
+    "minimum_nights": -0.3210309844721672,
+    "number_of_reviews": -0.2581894484964027,
+    "reviews_per_month": -7.600405658933234,
+    "host_listings_count": -0.3414371332874537,
+    "availability_365": 0.06952310447145141
+}},{latitude:40.85504, longitude:-73.88394,actual:24.0,predicted:64,coefficients:{
+    "intercept": 65.78837414048047,
+    "minimum_nights": -0.3243569368976224,
+    "number_of_reviews": -0.15995842771682164,
+    "reviews_per_month": -0.3804820278785989,
+    "host_listings_count": -0.18983964992917732,
+    "availability_365": 0.07179935499638972
+}},{latitude:40.83213, longitude:-73.90736,actual:50.0,predicted:90,coefficients:{
+    "intercept": 80.62276765619072,
+    "minimum_nights": -0.3226068407916968,
+    "number_of_reviews": -0.22087638134607215,
+    "reviews_per_month": -6.129104997678374,
+    "host_listings_count": -0.3330152905845174,
+    "availability_365": 0.06970931746590951
+}},{latitude:40.83872, longitude:-73.87149,actual:45.0,predicted:89,coefficients:{
+    "intercept": 71.55429796063981,
+    "minimum_nights": -0.3273858481778188,
+    "number_of_reviews": -0.11865534519039385,
+    "reviews_per_month": 1.5734215739754567,
+    "host_listings_count": -0.0739596883303004,
+    "availability_365": 0.0734723992548611
+}},{latitude:40.81167, longitude:-73.92729,actual:55.0,predicted:47,coefficients:{
+    "intercept": 81.56579276846425,
+    "minimum_nights": -0.3219199027700417,
+    "number_of_reviews": -0.22797068515246605,
+    "reviews_per_month": -9.479329161329945,
+    "host_listings_count": -0.3854345421305896,
+    "availability_365": 0.06888599399975212
+}},{latitude:40.87, longitude:-73.90129,actual:39.0,predicted:61,coefficients:{
+    "intercept": 80.24512199530734,
+    "minimum_nights": -0.32218016127921006,
+    "number_of_reviews": -0.1916989244075572,
+    "reviews_per_month": -3.888991224020735,
+    "host_listings_count": -0.2856151209675063,
+    "availability_365": 0.07038903586927615
+}},{latitude:40.84391, longitude:-73.83171,actual:99.0,predicted:114,coefficients:{
+    "intercept": 86.28587346212746,
+    "minimum_nights": -0.3318752103691864,
+    "number_of_reviews": -0.02038169207012407,
+    "reviews_per_month": 0.7062460574000676,
+    "host_listings_count": 0.3072762127586256,
+    "availability_365": 0.07722997341900863
+}},{latitude:40.8689, longitude:-73.88552,actual:98.0,predicted:84,coefficients:{
+    "intercept": 67.61692268145359,
+    "minimum_nights": -0.3236917109039997,
+    "number_of_reviews": -0.14396658221997477,
+    "reviews_per_month": -0.37569917686138926,
+    "host_listings_count": -0.19064043557141674,
+    "availability_365": 0.07177586035548704
+}},{latitude:40.87064, longitude:-73.8797,actual:60.0,predicted:89,coefficients:{
+    "intercept": 67.79252503843618,
+    "minimum_nights": -0.32444272139525693,
+    "number_of_reviews": -0.1475486315860337,
+    "reviews_per_month": 0.7751654253027196,
+    "host_listings_count": -0.136634960582271,
+    "availability_365": 0.07255077650323187
+}},{latitude:40.86279, longitude:-73.83947,actual:87.0,predicted:93,coefficients:{
+    "intercept": 87.03424635643049,
+    "minimum_nights": -0.331063235006159,
+    "number_of_reviews": 0.0685261136469875,
+    "reviews_per_month": 1.2511231032869916,
+    "host_listings_count": 0.2949216602967509,
+    "availability_365": 0.07748417768408204
+}},{latitude:40.88511, longitude:-73.90831,actual:175.0,predicted:89,coefficients:{
+    "intercept": 96.0136879281145,
+    "minimum_nights": -0.32144447320665087,
+    "number_of_reviews": -0.2412715813011153,
+    "reviews_per_month": -5.402683819240255,
+    "host_listings_count": -0.3035058006231142,
+    "availability_365": 0.0701030124806775
+}},{latitude:40.86975, longitude:-73.84669,actual:75.0,predicted:84,coefficients:{
+    "intercept": 82.51316186111784,
+    "minimum_nights": -0.33054258516571083,
+    "number_of_reviews": 0.08668268851277365,
+    "reviews_per_month": 1.8797367558415925,
+    "host_listings_count": 0.2686588687870744,
+    "availability_365": 0.07758729040994801
+}},{latitude:40.89466, longitude:-73.89735,actual:50.0,predicted:90,coefficients:{
+    "intercept": 79.21171946163221,
+    "minimum_nights": -0.3218659051472708,
+    "number_of_reviews": -0.15032601377001437,
+    "reviews_per_month": -2.8959096429011,
+    "host_listings_count": -0.24838021811115876,
+    "availability_365": 0.07090971747846157
+}},{latitude:40.83499, longitude:-73.91003,actual:75.0,predicted:65,coefficients:{
+    "intercept": 81.63275839868567,
+    "minimum_nights": -0.3223708609392604,
+    "number_of_reviews": -0.2341073381563486,
+    "reviews_per_month": -6.783673455324747,
+    "host_listings_count": -0.3395939095222279,
+    "availability_365": 0.06960621065186774
+}},{latitude:40.83488, longitude:-73.91988,actual:45.0,predicted:75,coefficients:{
+    "intercept": 82.8956126570502,
+    "minimum_nights": -0.3218476437161462,
+    "number_of_reviews": -0.23977401435880763,
+    "reviews_per_month": -9.134980776446922,
+    "host_listings_count": -0.36343382382222017,
+    "availability_365": 0.06922998611127198
+}},{latitude:40.80747, longitude:-73.92766,actual:145.0,predicted:93,coefficients:{
+    "intercept": 81.60244255786789,
+    "minimum_nights": -0.3219718326956537,
+    "number_of_reviews": -0.22625219278556846,
+    "reviews_per_month": -9.419003740390687,
+    "host_listings_count": -0.3875061620257851,
+    "availability_365": 0.0688542351502433
+}},{latitude:40.86757, longitude:-73.8649,actual:60.0,predicted:104,coefficients:{
+    "intercept": 77.16247871387897,
+    "minimum_nights": -0.32777570873129847,
+    "number_of_reviews": -0.022307265247268615,
+    "reviews_per_month": 2.635709697977614,
+    "host_listings_count": 0.06066188529916713,
+    "availability_365": 0.07538252486853723
+}},{latitude:40.85056, longitude:-73.78829,actual:65.0,predicted:180,coefficients:{
+    "intercept": 175.23036195693547,
+    "minimum_nights": -0.3307534403175825,
+    "number_of_reviews": -0.14308048411617819,
+    "reviews_per_month": -1.056859782008046,
+    "host_listings_count": 0.3292862751652547,
+    "availability_365": 0.07635005137224449
+}},{latitude:40.84378, longitude:-73.84469,actual:670.0,predicted:99,coefficients:{
+    "intercept": 84.89503859142167,
+    "minimum_nights": -0.3319909238192102,
+    "number_of_reviews": 0.0705393946637204,
+    "reviews_per_month": 1.2918925865945254,
+    "host_listings_count": 0.26075227210287677,
+    "availability_365": 0.07734808163983163
+}},{latitude:40.87821, longitude:-73.86354,actual:85.0,predicted:95,coefficients:{
+    "intercept": 77.57434256620328,
+    "minimum_nights": -0.3275843405399848,
+    "number_of_reviews": -0.009273441611663436,
+    "reviews_per_month": 2.7559550389268064,
+    "host_listings_count": 0.09777809374832622,
+    "availability_365": 0.07589546745581138
+}},{latitude:40.88229, longitude:-73.84295,actual:80.0,predicted:112,coefficients:{
+    "intercept": 84.68169793262788,
+    "minimum_nights": -0.33000468301628566,
+    "number_of_reviews": 0.0907445344708632,
+    "reviews_per_month": 1.6874182682863406,
+    "host_listings_count": 0.291620181387832,
+    "availability_365": 0.07764443629490246
+}},{latitude:40.87684, longitude:-73.86389,actual:120.0,predicted:89,coefficients:{
+    "intercept": 77.52296862955816,
+    "minimum_nights": -0.32755909307054276,
+    "number_of_reviews": -0.01159202959439599,
+    "reviews_per_month": 2.750222733185622,
+    "host_listings_count": 0.0896471044893922,
+    "availability_365": 0.07578190385643782
+}},{latitude:40.86698, longitude:-73.85178,actual:35.0,predicted:107,coefficients:{
+    "intercept": 79.68476555856064,
+    "minimum_nights": -0.3305143291036807,
+    "number_of_reviews": 0.06094011030549246,
+    "reviews_per_month": 2.347193068452547,
+    "host_listings_count": 0.23786570101489707,
+    "availability_365": 0.07754418010943911
+}},{latitude:40.83513, longitude:-73.91797,actual:99.0,predicted:85,coefficients:{
+    "intercept": 82.90599740810673,
+    "minimum_nights": -0.3219321147421084,
+    "number_of_reviews": -0.24051542110896018,
+    "reviews_per_month": -8.73512178926531,
+    "host_listings_count": -0.35941105220503045,
+    "availability_365": 0.06929469508974062
+}},{latitude:40.82674, longitude:-73.91935,actual:85.0,predicted:100,coefficients:{
+    "intercept": 82.0295855446822,
+    "minimum_nights": -0.32201658094410474,
+    "number_of_reviews": -0.23032709380730712,
+    "reviews_per_month": -9.05874606211356,
+    "host_listings_count": -0.36625871778649954,
+    "availability_365": 0.06919229765486361
+}},{latitude:40.85398, longitude:-73.86451,actual:25.0,predicted:76,coefficients:{
+    "intercept": 76.7779176987462,
+    "minimum_nights": -0.32863618617935453,
+    "number_of_reviews": -0.030886009134187445,
+    "reviews_per_month": 2.443776182240328,
+    "host_listings_count": 0.051727856318844266,
+    "availability_365": 0.07526888825528551
+}},{latitude:40.84289, longitude:-73.88773,actual:40.0,predicted:67,coefficients:{
+    "intercept": 66.64348468771067,
+    "minimum_nights": -0.32422661091603316,
+    "number_of_reviews": -0.14357229573024136,
+    "reviews_per_month": -1.3427855774131598,
+    "host_listings_count": -0.22936182625126367,
+    "availability_365": 0.07123533929294845
+}},{latitude:40.82507, longitude:-73.8204,actual:45.0,predicted:80,coefficients:{
+    "intercept": 78.7516677696609,
+    "minimum_nights": -0.3322653333025596,
+    "number_of_reviews": -0.01610259598175084,
+    "reviews_per_month": 0.01915846274854048,
+    "host_listings_count": 0.31682006026077414,
+    "availability_365": 0.07688076228137782
+}},{latitude:40.85055, longitude:-73.90189,actual:69.0,predicted:63,coefficients:{
+    "intercept": 78.74404317561894,
+    "minimum_nights": -0.3225909352734507,
+    "number_of_reviews": -0.19586385318101532,
+    "reviews_per_month": -4.216650206857252,
+    "host_listings_count": -0.3014657896125474,
+    "availability_365": 0.07017175384832273
+}},{latitude:40.81518, longitude:-73.82708,actual:99.0,predicted:103,coefficients:{
+    "intercept": 79.51306897617371,
+    "minimum_nights": -0.33278513161583867,
+    "number_of_reviews": -0.031205952802984698,
+    "reviews_per_month": 0.2797951332544605,
+    "host_listings_count": 0.2998612974099375,
+    "availability_365": 0.07688539619508093
+}},{latitude:40.83311, longitude:-73.9116,actual:34.0,predicted:78,coefficients:{
+    "intercept": 81.80445717245203,
+    "minimum_nights": -0.3223128975466446,
+    "number_of_reviews": -0.23545777402813153,
+    "reviews_per_month": -7.2033761104823295,
+    "host_listings_count": -0.34506173419088587,
+    "availability_365": 0.06952298924180562
+}},{latitude:40.84145, longitude:-73.91027,actual:150.0,predicted:50,coefficients:{
+    "intercept": 82.5844347903823,
+    "minimum_nights": -0.32222399418771275,
+    "number_of_reviews": -0.24190153407429574,
+    "reviews_per_month": -6.7435843969920635,
+    "host_listings_count": -0.3366645486630655,
+    "availability_365": 0.06964603544131868
+}},{latitude:40.81389, longitude:-73.88914,actual:70.0,predicted:88,coefficients:{
+    "intercept": 65.77559766679933,
+    "minimum_nights": -0.32490557580158624,
+    "number_of_reviews": -0.1506873959977979,
+    "reviews_per_month": -2.353403124729377,
+    "host_listings_count": -0.2615132720467254,
+    "availability_365": 0.07077500239827988
+}},{latitude:40.84047, longitude:-73.87127,actual:20.0,predicted:77,coefficients:{
+    "intercept": 71.9344367135513,
+    "minimum_nights": -0.32736433213043326,
+    "number_of_reviews": -0.11342642972302262,
+    "reviews_per_month": 1.6327488161592274,
+    "host_listings_count": -0.06909751925907515,
+    "availability_365": 0.07354154926483357
+}},{latitude:40.87701, longitude:-73.86282,actual:200.0,predicted:118,coefficients:{
+    "intercept": 77.612391318578,
+    "minimum_nights": -0.327869345196664,
+    "number_of_reviews": -0.005484193493792288,
+    "reviews_per_month": 2.84306376798791,
+    "host_listings_count": 0.11026993480137219,
+    "availability_365": 0.076077342801822
+}},{latitude:40.85222, longitude:-73.89277,actual:299.0,predicted:88,coefficients:{
+    "intercept": 71.39724147980291,
+    "minimum_nights": -0.32336207953817575,
+    "number_of_reviews": -0.13054622449483336,
+    "reviews_per_month": -2.148126060966462,
+    "host_listings_count": -0.2546279682624661,
+    "availability_365": 0.07086171411026145
+}},{latitude:40.86437, longitude:-73.86047,actual:80.0,predicted:90,coefficients:{
+    "intercept": 77.65990450819136,
+    "minimum_nights": -0.3294192465600786,
+    "number_of_reviews": 0.005076964178480208,
+    "reviews_per_month": 2.9380695473418217,
+    "host_listings_count": 0.14326486799462157,
+    "availability_365": 0.07657693908819503
+}},{latitude:40.88796, longitude:-73.90473,actual:49.0,predicted:86,coefficients:{
+    "intercept": 89.34638773627051,
+    "minimum_nights": -0.3215693261617354,
+    "number_of_reviews": -0.21374267960215967,
+    "reviews_per_month": -4.579796679477148,
+    "host_listings_count": -0.2879666461438206,
+    "availability_365": 0.07033312897859205
+}},{latitude:40.83942, longitude:-73.87518,actual:165.0,predicted:89,coefficients:{
+    "intercept": 67.90041478716941,
+    "minimum_nights": -0.32648773046666524,
+    "number_of_reviews": -0.15543618411510163,
+    "reviews_per_month": 1.0520221884427094,
+    "host_listings_count": -0.11870623765474914,
+    "availability_365": 0.07283034549846819
+}},{latitude:40.84119, longitude:-73.87049,actual:20.0,predicted:77,coefficients:{
+    "intercept": 72.69455241027416,
+    "minimum_nights": -0.3275336326351018,
+    "number_of_reviews": -0.1040385363622482,
+    "reviews_per_month": 1.6887008106431065,
+    "host_listings_count": -0.05766997871732933,
+    "availability_365": 0.07370520802833763
+}},{latitude:40.84087, longitude:-73.8699,actual:20.0,predicted:72,coefficients:{
+    "intercept": 73.15454082064393,
+    "minimum_nights": -0.3277051530053395,
+    "number_of_reviews": -0.0984092896467575,
+    "reviews_per_month": 1.7311897142288262,
+    "host_listings_count": -0.04976638782035906,
+    "availability_365": 0.0738187261529542
+}},{latitude:40.85214, longitude:-73.90294,actual:100.0,predicted:63,coefficients:{
+    "intercept": 79.668543763091,
+    "minimum_nights": -0.32247615014538755,
+    "number_of_reviews": -0.20581637586610216,
+    "reviews_per_month": -4.491479422294269,
+    "host_listings_count": -0.3047259666598279,
+    "availability_365": 0.07012160167365199
+}},{latitude:40.83026, longitude:-73.89102,actual:200.0,predicted:60,coefficients:{
+    "intercept": 68.75315842846614,
+    "minimum_nights": -0.3241822723718221,
+    "number_of_reviews": -0.13393362998719208,
+    "reviews_per_month": -2.3948524233090005,
+    "host_listings_count": -0.26083926671130453,
+    "availability_365": 0.07078264093512514
+}},{latitude:40.8296, longitude:-73.88971,actual:125.0,predicted:67,coefficients:{
+    "intercept": 67.40520353941433,
+    "minimum_nights": -0.32436745082079965,
+    "number_of_reviews": -0.13883864840034416,
+    "reviews_per_month": -2.1045875845542064,
+    "host_listings_count": -0.253211976287024,
+    "availability_365": 0.07089401169006838
+}},{latitude:40.81331, longitude:-73.92765,actual:60.0,predicted:36,coefficients:{
+    "intercept": 81.48747800991578,
+    "minimum_nights": -0.32187927461760424,
+    "number_of_reviews": -0.23043365356099488,
+    "reviews_per_month": -9.46656075606366,
+    "host_listings_count": -0.38526318152847117,
+    "availability_365": 0.06888717293637164
+}},{latitude:40.81185, longitude:-73.91625,actual:100.0,predicted:92,coefficients:{
+    "intercept": 81.47037819582893,
+    "minimum_nights": -0.32245190391179984,
+    "number_of_reviews": -0.2124093299538409,
+    "reviews_per_month": -8.220108958654057,
+    "host_listings_count": -0.36685682355940874,
+    "availability_365": 0.06919447686064077
+}},{latitude:40.85746, longitude:-73.79056,actual:175.0,predicted:170,coefficients:{
+    "intercept": 169.39327338047403,
+    "minimum_nights": -0.33066924470057585,
+    "number_of_reviews": -0.1449472091888767,
+    "reviews_per_month": -0.9905958873896807,
+    "host_listings_count": 0.3322923675651198,
+    "availability_365": 0.07642671699344343
+}},{latitude:40.81712, longitude:-73.9209,actual:100.0,predicted:81,coefficients:{
+    "intercept": 81.78024594760171,
+    "minimum_nights": -0.3221117155666544,
+    "number_of_reviews": -0.22008604810711802,
+    "reviews_per_month": -9.259761880570693,
+    "host_listings_count": -0.37348323175361714,
+    "availability_365": 0.06908283539300751
+}},{latitude:40.84613, longitude:-73.91668,actual:42.0,predicted:55,coefficients:{
+    "intercept": 85.40539344829541,
+    "minimum_nights": -0.3217927956599783,
+    "number_of_reviews": -0.25363120991839827,
+    "reviews_per_month": -8.201775310306132,
+    "host_listings_count": -0.35092943433127277,
+    "availability_365": 0.06941845725309854
+}},{latitude:40.82306, longitude:-73.90821,actual:75.0,predicted:41,coefficients:{
+    "intercept": 80.54051624960323,
+    "minimum_nights": -0.3227407966153411,
+    "number_of_reviews": -0.2144357137104473,
+    "reviews_per_month": -6.443558012036615,
+    "host_listings_count": -0.340758173669129,
+    "availability_365": 0.06959633992120463
+}},{latitude:40.88179, longitude:-73.83455,actual:75.0,predicted:120,coefficients:{
+    "intercept": 88.77420234560641,
+    "minimum_nights": -0.3302746302162979,
+    "number_of_reviews": 0.052100471939179896,
+    "reviews_per_month": 1.1000889726799281,
+    "host_listings_count": 0.31748148574219553,
+    "availability_365": 0.07752167015588729
+}},{latitude:40.86723, longitude:-73.84285,actual:67.0,predicted:97,coefficients:{
+    "intercept": 85.11228741979278,
+    "minimum_nights": -0.3307850332335097,
+    "number_of_reviews": 0.08836299776597643,
+    "reviews_per_month": 1.5171299436167631,
+    "host_listings_count": 0.2845587953503679,
+    "availability_365": 0.07754945793503047
+}},{latitude:40.8094, longitude:-73.93173,actual:28.0,predicted:69,coefficients:{
+    "intercept": 80.67938352992759,
+    "minimum_nights": -0.3217857331085548,
+    "number_of_reviews": -0.2457794348124481,
+    "reviews_per_month": -9.180704602526625,
+    "host_listings_count": -0.3914363366280935,
+    "availability_365": 0.06878155802833533
+}},{latitude:40.83025, longitude:-73.89134,actual:70.0,predicted:73,coefficients:{
+    "intercept": 69.07943860955697,
+    "minimum_nights": -0.3241432442868117,
+    "number_of_reviews": -0.13326942437772482,
+    "reviews_per_month": -2.471296099662318,
+    "host_listings_count": -0.26277204075253413,
+    "availability_365": 0.07075442945295027
+}},{latitude:40.8476, longitude:-73.90594,actual:50.0,predicted:80,coefficients:{
+    "intercept": 81.3152870111817,
+    "minimum_nights": -0.3223685929845819,
+    "number_of_reviews": -0.22674553455849616,
+    "reviews_per_month": -5.468628060414983,
+    "host_listings_count": -0.31897554686869684,
+    "availability_365": 0.06991091768350428
+}},{latitude:40.82433, longitude:-73.91619,actual:80.0,predicted:64,coefficients:{
+    "intercept": 81.67344467004783,
+    "minimum_nights": -0.3222217223318896,
+    "number_of_reviews": -0.2275294901188104,
+    "reviews_per_month": -8.267471311777479,
+    "host_listings_count": -0.3608512033123984,
+    "availability_365": 0.0692814837882702
+}},{latitude:40.83651, longitude:-73.92269,actual:74.0,predicted:53,coefficients:{
+    "intercept": 82.97251763623153,
+    "minimum_nights": -0.3216989095123104,
+    "number_of_reviews": -0.24196583655841594,
+    "reviews_per_month": -9.584731249447119,
+    "host_listings_count": -0.36787895414732996,
+    "availability_365": 0.06915531301066598
+}},{latitude:40.85387, longitude:-73.89384,actual:247.0,predicted:84,coefficients:{
+    "intercept": 72.38243409760669,
+    "minimum_nights": -0.3232078226324147,
+    "number_of_reviews": -0.1339380334093806,
+    "reviews_per_month": -2.3534484267445483,
+    "host_listings_count": -0.25960307747827194,
+    "availability_365": 0.07078767860845722
+}},{latitude:40.8461, longitude:-73.90883,actual:30.0,predicted:70,coefficients:{
+    "intercept": 82.76437496737626,
+    "minimum_nights": -0.32221536865562705,
+    "number_of_reviews": -0.24130804408258216,
+    "reviews_per_month": -6.295904243748318,
+    "host_listings_count": -0.3295728587319308,
+    "availability_365": 0.06975087087079071
+}},{latitude:40.84487, longitude:-73.90811,actual:80.0,predicted:90,coefficients:{
+    "intercept": 82.18637913967278,
+    "minimum_nights": -0.3222859345135151,
+    "number_of_reviews": -0.23699548607113474,
+    "reviews_per_month": -6.126891408067307,
+    "host_listings_count": -0.32799524368707256,
+    "availability_365": 0.06977610129952493
+}},{latitude:40.81624, longitude:-73.9011,actual:50.0,predicted:77,coefficients:{
+    "intercept": 78.03270835129699,
+    "minimum_nights": -0.32346944042245757,
+    "number_of_reviews": -0.16914260847277615,
+    "reviews_per_month": -4.9847045238421686,
+    "host_listings_count": -0.31998252903765084,
+    "availability_365": 0.06991394241965926
+}},{latitude:40.85589, longitude:-73.85825,actual:85.0,predicted:106,coefficients:{
+    "intercept": 78.0001961715666,
+    "minimum_nights": -0.33084182877993196,
+    "number_of_reviews": 0.01599833610940707,
+    "reviews_per_month": 2.7590685091280704,
+    "host_listings_count": 0.17711449441464877,
+    "availability_365": 0.07714653646958645
+}},{latitude:40.80797, longitude:-73.92865,actual:95.0,predicted:73,coefficients:{
+    "intercept": 81.41917679289011,
+    "minimum_nights": -0.3219239573540634,
+    "number_of_reviews": -0.23050527944028273,
+    "reviews_per_month": -9.370442364634352,
+    "host_listings_count": -0.38852938896527783,
+    "availability_365": 0.06883564606203857
+}},{latitude:40.88449, longitude:-73.86227,actual:25.0,predicted:74,coefficients:{
+    "intercept": 77.69364665818905,
+    "minimum_nights": -0.32759858829502836,
+    "number_of_reviews": -0.0023238906682155236,
+    "reviews_per_month": 2.7864139476428065,
+    "host_listings_count": 0.12946371120033515,
+    "availability_365": 0.0763342303180458
+}},{latitude:40.84555, longitude:-73.86787,actual:50.0,predicted:84,coefficients:{
+    "intercept": 74.93111268718188,
+    "minimum_nights": -0.32804859393348,
+    "number_of_reviews": -0.07093267340834628,
+    "reviews_per_month": 1.977619316704535,
+    "host_listings_count": -0.014301665052948408,
+    "availability_365": 0.07432564326282944
+}},{latitude:40.82421, longitude:-73.917,actual:99.0,predicted:69,coefficients:{
+    "intercept": 81.73506548543077,
+    "minimum_nights": -0.32218077876527557,
+    "number_of_reviews": -0.2273693606656873,
+    "reviews_per_month": -8.479967804068588,
+    "host_listings_count": -0.36266490755284336,
+    "availability_365": 0.06925256498139662
+}},{latitude:40.86906, longitude:-73.88753,actual:200.0,predicted:69,coefficients:{
+    "intercept": 68.66766625716431,
+    "minimum_nights": -0.32344540734654675,
+    "number_of_reviews": -0.1341926574928436,
+    "reviews_per_month": -0.8103471551458546,
+    "host_listings_count": -0.20607292695158627,
+    "availability_365": 0.07155281728618831
+}},{latitude:40.82121, longitude:-73.87764,actual:65.0,predicted:67,coefficients:{
+    "intercept": 63.408297577032464,
+    "minimum_nights": -0.3266640444771491,
+    "number_of_reviews": -0.1910756432797178,
+    "reviews_per_month": -0.00496248405414381,
+    "host_listings_count": -0.1632650248235703,
+    "availability_365": 0.07219286991266048
+}},{latitude:40.88009, longitude:-73.83456,actual:68.0,predicted:120,coefficients:{
+    "intercept": 88.77173597281713,
+    "minimum_nights": -0.3303486991103609,
+    "number_of_reviews": 0.0505221495476532,
+    "reviews_per_month": 1.0897998450877453,
+    "host_listings_count": 0.3168711780651652,
+    "availability_365": 0.07751387109045188
+}},{latitude:40.84381, longitude:-73.90827,actual:80.0,predicted:103,coefficients:{
+    "intercept": 82.10624204535522,
+    "minimum_nights": -0.32229815391374445,
+    "number_of_reviews": -0.2367924780289942,
+    "reviews_per_month": -6.185744490104032,
+    "host_listings_count": -0.3291388892077612,
+    "availability_365": 0.06975954418203137
+}},{latitude:40.85929, longitude:-73.89165,actual:99.0,predicted:69,coefficients:{
+    "intercept": 70.8794629767001,
+    "minimum_nights": -0.32328063222314285,
+    "number_of_reviews": -0.12788513031099968,
+    "reviews_per_month": -1.8090551847044547,
+    "host_listings_count": -0.24229162498227072,
+    "availability_365": 0.07103614661433201
+}},{latitude:40.81132, longitude:-73.92037,actual:115.0,predicted:61,coefficients:{
+    "intercept": 81.81505956997529,
+    "minimum_nights": -0.3222396526056546,
+    "number_of_reviews": -0.2135395224560901,
+    "reviews_per_month": -9.091342512633679,
+    "host_listings_count": -0.37505389258774,
+    "availability_365": 0.06906176128319877
+}},{latitude:40.86643, longitude:-73.88895,actual:65.0,predicted:73,coefficients:{
+    "intercept": 69.37022905273727,
+    "minimum_nights": -0.3233641239823796,
+    "number_of_reviews": -0.12957274259875956,
+    "reviews_per_month": -1.1290004125639388,
+    "host_listings_count": -0.21856157211643673,
+    "availability_365": 0.0713745745906225
+}},{latitude:40.86566, longitude:-73.88748,actual:65.0,predicted:70,coefficients:{
+    "intercept": 68.34940167020211,
+    "minimum_nights": -0.323555719686798,
+    "number_of_reviews": -0.13545344658252276,
+    "reviews_per_month": -0.8209555949735363,
+    "host_listings_count": -0.2085719562030663,
+    "availability_365": 0.07151995688943354
+}},{latitude:40.82688, longitude:-73.81899,actual:40.0,predicted:77,coefficients:{
+    "intercept": 78.88557549128329,
+    "minimum_nights": -0.33216655537478573,
+    "number_of_reviews": -0.017645458002195545,
+    "reviews_per_month": -0.03885039533701358,
+    "host_listings_count": 0.3193955644278802,
+    "availability_365": 0.07686889844016126
+}},{latitude:40.89682, longitude:-73.84318,actual:41.0,predicted:96,coefficients:{
+    "intercept": 84.36603878757259,
+    "minimum_nights": -0.32924888365984634,
+    "number_of_reviews": 0.08375362453913608,
+    "reviews_per_month": 1.7813169059578082,
+    "host_listings_count": 0.2963000074557643,
+    "availability_365": 0.07771040792534599
+}},{latitude:40.89702, longitude:-73.85723,actual:289.0,predicted:113,coefficients:{
+    "intercept": 77.95876260029846,
+    "minimum_nights": -0.32814020956319095,
+    "number_of_reviews": 0.014734967439153415,
+    "reviews_per_month": 2.71338621201888,
+    "host_listings_count": 0.2203456363996453,
+    "availability_365": 0.07767319590608025
+}},{latitude:40.85646, longitude:-73.86813,actual:50.0,predicted:96,coefficients:{
+    "intercept": 75.52404987679874,
+    "minimum_nights": -0.3274398346638124,
+    "number_of_reviews": -0.05868977205543219,
+    "reviews_per_month": 2.248610196943277,
+    "host_listings_count": -0.0057801809550887245,
+    "availability_365": 0.0744402937647581
+}},{latitude:40.83108, longitude:-73.82951,actual:50.0,predicted:113,coefficients:{
+    "intercept": 83.31015842708081,
+    "minimum_nights": -0.3323249108595128,
+    "number_of_reviews": -0.039845860212764365,
+    "reviews_per_month": 0.5137650612473319,
+    "host_listings_count": 0.30491852873423386,
+    "availability_365": 0.07708595472246567
+}},{latitude:40.87905, longitude:-73.85243,actual:76.0,predicted:110,coefficients:{
+    "intercept": 79.16802987805318,
+    "minimum_nights": -0.329718154845373,
+    "number_of_reviews": 0.05262094912594339,
+    "reviews_per_month": 2.536981710971756,
+    "host_listings_count": 0.24211169949509445,
+    "availability_365": 0.07763530045686098
+}},{latitude:40.85538, longitude:-73.91081,actual:40.0,predicted:85,coefficients:{
+    "intercept": 86.35767894135358,
+    "minimum_nights": -0.32191183067079787,
+    "number_of_reviews": -0.2557107118666883,
+    "reviews_per_month": -6.627068625310732,
+    "host_listings_count": -0.3302069350676594,
+    "availability_365": 0.069731941384344
+}},{latitude:40.88344, longitude:-73.90301,actual:45.0,predicted:93,coefficients:{
+    "intercept": 85.04433698171079,
+    "minimum_nights": -0.3217648865539686,
+    "number_of_reviews": -0.20226375153667872,
+    "reviews_per_month": -4.236381620386076,
+    "host_listings_count": -0.2838113736990253,
+    "availability_365": 0.07040014302260893
+}},{latitude:40.84994, longitude:-73.9066,actual:148.0,predicted:94,coefficients:{
+    "intercept": 82.07928450597146,
+    "minimum_nights": -0.3222743397464853,
+    "number_of_reviews": -0.2325756827571016,
+    "reviews_per_month": -5.605319929784344,
+    "host_listings_count": -0.31985138087297776,
+    "availability_365": 0.06989555194039745
+}},{latitude:40.81098, longitude:-73.91814,actual:65.0,predicted:52,coefficients:{
+    "intercept": 81.66196185526512,
+    "minimum_nights": -0.32236249242447884,
+    "number_of_reviews": -0.2119238918687445,
+    "reviews_per_month": -8.628626583910366,
+    "host_listings_count": -0.3710721990556696,
+    "availability_365": 0.06912708425207768
+}},{latitude:40.8154, longitude:-73.81551,actual:75.0,predicted:86,coefficients:{
+    "intercept": 80.54684943573565,
+    "minimum_nights": -0.3323542409699021,
+    "number_of_reviews": -0.04474137130042364,
+    "reviews_per_month": -0.2529200650120932,
+    "host_listings_count": 0.31665619803554756,
+    "availability_365": 0.07670018114599762
+}},{latitude:40.89156, longitude:-73.84197,actual:65.0,predicted:92,coefficients:{
+    "intercept": 85.15222340644577,
+    "minimum_nights": -0.32957506268233777,
+    "number_of_reviews": 0.08775845353119913,
+    "reviews_per_month": 1.658599073034652,
+    "host_listings_count": 0.2989188113849137,
+    "availability_365": 0.07767701337697787
+}},{latitude:40.88316, longitude:-73.90586,actual:30.0,predicted:77,coefficients:{
+    "intercept": 90.00625029659227,
+    "minimum_nights": -0.32160963264282116,
+    "number_of_reviews": -0.22613423931659057,
+    "reviews_per_month": -4.872208234318786,
+    "host_listings_count": -0.2956597360720657,
+    "availability_365": 0.07022338261197869
+}},{latitude:40.80707, longitude:-73.92974,actual:200.0,predicted:72,coefficients:{
+    "intercept": 81.21207443805312,
+    "minimum_nights": -0.3218953383412777,
+    "number_of_reviews": -0.23469745528708655,
+    "reviews_per_month": -9.286666090134371,
+    "host_listings_count": -0.3901265617096087,
+    "availability_365": 0.06880817758817166
+}},{latitude:40.8474, longitude:-73.89612,actual:50.0,predicted:79,coefficients:{
+    "intercept": 74.07326151342203,
+    "minimum_nights": -0.32315892422551556,
+    "number_of_reviews": -0.14621005640939197,
+    "reviews_per_month": -2.959657426669694,
+    "host_listings_count": -0.2767790608924245,
+    "availability_365": 0.0705402272533475
+}},{latitude:40.83099, longitude:-73.86951,actual:35.0,predicted:74,coefficients:{
+    "intercept": 72.63049419361015,
+    "minimum_nights": -0.3282660463528445,
+    "number_of_reviews": -0.11060683109046822,
+    "reviews_per_month": 1.4576709519157904,
+    "host_listings_count": -0.05554813628990442,
+    "availability_365": 0.07373803787397944
+}},{latitude:40.88805, longitude:-73.86451,actual:65.0,predicted:77,coefficients:{
+    "intercept": 77.57615241437902,
+    "minimum_nights": -0.3267648001050747,
+    "number_of_reviews": -0.013363999911557763,
+    "reviews_per_month": 2.539948092052113,
+    "host_listings_count": 0.09038399738619715,
+    "availability_365": 0.07576681733206
+}},{latitude:40.88474, longitude:-73.90321,actual:27.0,predicted:65,coefficients:{
+    "intercept": 85.68124493438513,
+    "minimum_nights": -0.3217244581339277,
+    "number_of_reviews": -0.20323899776638923,
+    "reviews_per_month": -4.2770910046061035,
+    "host_listings_count": -0.28378359359185645,
+    "availability_365": 0.07039913346982352
+}},{latitude:40.82671, longitude:-73.90643,actual:159.0,predicted:72,coefficients:{
+    "intercept": 80.15735280901896,
+    "minimum_nights": -0.3227905851985844,
+    "number_of_reviews": -0.2106148761075196,
+    "reviews_per_month": -5.980189547277716,
+    "host_listings_count": -0.3330917923321891,
+    "availability_365": 0.06971154438819083
+}},{latitude:40.81694, longitude:-73.89627,actual:60.0,predicted:86,coefficients:{
+    "intercept": 74.04432361181338,
+    "minimum_nights": -0.32393617311887446,
+    "number_of_reviews": -0.14158497109447615,
+    "reviews_per_month": -3.911520793626242,
+    "host_listings_count": -0.2985353523699407,
+    "availability_365": 0.07023263488036241
+}},{latitude:40.8149, longitude:-73.81545,actual:125.0,predicted:107,coefficients:{
+    "intercept": 80.63151130051162,
+    "minimum_nights": -0.3323655315169812,
+    "number_of_reviews": -0.045368285379396196,
+    "reviews_per_month": -0.2575062676121272,
+    "host_listings_count": 0.3164363585090352,
+    "availability_365": 0.07669505763794576
+}},{latitude:40.81894, longitude:-73.91418,actual:49.0,predicted:64,coefficients:{
+    "intercept": 81.27952014488291,
+    "minimum_nights": -0.3224378463835461,
+    "number_of_reviews": -0.22038195921376202,
+    "reviews_per_month": -7.808301793939738,
+    "host_listings_count": -0.35889462448547815,
+    "availability_365": 0.06931656891223971
+}},{latitude:40.82095, longitude:-73.89522,actual:100.0,predicted:84,coefficients:{
+    "intercept": 72.95969616780431,
+    "minimum_nights": -0.32394673768773186,
+    "number_of_reviews": -0.13799824463320098,
+    "reviews_per_month": -3.5745432084554714,
+    "host_listings_count": -0.290712927298675,
+    "availability_365": 0.0703472362735419
+}},{latitude:40.89308, longitude:-73.85076,actual:41.0,predicted:107,coefficients:{
+    "intercept": 79.87036962100994,
+    "minimum_nights": -0.328970531115902,
+    "number_of_reviews": 0.0523301704848146,
+    "reviews_per_month": 2.4063138291000534,
+    "host_listings_count": 0.25997879162505466,
+    "availability_365": 0.07772898232511702
+}},{latitude:40.83619, longitude:-73.84916,actual:52.0,predicted:82,coefficients:{
+    "intercept": 82.93185390205466,
+    "minimum_nights": -0.33242841438941734,
+    "number_of_reviews": 0.05711982731173416,
+    "reviews_per_month": 1.5103587124820943,
+    "host_listings_count": 0.22886733559620281,
+    "availability_365": 0.07723314967699625
+}},{latitude:40.896, longitude:-73.89964,actual:64.0,predicted:93,coefficients:{
+    "intercept": 82.36065348610732,
+    "minimum_nights": -0.32168616122603183,
+    "number_of_reviews": -0.16706459242401278,
+    "reviews_per_month": -3.4088200511666877,
+    "host_listings_count": -0.2593028512232466,
+    "availability_365": 0.07074794605726811
+}},{latitude:40.84321, longitude:-73.83129,actual:100.0,predicted:88,coefficients:{
+    "intercept": 86.04061902998117,
+    "minimum_nights": -0.33189685084987297,
+    "number_of_reviews": -0.02320521176052618,
+    "reviews_per_month": 0.6797594525065065,
+    "host_listings_count": 0.30788548713373204,
+    "availability_365": 0.07721764872201069
+}},{latitude:40.82236, longitude:-73.90227,actual:75.0,predicted:102,coefficients:{
+    "intercept": 78.54183557568689,
+    "minimum_nights": -0.3232207295821283,
+    "number_of_reviews": -0.18114247761644584,
+    "reviews_per_month": -5.1253614696313665,
+    "host_listings_count": -0.32085656349614516,
+    "availability_365": 0.06989875809338206
+}},{latitude:40.80924, longitude:-73.85107,actual:95.0,predicted:106,coefficients:{
+    "intercept": 85.24589307268252,
+    "minimum_nights": -0.3339772919603902,
+    "number_of_reviews": 0.0046968294382502785,
+    "reviews_per_month": 1.1785235925185087,
+    "host_listings_count": 0.1863240143376086,
+    "availability_365": 0.07676554710761796
+}},{latitude:40.85505, longitude:-73.89238,actual:40.0,predicted:59,coefficients:{
+    "intercept": 71.21960519114074,
+    "minimum_nights": -0.32332381238848196,
+    "number_of_reviews": -0.129434165187925,
+    "reviews_per_month": -2.016004566215095,
+    "host_listings_count": -0.25010846030192424,
+    "availability_365": 0.07092558377961838
+}},{latitude:40.81496, longitude:-73.92088,actual:60.0,predicted:84,coefficients:{
+    "intercept": 81.78606891047114,
+    "minimum_nights": -0.32215044244433083,
+    "number_of_reviews": -0.2177781908236083,
+    "reviews_per_month": -9.240939318855567,
+    "host_listings_count": -0.37438629512303073,
+    "availability_365": 0.06906980319327409
+}},{latitude:40.83485, longitude:-73.85954,actual:93.0,predicted:100,coefficients:{
+    "intercept": 78.1069470842948,
+    "minimum_nights": -0.3316086512661535,
+    "number_of_reviews": -0.012858115719489768,
+    "reviews_per_month": 2.077632962496797,
+    "host_listings_count": 0.12415790363409746,
+    "availability_365": 0.07632597188409478
+}},{latitude:40.88999, longitude:-73.86008,actual:75.0,predicted:90,coefficients:{
+    "intercept": 77.75401949454186,
+    "minimum_nights": -0.3279425172793551,
+    "number_of_reviews": 0.006338242852087377,
+    "reviews_per_month": 2.775439254804894,
+    "host_listings_count": 0.18109606295666067,
+    "availability_365": 0.07705766654632623
+}},{latitude:40.84077, longitude:-73.8487,actual:50.0,predicted:87,coefficients:{
+    "intercept": 82.8120252662144,
+    "minimum_nights": -0.33216240580506845,
+    "number_of_reviews": 0.06439325320457687,
+    "reviews_per_month": 1.5529409609824598,
+    "host_listings_count": 0.23594067411279077,
+    "availability_365": 0.07729583645569627
+}},{latitude:40.87498, longitude:-73.85644,actual:39.0,predicted:85,coefficients:{
+    "intercept": 78.10165926591588,
+    "minimum_nights": -0.329726796622322,
+    "number_of_reviews": 0.02992706897590135,
+    "reviews_per_month": 2.85324862071168,
+    "host_listings_count": 0.21083617506046384,
+    "availability_365": 0.07753627382173998
+}},{latitude:40.83988, longitude:-73.78287,actual:95.0,predicted:212,coefficients:{
+    "intercept": 187.56495051995267,
+    "minimum_nights": -0.3308107299139338,
+    "number_of_reviews": -0.13439823417058516,
+    "reviews_per_month": -1.189901608072745,
+    "host_listings_count": 0.32298667400432507,
+    "availability_365": 0.07619237340183053
+}},{latitude:40.8694, longitude:-73.84171,actual:101.0,predicted:94,coefficients:{
+    "intercept": 85.75218508264591,
+    "minimum_nights": -0.33070001070526456,
+    "number_of_reviews": 0.08620998005529106,
+    "reviews_per_month": 1.4656255514830354,
+    "host_listings_count": 0.290235603272995,
+    "availability_365": 0.07755454598026953
+}},{latitude:40.84355, longitude:-73.91103,actual:55.0,predicted:87,coefficients:{
+    "intercept": 83.25710659692716,
+    "minimum_nights": -0.3221368170536435,
+    "number_of_reviews": -0.2460982657815648,
+    "reviews_per_month": -6.907381734514617,
+    "host_listings_count": -0.3376900116957728,
+    "availability_365": 0.06962830195971033
+}},{latitude:40.85912, longitude:-73.89254,actual:59.0,predicted:70,coefficients:{
+    "intercept": 71.58885445399265,
+    "minimum_nights": -0.323193829435965,
+    "number_of_reviews": -0.12933535824959316,
+    "reviews_per_month": -2.0346122489598564,
+    "host_listings_count": -0.24791758120663668,
+    "availability_365": 0.07095423967326164
+}},{latitude:40.83757, longitude:-73.8353,actual:62.0,predicted:110,coefficients:{
+    "intercept": 86.53666740516678,
+    "minimum_nights": -0.3321913225349744,
+    "number_of_reviews": -0.008035975477439726,
+    "reviews_per_month": 0.8227588305467286,
+    "host_listings_count": 0.29367753472976726,
+    "availability_365": 0.07722388650378939
+}},{latitude:40.83647, longitude:-73.83491,actual:65.0,predicted:102,coefficients:{
+    "intercept": 86.33324224944492,
+    "minimum_nights": -0.33223082037784346,
+    "number_of_reviews": -0.012759341603048388,
+    "reviews_per_month": 0.7997285889824213,
+    "host_listings_count": 0.29415558174560097,
+    "availability_365": 0.07720894077918099
+}},{latitude:40.8356, longitude:-73.83369,actual:150.0,predicted:111,coefficients:{
+    "intercept": 85.86585108530957,
+    "minimum_nights": -0.33224370685519417,
+    "number_of_reviews": -0.021898471021223408,
+    "reviews_per_month": 0.745014578066844,
+    "host_listings_count": 0.2971649339867207,
+    "availability_365": 0.07718576770876605
+}},{latitude:40.88542, longitude:-73.86169,actual:140.0,predicted:107,coefficients:{
+    "intercept": 77.7134736018981,
+    "minimum_nights": -0.32771910009251104,
+    "number_of_reviews": 0.0003303648303080038,
+    "reviews_per_month": 2.82979631168139,
+    "host_listings_count": 0.14220385288606133,
+    "availability_365": 0.07651415711078986
+}},{latitude:40.89981, longitude:-73.86684,actual:80.0,predicted:85,coefficients:{
+    "intercept": 77.21688361617355,
+    "minimum_nights": -0.3255841354130957,
+    "number_of_reviews": -0.024946689946670594,
+    "reviews_per_month": 2.127982704282235,
+    "host_listings_count": 0.06138571427725854,
+    "availability_365": 0.0753255157854561
+}},{latitude:40.89393, longitude:-73.8581,actual:50.0,predicted:98,coefficients:{
+    "intercept": 77.86058766198302,
+    "minimum_nights": -0.32824496837021017,
+    "number_of_reviews": 0.01296115125034235,
+    "reviews_per_month": 2.7809767876654825,
+    "host_listings_count": 0.2115238077400973,
+    "availability_365": 0.07761630043548269
+}},{latitude:40.89604, longitude:-73.85877,actual:50.0,predicted:100,coefficients:{
+    "intercept": 77.80777958607582,
+    "minimum_nights": -0.3279782891554155,
+    "number_of_reviews": 0.008873258957891747,
+    "reviews_per_month": 2.7388059168533023,
+    "host_listings_count": 0.20685251011480527,
+    "availability_365": 0.07754494497126743
+}},{latitude:40.81058, longitude:-73.9069,actual:80.0,predicted:90,coefficients:{
+    "intercept": 80.37083497646567,
+    "minimum_nights": -0.3231049593269175,
+    "number_of_reviews": -0.19603868128235347,
+    "reviews_per_month": -6.2762307593746005,
+    "host_listings_count": -0.3434613077803406,
+    "availability_365": 0.06956049151668496
+}},{latitude:40.80981, longitude:-73.92031,actual:39.0,predicted:60,coefficients:{
+    "intercept": 81.84705320390276,
+    "minimum_nights": -0.32226931661979974,
+    "number_of_reviews": -0.21191805263149538,
+    "reviews_per_month": -9.059999237414939,
+    "host_listings_count": -0.37559090713872884,
+    "availability_365": 0.0690540754934986
+}},{latitude:40.82398, longitude:-73.90894,actual:77.0,predicted:85,coefficients:{
+    "intercept": 80.70385229742729,
+    "minimum_nights": -0.32267063996905926,
+    "number_of_reviews": -0.21800086940938615,
+    "reviews_per_month": -6.607686097560771,
+    "host_listings_count": -0.34244339131674734,
+    "availability_365": 0.06956988646740635
+}},{latitude:40.82575, longitude:-73.90993,actual:80.0,predicted:104,coefficients:{
+    "intercept": 80.94636574629358,
+    "minimum_nights": -0.32256737552017,
+    "number_of_reviews": -0.2229641030714265,
+    "reviews_per_month": -6.838288207968584,
+    "host_listings_count": -0.3443636180892984,
+    "availability_365": 0.06953914867405524
+}},{latitude:40.82913, longitude:-73.92236,actual:50.0,predicted:80,coefficients:{
+    "intercept": 82.19943244032642,
+    "minimum_nights": -0.3218378556590139,
+    "number_of_reviews": -0.2339644815976916,
+    "reviews_per_month": -9.624017978792246,
+    "host_listings_count": -0.3706907741586191,
+    "availability_365": 0.06911716878696758
+}},{latitude:40.82661, longitude:-73.8571,actual:100.0,predicted:99,coefficients:{
+    "intercept": 79.65517406852238,
+    "minimum_nights": -0.33309436403484805,
+    "number_of_reviews": -0.004521864846211303,
+    "reviews_per_month": 1.7473218630404308,
+    "host_listings_count": 0.15442267447250865,
+    "availability_365": 0.07684654777123054
+}},{latitude:40.80643, longitude:-73.92783,actual:110.0,predicted:82,coefficients:{
+    "intercept": 81.60091992140656,
+    "minimum_nights": -0.32198140087424937,
+    "number_of_reviews": -0.2261770437078692,
+    "reviews_per_month": -9.392606543141302,
+    "host_listings_count": -0.3881063979019756,
+    "availability_365": 0.06884477595281005
+}},{latitude:40.8267, longitude:-73.85704,actual:100.0,predicted:98,coefficients:{
+    "intercept": 79.677656752052,
+    "minimum_nights": -0.3330870600811055,
+    "number_of_reviews": -0.00393603334529564,
+    "reviews_per_month": 1.7500917912480018,
+    "host_listings_count": 0.1551269926915573,
+    "availability_365": 0.07685095015064769
+}},{latitude:40.81731, longitude:-73.89052,actual:35.0,predicted:83,coefficients:{
+    "intercept": 67.53915416317463,
+    "minimum_nights": -0.32461752173864683,
+    "number_of_reviews": -0.1404798288643025,
+    "reviews_per_month": -2.585392950717417,
+    "host_listings_count": -0.26744782367285214,
+    "availability_365": 0.0706885867611309
+}},{latitude:40.81724, longitude:-73.88878,actual:60.0,predicted:85,coefficients:{
+    "intercept": 65.63266807221883,
+    "minimum_nights": -0.324858078078046,
+    "number_of_reviews": -0.15121854404359347,
+    "reviews_per_month": -2.2022512268211227,
+    "host_listings_count": -0.2567145791043244,
+    "availability_365": 0.0708448470555034
+}},{latitude:40.8637, longitude:-73.89236,actual:107.0,predicted:79,coefficients:{
+    "intercept": 71.73883803105849,
+    "minimum_nights": -0.3230844188090849,
+    "number_of_reviews": -0.12841677124423384,
+    "reviews_per_month": -1.9532240587395655,
+    "host_listings_count": -0.24323730084806044,
+    "availability_365": 0.07101844817845802
+}},{latitude:40.88298, longitude:-73.8987,actual:90.0,predicted:95,coefficients:{
+    "intercept": 79.17579255563534,
+    "minimum_nights": -0.32205370559412533,
+    "number_of_reviews": -0.16384948997558715,
+    "reviews_per_month": -3.2992696332301015,
+    "host_listings_count": -0.26401688825000474,
+    "availability_365": 0.0706935915632518
+}},{latitude:40.84615, longitude:-73.91546,actual:35.0,predicted:38,coefficients:{
+    "intercept": 85.2292222997972,
+    "minimum_nights": -0.3218508885443878,
+    "number_of_reviews": -0.2537616736576619,
+    "reviews_per_month": -7.908206519867835,
+    "host_listings_count": -0.34801592316076707,
+    "availability_365": 0.0694645280447746
+}},{latitude:40.8477, longitude:-73.90988,actual:24.0,predicted:77,coefficients:{
+    "intercept": 83.63367656816729,
+    "minimum_nights": -0.32211949149415675,
+    "number_of_reviews": -0.24673629946072523,
+    "reviews_per_month": -6.543224067707793,
+    "host_listings_count": -0.33189559068705193,
+    "availability_365": 0.069713741913513
+}},{latitude:40.89768, longitude:-73.87363,actual:35.0,predicted:83,coefficients:{
+    "intercept": 73.98336473051137,
+    "minimum_nights": -0.3243694620443794,
+    "number_of_reviews": -0.06674370879782959,
+    "reviews_per_month": 1.3767670999883554,
+    "host_listings_count": -0.04116256366624762,
+    "availability_365": 0.07387490031537017
+}},{latitude:40.8265, longitude:-73.87045,actual:103.0,predicted:80,coefficients:{
+    "intercept": 71.37399555882637,
+    "minimum_nights": -0.3282019108284699,
+    "number_of_reviews": -0.12828242175246485,
+    "reviews_per_month": 1.2336831501433934,
+    "host_listings_count": -0.0736954705710108,
+    "availability_365": 0.0734777858981683
+}},{latitude:40.84342, longitude:-73.83929,actual:125.0,predicted:119,coefficients:{
+    "intercept": 86.9506770748118,
+    "minimum_nights": -0.3319815973011836,
+    "number_of_reviews": 0.037204739754719135,
+    "reviews_per_month": 1.0191625558337638,
+    "host_listings_count": 0.2839442100302452,
+    "availability_365": 0.07731973171968896
+}},{latitude:40.90484, longitude:-73.84489,actual:120.0,predicted:104,coefficients:{
+    "intercept": 83.36202647330862,
+    "minimum_nights": -0.32873277993646455,
+    "number_of_reviews": 0.07152060542728048,
+    "reviews_per_month": 1.8886911253090286,
+    "host_listings_count": 0.292193749513547,
+    "availability_365": 0.07775141375337855
+}},{latitude:40.84672, longitude:-73.90411,actual:63.0,predicted:85,coefficients:{
+    "intercept": 80.04062558860004,
+    "minimum_nights": -0.32251508955050073,
+    "number_of_reviews": -0.21285984995292334,
+    "reviews_per_month": -4.9791729016855175,
+    "host_listings_count": -0.312801991980372,
+    "availability_365": 0.0700048942624509
+}},{latitude:40.89637, longitude:-73.8555,actual:39.0,predicted:86,coefficients:{
+    "intercept": 78.25078783862516,
+    "minimum_nights": -0.32835940708810524,
+    "number_of_reviews": 0.023182418315643598,
+    "reviews_per_month": 2.644417799957031,
+    "host_listings_count": 0.2323269327161806,
+    "availability_365": 0.07770195573099929
+}},{latitude:40.8704, longitude:-73.90559,actual:100.0,predicted:86,coefficients:{
+    "intercept": 85.57086803005896,
+    "minimum_nights": -0.32189595165937857,
+    "number_of_reviews": -0.23008084639008167,
+    "reviews_per_month": -4.922563407133087,
+    "host_listings_count": -0.3031050634464523,
+    "availability_365": 0.07012724740989412
+}},{latitude:40.87275, longitude:-73.87978,actual:58.0,predicted:79,coefficients:{
+    "intercept": 67.94936286494753,
+    "minimum_nights": -0.32435325009610516,
+    "number_of_reviews": -0.14594831884232928,
+    "reviews_per_month": 0.7571002543963893,
+    "host_listings_count": -0.13545957742093068,
+    "availability_365": 0.07256537662537092
+}},{latitude:40.83251, longitude:-73.91217,actual:85.0,predicted:106,coefficients:{
+    "intercept": 81.85110288921582,
+    "minimum_nights": -0.3222909773055277,
+    "number_of_reviews": -0.23561792894795938,
+    "reviews_per_month": -7.346892049166848,
+    "host_listings_count": -0.34692151211954236,
+    "availability_365": 0.06949450857547645
+}},{latitude:40.80771, longitude:-73.85204,actual:46.0,predicted:99,coefficients:{
+    "intercept": 84.98994094256494,
+    "minimum_nights": -0.3341074438953644,
+    "number_of_reviews": -0.002036495524686446,
+    "reviews_per_month": 1.17845129318,
+    "host_listings_count": 0.17640838358192207,
+    "availability_365": 0.07670847445618588
+}},{latitude:40.86003, longitude:-73.86584,actual:60.0,predicted:100,coefficients:{
+    "intercept": 76.64682235890224,
+    "minimum_nights": -0.32790334099711765,
+    "number_of_reviews": -0.035384493377544304,
+    "reviews_per_month": 2.3719220623248654,
+    "host_listings_count": 0.03561357905648472,
+    "availability_365": 0.07503135627640424
+}},{latitude:40.85394, longitude:-73.89641,actual:35.0,predicted:72,coefficients:{
+    "intercept": 74.53488122097727,
+    "minimum_nights": -0.3229621683968805,
+    "number_of_reviews": -0.1488335646221063,
+    "reviews_per_month": -2.84114783099342,
+    "host_listings_count": -0.27354869310535457,
+    "availability_365": 0.07058286356998908
+}},{latitude:40.86304, longitude:-73.84559,actual:150.0,predicted:93,coefficients:{
+    "intercept": 83.4792304216164,
+    "minimum_nights": -0.33094538023017234,
+    "number_of_reviews": 0.08807827414323956,
+    "reviews_per_month": 1.6742551978753197,
+    "host_listings_count": 0.2698732021635393,
+    "availability_365": 0.07753188378344876
+}},{latitude:40.8027, longitude:-73.91563,actual:109.0,predicted:54,coefficients:{
+    "intercept": 81.66801635723694,
+    "minimum_nights": -0.3226604569642096,
+    "number_of_reviews": -0.20184617568312457,
+    "reviews_per_month": -8.045940652052094,
+    "host_listings_count": -0.3696491771489681,
+    "availability_365": 0.06915486545285358
+}},{latitude:40.84581, longitude:-73.8889,actual:25.0,predicted:74,coefficients:{
+    "intercept": 67.76810113592539,
+    "minimum_nights": -0.3239882345907034,
+    "number_of_reviews": -0.13600464623580028,
+    "reviews_per_month": -1.5174632551702127,
+    "host_listings_count": -0.23508966285393956,
+    "availability_365": 0.07115060216660857
+}},{latitude:40.8279, longitude:-73.90516,actual:100.0,predicted:90,coefficients:{
+    "intercept": 79.75071607544463,
+    "minimum_nights": -0.32285952056098666,
+    "number_of_reviews": -0.20475476340516832,
+    "reviews_per_month": -5.666791090207236,
+    "host_listings_count": -0.3281106259803704,
+    "availability_365": 0.06978659338322975
+}},{latitude:40.83758, longitude:-73.85804,actual:47.0,predicted:95,coefficients:{
+    "intercept": 78.55565772762749,
+    "minimum_nights": -0.33212072954979693,
+    "number_of_reviews": 0.0021655304385948112,
+    "reviews_per_month": 2.1312552248388053,
+    "host_listings_count": 0.15842463288089753,
+    "availability_365": 0.07686357929114244
+}},{latitude:40.85464, longitude:-73.8672,actual:75.0,predicted:75,coefficients:{
+    "intercept": 75.85994465176633,
+    "minimum_nights": -0.32778843230803917,
+    "number_of_reviews": -0.052619366799118966,
+    "reviews_per_month": 2.2160735117054506,
+    "host_listings_count": 0.006837193847402049,
+    "availability_365": 0.07462298759794227
+}},{latitude:40.80074, longitude:-73.91574,actual:50.0,predicted:97,coefficients:{
+    "intercept": 81.76360860910626,
+    "minimum_nights": -0.32269062038887497,
+    "number_of_reviews": -0.19977550596797344,
+    "reviews_per_month": -8.051313536184523,
+    "host_listings_count": -0.3707336020985951,
+    "availability_365": 0.06913841202133143
+}},{latitude:40.88491, longitude:-73.85484,actual:33.0,predicted:87,coefficients:{
+    "intercept": 78.37195509734887,
+    "minimum_nights": -0.3291705247716926,
+    "number_of_reviews": 0.03477150866995679,
+    "reviews_per_month": 2.7669799256871457,
+    "host_listings_count": 0.2298912633161464,
+    "availability_365": 0.07764543767907896
+}},{latitude:40.86313, longitude:-73.90183,actual:35.0,predicted:74,coefficients:{
+    "intercept": 79.88146080375316,
+    "minimum_nights": -0.3223019809121748,
+    "number_of_reviews": -0.1976693207613482,
+    "reviews_per_month": -4.000478824514631,
+    "host_listings_count": -0.2927342736299328,
+    "availability_365": 0.0702903859037534
+}},{latitude:40.86255, longitude:-73.90059,actual:42.0,predicted:94,coefficients:{
+    "intercept": 78.64580076397596,
+    "minimum_nights": -0.3224054478144092,
+    "number_of_reviews": -0.1858145130756597,
+    "reviews_per_month": -3.7542375940667037,
+    "host_listings_count": -0.2876631467214598,
+    "availability_365": 0.07036641054472338
+}},{latitude:40.87268, longitude:-73.85424,actual:100.0,predicted:92,coefficients:{
+    "intercept": 78.63225637023066,
+    "minimum_nights": -0.3300225779746207,
+    "number_of_reviews": 0.04395480030961007,
+    "reviews_per_month": 2.731608199493694,
+    "host_listings_count": 0.22545532599506193,
+    "availability_365": 0.07756092717148537
+}},{latitude:40.89613, longitude:-73.85503,actual:35.0,predicted:86,coefficients:{
+    "intercept": 78.35589043958969,
+    "minimum_nights": -0.3284202547864779,
+    "number_of_reviews": 0.025694887487116125,
+    "reviews_per_month": 2.622552924077796,
+    "host_listings_count": 0.23538918002865264,
+    "availability_365": 0.07770779687008295
+}},{latitude:40.80626, longitude:-73.85122,actual:40.0,predicted:90,coefficients:{
+    "intercept": 85.66311723657489,
+    "minimum_nights": -0.33414875087992985,
+    "number_of_reviews": 0.0013525148841528776,
+    "reviews_per_month": 1.1291465030513081,
+    "host_listings_count": 0.18116045287829158,
+    "availability_365": 0.07670859423517407
+}},{latitude:40.86615, longitude:-73.88828,actual:60.0,predicted:67,coefficients:{
+    "intercept": 68.89565070089897,
+    "minimum_nights": -0.32344796291636435,
+    "number_of_reviews": -0.13192190428498352,
+    "reviews_per_month": -0.9865393970363533,
+    "host_listings_count": -0.2140189648740703,
+    "availability_365": 0.0714406552656834
+}},{latitude:40.83938, longitude:-73.85708,actual:45.0,predicted:116,coefficients:{
+    "intercept": 78.82277398915836,
+    "minimum_nights": -0.33220011280291517,
+    "number_of_reviews": 0.01143606070099734,
+    "reviews_per_month": 2.170903939746603,
+    "host_listings_count": 0.17020813798337114,
+    "availability_365": 0.07706009399519108
+}},{latitude:40.87414, longitude:-73.88342,actual:51.0,predicted:85,coefficients:{
+    "intercept": 67.48984104468101,
+    "minimum_nights": -0.3237888621625472,
+    "number_of_reviews": -0.1495514985869342,
+    "reviews_per_month": 0.035473019632233246,
+    "host_listings_count": -0.1683792853523466,
+    "availability_365": 0.07209104183220144
+}},{latitude:40.88171, longitude:-73.85384,actual:75.0,predicted:108,coefficients:{
+    "intercept": 78.65584938475627,
+    "minimum_nights": -0.32945465466468593,
+    "number_of_reviews": 0.04248784623307269,
+    "reviews_per_month": 2.6756544917780696,
+    "host_listings_count": 0.2346301486611059,
+    "availability_365": 0.0776379657617421
+}},{latitude:40.82639, longitude:-73.90517,actual:150.0,predicted:78,coefficients:{
+    "intercept": 79.74336584849416,
+    "minimum_nights": -0.3228923825898182,
+    "number_of_reviews": -0.2033669058874462,
+    "reviews_per_month": -5.694839654565815,
+    "host_listings_count": -0.32902700248463834,
+    "availability_365": 0.06977352450972822
+}},{latitude:40.82864, longitude:-73.87609,actual:45.0,predicted:66,coefficients:{
+    "intercept": 65.68441892966065,
+    "minimum_nights": -0.3267163689056301,
+    "number_of_reviews": -0.15426717760187975,
+    "reviews_per_month": 0.5203298971168427,
+    "host_listings_count": -0.13978928435910518,
+    "availability_365": 0.0725299811781717
+}},{latitude:40.8667, longitude:-73.89115,actual:70.0,predicted:92,coefficients:{
+    "intercept": 71.00502879964782,
+    "minimum_nights": -0.32312186934719067,
+    "number_of_reviews": -0.12650958775038973,
+    "reviews_per_month": -1.6480638085424142,
+    "host_listings_count": -0.23320828744834268,
+    "availability_365": 0.07116165989410522
+}},{latitude:40.86674, longitude:-73.8428,actual:75.0,predicted:98,coefficients:{
+    "intercept": 85.15725999284287,
+    "minimum_nights": -0.33081140644840357,
+    "number_of_reviews": 0.08799380064934043,
+    "reviews_per_month": 1.5067989118533576,
+    "host_listings_count": 0.28449169304894495,
+    "availability_365": 0.0775455157637963
+}},{latitude:40.80143, longitude:-73.91353,actual:115.0,predicted:43,coefficients:{
+    "intercept": 81.48527385959103,
+    "minimum_nights": -0.32281765683789193,
+    "number_of_reviews": -0.19942485283363331,
+    "reviews_per_month": -7.6316286381228515,
+    "host_listings_count": -0.3656144736593801,
+    "availability_365": 0.06921961040426788
+}},{latitude:40.80273, longitude:-73.91519,actual:115.0,predicted:54,coefficients:{
+    "intercept": 81.61811932963361,
+    "minimum_nights": -0.32268693424578776,
+    "number_of_reviews": -0.20169971718598365,
+    "reviews_per_month": -7.96429428855371,
+    "host_listings_count": -0.3687036630905861,
+    "availability_365": 0.06916996701183571
+}},{latitude:40.87724, longitude:-73.85047,actual:56.0,predicted:93,coefficients:{
+    "intercept": 80.07862810602899,
+    "minimum_nights": -0.32994266935852484,
+    "number_of_reviews": 0.06571918051197932,
+    "reviews_per_month": 2.3500762661700763,
+    "host_listings_count": 0.2528908054433002,
+    "availability_365": 0.07763673313316508
+}},{latitude:40.82807, longitude:-73.82418,actual:80.0,predicted:80,coefficients:{
+    "intercept": 80.15566998678058,
+    "minimum_nights": -0.3322848156588877,
+    "number_of_reviews": -0.031215256780115854,
+    "reviews_per_month": 0.20639964614193004,
+    "host_listings_count": 0.3132370788939348,
+    "availability_365": 0.07697294186483607
+}},{latitude:40.90406, longitude:-73.86286,actual:65.0,predicted:81,coefficients:{
+    "intercept": 77.58446038255826,
+    "minimum_nights": -0.3263064786447472,
+    "number_of_reviews": -0.010321427506622113,
+    "reviews_per_month": 2.3741666871592018,
+    "host_listings_count": 0.13762720424433986,
+    "availability_365": 0.07639543056939013
+}},{latitude:40.83516, longitude:-73.86024,actual:85.0,predicted:106,coefficients:{
+    "intercept": 77.83551658123011,
+    "minimum_nights": -0.3312878327135957,
+    "number_of_reviews": -0.01810364360518333,
+    "reviews_per_month": 2.081342017572931,
+    "host_listings_count": 0.10981746934798325,
+    "availability_365": 0.07611831375303109
+}},{latitude:40.86925, longitude:-73.89974,actual:35.0,predicted:51,coefficients:{
+    "intercept": 78.54596814383622,
+    "minimum_nights": -0.3223083589856231,
+    "number_of_reviews": -0.17702550747955323,
+    "reviews_per_month": -3.552643193202016,
+    "host_listings_count": -0.2790198035315714,
+    "availability_365": 0.07048763816295316
+}},{latitude:40.83715, longitude:-73.83489,actual:60.0,predicted:119,coefficients:{
+    "intercept": 86.39934325146923,
+    "minimum_nights": -0.3322019560400546,
+    "number_of_reviews": -0.011742283680166098,
+    "reviews_per_month": 0.8044346131800288,
+    "host_listings_count": 0.29465432368055106,
+    "availability_365": 0.07721509478186955
+}},{latitude:40.81338, longitude:-73.85821,actual:75.0,predicted:93,coefficients:{
+    "intercept": 80.30093331526983,
+    "minimum_nights": -0.33347969062399635,
+    "number_of_reviews": -0.03276346713555216,
+    "reviews_per_month": 1.3705082726968907,
+    "host_listings_count": 0.12057619445143208,
+    "availability_365": 0.0762699539941098
+}},{latitude:40.83959, longitude:-73.78587,actual:100.0,predicted:194,coefficients:{
+    "intercept": 182.39335280278772,
+    "minimum_nights": -0.3308976024734839,
+    "number_of_reviews": -0.13899153460775418,
+    "reviews_per_month": -1.1246157442871092,
+    "host_listings_count": 0.3249240347686544,
+    "availability_365": 0.07625300784240151
+}},{latitude:40.83754, longitude:-73.85764,actual:150.0,predicted:99,coefficients:{
+    "intercept": 78.70576874135277,
+    "minimum_nights": -0.3323119593712865,
+    "number_of_reviews": 0.005186514956188113,
+    "reviews_per_month": 2.127689858937398,
+    "host_listings_count": 0.16227630858103756,
+    "availability_365": 0.07699673184950155
+}},{latitude:40.89039, longitude:-73.83186,actual:50.0,predicted:94,coefficients:{
+    "intercept": 89.30543203934258,
+    "minimum_nights": -0.32996728568613787,
+    "number_of_reviews": 0.04052125351163482,
+    "reviews_per_month": 0.9420009152620584,
+    "host_listings_count": 0.32588615596421444,
+    "availability_365": 0.07750527391346809
+}},{latitude:40.82565, longitude:-73.91095,actual:77.0,predicted:91,coefficients:{
+    "intercept": 81.1146083452022,
+    "minimum_nights": -0.3225034223449231,
+    "number_of_reviews": -0.22516329065797197,
+    "reviews_per_month": -7.08218773688809,
+    "host_listings_count": -0.3472704883506749,
+    "availability_365": 0.06949416192604065
+}},{latitude:40.85398, longitude:-73.88737,actual:49.0,predicted:90,coefficients:{
+    "intercept": 67.29969178456467,
+    "minimum_nights": -0.32393024660911446,
+    "number_of_reviews": -0.14043781451724208,
+    "reviews_per_month": -1.0286592186282673,
+    "host_listings_count": -0.21758307733464896,
+    "availability_365": 0.07139921281771022
+}},{latitude:40.8353, longitude:-73.85751,actual:75.0,predicted:84,coefficients:{
+    "intercept": 78.8728835701974,
+    "minimum_nights": -0.3324888439666719,
+    "number_of_reviews": 0.003590771080826791,
+    "reviews_per_month": 2.037542388809915,
+    "host_listings_count": 0.16084217939814985,
+    "availability_365": 0.07697638717969635
+}},{latitude:40.8716, longitude:-73.89177,actual:92.0,predicted:64,coefficients:{
+    "intercept": 71.85713170182365,
+    "minimum_nights": -0.32292187990805404,
+    "number_of_reviews": -0.12641245982795768,
+    "reviews_per_month": -1.7516431223643527,
+    "host_listings_count": -0.23327956860183338,
+    "availability_365": 0.07115567925788589
+}},{latitude:40.81865, longitude:-73.93014,actual:107.0,predicted:85,coefficients:{
+    "intercept": 80.99886668841772,
+    "minimum_nights": -0.3217019096617215,
+    "number_of_reviews": -0.2437415810073803,
+    "reviews_per_month": -9.440997037094911,
+    "host_listings_count": -0.38624562181477234,
+    "availability_365": 0.06886330089092983
+}},{latitude:40.83908, longitude:-73.86042,actual:70.0,predicted:57,coefficients:{
+    "intercept": 77.69577538229599,
+    "minimum_nights": -0.3309812298692133,
+    "number_of_reviews": -0.01473898009049953,
+    "reviews_per_month": 2.188167632166736,
+    "host_listings_count": 0.11152304956535516,
+    "availability_365": 0.0761415782310636
+}},{latitude:40.83197, longitude:-73.9212,actual:45.0,predicted:86,coefficients:{
+    "intercept": 82.4967225733467,
+    "minimum_nights": -0.321839599800612,
+    "number_of_reviews": -0.23652766281473855,
+    "reviews_per_month": -9.42671017862935,
+    "host_listings_count": -0.3673178772519689,
+    "availability_365": 0.06916969833650133
+}},{latitude:40.87699, longitude:-73.85366,actual:87.0,predicted:115,coefficients:{
+    "intercept": 78.75231780850716,
+    "minimum_nights": -0.32977393204404687,
+    "number_of_reviews": 0.04599623757043832,
+    "reviews_per_month": 2.687812995273154,
+    "host_listings_count": 0.23263311362929273,
+    "availability_365": 0.0776053461533437
+}},{latitude:40.85595, longitude:-73.88519,actual:27.0,predicted:61,coefficients:{
+    "intercept": 66.29862888474379,
+    "minimum_nights": -0.3241528958921648,
+    "number_of_reviews": -0.15244673006849388,
+    "reviews_per_month": -0.5820862790487974,
+    "host_listings_count": -0.1992477924645874,
+    "availability_365": 0.07166291692188287
+}},{latitude:40.86209, longitude:-73.84667,actual:20.0,predicted:83,coefficients:{
+    "intercept": 82.80959664793971,
+    "minimum_nights": -0.3309726321108936,
+    "number_of_reviews": 0.08579017161221572,
+    "reviews_per_month": 1.7583664528956924,
+    "host_listings_count": 0.26389436483193734,
+    "availability_365": 0.07752560656617609
+}},{latitude:40.81835, longitude:-73.91465,actual:65.0,predicted:79,coefficients:{
+    "intercept": 81.3165404016958,
+    "minimum_nights": -0.3224215272801676,
+    "number_of_reviews": -0.21983875867172473,
+    "reviews_per_month": -7.901380733175459,
+    "host_listings_count": -0.3602754098236805,
+    "availability_365": 0.06929510516462334
+}},{latitude:40.82654, longitude:-73.90516,actual:27.0,predicted:61,coefficients:{
+    "intercept": 79.74056847154499,
+    "minimum_nights": -0.3228898105745395,
+    "number_of_reviews": -0.2034519777028492,
+    "reviews_per_month": -5.689910786740877,
+    "host_listings_count": -0.3289050736959655,
+    "availability_365": 0.06977529317650344
+}},{latitude:40.83149, longitude:-73.92766,actual:70.0,predicted:68,coefficients:{
+    "intercept": 81.76352053037499,
+    "minimum_nights": -0.3215908351847747,
+    "number_of_reviews": -0.24473990114142355,
+    "reviews_per_month": -9.6764289265971,
+    "host_listings_count": -0.3778847901213368,
+    "availability_365": 0.0689928821122552
+}},{latitude:40.81305, longitude:-73.91655,actual:120.0,predicted:60,coefficients:{
+    "intercept": 81.48516996948946,
+    "minimum_nights": -0.3224124225337189,
+    "number_of_reviews": -0.2138817264213391,
+    "reviews_per_month": -8.294441088046558,
+    "host_listings_count": -0.36693874132156057,
+    "availability_365": 0.06919238033139051
+}},{latitude:40.81245, longitude:-73.91648,actual:120.0,predicted:74,coefficients:{
+    "intercept": 81.4849640168232,
+    "minimum_nights": -0.322427569309434,
+    "number_of_reviews": -0.21316349712893767,
+    "reviews_per_month": -8.274857177141456,
+    "host_listings_count": -0.3670662591859833,
+    "availability_365": 0.06919072964823664
+}},{latitude:40.81132, longitude:-73.91715,actual:145.0,predicted:77,coefficients:{
+    "intercept": 81.56574108606951,
+    "minimum_nights": -0.32241078583338245,
+    "number_of_reviews": -0.21201060744277117,
+    "reviews_per_month": -8.419761836152624,
+    "host_listings_count": -0.36895740606670313,
+    "availability_365": 0.06916105442099836
+}},{latitude:40.84752, longitude:-73.92293,actual:130.0,predicted:97,coefficients:{
+    "intercept": 85.36953638730748,
+    "minimum_nights": -0.32150489219801465,
+    "number_of_reviews": -0.2533134192856369,
+    "reviews_per_month": -9.31620046627967,
+    "host_listings_count": -0.36307844755585894,
+    "availability_365": 0.06922072704676298
+}},{latitude:40.81415, longitude:-73.88671,actual:36.0,predicted:60,coefficients:{
+    "intercept": 63.39923140685727,
+    "minimum_nights": -0.32525687085374355,
+    "number_of_reviews": -0.17230821052550746,
+    "reviews_per_month": -1.8325030339071828,
+    "host_listings_count": -0.2453191722838058,
+    "availability_365": 0.07101005202874987
+}},{latitude:40.81258, longitude:-73.88566,actual:40.0,predicted:59,coefficients:{
+    "intercept": 62.416841389052074,
+    "minimum_nights": -0.3254709524607963,
+    "number_of_reviews": -0.18479535210733342,
+    "reviews_per_month": -1.6567775264266997,
+    "host_listings_count": -0.23917200089810384,
+    "availability_365": 0.07109881758830162
+}},{latitude:40.85648, longitude:-73.88501,actual:95.0,predicted:86,coefficients:{
+    "intercept": 66.27515357970191,
+    "minimum_nights": -0.3241601052487668,
+    "number_of_reviews": -0.1531752340249022,
+    "reviews_per_month": -0.54476930645775,
+    "host_listings_count": -0.19734565407378654,
+    "availability_365": 0.07168998240529359
+}},{latitude:40.81892, longitude:-73.8859,actual:35.0,predicted:57,coefficients:{
+    "intercept": 63.19957505728735,
+    "minimum_nights": -0.3252351527312513,
+    "number_of_reviews": -0.1759951735116359,
+    "reviews_per_month": -1.563337528807629,
+    "host_listings_count": -0.23581483105776918,
+    "availability_365": 0.07114793488523191
+}},{latitude:40.83792, longitude:-73.85526,actual:100.0,predicted:92,coefficients:{
+    "intercept": 79.6410275145765,
+    "minimum_nights": -0.3323388557849725,
+    "number_of_reviews": 0.023350092383880586,
+    "reviews_per_month": 1.9855879011715643,
+    "host_listings_count": 0.18494022730742968,
+    "availability_365": 0.0771244885799615
+}},{latitude:40.8439, longitude:-73.78792,actual:29.0,predicted:177,coefficients:{
+    "intercept": 177.68614958003832,
+    "minimum_nights": -0.33087212741476235,
+    "number_of_reviews": -0.14370897361351137,
+    "reviews_per_month": -1.0722956906396848,
+    "host_listings_count": 0.3273617764421525,
+    "availability_365": 0.0763145213060504
+}},{latitude:40.89338, longitude:-73.84785,actual:309.0,predicted:107,coefficients:{
+    "intercept": 81.45198584861288,
+    "minimum_nights": -0.3291556191589244,
+    "number_of_reviews": 0.0689272367897968,
+    "reviews_per_month": 2.139807559864248,
+    "host_listings_count": 0.275168991955795,
+    "availability_365": 0.07773012200003036
+}},{latitude:40.80816, longitude:-73.93176,actual:28.0,predicted:62,coefficients:{
+    "intercept": 80.68529391623301,
+    "minimum_nights": -0.3218033474406055,
+    "number_of_reviews": -0.24528710577950213,
+    "reviews_per_month": -9.142134710344214,
+    "host_listings_count": -0.3919103348630254,
+    "availability_365": 0.06877447069994287
+}},{latitude:40.88649, longitude:-73.85889,actual:37.0,predicted:120,coefficients:{
+    "intercept": 77.80803558539536,
+    "minimum_nights": -0.3285642549572881,
+    "number_of_reviews": 0.013116407000644266,
+    "reviews_per_month": 2.8589190869492964,
+    "host_listings_count": 0.19914081507703132,
+    "availability_365": 0.07739572265499932
+}},{latitude:40.80856, longitude:-73.93055,actual:28.0,predicted:63,coefficients:{
+    "intercept": 80.99621762075385,
+    "minimum_nights": -0.32184165037471946,
+    "number_of_reviews": -0.23939934206859317,
+    "reviews_per_month": -9.233726862963248,
+    "host_listings_count": -0.39048473165020575,
+    "availability_365": 0.0687999493384136
+}},{latitude:40.86003, longitude:-73.89314,actual:47.0,predicted:85,coefficients:{
+    "intercept": 72.13353189291054,
+    "minimum_nights": -0.32310872611958863,
+    "number_of_reviews": -0.13093069443210742,
+    "reviews_per_month": -2.169492857283035,
+    "host_listings_count": -0.25081495796449854,
+    "availability_365": 0.07091114239602382
+}},{latitude:40.82756, longitude:-73.8871,actual:70.0,predicted:64,coefficients:{
+    "intercept": 64.89798854819676,
+    "minimum_nights": -0.3247864192341718,
+    "number_of_reviews": -0.1576531976075509,
+    "reviews_per_month": -1.5906528117203698,
+    "host_listings_count": -0.2373844150794414,
+    "availability_365": 0.0711244237961447
+}},{latitude:40.83588, longitude:-73.85819,actual:69.0,predicted:81,coefficients:{
+    "intercept": 78.57715083266885,
+    "minimum_nights": -0.33215732992190883,
+    "number_of_reviews": -0.0009678517060076018,
+    "reviews_per_month": 2.0872904763630493,
+    "host_listings_count": 0.1540039177298418,
+    "availability_365": 0.07677860650259145
+}},{latitude:40.86952, longitude:-73.89447,actual:223.0,predicted:92,coefficients:{
+    "intercept": 73.85842613980032,
+    "minimum_nights": -0.32272784543054045,
+    "number_of_reviews": -0.13579315072468803,
+    "reviews_per_month": -2.2579815288745393,
+    "host_listings_count": -0.2512885445001173,
+    "availability_365": 0.07089517147763703
+}},{latitude:40.82776, longitude:-73.87643,actual:45.0,predicted:91,coefficients:{
+    "intercept": 65.25409397360343,
+    "minimum_nights": -0.32667623137295887,
+    "number_of_reviews": -0.15788689297074285,
+    "reviews_per_month": 0.4386379335545181,
+    "host_listings_count": -0.14432394649582414,
+    "availability_365": 0.07246495548750345
+}},{latitude:40.83176, longitude:-73.9298,actual:115.0,predicted:76,coefficients:{
+    "intercept": 81.3391416009136,
+    "minimum_nights": -0.3215127348339025,
+    "number_of_reviews": -0.25141419342210863,
+    "reviews_per_month": -9.53273586051991,
+    "host_listings_count": -0.38059863972780456,
+    "availability_365": 0.0689452476848467
+}},{latitude:40.81963, longitude:-73.90956,actual:55.0,predicted:63,coefficients:{
+    "intercept": 80.73248150382663,
+    "minimum_nights": -0.32271874502647285,
+    "number_of_reviews": -0.21471798156830715,
+    "reviews_per_month": -6.787999685563555,
+    "host_listings_count": -0.3465670850510424,
+    "availability_365": 0.06950874641258213
+}},{latitude:40.84353, longitude:-73.91108,actual:43.0,predicted:105,coefficients:{
+    "intercept": 83.27184620891707,
+    "minimum_nights": -0.3221343385679534,
+    "number_of_reviews": -0.2461968939644317,
+    "reviews_per_month": -6.923048395255423,
+    "host_listings_count": -0.3378452430421456,
+    "availability_365": 0.06962591953842656
+}},{latitude:40.85374, longitude:-73.86416,actual:70.0,predicted:95,coefficients:{
+    "intercept": 76.86188584357093,
+    "minimum_nights": -0.32876272755595537,
+    "number_of_reviews": -0.028366110246072034,
+    "reviews_per_month": 2.4733839589811426,
+    "host_listings_count": 0.057748308680016534,
+    "availability_365": 0.07535575751814062
+}},{latitude:40.83513, longitude:-73.91093,actual:50.0,predicted:36,coefficients:{
+    "intercept": 81.88245217432666,
+    "minimum_nights": -0.32231260773813913,
+    "number_of_reviews": -0.23653754048143055,
+    "reviews_per_month": -7.014656974271315,
+    "host_listings_count": -0.3421013876201416,
+    "availability_365": 0.06956731911135128
+}},{latitude:40.83123, longitude:-73.82784,actual:60.0,predicted:98,coefficients:{
+    "intercept": 82.46236419818385,
+    "minimum_nights": -0.3322767258547413,
+    "number_of_reviews": -0.03964483502135766,
+    "reviews_per_month": 0.4246748944717765,
+    "host_listings_count": 0.30855677014874827,
+    "availability_365": 0.07706127283853761
+}},{latitude:40.83144, longitude:-73.82791,actual:60.0,predicted:98,coefficients:{
+    "intercept": 82.5351755504018,
+    "minimum_nights": -0.3322709969312055,
+    "number_of_reviews": -0.0395809307395683,
+    "reviews_per_month": 0.4297822881197997,
+    "host_listings_count": 0.3085387711065792,
+    "availability_365": 0.0770642264510345
+}},{latitude:40.82285, longitude:-73.90198,actual:55.0,predicted:84,coefficients:{
+    "intercept": 78.37954941850258,
+    "minimum_nights": -0.32323440028407324,
+    "number_of_reviews": -0.17949548180722108,
+    "reviews_per_month": -5.051125857072844,
+    "host_listings_count": -0.3194427621829802,
+    "availability_365": 0.06991979302867972
+}},{latitude:40.83717, longitude:-73.85738,actual:36.0,predicted:84,coefficients:{
+    "intercept": 78.82316960343215,
+    "minimum_nights": -0.33235579209040095,
+    "number_of_reviews": 0.00675191877101375,
+    "reviews_per_month": 2.1048943665198565,
+    "host_listings_count": 0.16476177252025198,
+    "availability_365": 0.07701254883668168
+}},{latitude:40.87874, longitude:-73.84746,actual:40.0,predicted:88,coefficients:{
+    "intercept": 81.78904847275643,
+    "minimum_nights": -0.3300044811939165,
+    "number_of_reviews": 0.0812988504219177,
+    "reviews_per_month": 2.058848377668731,
+    "host_listings_count": 0.26998492087377157,
+    "availability_365": 0.07765105555987849
+}},{latitude:40.80852, longitude:-73.9306,actual:28.0,predicted:53,coefficients:{
+    "intercept": 80.98458553192096,
+    "minimum_nights": -0.3218403978047241,
+    "number_of_reviews": -0.2396181370112416,
+    "reviews_per_month": -9.229469606015074,
+    "host_listings_count": -0.39055379049986744,
+    "availability_365": 0.06879874841168364
+}},{latitude:40.80869, longitude:-73.9317,actual:28.0,predicted:75,coefficients:{
+    "intercept": 80.69564586949704,
+    "minimum_nights": -0.3217975167811076,
+    "number_of_reviews": -0.2452496538911606,
+    "reviews_per_month": -9.160678215276365,
+    "host_listings_count": -0.3916595220781883,
+    "availability_365": 0.06877838811503212
+}},{latitude:40.80996, longitude:-73.93172,actual:28.0,predicted:91,coefficients:{
+    "intercept": 80.67611727492299,
+    "minimum_nights": -0.32177764919624013,
+    "number_of_reviews": -0.24602384652658674,
+    "reviews_per_month": -9.189592038516276,
+    "host_listings_count": -0.391224794010005,
+    "availability_365": 0.06878470289930841
+}},{latitude:40.80838, longitude:-73.93091,actual:28.0,predicted:86,coefficients:{
+    "intercept": 80.90909152693936,
+    "minimum_nights": -0.32183103138512453,
+    "number_of_reviews": -0.2410592711589502,
+    "reviews_per_month": -9.203424094757045,
+    "host_listings_count": -0.39093950303280806,
+    "availability_365": 0.06879192500367991
+}},{latitude:40.85368, longitude:-73.90172,actual:75.0,predicted:99,coefficients:{
+    "intercept": 78.83493159353426,
+    "minimum_nights": -0.3225304373706282,
+    "number_of_reviews": -0.19533835740886518,
+    "reviews_per_month": -4.107409802687842,
+    "host_listings_count": -0.2986635347915169,
+    "availability_365": 0.070210917946611
+}},{latitude:40.88523, longitude:-73.91231,actual:90.0,predicted:99,coefficients:{
+    "intercept": 105.6116612807879,
+    "minimum_nights": -0.32126155129287404,
+    "number_of_reviews": -0.259395303127803,
+    "reviews_per_month": -6.196165351183308,
+    "host_listings_count": -0.3166775057820966,
+    "availability_365": 0.06990242302101016
+}},{latitude:40.80689, longitude:-73.91437,actual:100.0,predicted:80,coefficients:{
+    "intercept": 81.38573002559127,
+    "minimum_nights": -0.32265843812524914,
+    "number_of_reviews": -0.2060114004840378,
+    "reviews_per_month": -7.80624700079135,
+    "host_listings_count": -0.36503408741683124,
+    "availability_365": 0.06922637732469801
+}},{latitude:40.82831, longitude:-73.88746,actual:80.0,predicted:65,coefficients:{
+    "intercept": 65.25500043174885,
+    "minimum_nights": -0.32471182737193144,
+    "number_of_reviews": -0.1541706948319652,
+    "reviews_per_month": -1.6510919660083723,
+    "host_listings_count": -0.23929033271845385,
+    "availability_365": 0.07109663190620623
+}},{latitude:40.85689, longitude:-73.9091,actual:40.0,predicted:107,coefficients:{
+    "intercept": 85.52370471948754,
+    "minimum_nights": -0.3219761917029642,
+    "number_of_reviews": -0.250166987110525,
+    "reviews_per_month": -6.144960340517848,
+    "host_listings_count": -0.3239792543363317,
+    "availability_365": 0.06982585003522583
+}},{latitude:40.81795, longitude:-73.91178,actual:85.0,predicted:85,coefficients:{
+    "intercept": 81.00370632778072,
+    "minimum_nights": -0.32260547546719487,
+    "number_of_reviews": -0.21707168994511059,
+    "reviews_per_month": -7.288406510850247,
+    "host_listings_count": -0.353460652350126,
+    "availability_365": 0.06940258622100888
+}},{latitude:40.80868, longitude:-73.93015,actual:28.0,predicted:77,coefficients:{
+    "intercept": 81.08959140992727,
+    "minimum_nights": -0.3218548250917636,
+    "number_of_reviews": -0.23756882299473836,
+    "reviews_per_month": -9.266163891003327,
+    "host_listings_count": -0.38999962010293887,
+    "availability_365": 0.06880856073126503
+}},{latitude:40.80858, longitude:-73.93164,actual:28.0,predicted:36,coefficients:{
+    "intercept": 80.71341568702259,
+    "minimum_nights": -0.3218013393676474,
+    "number_of_reviews": -0.24487919164038005,
+    "reviews_per_month": -9.159905430987044,
+    "host_listings_count": -0.3916368122458165,
+    "availability_365": 0.06877894656429308
+}},{latitude:40.828, longitude:-73.81275,actual:100.0,predicted:108,coefficients:{
+    "intercept": 83.87481697498353,
+    "minimum_nights": -0.3319416499206797,
+    "number_of_reviews": -0.07039999105793794,
+    "reviews_per_month": -0.3245832092940558,
+    "host_listings_count": 0.3249271782694542,
+    "availability_365": 0.07675451333837002
+}},{latitude:40.85251, longitude:-73.83254,actual:55.0,predicted:94,coefficients:{
+    "intercept": 87.53733694247875,
+    "minimum_nights": -0.33153528965386764,
+    "number_of_reviews": -0.003185078725192965,
+    "reviews_per_month": 0.8072278262977973,
+    "host_listings_count": 0.30985383039537323,
+    "availability_365": 0.07731023643473192
+}},{latitude:40.82504, longitude:-73.90918,actual:80.0,predicted:104,coefficients:{
+    "intercept": 80.78040761614902,
+    "minimum_nights": -0.3226321386037245,
+    "number_of_reviews": -0.2199923086105325,
+    "reviews_per_month": -6.65830283811376,
+    "host_listings_count": -0.3425753635839926,
+    "availability_365": 0.06956720855837673
+}},{latitude:40.82936, longitude:-73.84854,actual:75.0,predicted:112,coefficients:{
+    "intercept": 83.91156380446694,
+    "minimum_nights": -0.3328094008612283,
+    "number_of_reviews": 0.04869848306930938,
+    "reviews_per_month": 1.37152763538328,
+    "host_listings_count": 0.22635494432525827,
+    "availability_365": 0.07714954482280259
+}},{latitude:40.80464, longitude:-73.92575,actual:125.0,predicted:102,coefficients:{
+    "intercept": 81.93190320609659,
+    "minimum_nights": -0.3220988490459163,
+    "number_of_reviews": -0.21761427719165535,
+    "reviews_per_month": -9.368087485946445,
+    "host_listings_count": -0.38609272240536185,
+    "availability_365": 0.0688816189322216
+}},{latitude:40.83616, longitude:-73.84638,actual:75.0,predicted:117,coefficients:{
+    "intercept": 84.45748880710723,
+    "minimum_nights": -0.33240688853814715,
+    "number_of_reviews": 0.06162680447907709,
+    "reviews_per_month": 1.3212805052700218,
+    "host_listings_count": 0.24558779054991592,
+    "availability_365": 0.07725693798895612
+}},{latitude:40.85413, longitude:-73.88387,actual:55.0,predicted:82,coefficients:{
+    "intercept": 65.68113533193191,
+    "minimum_nights": -0.32439739614259894,
+    "number_of_reviews": -0.16098711536109256,
+    "reviews_per_month": -0.38761883450144335,
+    "host_listings_count": -0.1900596877208332,
+    "availability_365": 0.07179683320809532
+}},{latitude:40.88798, longitude:-73.86474,actual:35.0,predicted:89,coefficients:{
+    "intercept": 77.5532463036904,
+    "minimum_nights": -0.3267079723515421,
+    "number_of_reviews": -0.014512242897623614,
+    "reviews_per_month": 2.5601987595046456,
+    "host_listings_count": 0.08611322717208379,
+    "availability_365": 0.07570604276003402
+}},{latitude:40.86997, longitude:-73.84867,actual:36.0,predicted:92,coefficients:{
+    "intercept": 81.25343846934106,
+    "minimum_nights": -0.33045862058643233,
+    "number_of_reviews": 0.07843970470067319,
+    "reviews_per_month": 2.091396255788841,
+    "host_listings_count": 0.25846914851475955,
+    "availability_365": 0.07758878624466926
+}},{latitude:40.86958, longitude:-73.84872,actual:38.0,predicted:90,coefficients:{
+    "intercept": 81.23533452664988,
+    "minimum_nights": -0.33047956023521396,
+    "number_of_reviews": 0.07825969288671102,
+    "reviews_per_month": 2.0907519773398735,
+    "host_listings_count": 0.25794314641318455,
+    "availability_365": 0.07758559997614042
+}},{latitude:40.8688, longitude:-73.84726,actual:120.0,predicted:89,coefficients:{
+    "intercept": 82.17297961635182,
+    "minimum_nights": -0.33057702514378023,
+    "number_of_reviews": 0.08477273930463866,
+    "reviews_per_month": 1.9244659837557865,
+    "host_listings_count": 0.2652022521398465,
+    "availability_365": 0.07758075159092376
+}},{latitude:40.8718, longitude:-73.87699,actual:73.0,predicted:82,coefficients:{
+    "intercept": 69.70726715627166,
+    "minimum_nights": -0.32484125960143007,
+    "number_of_reviews": -0.1263565452762767,
+    "reviews_per_month": 1.3078193734887025,
+    "host_listings_count": -0.10680224182889211,
+    "availability_365": 0.0729772274932259
+}},{latitude:40.83207, longitude:-73.92068,actual:42.0,predicted:104,coefficients:{
+    "intercept": 82.52002323143323,
+    "minimum_nights": -0.3218609249033235,
+    "number_of_reviews": -0.23655120678531666,
+    "reviews_per_month": -9.339704328086096,
+    "host_listings_count": -0.3663051449909905,
+    "availability_365": 0.06918618053806928
+}},{latitude:40.82374, longitude:-73.91555,actual:59.0,predicted:63,coefficients:{
+    "intercept": 81.58302809380727,
+    "minimum_nights": -0.3222677783469427,
+    "number_of_reviews": -0.22675281849451678,
+    "reviews_per_month": -8.120316829263299,
+    "host_listings_count": -0.3597099725583734,
+    "availability_365": 0.06930013984658939
+}},{latitude:40.85539, longitude:-73.88769,actual:69.0,predicted:88,coefficients:{
+    "intercept": 67.62543172962354,
+    "minimum_nights": -0.32384668568074143,
+    "number_of_reviews": -0.1381321703284885,
+    "reviews_per_month": -1.0596960348419495,
+    "host_listings_count": -0.21873386924907806,
+    "availability_365": 0.07138150438238364
+}},{latitude:40.81869, longitude:-73.82233,actual:99.0,predicted:87,coefficients:{
+    "intercept": 78.38932181780399,
+    "minimum_nights": -0.33250843357210913,
+    "number_of_reviews": -0.017988786812024867,
+    "reviews_per_month": 0.07415401391115016,
+    "host_listings_count": 0.3105777953511929,
+    "availability_365": 0.0768497543465453
+}},{latitude:40.89323, longitude:-73.85215,actual:160.0,predicted:107,coefficients:{
+    "intercept": 79.25773281746523,
+    "minimum_nights": -0.3288543005117183,
+    "number_of_reviews": 0.04393444572100453,
+    "reviews_per_month": 2.466634353365253,
+    "host_listings_count": 0.2520681359727683,
+    "availability_365": 0.07772307525208563
+}},{latitude:40.85743, longitude:-73.90233,actual:22.0,predicted:76,coefficients:{
+    "intercept": 79.68576711817293,
+    "minimum_nights": -0.32239833511641164,
+    "number_of_reviews": -0.20184859160569038,
+    "reviews_per_month": -4.207140740639044,
+    "host_listings_count": -0.2987161383016007,
+    "availability_365": 0.07020671123978806
+}},{latitude:40.83894, longitude:-73.91158,actual:34.0,predicted:82,coefficients:{
+    "intercept": 82.58856678642506,
+    "minimum_nights": -0.32219741532298063,
+    "number_of_reviews": -0.24226466117470757,
+    "reviews_per_month": -7.117075878857454,
+    "host_listings_count": -0.3418237559819823,
+    "availability_365": 0.06956841000214468
+}},{latitude:40.89701, longitude:-73.89778,actual:109.0,predicted:89,coefficients:{
+    "intercept": 80.0394619757296,
+    "minimum_nights": -0.3217809624734205,
+    "number_of_reviews": -0.1529298825824488,
+    "reviews_per_month": -2.9700996752924396,
+    "host_listings_count": -0.24894615938149586,
+    "availability_365": 0.07089852571897091
+}},{latitude:40.82888, longitude:-73.9045,actual:70.0,predicted:79,coefficients:{
+    "intercept": 79.50266301808374,
+    "minimum_nights": -0.3228883894213204,
+    "number_of_reviews": -0.20155992188231425,
+    "reviews_per_month": -5.4960028085369,
+    "host_listings_count": -0.32520840028845416,
+    "availability_365": 0.06983000118887557
+}},{latitude:40.80828, longitude:-73.9319,actual:28.0,predicted:64,coefficients:{
+    "intercept": 80.64469449529666,
+    "minimum_nights": -0.321796507225719,
+    "number_of_reviews": -0.24608851241396815,
+    "reviews_per_month": -9.139691271152778,
+    "host_listings_count": -0.3920109220356841,
+    "availability_365": 0.06877246660433686
+}},{latitude:40.83466, longitude:-73.90278,actual:100.0,predicted:102,coefficients:{
+    "intercept": 78.73179674831397,
+    "minimum_nights": -0.3228919442552284,
+    "number_of_reviews": -0.19414437931443637,
+    "reviews_per_month": -4.972060164046423,
+    "host_listings_count": -0.31528341613211663,
+    "availability_365": 0.06997623598061138
+}},{latitude:40.80844, longitude:-73.9316,actual:60.0,predicted:83,coefficients:{
+    "intercept": 80.72605067229378,
+    "minimum_nights": -0.32180489845730387,
+    "number_of_reviews": -0.2445973178120556,
+    "reviews_per_month": -9.15734110313433,
+    "host_listings_count": -0.3916454191401982,
+    "availability_365": 0.06877896903829929
+}},{latitude:40.82788, longitude:-73.92604,actual:88.0,predicted:67,coefficients:{
+    "intercept": 81.82538216517908,
+    "minimum_nights": -0.3217086295911179,
+    "number_of_reviews": -0.23781705709298573,
+    "reviews_per_month": -9.717589984112315,
+    "host_listings_count": -0.37711276588876985,
+    "availability_365": 0.06901074141542682
+}},{latitude:40.87846, longitude:-73.86311,actual:140.0,predicted:115,coefficients:{
+    "intercept": 77.60950027789407,
+    "minimum_nights": -0.32769772155046806,
+    "number_of_reviews": -0.006847652131842369,
+    "reviews_per_month": 2.799025943952121,
+    "host_listings_count": 0.10628472033960126,
+    "availability_365": 0.07601685853666112
+}},{latitude:40.84268, longitude:-73.91007,actual:40.0,predicted:95,coefficients:{
+    "intercept": 82.719043029008,
+    "minimum_nights": -0.32221085505547487,
+    "number_of_reviews": -0.24257550862069854,
+    "reviews_per_month": -6.670018595076709,
+    "host_listings_count": -0.33536979547867024,
+    "availability_365": 0.06966490611024127
+}},{latitude:40.83898, longitude:-73.86492,actual:55.0,predicted:103,coefficients:{
+    "intercept": 76.05947972778921,
+    "minimum_nights": -0.3293016758178418,
+    "number_of_reviews": -0.05289489709131792,
+    "reviews_per_month": 2.0201846117556688,
+    "host_listings_count": 0.026015682875951546,
+    "availability_365": 0.07490814176189863
+}},{latitude:40.86871, longitude:-73.8474,actual:40.0,predicted:89,coefficients:{
+    "intercept": 82.08583882684732,
+    "minimum_nights": -0.33057741222946446,
+    "number_of_reviews": 0.08425031810448518,
+    "reviews_per_month": 1.9351812416481875,
+    "host_listings_count": 0.2644257467538398,
+    "availability_365": 0.07758011378376471
+}},{latitude:40.89147, longitude:-73.84747,actual:196.0,predicted:94,coefficients:{
+    "intercept": 81.67525706179694,
+    "minimum_nights": -0.32928658197297617,
+    "number_of_reviews": 0.07263226762479696,
+    "reviews_per_month": 2.1090280880572387,
+    "host_listings_count": 0.27616091234982854,
+    "availability_365": 0.07772039955242319
+}},{latitude:40.82778, longitude:-73.91516,actual:75.0,predicted:81,coefficients:{
+    "intercept": 81.81119921350154,
+    "minimum_nights": -0.32221275551154266,
+    "number_of_reviews": -0.2317643613092798,
+    "reviews_per_month": -8.059826614657519,
+    "host_listings_count": -0.35681862881062,
+    "availability_365": 0.0693428012150715
+}},{latitude:40.81203, longitude:-73.90779,actual:50.0,predicted:60,coefficients:{
+    "intercept": 80.502149724208,
+    "minimum_nights": -0.32300568665453844,
+    "number_of_reviews": -0.2007894305364047,
+    "reviews_per_month": -6.45264317015792,
+    "host_listings_count": -0.345399687635072,
+    "availability_365": 0.06953026011032386
+}},{latitude:40.84607, longitude:-73.9071,actual:55.0,predicted:77,coefficients:{
+    "intercept": 81.81400980131711,
+    "minimum_nights": -0.32232513982723615,
+    "number_of_reviews": -0.23274670493719474,
+    "reviews_per_month": -5.829321815258995,
+    "host_listings_count": -0.32393188559646674,
+    "availability_365": 0.06983700513444806
+}},{latitude:40.87066, longitude:-73.88227,actual:56.0,predicted:70,coefficients:{
+    "intercept": 67.12047023386799,
+    "minimum_nights": -0.3240630672200922,
+    "number_of_reviews": -0.153420262154786,
+    "reviews_per_month": 0.23900218494347783,
+    "host_listings_count": -0.16122961059243718,
+    "availability_365": 0.07219755556486367
+}},{latitude:40.86493, longitude:-73.90315,actual:69.0,predicted:77,coefficients:{
+    "intercept": 81.47416572392365,
+    "minimum_nights": -0.3221700156578208,
+    "number_of_reviews": -0.20994716273294745,
+    "reviews_per_month": -4.3089210733548695,
+    "host_listings_count": -0.29707821353015995,
+    "availability_365": 0.07022368366088513
+}},{latitude:40.86093, longitude:-73.85185,actual:75.0,predicted:96,coefficients:{
+    "intercept": 79.8634918800276,
+    "minimum_nights": -0.33089330794045885,
+    "number_of_reviews": 0.06055188168493883,
+    "reviews_per_month": 2.283907517553281,
+    "host_listings_count": 0.23273425858564128,
+    "availability_365": 0.07748590132634015
+}},{latitude:40.8703, longitude:-73.89313,actual:168.0,predicted:93,coefficients:{
+    "intercept": 72.82790444933048,
+    "minimum_nights": -0.3228286460930134,
+    "number_of_reviews": -0.1298546894112299,
+    "reviews_per_month": -2.0175364941021394,
+    "host_listings_count": -0.24276994619591866,
+    "availability_365": 0.07101878661471686
+}},{latitude:40.86066, longitude:-73.89883,actual:149.0,predicted:101,coefficients:{
+    "intercept": 76.92186413611806,
+    "minimum_nights": -0.3225866760804962,
+    "number_of_reviews": -0.1692530558611053,
+    "reviews_per_month": -3.333099882816644,
+    "host_listings_count": -0.2807974846991131,
+    "availability_365": 0.07047000036884073
+}},{latitude:40.9026, longitude:-73.84806,actual:288.0,predicted:107,coefficients:{
+    "intercept": 81.43792175041378,
+    "minimum_nights": -0.32862679324384264,
+    "number_of_reviews": 0.05839277019979305,
+    "reviews_per_month": 2.1019180982281025,
+    "host_listings_count": 0.277763667838406,
+    "availability_365": 0.07776489839280162
+}},{latitude:40.86963, longitude:-73.89465,actual:79.0,predicted:75,coefficients:{
+    "intercept": 74.01565544197989,
+    "minimum_nights": -0.32270899615775356,
+    "number_of_reviews": -0.1367501508148601,
+    "reviews_per_month": -2.3083611498122933,
+    "host_listings_count": -0.25223690016471095,
+    "availability_365": 0.07088118498657113
+}},{latitude:40.87085, longitude:-73.89318,actual:58.0,predicted:74,coefficients:{
+    "intercept": 72.91023955563412,
+    "minimum_nights": -0.3228090432113884,
+    "number_of_reviews": -0.1299681525035886,
+    "reviews_per_month": -2.0240839306942524,
+    "host_listings_count": -0.24264250827834616,
+    "availability_365": 0.07102007349260532
+}},{latitude:40.86947, longitude:-73.89389,actual:55.0,predicted:76,coefficients:{
+    "intercept": 73.37913325919128,
+    "minimum_nights": -0.32278127793130895,
+    "number_of_reviews": -0.13296248903149668,
+    "reviews_per_month": -2.15378594415311,
+    "host_listings_count": -0.247952571839851,
+    "availability_365": 0.07094398694173482
+}},{latitude:40.87066, longitude:-73.89317,actual:55.0,predicted:75,coefficients:{
+    "intercept": 72.88757275150823,
+    "minimum_nights": -0.3228151362489714,
+    "number_of_reviews": -0.12995388222543836,
+    "reviews_per_month": -2.02033825940132,
+    "host_listings_count": -0.24273059290078805,
+    "availability_365": 0.0710189867804065
+}},{latitude:40.8455, longitude:-73.86217,actual:35.0,predicted:104,coefficients:{
+    "intercept": 77.175605452482,
+    "minimum_nights": -0.3299196541002843,
+    "number_of_reviews": -0.021348423021272385,
+    "reviews_per_month": 2.3688990090461064,
+    "host_listings_count": 0.08486660378572325,
+    "availability_365": 0.07575295247592113
+}},{latitude:40.88452, longitude:-73.91065,actual:99.0,predicted:91,coefficients:{
+    "intercept": 101.16660905338746,
+    "minimum_nights": -0.32134696043864625,
+    "number_of_reviews": -0.25372906265055056,
+    "reviews_per_month": -5.884737298385611,
+    "host_listings_count": -0.31185544861230274,
+    "availability_365": 0.06997697761973998
+}},{latitude:40.87256, longitude:-73.89978,actual:95.0,predicted:69,coefficients:{
+    "intercept": 78.97971783506455,
+    "minimum_nights": -0.3222263342909133,
+    "number_of_reviews": -0.17669658990832787,
+    "reviews_per_month": -3.5612412541279053,
+    "host_listings_count": -0.27684504242207725,
+    "availability_365": 0.07051618211374322
+}},{latitude:40.82794, longitude:-73.90412,actual:45.0,predicted:98,coefficients:{
+    "intercept": 79.34053815016112,
+    "minimum_nights": -0.3229393997172481,
+    "number_of_reviews": -0.1982401416004604,
+    "reviews_per_month": -5.426474092635398,
+    "host_listings_count": -0.3244019874540161,
+    "availability_365": 0.06984270947689161
+}},{latitude:40.88125, longitude:-73.84922,actual:85.0,predicted:122,coefficients:{
+    "intercept": 80.69457071207066,
+    "minimum_nights": -0.3297706185292289,
+    "number_of_reviews": 0.07080660609408115,
+    "reviews_per_month": 2.2657744732503065,
+    "host_listings_count": 0.26224639346801265,
+    "availability_365": 0.0776673912848943
+}},{latitude:40.88531, longitude:-73.90008,actual:100.0,predicted:86,coefficients:{
+    "intercept": 81.18422491249703,
+    "minimum_nights": -0.3219053691548793,
+    "number_of_reviews": -0.17501451248964825,
+    "reviews_per_month": -3.6045335697911756,
+    "host_listings_count": -0.2691474912613144,
+    "availability_365": 0.07061543889864705
+}},{latitude:40.84308, longitude:-73.90652,actual:67.0,predicted:87,coefficients:{
+    "intercept": 81.12910102717778,
+    "minimum_nights": -0.32242799237042113,
+    "number_of_reviews": -0.2269371045653396,
+    "reviews_per_month": -5.726768668711106,
+    "host_listings_count": -0.323764756641219,
+    "availability_365": 0.06984207221118609
+}},{latitude:40.856, longitude:-73.86705,actual:57.0,predicted:109,coefficients:{
+    "intercept": 76.00411138565158,
+    "minimum_nights": -0.32776222959357354,
+    "number_of_reviews": -0.0496935164529003,
+    "reviews_per_month": 2.2376192089362426,
+    "host_listings_count": 0.010827501786588064,
+    "availability_365": 0.07467913232601442
+}},{latitude:40.8315, longitude:-73.92277,actual:60.0,predicted:72,coefficients:{
+    "intercept": 82.3745609601143,
+    "minimum_nights": -0.32178021869007467,
+    "number_of_reviews": -0.23675175907615525,
+    "reviews_per_month": -9.69227436253687,
+    "host_listings_count": -0.37032203453398005,
+    "availability_365": 0.06912065215223952
+}},{latitude:40.84631, longitude:-73.91641,actual:150.0,predicted:64,coefficients:{
+    "intercept": 85.43064042390155,
+    "minimum_nights": -0.32180221420188243,
+    "number_of_reviews": -0.25388314574848075,
+    "reviews_per_month": -8.125058707272547,
+    "host_listings_count": -0.3502040926252953,
+    "availability_365": 0.06942976207075824
+}},{latitude:40.82231, longitude:-73.91696,actual:69.0,predicted:96,coefficients:{
+    "intercept": 81.64311450731043,
+    "minimum_nights": -0.3222180190788091,
+    "number_of_reviews": -0.22504467664526176,
+    "reviews_per_month": -8.456693990121378,
+    "host_listings_count": -0.3634860457624311,
+    "availability_365": 0.06924095737840943
+}},{latitude:40.87277, longitude:-73.90268,actual:95.0,predicted:84,coefficients:{
+    "intercept": 82.3127099139727,
+    "minimum_nights": -0.3220237235970284,
+    "number_of_reviews": -0.20415271890502645,
+    "reviews_per_month": -4.183174874919832,
+    "host_listings_count": -0.28976589925160595,
+    "availability_365": 0.0703241587362525
+}},{latitude:40.86429, longitude:-73.90204,actual:60.0,predicted:85,coefficients:{
+    "intercept": 80.23743687878279,
+    "minimum_nights": -0.32226038344838726,
+    "number_of_reviews": -0.199631518643285,
+    "reviews_per_month": -4.047612310814721,
+    "host_listings_count": -0.29284464479426364,
+    "availability_365": 0.07028755235042837
+}},{latitude:40.80807, longitude:-73.92811,actual:140.0,predicted:86,coefficients:{
+    "intercept": 81.51414878939153,
+    "minimum_nights": -0.3219439936306598,
+    "number_of_reviews": -0.2283976453758111,
+    "reviews_per_month": -9.40579995528486,
+    "host_listings_count": -0.38783829859340924,
+    "availability_365": 0.06884775290301345
+}},{latitude:40.81879, longitude:-73.88646,actual:35.0,predicted:64,coefficients:{
+    "intercept": 63.61298643928985,
+    "minimum_nights": -0.3251526222741084,
+    "number_of_reviews": -0.170604612742238,
+    "reviews_per_month": -1.6740971053146958,
+    "host_listings_count": -0.23990968016417794,
+    "availability_365": 0.07108865340752979
+}},{latitude:40.82759, longitude:-73.92081,actual:65.0,predicted:87,coefficients:{
+    "intercept": 82.11737141631667,
+    "minimum_nights": -0.3219331489809806,
+    "number_of_reviews": -0.23153360490781175,
+    "reviews_per_month": -9.349073149471376,
+    "host_listings_count": -0.36862837154011985,
+    "availability_365": 0.06915277800711879
+}},{latitude:40.82754, longitude:-73.82124,actual:65.0,predicted:107,coefficients:{
+    "intercept": 79.12436130015999,
+    "minimum_nights": -0.33221487333542615,
+    "number_of_reviews": -0.018709130563611478,
+    "reviews_per_month": 0.06905856102608893,
+    "host_listings_count": 0.3171030802062473,
+    "availability_365": 0.07691605813225154
+}},{latitude:40.84346, longitude:-73.90554,actual:55.0,predicted:88,coefficients:{
+    "intercept": 80.63396537813706,
+    "minimum_nights": -0.3224867718899291,
+    "number_of_reviews": -0.22103757009059483,
+    "reviews_per_month": -5.453923225206983,
+    "host_listings_count": -0.32010458061493824,
+    "availability_365": 0.06989728077660072
+}},{latitude:40.83351, longitude:-73.93033,actual:65.0,predicted:100,coefficients:{
+    "intercept": 81.30361588014358,
+    "minimum_nights": -0.32146866842971367,
+    "number_of_reviews": -0.254489984711558,
+    "reviews_per_month": -9.509973189001053,
+    "host_listings_count": -0.3805372957652242,
+    "availability_365": 0.06894376566350434
+}},{latitude:40.86269, longitude:-73.89073,actual:39.0,predicted:79,coefficients:{
+    "intercept": 70.38901308615668,
+    "minimum_nights": -0.3232804314743656,
+    "number_of_reviews": -0.12717005305825974,
+    "reviews_per_month": -1.5740657105140285,
+    "host_listings_count": -0.23369034728938726,
+    "availability_365": 0.0711583922889255
+}},{latitude:40.83163, longitude:-73.93077,actual:80.0,predicted:70,coefficients:{
+    "intercept": 81.10399389778603,
+    "minimum_nights": -0.3214828732257416,
+    "number_of_reviews": -0.2548201014629055,
+    "reviews_per_month": -9.458320989716103,
+    "host_listings_count": -0.38184536362116417,
+    "availability_365": 0.06892340264594313
+}},{latitude:40.88587, longitude:-73.89865,actual:80.0,predicted:84,coefficients:{
+    "intercept": 79.51766875939924,
+    "minimum_nights": -0.3219880220594693,
+    "number_of_reviews": -0.1625009928361969,
+    "reviews_per_month": -3.2638551143370704,
+    "host_listings_count": -0.2616688781758116,
+    "availability_365": 0.07072502550614418
+}},{latitude:40.87852, longitude:-73.85003,actual:36.0,predicted:88,coefficients:{
+    "intercept": 80.28733556203295,
+    "minimum_nights": -0.3298889156477971,
+    "number_of_reviews": 0.06768523506036256,
+    "reviews_per_month": 2.3255511826679514,
+    "host_listings_count": 0.2561962214492308,
+    "availability_365": 0.07764752867242034
+}},{latitude:40.87877, longitude:-73.85044,actual:55.0,predicted:82,coefficients:{
+    "intercept": 80.07085582441522,
+    "minimum_nights": -0.3298515852823101,
+    "number_of_reviews": 0.06508777670942419,
+    "reviews_per_month": 2.3614466965079717,
+    "host_listings_count": 0.254000932931115,
+    "availability_365": 0.07764753592502349
+}},{latitude:40.80855, longitude:-73.92948,actual:220.0,predicted:83,coefficients:{
+    "intercept": 81.24096523125334,
+    "minimum_nights": -0.32188240971335097,
+    "number_of_reviews": -0.23443685471796508,
+    "reviews_per_month": -9.31628471834326,
+    "host_listings_count": -0.38928831477124487,
+    "availability_365": 0.06882147729183341
+}},{latitude:40.89198, longitude:-73.84779,actual:309.0,predicted:94,coefficients:{
+    "intercept": 81.48263823737486,
+    "minimum_nights": -0.3292380841939437,
+    "number_of_reviews": 0.07051445659859537,
+    "reviews_per_month": 2.13782420648885,
+    "host_listings_count": 0.27485340585279744,
+    "availability_365": 0.07772375435920534
+}},{latitude:40.80146, longitude:-73.91673,actual:125.0,predicted:105,coefficients:{
+    "intercept": 81.84082629309454,
+    "minimum_nights": -0.32261745031640127,
+    "number_of_reviews": -0.20096786094216945,
+    "reviews_per_month": -8.258461035737392,
+    "host_listings_count": -0.3724378242313895,
+    "availability_365": 0.06911067619370091
+}},{latitude:40.86249, longitude:-73.89234,actual:39.0,predicted:79,coefficients:{
+    "intercept": 71.64167173432341,
+    "minimum_nights": -0.3231201171362878,
+    "number_of_reviews": -0.1285147956771168,
+    "reviews_per_month": -1.9750061181797898,
+    "host_listings_count": -0.2440633894532013,
+    "availability_365": 0.07100751001569823
+}},{latitude:40.86427, longitude:-73.89215,actual:39.0,predicted:79,coefficients:{
+    "intercept": 71.61085777885205,
+    "minimum_nights": -0.3230894334875022,
+    "number_of_reviews": -0.1279258567699101,
+    "reviews_per_month": -1.9044217438099496,
+    "host_listings_count": -0.2414892006511737,
+    "availability_365": 0.07104340276652342
+}},{latitude:40.86294, longitude:-73.89242,actual:99.0,predicted:93,coefficients:{
+    "intercept": 71.73565580809942,
+    "minimum_nights": -0.32309959980799935,
+    "number_of_reviews": -0.1286371612005853,
+    "reviews_per_month": -1.9850313772110184,
+    "host_listings_count": -0.24420237688317822,
+    "availability_365": 0.07100507330885006
+}},{latitude:40.82964, longitude:-73.91833,actual:53.0,predicted:92,coefficients:{
+    "intercept": 82.22676057314132,
+    "minimum_nights": -0.3220140247331581,
+    "number_of_reviews": -0.23383656018507346,
+    "reviews_per_month": -8.838440047375844,
+    "host_listings_count": -0.36284186055090795,
+    "availability_365": 0.06924486236522365
+}},{latitude:40.80087, longitude:-73.91635,actual:100.0,predicted:105,coefficients:{
+    "intercept": 81.82577129599971,
+    "minimum_nights": -0.3226511189186852,
+    "number_of_reviews": -0.2001751166465185,
+    "reviews_per_month": -8.175686130210888,
+    "host_listings_count": -0.37192753082079133,
+    "availability_365": 0.06911918240797872
+}},{latitude:40.82519, longitude:-73.90101,actual:150.0,predicted:83,coefficients:{
+    "intercept": 77.7753350950523,
+    "minimum_nights": -0.32326436683375454,
+    "number_of_reviews": -0.17416733076467214,
+    "reviews_per_month": -4.776798015109477,
+    "host_listings_count": -0.3141593119379364,
+    "availability_365": 0.06999800325603829
+}},{latitude:40.91234, longitude:-73.89417,actual:40.0,predicted:87,coefficients:{
+    "intercept": 77.73760541466578,
+    "minimum_nights": -0.32164971866857184,
+    "number_of_reviews": -0.1568178016105833,
+    "reviews_per_month": -2.098583126760984,
+    "host_listings_count": -0.21641961227350978,
+    "availability_365": 0.07135035398919225
+}},{latitude:40.86143, longitude:-73.84556,actual:79.0,predicted:100,coefficients:{
+    "intercept": 83.56282070577895,
+    "minimum_nights": -0.3310340739697191,
+    "number_of_reviews": 0.0874581860322202,
+    "reviews_per_month": 1.6448583321133572,
+    "host_listings_count": 0.2689821844816185,
+    "availability_365": 0.07751835509228396
+}},{latitude:40.82101, longitude:-73.90919,actual:75.0,predicted:79,coefficients:{
+    "intercept": 80.69039774612075,
+    "minimum_nights": -0.32271550800031495,
+    "number_of_reviews": -0.21530554304800195,
+    "reviews_per_month": -6.692312052607236,
+    "host_listings_count": -0.3447725888064653,
+    "availability_365": 0.06953569557146456
+}},{latitude:40.86886, longitude:-73.84915,actual:140.0,predicted:96,coefficients:{
+    "intercept": 81.00296774607845,
+    "minimum_nights": -0.3305055490031742,
+    "number_of_reviews": 0.07616519524169604,
+    "reviews_per_month": 2.119177037758311,
+    "host_listings_count": 0.25507732337749034,
+    "availability_365": 0.07757857555271509
+}},{latitude:40.83671, longitude:-73.84677,actual:75.0,predicted:112,coefficients:{
+    "intercept": 84.21190439996167,
+    "minimum_nights": -0.3323805627468133,
+    "number_of_reviews": 0.062496134067513545,
+    "reviews_per_month": 1.3568388477954014,
+    "host_listings_count": 0.24385629483373003,
+    "availability_365": 0.07726139690641852
+}},{latitude:40.82093, longitude:-73.91279,actual:125.0,predicted:94,coefficients:{
+    "intercept": 81.17756343591736,
+    "minimum_nights": -0.3224828184668322,
+    "number_of_reviews": -0.22191473380309093,
+    "reviews_per_month": -7.513310065680054,
+    "host_listings_count": -0.35453144717038854,
+    "availability_365": 0.06938396412237025
+}},{latitude:40.91306, longitude:-73.89389,actual:40.0,predicted:86,coefficients:{
+    "intercept": 77.5152622449813,
+    "minimum_nights": -0.32165082618539925,
+    "number_of_reviews": -0.15694288262944867,
+    "reviews_per_month": -2.0324700370389874,
+    "host_listings_count": -0.2141074302410013,
+    "availability_365": 0.07138267589612762
+}},{latitude:40.91167, longitude:-73.89566,actual:40.0,predicted:88,coefficients:{
+    "intercept": 79.30290962563207,
+    "minimum_nights": -0.3215683166347215,
+    "number_of_reviews": -0.15359896514769372,
+    "reviews_per_month": -2.398420653067699,
+    "host_listings_count": -0.22596736947540338,
+    "availability_365": 0.0712131923068118
+}},{latitude:40.85247, longitude:-73.86418,actual:60.0,predicted:95,coefficients:{
+    "intercept": 76.81311950425096,
+    "minimum_nights": -0.3288258581431997,
+    "number_of_reviews": -0.029832395165199737,
+    "reviews_per_month": 2.4552370577643368,
+    "host_listings_count": 0.05583993990956709,
+    "availability_365": 0.07532937536076025
+}},{latitude:40.86143, longitude:-73.84573,actual:79.0,predicted:112,coefficients:{
+    "intercept": 83.4516376106296,
+    "minimum_nights": -0.3310304826013998,
+    "number_of_reviews": 0.08727838065684614,
+    "reviews_per_month": 1.659997788857279,
+    "host_listings_count": 0.26815561597701487,
+    "availability_365": 0.07751874378414937
+}},{latitude:40.84218, longitude:-73.90969,actual:390.0,predicted:105,coefficients:{
+    "intercept": 82.48213302980075,
+    "minimum_nights": -0.32224403237116706,
+    "number_of_reviews": -0.240844138043424,
+    "reviews_per_month": -6.573033252215636,
+    "host_listings_count": -0.33451477579264416,
+    "availability_365": 0.0696785114409427
+}},{latitude:40.84037, longitude:-73.8998,actual:122.0,predicted:87,coefficients:{
+    "intercept": 76.87636954058304,
+    "minimum_nights": -0.3230037003886111,
+    "number_of_reviews": -0.17309044469664078,
+    "reviews_per_month": -3.9877314752538835,
+    "host_listings_count": -0.2992556662267512,
+    "availability_365": 0.07021227450253154
+}},{latitude:40.8349, longitude:-73.85259,actual:40.0,predicted:87,coefficients:{
+    "intercept": 81.1723067705186,
+    "minimum_nights": -0.332528667264986,
+    "number_of_reviews": 0.03817122600934565,
+    "reviews_per_month": 1.7253060761550658,
+    "host_listings_count": 0.20342250590937194,
+    "availability_365": 0.07715493947798878
+}},{latitude:40.90527, longitude:-73.89707,actual:150.0,predicted:76,coefficients:{
+    "intercept": 80.25638982370614,
+    "minimum_nights": -0.32163088275712726,
+    "number_of_reviews": -0.147796695209887,
+    "reviews_per_month": -2.7458000155216498,
+    "host_listings_count": -0.23889967227026213,
+    "availability_365": 0.07103434437881687
+}},{latitude:40.85234, longitude:-73.82969,actual:55.0,predicted:98,coefficients:{
+    "intercept": 86.76153694745922,
+    "minimum_nights": -0.33151965291051927,
+    "number_of_reviews": -0.018728753783881863,
+    "reviews_per_month": 0.6463413344079437,
+    "host_listings_count": 0.3160859394826019,
+    "availability_365": 0.07725989316394119
+}},{latitude:40.87997, longitude:-73.90135,actual:100.0,predicted:89,coefficients:{
+    "intercept": 81.92847986151425,
+    "minimum_nights": -0.32194598673414704,
+    "number_of_reviews": -0.1889108040628484,
+    "reviews_per_month": -3.8918718315647896,
+    "host_listings_count": -0.27886853085610136,
+    "availability_365": 0.07047751803820877
+}},{latitude:40.84443, longitude:-73.78497,actual:1000.0,predicted:190,coefficients:{
+    "intercept": 182.73668803592946,
+    "minimum_nights": -0.33078509028471315,
+    "number_of_reviews": -0.13837694941364037,
+    "reviews_per_month": -1.1396948686149313,
+    "host_listings_count": 0.3256031494337349,
+    "availability_365": 0.07625465800700018
+}},{latitude:40.84295, longitude:-73.78433,actual:600.0,predicted:188,coefficients:{
+    "intercept": 184.24628177065244,
+    "minimum_nights": -0.33079517387063123,
+    "number_of_reviews": -0.1371503860530199,
+    "reviews_per_month": -1.1553115548273614,
+    "host_listings_count": 0.3247912792507757,
+    "availability_365": 0.0762352259759415
+}},{latitude:40.88116, longitude:-73.86547,actual:25.0,predicted:62,coefficients:{
+    "intercept": 77.38864259157036,
+    "minimum_nights": -0.3268827868653185,
+    "number_of_reviews": -0.019572997107885008,
+    "reviews_per_month": 2.5796396890380446,
+    "host_listings_count": 0.06576120068624418,
+    "availability_365": 0.07543066359227339
+}},{latitude:40.81629, longitude:-73.90945,actual:85.0,predicted:74,coefficients:{
+    "intercept": 80.70517379291843,
+    "minimum_nights": -0.3227956502243681,
+    "number_of_reviews": -0.21053140568505077,
+    "reviews_per_month": -6.781476619408646,
+    "host_listings_count": -0.3480032339728561,
+    "availability_365": 0.06948828485155673
+}},{latitude:40.80626, longitude:-73.92815,actual:117.0,predicted:99,coefficients:{
+    "intercept": 81.55021375652746,
+    "minimum_nights": -0.3219710191100827,
+    "number_of_reviews": -0.22732416506533232,
+    "reviews_per_month": -9.37433863149706,
+    "host_listings_count": -0.3885613844685044,
+    "availability_365": 0.06883693502521512
+}},{latitude:40.86355, longitude:-73.89234,actual:39.0,predicted:73,coefficients:{
+    "intercept": 71.71270731184202,
+    "minimum_nights": -0.32309058391252915,
+    "number_of_reviews": -0.128391162311605,
+    "reviews_per_month": -1.9549255062027644,
+    "host_listings_count": -0.2432317852060841,
+    "availability_365": 0.07101866734343393
+}},{latitude:40.86265, longitude:-73.89263,actual:178.0,predicted:75,coefficients:{
+    "intercept": 71.88500105911457,
+    "minimum_nights": -0.3230868063818536,
+    "number_of_reviews": -0.12917541988063766,
+    "reviews_per_month": -2.0401117292649307,
+    "host_listings_count": -0.24571304680863124,
+    "availability_365": 0.07098329988425818
+}},{latitude:40.86264, longitude:-73.89139,actual:29.0,predicted:74,coefficients:{
+    "intercept": 70.89830924636078,
+    "minimum_nights": -0.32321264926328425,
+    "number_of_reviews": -0.1272121215151807,
+    "reviews_per_month": -1.735717461871295,
+    "host_listings_count": -0.23799321321801914,
+    "availability_365": 0.07109582597807237
+}},{latitude:40.86263, longitude:-73.89088,actual:33.0,predicted:73,coefficients:{
+    "intercept": 70.50036215976708,
+    "minimum_nights": -0.3232662770744086,
+    "number_of_reviews": -0.12712596173399227,
+    "reviews_per_month": -1.6160078219358627,
+    "host_listings_count": -0.23471664105278814,
+    "availability_365": 0.07114351889476989
+}},{latitude:40.80655, longitude:-73.85093,actual:379.0,predicted:97,coefficients:{
+    "intercept": 85.75673483752382,
+    "minimum_nights": -0.3341188152125124,
+    "number_of_reviews": 0.002098719560720264,
+    "reviews_per_month": 1.1288304105790066,
+    "host_listings_count": 0.18387004030046636,
+    "availability_365": 0.07672245004539661
+}},{latitude:40.81576, longitude:-73.84653,actual:98.0,predicted:99,coefficients:{
+    "intercept": 86.16727206950127,
+    "minimum_nights": -0.3334525865007955,
+    "number_of_reviews": 0.02320448956561684,
+    "reviews_per_month": 1.114295511637322,
+    "host_listings_count": 0.22530478112882837,
+    "availability_365": 0.07696172717216672
+}},{latitude:40.81733, longitude:-73.84807,actual:128.0,predicted:99,coefficients:{
+    "intercept": 85.44989214997074,
+    "minimum_nights": -0.33342282431858455,
+    "number_of_reviews": 0.02723939774578584,
+    "reviews_per_month": 1.1934840502812278,
+    "host_listings_count": 0.21710983518759783,
+    "availability_365": 0.07696345360935045
+}},{latitude:40.8154, longitude:-73.84657,actual:38.0,predicted:100,coefficients:{
+    "intercept": 86.1938031048521,
+    "minimum_nights": -0.3334723025885284,
+    "number_of_reviews": 0.022507378492829445,
+    "reviews_per_month": 1.1118317585705717,
+    "host_listings_count": 0.22468998602375143,
+    "availability_365": 0.07695588334859102
+}},{latitude:40.81727, longitude:-73.84588,actual:38.0,predicted:100,coefficients:{
+    "intercept": 86.19813708257159,
+    "minimum_nights": -0.33335418120798016,
+    "number_of_reviews": 0.025020409866396323,
+    "reviews_per_month": 1.1039484968009852,
+    "host_listings_count": 0.2307513179371542,
+    "availability_365": 0.07699116951432368
+}},{latitude:40.81572, longitude:-73.84592,actual:39.0,predicted:100,coefficients:{
+    "intercept": 86.3349808073594,
+    "minimum_nights": -0.3334334638266234,
+    "number_of_reviews": 0.02179129003150767,
+    "reviews_per_month": 1.0899492641811683,
+    "host_listings_count": 0.22896316548449602,
+    "availability_365": 0.07696826358768478
+}},{latitude:40.81539, longitude:-73.84669,actual:39.0,predicted:100,coefficients:{
+    "intercept": 86.15975661317432,
+    "minimum_nights": -0.3334770236144837,
+    "number_of_reviews": 0.022676724595414737,
+    "reviews_per_month": 1.1163231730804883,
+    "host_listings_count": 0.22393620481687618,
+    "availability_365": 0.076954197207889
+}},{latitude:40.81709, longitude:-73.84811,actual:39.0,predicted:99,coefficients:{
+    "intercept": 85.46265994885775,
+    "minimum_nights": -0.33343689164832,
+    "number_of_reviews": 0.026732408639170556,
+    "reviews_per_month": 1.1921932750235134,
+    "host_listings_count": 0.21659299650892674,
+    "availability_365": 0.07695916614928773
+}},{latitude:40.84735, longitude:-73.83095,actual:50.0,predicted:93,coefficients:{
+    "intercept": 86.50138729717312,
+    "minimum_nights": -0.33172868308892056,
+    "number_of_reviews": -0.019434839418053823,
+    "reviews_per_month": 0.6876623896996223,
+    "host_listings_count": 0.3108993385006966,
+    "availability_365": 0.07724495071900041
+}},{latitude:40.83926, longitude:-73.91173,actual:140.0,predicted:88,coefficients:{
+    "intercept": 82.68349841861219,
+    "minimum_nights": -0.32218234475871166,
+    "number_of_reviews": -0.2429044970686983,
+    "reviews_per_month": -7.1550669317452575,
+    "host_listings_count": -0.3420633881641518,
+    "availability_365": 0.06956440669626074
+}},{latitude:40.83146, longitude:-73.89666,actual:80.0,predicted:76,coefficients:{
+    "intercept": 74.36435918523168,
+    "minimum_nights": -0.3235202225616883,
+    "number_of_reviews": -0.1465808499389715,
+    "reviews_per_month": -3.616349937062332,
+    "host_listings_count": -0.29068899645263974,
+    "availability_365": 0.07034411850552078
+}},{latitude:40.83502, longitude:-73.91058,actual:125.0,predicted:106,coefficients:{
+    "intercept": 81.78148700133539,
+    "minimum_nights": -0.3223361844586213,
+    "number_of_reviews": -0.23559408074295593,
+    "reviews_per_month": -6.916897088000326,
+    "host_listings_count": -0.34116763474218376,
+    "availability_365": 0.06958186607582482
+}},{latitude:40.83372, longitude:-73.91187,actual:70.0,predicted:86,coefficients:{
+    "intercept": 81.9287252348195,
+    "minimum_nights": -0.3222846264912043,
+    "number_of_reviews": -0.23664073890301696,
+    "reviews_per_month": -7.264430715063229,
+    "host_listings_count": -0.3454668408412408,
+    "availability_365": 0.06951619377025647
+}},{latitude:40.80787, longitude:-73.924,actual:100.0,predicted:64,coefficients:{
+    "intercept": 81.94923466110615,
+    "minimum_nights": -0.32212417406411953,
+    "number_of_reviews": -0.21560543141031338,
+    "reviews_per_month": -9.42862032682498,
+    "host_listings_count": -0.3823593485449938,
+    "availability_365": 0.06894259342288961
+}},]};export default DATASET;

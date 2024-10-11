@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* remove all default Leaflet popup styling */
+/* .leaflet-popup-content-wrapper,
+.leaflet-popup-tip {
+    background: none !important;
+    border: none !important;
+    box-shadow: none !important;
+    color: inherit;
+} 
+ .leaflet-popup-content {
+    margin: 0 !important;
+    padding: 0 !important;
+} 
+ .leaflet-popup-close-button {
+    display: none !important;
+}  */
+

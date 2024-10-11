@@ -1,0 +1,15 @@
+# Miscellaneous
+.DS_Store
+# Node.js
+client/node_modules/
+client/build/
+
+# Python
+server/__pycache__/
+server/env/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+
+
