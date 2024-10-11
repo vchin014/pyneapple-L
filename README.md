@@ -21,6 +21,15 @@ docker run -v ./client:/home/client --publish 3000:3000 -it pyneapple-demo sh
 cd client; npm start
 ```
 
+# run getplot.py
+
+```shell
+# open another terminal/shell
+# in pyneapple-demo/server
+pip install -r requirements.txt
+python getplot.py
+```
+
 # run agwr
 
 1. install Anaconda if not already installed
@@ -88,13 +97,4 @@ python agwr.py
 - Pyneapple [source code](https://github.com/MagdyLab/Pyneapple)
 - AGWR [source code](https://github.com/mshahneh/AGWR)
 
-
-# run getplot.py
-
-
-```shell
-# in pyneapple-demo/server
-pip install -r requirements.txt
-python getplot.py
-```
 
