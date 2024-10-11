@@ -90,12 +90,11 @@ python agwr.py
 
 
 # run getplot.py
+
+
+```shell
 # in pyneapple-demo/server
-
-```shell
 pip install -r requirements.txt
-```
-
-```shell
 python getplot.py
 ```
+
