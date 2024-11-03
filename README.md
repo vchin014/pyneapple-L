@@ -1,17 +1,17 @@
-# setup
+# setup for pyneapple-L agwr and hotspot 
 
 1. build image
 
 ```shell
-# in pyneapple-demo/
-docker build -t pyneapple-demo .
+# in pyneapple-L/
+docker build -t pyneapple-l .
 ```
 
 2. start container
 
 ```shell
-# in pyneapple-demo/
-docker run -v ./client:/home/client --publish 3000:3000 -it pyneapple-demo sh
+# in pyneapple-L/
+docker run -v ./client:/home/client --publish 3000:3000 -it pyneapple-l sh
 ```
 
 3. run client
@@ -21,14 +21,17 @@ docker run -v ./client:/home/client --publish 3000:3000 -it pyneapple-demo sh
 cd client; npm start
 ```
 
-# run getplot.py
+# run getplot.py for hotspot analytical view
 
 ```shell
 # open another terminal/shell
-# in pyneapple-demo/server
+# in pyneapple-L/server
 pip install -r requirements.txt
 python getplot.py
 ```
+
+# use the navigation bar to redirect to Pyneapple-L and select HOTSPOT view for hotspot component
+# use the navigation bar to redirect to Pyneapple-L and select AGWR view for hotspot component
 
 # run agwr
 
