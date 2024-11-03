@@ -31,7 +31,7 @@ python getplot.py
 ```
 
 # use the navigation bar to redirect to Pyneapple-L and select HOTSPOT view for hotspot component
-# use the navigation bar to redirect to Pyneapple-L and select AGWR view for hotspot component
+# use the navigation bar to redirect to Pyneapple-L and select AGWR view for agwr component
 
 # run agwr
 
